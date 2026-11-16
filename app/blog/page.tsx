@@ -35,9 +35,16 @@ export default function BlogPage() {
           </p>
         </div>
         <div className="pgrid">
-          {posts.map((post) => (
+          {posts.map((post, index) => (
             <Link className="pcard" href={`/blog/${post.slug}`} key={post.slug} style={{ textDecoration: "none" }}>
-              <Photo file={post.image} className="guide-ph" sizes="(max-width: 600px) 100vw, 40vw" alt="" />
+              <Photo
+                file={post.image}
+                className="guide-ph"
+                sizes="(max-width: 600px) 100vw, 40vw"
+                alt=""
+                priority={index === 0}
+                quality={index === 0 ? 60 : 75}
+              />
               <div style={{ paddingTop: 14, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
                 {post.ejemplo ? <span className="ex-flag">Ejemplo</span> : null}
                 <span className="xs">{formatContentDate(post.date)} · {post.readingMinutes} min</span>

@@ -150,9 +150,9 @@ export function SiteHeader({ nav }: { nav: NavData }) {
       </div>
       <dialog className="dialog" ref={searchRef} aria-labelledby={searchId} onClose={() => setQuery("")}>
         <div className="dialog-card">
-          <h2 id={searchId} className="h4" style={{ marginTop: 0 }}>
+          <p id={searchId} className="h4" style={{ marginTop: 0 }}>
             Buscar en {getSiteName()}
-          </h2>
+          </p>
           <input
             type="search"
             value={query}

@@ -36,7 +36,7 @@ export function MlCard({ product }: { product: AffiliateProduct }) {
         </div>
         <div>
           <div className="brandname">{product.marcaNombre}</div>
-          <h3 className="ptitle">{product.titulo}</h3>
+          <p className="ptitle">{product.titulo}</p>
         </div>
         {product.etiquetas.length > 0 ? (
           <div className="tagrow">

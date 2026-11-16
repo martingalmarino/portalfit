@@ -48,7 +48,7 @@ export function HomeView() {
     <>
       <section className="mhero">
         <div className="wrap">
-          <Photo file="hero-mujer.jpg" className="mh-img" priority sizes="100vw" position="50% 18%" alt="">
+          <Photo file="hero-mujer.jpg" className="mh-img" priority quality={60} sizes="100vw" position="50% 18%" alt="">
             <div className="mh-ov">
               <div className="kicker light">Nº 01 · Guía independiente · Argentina</div>
               <h1 className="h-display" style={{ color: "#fff", marginTop: 12 }}>

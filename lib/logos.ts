@@ -9,7 +9,7 @@ export type LogoSpec = {
 
 /**
  * Fondo claro: variante monocroma cuando existe.
- * Gold Nutrition usa gold-nutrition-mono.png.
+ * Gold Nutrition usa gold-nutrition-mono.png, recoloreado entero a #1B3A2F.
  * Pulver usa pulver.png (no hay monocromo).
  * Mervick Lab usa el render monocromo #1B3A2F de los bocetos.
  * Las medidas son la altura óptica del mockup, dentro de contenedores idénticos.

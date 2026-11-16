@@ -12,9 +12,10 @@ import "./globals.css";
 const fraunces = Fraunces({
   subsets: ["latin"],
   display: "swap",
+  weight: ["300", "400", "500", "600"],
   style: ["normal", "italic"],
-  axes: ["SOFT", "opsz"],
   variable: "--font-fraunces",
+  preload: false,
 });
 
 const sourceSans = Source_Sans_3({
@@ -22,6 +23,7 @@ const sourceSans = Source_Sans_3({
   display: "swap",
   style: ["normal", "italic"],
   variable: "--font-source",
+  preload: false,
 });
 
 export const metadata: Metadata = {

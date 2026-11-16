@@ -7,6 +7,7 @@ export function Photo({
   file,
   className,
   priority = false,
+  quality = 75,
   sizes = "(max-width: 600px) 100vw, 640px",
   position = "50% 50%",
   alt,
@@ -17,6 +18,7 @@ export function Photo({
   file: string;
   className?: string;
   priority?: boolean;
+  quality?: number;
   sizes?: string;
   position?: string;
   alt?: string;
@@ -32,6 +34,8 @@ export function Photo({
         alt={alt ?? photo.alt}
         fill
         priority={priority}
+        quality={quality}
+        fetchPriority={priority ? "high" : "auto"}
         sizes={sizes}
         style={{ objectPosition: position }}
       />
