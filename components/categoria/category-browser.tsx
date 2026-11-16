@@ -178,7 +178,7 @@ export function CategoryBrowser({
         <div className="sguide">
           <div className="kicker light">Herramienta</div>
           <b className="h4" style={{ display: "block", marginTop: 10 }}>Calculadora de proteína diaria</b>
-          <p className="xs" style={{ color: "#b9b3a5" }}>Un rango orientativo de proteína por día según tu peso y tu nivel de entrenamiento.</p>
+          <p className="xs" style={{ color: "#b9b3a5" }}>Un rango orientativo de proteína por día según tu peso y tu nivel de entrenamiento. Es una referencia general, no una indicación personal.</p>
           <Link className="soon" href="/herramientas/proteina-diaria" style={{ marginTop: 14, display: "inline-block", color: "var(--brass)" }}>
             Próximamente
           </Link>

@@ -33,6 +33,11 @@ export function allowsIndexing(): boolean {
   return process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true";
 }
 
+/** El formulario no guarda nada. Solo se muestra si esta variable es "true". */
+export function newsletterEnabled(): boolean {
+  return process.env.NEXT_PUBLIC_NEWSLETTER_ENABLED === "true";
+}
+
 const CONTACT_USER_CODES = [109, 46, 103, 97, 108, 109, 97, 114, 105, 110, 111];
 const CONTACT_DOMAIN_CODES = [103, 109, 97, 105, 108, 46, 99, 111, 109];
 

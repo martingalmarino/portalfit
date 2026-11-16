@@ -141,9 +141,9 @@ export function parseCertification(raw: string): { state: CertState; title: stri
 
 export const CERT_LABEL: Record<CertState, string> = {
   verificado: "Registro oficial consultado",
-  documento: "Documento oficial",
-  declarado: "Declarado",
-  terceros: "Terceros",
+  documento: "Documento oficial publicado por la marca",
+  declarado: "Declarado por la marca",
+  terceros: "Informado por terceros",
   inferencia: "Inferencia propia",
   rotulo: "En el rótulo",
   sin_dato: "Sin dato verificable",

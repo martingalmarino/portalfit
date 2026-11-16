@@ -131,7 +131,7 @@ export function HomeView() {
               <h2 id="destacados-ml" className="h3">
                 Destacados en <em className="it" style={{ color: "var(--forest-3)" }}>Mercado Libre</em>
               </h2>
-              <span className="xs">Publicaciones reales, sin precios</span>
+              <span className="xs">Publicaciones de Mercado Libre. El precio lo ves en cada publicación.</span>
             </div>
             <Link className="link" href="/categorias">
               Ver todos <IconArrow />

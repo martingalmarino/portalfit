@@ -6,7 +6,7 @@ import { contentUpdatedLabel } from "@/lib/content/load";
 import { formatContentDate } from "@/lib/format";
 import { MICROCOPY } from "@/lib/microcopy";
 import type { NavData } from "@/lib/nav";
-import { contactEmailDomain, contactEmailUser, getSiteName } from "@/lib/site";
+import { contactEmailDomain, contactEmailUser, getSiteName, newsletterEnabled } from "@/lib/site";
 
 export function UtilityBar() {
   const updated = formatContentDate(contentUpdatedLabel());
@@ -42,12 +42,16 @@ export function SiteFooter({ nav }: { nav: NavData }) {
             <p className="serif it" style={{ marginTop: 22, fontWeight: 300, fontSize: 26, lineHeight: 1.25, color: "#ede7da", maxWidth: 420 }}>
               Suplementos y nutrición deportiva en Argentina, explicados con evidencia.
             </p>
-            <div id="newsletter">
-              <NewsletterForm />
-            </div>
-            <p className="xs" style={{ color: "#8f8a7f", marginTop: 12 }}>
-              Una guía por semana. Sin promesas, sin spam. Podés darte de baja cuando quieras.
-            </p>
+            {newsletterEnabled() ? (
+              <>
+                <div id="newsletter">
+                  <NewsletterForm />
+                </div>
+                <p className="xs" style={{ color: "#8f8a7f", marginTop: 12 }}>
+                  Te avisamos cuando publiquemos guías nuevas. Podés darte de baja cuando quieras.
+                </p>
+              </>
+            ) : null}
           </div>
           <div className="cols">
             <div>

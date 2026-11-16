@@ -16,7 +16,7 @@ const STATES: CertState[] = ["verificado", "documento", "declarado", "terceros",
 
 const STATE_COPY: Record<CertState, string> = {
   verificado: "Lo consultamos en un registro oficial (base SIFeGA) y anotamos la fecha.",
-  documento: "Sale de un documento oficial citado.",
+  documento: "Documento emitido por la autoridad sanitaria que la marca publica en su sitio.",
   declarado: "Lo dice la marca. No está contrastado de forma independiente.",
   terceros: "Lo informa un tercero, no la marca ni un registro oficial.",
   inferencia: "Es una lectura nuestra a partir de datos públicos. No es un registro ni una declaración de la marca.",
@@ -73,17 +73,6 @@ export default function ComoEvaluamosPage() {
         </ol>
         <h2 id="orden">Orden de las marcas</h2>
         <p><Editorial text={marcas.criterio_ranking} /></p>
-        <h2>Convención de rótulos y certificaciones</h2>
-        <ul>
-          {Object.entries(marcas.convencion_rotulos_certificaciones).map(([label, text]) => (
-            <li key={label}>
-              <b>{label}</b> <Editorial text={text} />
-            </li>
-          ))}
-        </ul>
-        <p>
-          <Editorial text={marcas.nota_registros} />
-        </p>
         <h2>Estados de un registro</h2>
         <div className="ctable">
           <table>

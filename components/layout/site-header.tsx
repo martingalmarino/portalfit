@@ -6,7 +6,7 @@ import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { IconCaret, IconMenu, IconSearch } from "@/components/ui/icons";
 import { Wordmark } from "@/components/ui/wordmark";
 import type { NavData } from "@/lib/nav";
-import { getSiteName } from "@/lib/site";
+import { getSiteName, newsletterEnabled } from "@/lib/site";
 
 function sectionOf(path: string): string {
   if (path.startsWith("/categorias")) return "categorias";
@@ -117,9 +117,11 @@ export function SiteHeader({ nav }: { nav: NavData }) {
               Buscar en {getSiteName()}
               <kbd>/</kbd>
             </button>
-            <Link className="btn btn-primary d-only" href="/#newsletter">
-              Newsletter
-            </Link>
+            {newsletterEnabled() ? (
+              <Link className="btn btn-primary d-only" href="/#newsletter">
+                Newsletter
+              </Link>
+            ) : null}
             <button
               className="icon-btn"
               type="button"
