@@ -1,0 +1,1660 @@
+{
+  "actualizado": "2026-11-16",
+  "criterio_ranking": "Ranking cualitativo de relevancia para el portal (no es participación de mercado). Se ponderó, en este orden: (1) evidencia pública de liderazgo o escala (cuota de mercado, puntos de venta, empleados, cobertura de prensa económica); (2) trayectoria verificable; (3) presencia comercial oficial (sitio propio + tienda oficial en Mercado Libre); (4) amplitud de catálogo y cobertura de categorías del portal; (5) transparencia de calidad verificable (BPM/RNE/RNPA publicados). El único dato de participación de mercado encontrado es el de ENA (>30%, Forbes Argentina, 2020); el resto del orden es editorial y debe revisarse con datos de ventas.",
+  "convencion_rotulos_certificaciones": {
+    "[Verificado INAL 16/11/2026]": "consultado en el registro público de establecimientos de INAL/ANMAT",
+    "[Documento oficial publicado por la marca]": "documento emitido por INAL/ANMAT disponible en el sitio de la marca",
+    "[Declarado por la marca]": "afirmación del sitio oficial sin verificación independiente",
+    "[Informado por terceros]": "fuente no oficial; no se toma como dato firme"
+  },
+  "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+  "marcas": [
+    {
+      "slug": "ena-sport",
+      "nombre": "ENA Sport",
+      "ranking_relevancia": 1,
+      "justificacion_ranking": "Único actor con dato público de participación de mercado (>30%, Forbes 2020), 35+ años de trayectoria, fabricación propia, red de 5.000 puntos de venta y tienda oficial en ML.",
+      "resumen": "ENA Sport es una marca argentina de nutrición deportiva nacida en Bahía Blanca en 1988. Según Forbes Argentina (2020), único dato público de participación disponible, era la marca líder del mercado; su catálogo va del deporte al bienestar diario.",
+      "sitio_oficial": {
+        "valor": "https://www.enasport.com/",
+        "fuentes": [
+          "https://www.enasport.com/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina (Bahía Blanca, Buenos Aires)",
+        "fuentes": [
+          "https://www.cronista.com/pyme/negocios-pyme/la-decision-de-ser-una-empresa-internacional/",
+          "https://www.endeavor.org.ar/emprendedores/martin-fidani/"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": 1988,
+        "fuentes": [
+          "https://www.cronista.com/pyme/negocios-pyme/la-decision-de-ser-una-empresa-internacional/",
+          "https://www.endeavor.org.ar/emprendedores/martin-fidani/",
+          "https://www.enasport.es/pages/nosotros"
+        ]
+      },
+      "empresa": {
+        "valor": "Laboratorio ENA (ENA Nutritionals); fundador Pablo Fidani; CEO Martín Fidani (según El Cronista, 2020)",
+        "fuentes": [
+          "https://www.cronista.com/pyme/negocios-pyme/la-decision-de-ser-una-empresa-internacional/",
+          "https://www.endeavor.org.ar/emprendedores/martin-fidani/",
+          "https://laboratorioena.com"
+        ]
+      },
+      "historia": {
+        "valor": "Nació en 1988 en Bahía Blanca, cuando Pablo Fidani decidió fabricar en el país suplementos que hasta entonces se veían importados. Con la llegada de la segunda generación (Martín Fidani) pasó de pyme a empresa regional de nutrición, agrupando sus marcas bajo Laboratorio ENA, con distribución en Argentina, Chile y Uruguay y desembarco en España.",
+        "fuentes": [
+          "https://www.cronista.com/pyme/negocios-pyme/la-decision-de-ser-una-empresa-internacional/",
+          "https://www.endeavor.org.ar/emprendedores/martin-fidani/",
+          "https://www.enasport.es/pages/nosotros"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Apunta al público masivo, con distribución amplia en farmacias, dietéticas, gimnasios y canal online. Su catálogo va de la nutrición deportiva al bienestar diario (magnesio, colágeno, vitaminas, resveratrol). Según Forbes Argentina (2020), tenía más del 30% del mercado.",
+        "fuentes": [
+          "https://www.forbesargentina.com/negocios/suplementos-deportivos-negocio-detras-rendimiento-n2489",
+          "https://www.enasport.com/"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "ENA Sport (nutrición deportiva)",
+          "Truemade (nombre de una gama de proteínas y colágenos del catálogo ENA)",
+          "Natuliv (nutrición diaria; con tienda oficial propia en Mercado Libre)",
+          "ENAcción (movilidad articular, según El Cronista y Forbes, 2020)",
+          "Vitalgen (nutrición dérmica, según El Cronista, 2020; vigencia actual PENDIENTE)"
+        ],
+        "fuentes": [
+          "https://www.enasport.com/",
+          "https://www.mercadolibre.com.ar/tienda/natuliv",
+          "https://www.cronista.com/pyme/negocios-pyme/la-decision-de-ser-una-empresa-internacional/",
+          "https://www.forbesargentina.com/negocios/suplementos-deportivos-negocio-detras-rendimiento-n2489"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "Truemade Whey Protein (marcado 'MÁS VENDIDO')",
+          "Creatina Monohidrato 100% Pura (marcado 'MÁS VENDIDO')",
+          "Citrato de Magnesio 60 cápsulas (marcado 'MÁS VENDIDO')",
+          "Colágeno Sport (marcado 'MÁS VENDIDO')",
+          "Creatina Monohidrato Creapure®"
+        ],
+        "fuentes": [
+          "https://www.enasport.com/"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "[Declarado por la marca] Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad",
+          "[Informado por terceros] Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial: PENDIENTE",
+          "RNE de la planta de Bahía Blanca: PENDIENTE (la consulta en INAL no devolvió resultados para las razones sociales probadas)",
+          "RNPA por producto: ver rótulo"
+        ],
+        "fuentes": [
+          "https://www.enasport.com/pages/nosotros",
+          "https://alaola.com.ar/marcas/ena-sport",
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "https://www.mercadolibre.com.ar/tienda/ena",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/ena"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Tienda online oficial: https://www.enasport.com/",
+          "Natuliv en Mercado Libre: https://www.mercadolibre.com.ar/tienda/natuliv",
+          "ENA Sport España: https://www.enasport.es/"
+        ],
+        "fuentes": [
+          "https://www.enasport.com/",
+          "https://www.mercadolibre.com.ar/tienda/natuliv",
+          "https://www.enasport.es/pages/nosotros"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://www.instagram.com/enanutritionals",
+          "facebook": "https://www.facebook.com/enasportnutrition",
+          "tiktok": "https://www.tiktok.com/@ena.sport"
+        },
+        "fuentes": [
+          "https://www.enasport.com/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "creatina",
+        "aminoacidos",
+        "colageno",
+        "vitaminas-minerales",
+        "omega-3",
+        "magnesio",
+        "longevidad-bienestar",
+        "quemadores-termogenicos",
+        "ganadores-de-peso",
+        "barras-snacks",
+        "hidratacion-electrolitos",
+        "geles-carbohidratos",
+        "pre-entrenos"
+      ]
+    },
+    {
+      "slug": "gentech",
+      "nombre": "Gentech",
+      "ranking_relevancia": 2,
+      "justificacion_ranking": "Pionera (1998), fabricación propia desde 2003, cobertura de prensa nacional, sponsoreo AFA y liderazgo declarado en barras. Sin dato independiente de share.",
+      "resumen": "Gentech es una marca argentina que empezó importando suplementos en 1998 y fabrica en el país desde 2003. Se presenta como proveedora oficial de la AFA y es conocida por sus barras Iron Bar.",
+      "sitio_oficial": {
+        "valor": "https://www.gentech.com.ar/",
+        "fuentes": [
+          "https://www.gentech.com.ar/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina (planta en Constitución, CABA)",
+        "fuentes": [
+          "https://www.forbesargentina.com/negocios/como-gentech-compania-pionera-suplementos-dietarios-factura-116-millones-n8299"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": "1998 (inicio de importación de 7 productos); sociedad G.E.N. Tech Argentina S.A. constituida el 24/08/1997; fabricación local desde 2003",
+        "fuentes": [
+          "https://www.forbesargentina.com/negocios/como-gentech-compania-pionera-suplementos-dietarios-factura-116-millones-n8299",
+          "https://indicadores.ar/empresa/30694765382",
+          "https://www.perfil.com/noticias/politica/martin-menem-desembarca-en-chile-con-su-empresa-de-suplementos-dietarios.phtml"
+        ]
+      },
+      "empresa": {
+        "valor": "G.E.N. Tech Argentina S.A.; fundador Martín Menem",
+        "fuentes": [
+          "https://www.forbesargentina.com/negocios/como-gentech-compania-pionera-suplementos-dietarios-factura-116-millones-n8299",
+          "https://www.perfil.com/noticias/politica/martin-menem-desembarca-en-chile-con-su-empresa-de-suplementos-dietarios.phtml",
+          "https://indicadores.ar/empresa/30694765382"
+        ]
+      },
+      "historia": {
+        "valor": "Martín Menem inició la marca importando siete productos de EE.UU. en 1998. Tras la crisis de 2001 decidió producir en el país y en 2003 lanzó los primeros productos hechos en Argentina en su planta de Constitución. Según Forbes (2021) fabrica más de 80 productos propios y para terceros.",
+        "fuentes": [
+          "https://www.forbesargentina.com/negocios/como-gentech-compania-pionera-suplementos-dietarios-factura-116-millones-n8299"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Se enfoca en el fútbol y el alto rendimiento: se presenta como Proveedor Oficial de la AFA y declara abastecer a cerca del 80% de los clubes de primera división. Su producto más conocido son las barras Iron Bar.",
+        "fuentes": [
+          "https://www.gentech.com.ar/",
+          "https://www.gentech.com.ar/sobre-el-laboratorio-de-suplementos-deportivos-gentech"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "Gentech (suplementos)",
+          "Iron Bar (barras proteicas)",
+          "Línea AFA (Whey Protein, Creatina e Iron Bar AFA)"
+        ],
+        "fuentes": [
+          "https://www.gentech.com.ar/",
+          "https://www.forbesargentina.com/negocios/como-gentech-compania-pionera-suplementos-dietarios-factura-116-millones-n8299"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "Iron Bar (la marca afirma que 8 de cada 10 barras vendidas son Iron Bar — dato declarado por la empresa)",
+          "Whey Protein 7900",
+          "Creatina AFA"
+        ],
+        "fuentes": [
+          "https://www.forbesargentina.com/negocios/como-gentech-compania-pionera-suplementos-dietarios-factura-116-millones-n8299",
+          "https://www.gentech.com.ar/"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "[Declarado por la marca] Certificados ANMAT, certificación sin gluten y GMP",
+          "[Declarado por la marca] Línea 'libre de doping'",
+          "RNE: no verificable en la consulta pública de INAL (jurisdicción CABA no disponible en el buscador)",
+          "RNPA por producto: ver rótulo"
+        ],
+        "fuentes": [
+          "https://www.gentech.com.ar/",
+          "https://www.gentech.com.ar/sobre-el-laboratorio-de-suplementos-deportivos-gentech",
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "https://www.mercadolibre.com.ar/tienda/gentech",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/gentech"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Tienda online oficial: https://www.gentech.com.ar/"
+        ],
+        "fuentes": [
+          "https://www.gentech.com.ar/"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://www.instagram.com/gentecharg",
+          "facebook": "https://www.facebook.com/gentecharg",
+          "tiktok": "https://www.tiktok.com/gentechsport"
+        },
+        "fuentes": [
+          "https://www.gentech.com.ar/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "creatina",
+        "aminoacidos",
+        "barras-snacks",
+        "pre-entrenos",
+        "geles-carbohidratos",
+        "quemadores-termogenicos",
+        "colageno",
+        "omega-3",
+        "vitaminas-minerales",
+        "magnesio",
+        "ganadores-de-peso"
+      ]
+    },
+    {
+      "slug": "ultra-tech",
+      "nombre": "Ultra Tech",
+      "ranking_relevancia": 3,
+      "justificacion_ranking": "Mayor antigüedad verificada (1991), catálogo más amplio declarado, multimarca y planta propia. Sin dato independiente de share.",
+      "resumen": "Ultra Tech es la marca principal de Web Supplements, empresa cordobesa fundada en 1991. Declara más de 250 productos, entre ellos una línea amplia de geles energéticos y barras.",
+      "sitio_oficial": {
+        "valor": "https://ultratechnutrition.com/",
+        "fuentes": [
+          "https://ultratechnutrition.com/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina (Córdoba)",
+        "fuentes": [
+          "https://websupplements.com.ar/empresa/historia/",
+          "https://ultratechnutrition.com/quienes-somos-web-supplements/"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": 1991,
+        "fuentes": [
+          "https://websupplements.com.ar/empresa/historia/",
+          "https://ultratechnutrition.com/quienes-somos-web-supplements/"
+        ]
+      },
+      "empresa": {
+        "valor": "Web Supplements S.R.L.",
+        "fuentes": [
+          "https://websupplements.com.ar/empresa/historia/"
+        ]
+      },
+      "historia": {
+        "valor": "Web Supplements nació en Córdoba en 1991 con la primera importación de suplementos deportivos al país bajo la marca Ultra Tech y, según la empresa, obtuvo el primer RNPA para suplementos dietarios en Argentina. En 2002 pasó a fabricar localmente y lanzó Vitatech; en 2016 incorporó una extrusora para barras; en 2017 lanzó Protein Factory y en 2024 una línea de geles energéticos.",
+        "fuentes": [
+          "https://websupplements.com.ar/empresa/historia/",
+          "https://ultratechnutrition.com/quienes-somos-web-supplements/"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Se apoya en su trayectoria y en un catálogo muy amplio (la empresa declara más de 250 productos y presencia en todas las provincias), con fuerte apuesta por geles energéticos, barras y alimentos funcionales.",
+        "fuentes": [
+          "https://websupplements.com.ar/empresa/historia/"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "Ultra Tech",
+          "Vitatech",
+          "Xing Yu",
+          "Protein Factory",
+          "Natural Balance",
+          "Erox",
+          "Ultra Hombre",
+          "Ultra Mujer"
+        ],
+        "fuentes": [
+          "https://websupplements.com.ar/empresa/historia/"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "Línea de geles energéticos (lanzada en 2024; 18 modelos según la empresa)",
+          "Whey Protein",
+          "Ultra Weight Gainer"
+        ],
+        "fuentes": [
+          "https://websupplements.com.ar/empresa/historia/",
+          "https://ultratechnutrition.com/quienes-somos-web-supplements/"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "[Declarado por la marca] Primer RNPA para suplementos dietarios del país (1991)",
+          "[Declarado por la marca] Planta en Córdoba con registro de establecimiento ante la FDA de EE.UU.",
+          "RNE: no verificable en la consulta pública de INAL (jurisdicción Córdoba no disponible en el buscador)",
+          "RNPA por producto: ver rótulo"
+        ],
+        "fuentes": [
+          "https://ultratechnutrition.com/quienes-somos-web-supplements/",
+          "https://websupplements.com.ar/empresa/historia/",
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "https://www.mercadolibre.com.ar/tienda/ultra-tech",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/ultra-tech"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Tienda online oficial: https://ultratechnutrition.com/",
+          "Institucional: https://websupplements.com.ar/"
+        ],
+        "fuentes": [
+          "https://ultratechnutrition.com/",
+          "https://websupplements.com.ar/empresa/historia/"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://www.instagram.com/ultratech.nutrition",
+          "facebook": "https://www.facebook.com/ultratechnutrition",
+          "tiktok": "https://www.tiktok.com/@ultratech.nutrition"
+        },
+        "fuentes": [
+          "https://ultratechnutrition.com/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "creatina",
+        "aminoacidos",
+        "geles-carbohidratos",
+        "hidratacion-electrolitos",
+        "barras-snacks",
+        "colageno",
+        "magnesio",
+        "vitaminas-minerales",
+        "quemadores-termogenicos",
+        "ganadores-de-peso",
+        "pre-entrenos"
+      ]
+    },
+    {
+      "slug": "star-nutrition",
+      "nombre": "Star Nutrition",
+      "ranking_relevancia": 4,
+      "justificacion_ranking": "Catálogo amplio, tienda oficial ML y fuerte presencia en comparativas del sector; faltan datos de historia y share verificables.",
+      "resumen": "Star Nutrition es una marca argentina de Nutriciencia S.A. que apuesta a la relación calidad-precio frente a las marcas internacionales, con un catálogo organizado por momento del entrenamiento.",
+      "nota_productos": "El sitio no marca 'más vendidos': se listan productos representativos del catálogo, no un ranking de ventas.",
+      "sitio_oficial": {
+        "valor": "https://starnutrition.com.ar/",
+        "fuentes": [
+          "https://starnutrition.com.ar/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina (Nutriciencia S.A.; domicilios en Tigre y Mar del Plata, Buenos Aires)",
+        "fuentes": [
+          "https://w20argentina.com/empresa/nutriciencia-sociedad-anonima-30708530863",
+          "https://appsb.mardelplata.gob.ar/Consultas/nOfertasProduccion/OfertaExportable/Empresa.aspx?id=2288"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": "PENDIENTE (año exacto de lanzamiento). Piso documentado: la marca ya figuraba en enero de 2011 entre las marcas de una tienda de terceros y su sitio propio con catálogo está archivado desde julio de 2012. Alta societaria de Nutriciencia S.A.: 06/10/2003",
+        "fuentes": [
+          "https://web.archive.org/web/20110102163845/http://www.goldnutrition.com.ar/",
+          "https://web.archive.org/web/20120720021152/http://www.starnutrition.com.ar/",
+          "https://w20argentina.com/empresa/nutriciencia-sociedad-anonima-30708530863"
+        ]
+      },
+      "empresa": {
+        "valor": "Nutriciencia S.A.",
+        "fuentes": [
+          "https://w20argentina.com/empresa/nutriciencia-sociedad-anonima-30708530863",
+          "https://appsb.mardelplata.gob.ar/Consultas/nOfertasProduccion/OfertaExportable/Empresa.aspx?id=2288"
+        ]
+      },
+      "historia": {
+        "valor": "La marca se describe como 'una empresa joven' que elabora con materias primas importadas en laboratorio propio, con el objetivo de igualar la calidad de las marcas internacionales a precios accesibles para el consumidor argentino. Fundadores e hitos: PENDIENTE.",
+        "fuentes": [
+          "https://starnutrition.com.ar/pages/nosotros"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Se propone igualar la calidad de las marcas internacionales a precios pensados para el consumidor argentino (según la propia marca). Organiza el catálogo por momento del entrenamiento (pre, intra y post) e incluye opciones veganas y sin lactosa.",
+        "fuentes": [
+          "https://starnutrition.com.ar/pages/nosotros",
+          "https://starnutrition.com.ar/"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "Star Nutrition: línea única organizada por momento del entrenamiento (pre, intra y post training)"
+        ],
+        "fuentes": [
+          "https://starnutrition.com.ar/"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "Platinum Whey Protein",
+          "Creatina Monohidrato",
+          "Mutant Mass",
+          "Collagen Sport"
+        ],
+        "fuentes": [
+          "https://starnutrition.com.ar/"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "[Verificado INAL 16/11/2026] Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente",
+          "[Verificado INAL 16/11/2026] Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido",
+          "[Declarado por la marca] Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP",
+          "RNPA por producto: ver rótulo"
+        ],
+        "fuentes": [
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+          "https://starnutrition.com.ar/pages/nosotros"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "https://www.mercadolibre.com.ar/tienda/star-nutrition",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/star-nutrition"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Tienda online oficial: https://starnutrition.com.ar/"
+        ],
+        "fuentes": [
+          "https://starnutrition.com.ar/"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://www.instagram.com/starnutrition.oficial",
+          "facebook": "https://www.facebook.com/StarNutrition.Oficial"
+        },
+        "fuentes": [
+          "https://starnutrition.com.ar/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "creatina",
+        "aminoacidos",
+        "pre-entrenos",
+        "ganadores-de-peso",
+        "vitaminas-minerales",
+        "magnesio",
+        "colageno",
+        "omega-3",
+        "quemadores-termogenicos",
+        "hidratacion-electrolitos",
+        "longevidad-bienestar"
+      ]
+    },
+    {
+      "slug": "optimum-nutrition",
+      "nombre": "Optimum Nutrition",
+      "ranking_relevancia": 5,
+      "justificacion_ranking": "Principal marca importada con tienda oficial ML y distribuidor local identificable; menor accesibilidad de precio.",
+      "resumen": "Optimum Nutrition es una marca estadounidense fundada en 1986 y hoy propiedad de Glanbia. En Argentina se consigue importada; su línea más reconocida es Gold Standard.",
+      "sitio_oficial": {
+        "valor": "https://www.optimumnutrition.com/",
+        "fuentes": [
+          "https://www.optimumnutrition.com/en-us/pages/about-us"
+        ]
+      },
+      "origen": {
+        "valor": "Estados Unidos (importada)",
+        "fuentes": [
+          "https://www.optimumnutrition.com/en-us/pages/about-us"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": 1986,
+        "fuentes": [
+          "https://www.optimumnutrition.com/en-us/pages/about-us"
+        ]
+      },
+      "empresa": {
+        "valor": "Glanbia PLC (adquirida en 2008 según la línea de tiempo oficial); fundadores Tony y Mike Costello. Distribución en Argentina: Trust Distributions S.A. (que la lista entre sus marcas)",
+        "fuentes": [
+          "https://www.optimumnutrition.com/en-us/pages/about-us",
+          "https://trustdistributions.com.ar/"
+        ]
+      },
+      "historia": {
+        "valor": "Fundada en 1986 por los hermanos Tony y Mike Costello; su línea de tiempo oficial registra el pasaje a proteína instantánea, el lanzamiento de su primera proteína de caseína y la compra por Glanbia PLC. Declara distribución en más de 90/100 países.",
+        "fuentes": [
+          "https://www.optimumnutrition.com/en-us/pages/about-us"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Es una de las marcas internacionales de referencia del sector y llega a Argentina como producto importado. Su franquicia más conocida es Gold Standard.",
+        "fuentes": [
+          "https://www.optimumnutrition.com/en-us/pages/about-us"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "Gold Standard",
+          "Amino Energy",
+          "Serious Mass",
+          "Instantized BCAA"
+        ],
+        "fuentes": [
+          "https://www.optimumnutrition.com/en-us/pages/about-us"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "Gold Standard 100% Whey",
+          "Gold Standard Pre-Workout",
+          "Amino Energy"
+        ],
+        "fuentes": [
+          "https://www.optimumnutrition.com/en-us/pages/about-us"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "RNE del importador (Trust Distributions S.A.): PENDIENTE (la consulta en INAL no devolvió resultados)",
+          "RNPA por producto: ver rótulo del producto importado",
+          "Programas de testeo de terceros (Informed Choice/Informed Sport): PENDIENTE"
+        ],
+        "fuentes": [
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+          "https://trustdistributions.com.ar/"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "https://www.mercadolibre.com.ar/tienda/optimum-nutrition",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/optimum-nutrition"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Distribuidor: https://trustdistributions.com.ar/"
+        ],
+        "fuentes": [
+          "https://trustdistributions.com.ar/"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://www.instagram.com/optimumnutrition/",
+          "facebook": "https://www.facebook.com/optimumnutrition",
+          "youtube": "https://www.youtube.com/optimumnutrition",
+          "Nota": "No se encontró una cuenta argentina oficial (búsqueda del 16/11/2026); se listan las cuentas globales de la marca. El distribuidor Trust Distributions no publica redes propias de ON"
+        },
+        "fuentes": [
+          "https://www.instagram.com/optimumnutrition/",
+          "https://www.prnewswire.com/news-releases/optimum-nutrition-teams-up-with-professional-basketball-player-cameron-brink-actress-ryan-destiny-to-celebrate-women-athletes-and-the-work-that-makes-them-prettydamngood-302356862.html",
+          "https://trustdistributions.com.ar/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "creatina",
+        "aminoacidos",
+        "pre-entrenos",
+        "ganadores-de-peso",
+        "hidratacion-electrolitos"
+      ]
+    },
+    {
+      "slug": "mervick-lab",
+      "nombre": "Mervick Lab",
+      "ranking_relevancia": 6,
+      "justificacion_ranking": "Especialista en endurance con tienda oficial ML; poca información institucional pública.",
+      "resumen": "Mervick Lab es una marca argentina de la provincia de Buenos Aires orientada a los deportes de resistencia, con geles, carbohidratos e hidratación junto a proteínas y creatina.",
+      "sitio_oficial": {
+        "valor": "https://tiendamervick.com.ar/",
+        "fuentes": [
+          "https://tiendamervick.com.ar/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina (Del Viso, Buenos Aires)",
+        "fuentes": [
+          "https://constata.ar/empresa/33708334109"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": "PENDIENTE (año exacto de lanzamiento). Piso documentado: la marca Mervick ya figuraba en enero de 2011 entre las marcas de una tienda de terceros; el sitio mervicklab.com.ar con catálogo propio está archivado desde octubre de 2015. Alta societaria de Mervick-Lab S.A.: 17/12/2002",
+        "fuentes": [
+          "https://web.archive.org/web/20110102163845/http://www.goldnutrition.com.ar/",
+          "https://web.archive.org/web/20151011234302/http://www.mervicklab.com.ar/",
+          "https://constata.ar/empresa/33708334109"
+        ]
+      },
+      "empresa": {
+        "valor": "Mervick-Lab S.A.",
+        "fuentes": [
+          "https://constata.ar/empresa/33708334109"
+        ]
+      },
+      "historia": {
+        "valor": "PENDIENTE (no se encontró relato oficial de historia). Datos registrales: sociedad anónima con domicilio en Panamericana km 40,5, Del Viso.",
+        "fuentes": [
+          "https://constata.ar/empresa/33708334109"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Se orienta a los deportes de resistencia (running, trail y ciclismo) además del fitness: ofrece geles, carbohidratos e hidratación junto a proteínas y creatina.",
+        "fuentes": [
+          "https://tiendamervick.com.ar/"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "Mervick Lab: líneas de resistencia (running, trail, ciclismo) y fitness"
+        ],
+        "fuentes": [
+          "https://tiendamervick.com.ar/"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "Gel Energético Race",
+          "Whey Pro Performance",
+          "Creatina Monohidratada",
+          "Whey Protein Bar"
+        ],
+        "fuentes": [
+          "https://tiendamervick.com.ar/"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "[Verificado INAL 16/11/2026] Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente",
+          "[Verificado INAL 16/11/2026] Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente",
+          "RNPA por producto: ver rótulo",
+          "BPM/GMP u otras certificaciones: PENDIENTE (no declaradas en el sitio)"
+        ],
+        "fuentes": [
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "https://www.mercadolibre.com.ar/tienda/mervick-lab",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/mervick-lab"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Tienda online oficial: https://tiendamervick.com.ar/"
+        ],
+        "fuentes": [
+          "https://tiendamervick.com.ar/"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://www.instagram.com/mervicklab",
+          "facebook": "https://www.facebook.com/mervicklab"
+        },
+        "fuentes": [
+          "https://tiendamervick.com.ar/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "creatina",
+        "aminoacidos",
+        "geles-carbohidratos",
+        "hidratacion-electrolitos",
+        "barras-snacks",
+        "magnesio",
+        "ganadores-de-peso",
+        "quemadores-termogenicos"
+      ]
+    },
+    {
+      "slug": "gold-nutrition",
+      "nombre": "Gold Nutrition",
+      "ranking_relevancia": 7,
+      "justificacion_ranking": "Posicionamiento premium diferencial y tienda oficial ML; historia y escala sin verificar.",
+      "resumen": "Gold Nutrition es una marca que se posiciona en el segmento premium nacional a partir de materias primas con marca registrada, como Creapure®, Peptan® o Arla Foods.",
+      "sitio_oficial": {
+        "valor": "https://goldnutrition.com.ar/",
+        "fuentes": [
+          "https://goldnutrition.com.ar/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina (CABA)",
+        "fuentes": [
+          "https://w20argentina.com/empresa/gold-nutrition-sas-30715938584",
+          "https://goldnutrition.com.ar/"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": "2018 [Inferencia rotulada]: en enero de 2018 el sitio goldnutrition.com.ar mostraba una página de prelanzamiento ('Muy pronto') de Gold Nutrition Sports Supplements, y la S.A.S. inició actividades el 01/03/2018. Antes de eso, hasta al menos 2014, el dominio lo usaba una tienda de terceros. El vínculo con la marca uruguaya homónima (2012) no está verificado",
+        "fuentes": [
+          "https://web.archive.org/web/20180104140843/http://www.goldnutrition.com.ar/",
+          "https://w20argentina.com/empresa/gold-nutrition-sas-30715938584",
+          "https://www.elpais.com.uy/el-empresario/el-mercado-de-nutricion-deportiva-derriba-tabues-y-duplica-su-tamano"
+        ]
+      },
+      "empresa": {
+        "valor": "Gold Nutrition S.A.S.",
+        "fuentes": [
+          "https://www.goldnutrition.com.ar/legales.html",
+          "https://w20argentina.com/empresa/gold-nutrition-sas-30715938584"
+        ]
+      },
+      "historia": {
+        "valor": "Gold Nutrition S.A.S., con sede en la Ciudad de Buenos Aires, anunció la marca en enero de 2018 con dos líneas, Gold Line y Black Label, que describía como 'desarrolladas en EE.UU.' (página archivada). Hacia 2021 su sitio ya listaba proteínas, aminoácidos, creatina, ganadores y preentreno. Hoy se presenta como un intento de 'elevar los estándares de la industria nacional' y usa materias primas de marca (Creapure®, Pronovapure®, Peptan®, dsm-firmenich, Arla Foods). Fundadores: PENDIENTE.",
+        "fuentes": [
+          "https://web.archive.org/web/20180104140843/http://www.goldnutrition.com.ar/",
+          "https://goldnutrition.com.ar/"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Se posiciona como marca premium nacional y destaca el uso de materias primas con marca registrada: Creapure® (creatina), Pronovapure® (omega-3), Peptan® (colágeno), dsm-firmenich (vitaminas) y Arla Foods (proteínas lácteas).",
+        "fuentes": [
+          "https://goldnutrition.com.ar/"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "Gold Nutrition: proteínas, creatinas, ganador de masa, quemadores, aminoácidos, hidratación, energía celular, vitaminas y minerales, ácidos grasos, 'hormonal' y preentreno"
+        ],
+        "fuentes": [
+          "https://goldnutrition.com.ar/"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "100% Whey Protein 2 lb (etiquetada por la marca como 'la más vendida')",
+          "Creatine Creapure y Creatine Monohydrate (300 g y 1 kg)",
+          "Iso Gold Protein",
+          "Gainer Gold"
+        ],
+        "fuentes": [
+          "https://www.goldnutrition.com.ar/productos.js",
+          "https://goldnutrition.com.ar/"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "[Declarado por la marca] Uso de materias primas de proveedores con marca registrada (Creapure®, Pronovapure®, Peptan®, dsm-firmenich, Arla Foods)",
+          "RNE: no verificable en la consulta pública de INAL (jurisdicción CABA no disponible en el buscador)",
+          "RNPA por producto: ver rótulo"
+        ],
+        "fuentes": [
+          "https://goldnutrition.com.ar/",
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "https://www.mercadolibre.com.ar/tienda/gold-nutrition",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/gold-nutrition",
+          "https://goldnutrition.com.ar/"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Sitio oficial: https://goldnutrition.com.ar/"
+        ],
+        "fuentes": [
+          "https://goldnutrition.com.ar/"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://instagram.com/goldnutritionar",
+          "facebook": "https://facebook.com/goldnutritionarg"
+        },
+        "fuentes": [
+          "https://goldnutrition.com.ar/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "creatina",
+        "ganadores-de-peso",
+        "quemadores-termogenicos",
+        "aminoacidos",
+        "hidratacion-electrolitos",
+        "vitaminas-minerales",
+        "omega-3",
+        "colageno",
+        "pre-entrenos"
+      ]
+    },
+    {
+      "slug": "htn",
+      "nombre": "HTN (High Tech Nutrition)",
+      "ranking_relevancia": 8,
+      "justificacion_ranking": "Entra al relevamiento: trayectoria declarada desde 1999, sitio y tienda oficial propios, tienda oficial en Mercado Libre y catálogo amplio. Queda debajo de las marcas con más información verificable porque no publica razón social ni registros.",
+      "resumen": "HTN (High Tech Nutrition) es una marca argentina de nutrición deportiva que declara desarrollar suplementos desde 1999 y organiza su oferta en las líneas Xplode Series y Pro Series.",
+      "sitio_oficial": {
+        "valor": "https://htn.com.ar/",
+        "fuentes": [
+          "https://htn.com.ar/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina",
+        "fuentes": [
+          "https://htn.com.ar/"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": 1999,
+        "fuentes": [
+          "https://htn.com.ar/",
+          "https://htn.com.ar/somos-high-tech-nutrition/"
+        ]
+      },
+      "empresa": {
+        "valor": "PENDIENTE (razón social no publicada: los términos y condiciones solo hablan de 'el Titular'). Indicios sin confirmar: el sitio muestra el formulario 960 de AFIP (Data Fiscal), cuya consulta no pudo abrirse desde nuestro entorno; un directorio de terceros ubica a High Tech Nutrition en Ávalos 748, CABA",
+        "fuentes": [
+          "https://htn.com.ar/",
+          "https://www.bizearch.com/company/High_Tech_Nutrition_318769.htm"
+        ]
+      },
+      "historia": {
+        "valor": "Según la propia marca, desarrolla suplementos desde 1999 y fue pionera en el mercado local en varias categorías: proteínas con enzimas digestivas, proteínas de liberación progresiva, productos aptos para veganos y la línea PRO con Beta-BCAA 8.0. Fundadores e hitos con fecha: PENDIENTE.",
+        "fuentes": [
+          "https://htn.com.ar/somos-high-tech-nutrition/"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Destaca su trayectoria y organiza la oferta en líneas (Xplode Series, Pro Series) y por objetivo de entrenamiento. Declara trabajar con materias primas importadas y certificadas.",
+        "fuentes": [
+          "https://htn.com.ar/",
+          "https://htn.com.ar/somos-high-tech-nutrition/"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "Xplode Series",
+          "Pro Series"
+        ],
+        "fuentes": [
+          "https://htn.com.ar/"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "B-BCAA-8.0 con Extra Leucina (marcado 'MÁS VENDIDO')",
+          "Creatine Monohydrate Micronized (marcado 'MÁS VENDIDO')",
+          "XT Gold Protein (marcado 'MÁS VENDIDO')",
+          "Usa Soy Protein Isolate"
+        ],
+        "fuentes": [
+          "https://htn.com.ar/"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "[Declarado por la marca] Productos fabricados en 'instalaciones certificadas' (no se indica cuáles)",
+          "RNE: PENDIENTE (razón social desconocida; las búsquedas en INAL por 'HTN' y 'High Tech' no devolvieron resultados)",
+          "RNPA por producto: ver rótulo"
+        ],
+        "fuentes": [
+          "https://htn.com.ar/somos-high-tech-nutrition/",
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "https://www.mercadolibre.com.ar/tienda/htn",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/htn"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Tienda online oficial: https://htn.com.ar/tienda-oficial/"
+        ],
+        "fuentes": [
+          "https://htn.com.ar/"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://www.instagram.com/hightechnutrition",
+          "facebook": "https://www.facebook.com/htn.nutrition"
+        },
+        "fuentes": [
+          "https://htn.com.ar/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "creatina",
+        "aminoacidos",
+        "pre-entrenos",
+        "ganadores-de-peso",
+        "quemadores-termogenicos",
+        "colageno",
+        "magnesio",
+        "vitaminas-minerales"
+      ]
+    },
+    {
+      "slug": "body-advance",
+      "nombre": "Body Advance",
+      "ranking_relevancia": 9,
+      "justificacion_ranking": "Única marca del relevamiento con certificado BPM público descargable; menor visibilidad comercial y sin tienda oficial ML verificada.",
+      "resumen": "Body Advance es una marca argentina que elabora suplementos dietarios en su planta de la provincia de Buenos Aires, con proteínas, creatina, magnesio, colágenos y multivitamínicos.",
+      "nota_productos": "Productos que la home oficial muestra en primer lugar; no es un ranking de ventas.",
+      "sitio_oficial": {
+        "valor": "https://bodyadvancenutrition.com/",
+        "fuentes": [
+          "https://bodyadvancenutrition.com/nosotros/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina (planta en San Roque 4576, Ciudadela/Caseros, provincia de Buenos Aires)",
+        "fuentes": [
+          "https://bodyadvancenutrition.com/wp-content/uploads/2026/06/certificado-buenas-practicas-anmat-body-advance.pdf",
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": "PENDIENTE (año exacto). Piso documentado: en 2020 ANMAT ya registraba productos de la marca (RNPA 02-600324 a 02-600330) elaborados en el RNE 02-035075",
+        "fuentes": [
+          "https://www.argentina.gob.ar/noticias/retiro-del-mercado-de-suplementos-dietarios-whey-protein-de-body-advance",
+          "https://boletin.anmat.gob.ar/enero_2021/Dispo_0772-21.pdf"
+        ]
+      },
+      "empresa": {
+        "valor": "Víctor Hernán Kuschniroff (persona humana), titular del RNE 02-035075 según ANMAT (2020-2021); el certificado BPM de 2026 figura a nombre de la firma 'BODY ADVANCE' sin razón social completa. Responsable y dueño de la marca: César Servan, según Olé. No hay una sociedad comercial identificada",
+        "fuentes": [
+          "https://www.argentina.gob.ar/noticias/retiro-del-mercado-de-suplementos-dietarios-whey-protein-de-body-advance",
+          "https://boletin.anmat.gob.ar/enero_2021/Dispo_0772-21.pdf",
+          "https://bodyadvancenutrition.com/wp-content/uploads/2026/06/certificado-buenas-practicas-anmat-body-advance.pdf",
+          "https://www.ole.com.ar/running/fitness-reality_0_Vp-OCwD9.html"
+        ]
+      },
+      "historia": {
+        "valor": "Empresa argentina que elabora suplementos dietarios en planta propia, en Caseros (Tres de Febrero), con materia prima importada. Su dueño, César Servan, protagonizó en Olé un reality de 8 semanas de entrenamiento y suplementación para difundir la marca. En diciembre de 2020 la firma titular del establecimiento hizo un retiro voluntario de cuatro sabores de Whey Protein, porque sus rótulos usaban el símbolo 'sin TACC' sin tener esa autorización (los productos sí tenían RNPA vigente), y en enero de 2021 ANMAT prohibió la comercialización de esos lotes rotulados así. En febrero de 2026 la planta obtuvo un certificado de Buenas Prácticas de Manufactura de INAL. Año de inicio: PENDIENTE.",
+        "fuentes": [
+          "https://bodyadvancenutrition.com/nosotros/",
+          "https://www.ole.com.ar/running/fitness-reality_0_Vp-OCwD9.html",
+          "https://www.argentina.gob.ar/noticias/retiro-del-mercado-de-suplementos-dietarios-whey-protein-de-body-advance",
+          "https://boletin.anmat.gob.ar/enero_2021/Dispo_0772-21.pdf",
+          "https://bodyadvancenutrition.com/wp-content/uploads/2026/06/certificado-buenas-practicas-anmat-body-advance.pdf"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Hace de la transparencia en calidad su diferencial: publica en su web el certificado de BPM de INAL/ANMAT y análisis de laboratorio de producto.",
+        "fuentes": [
+          "https://bodyadvancenutrition.com/calidad-y-certificaciones/",
+          "https://bodyadvancenutrition.com/wp-content/uploads/2026/06/certificado-buenas-practicas-anmat-body-advance.pdf"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "Proteínas y Ganadores",
+          "Multivitamínicos y Colágenos",
+          "Quemadores",
+          "Performance"
+        ],
+        "fuentes": [
+          "https://bodyadvancenutrition.com/nosotros/"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "Advance Whey Protein (doypack 907 g)",
+          "Creatina 100% pura 300 g",
+          "Citrato de magnesio 500 g"
+        ],
+        "fuentes": [
+          "https://bodyadvancenutrition.com/"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "[Documento oficial publicado por la marca] Certificado de Buenas Prácticas de Manufactura INAL/ANMAT CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos)",
+          "[Verificado INAL 16/11/2026] RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente",
+          "[Declarado por la marca] RNPA de sus productos y permisos de importación/exportación",
+          "[Declarado por la marca] Análisis de laboratorio de terceros publicados (p. ej. Melacrom)",
+          "[Verificado ANMAT] RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein, 2020), vigentes a esa fecha según ANMAT; antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021"
+        ],
+        "fuentes": [
+          "https://bodyadvancenutrition.com/wp-content/uploads/2026/06/certificado-buenas-practicas-anmat-body-advance.pdf",
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+          "https://bodyadvancenutrition.com/nosotros/",
+          "https://bodyadvancenutrition.com/calidad-y-certificaciones/",
+          "https://www.argentina.gob.ar/noticias/retiro-del-mercado-de-suplementos-dietarios-whey-protein-de-body-advance",
+          "https://boletin.anmat.gob.ar/enero_2021/Dispo_0772-21.pdf"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "Sin tienda oficial de la marca (no se encontró). Se vende en Mercado Libre por revendedores, p. ej. la tienda oficial del revendedor ODX",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/odx",
+          "https://www.mercadolibre.com.ar/body-advance-whey-protein-3-kg-gold-line-con-creatina-y-vit-c-sabor-chocolate/p/MLA50291911"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Tienda online oficial: https://bodyadvancenutrition.com/"
+        ],
+        "fuentes": [
+          "https://bodyadvancenutrition.com/nosotros/"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://www.instagram.com/bodyadvanceoficial",
+          "tiktok": "https://www.tiktok.com/@bodyadvanceoficial"
+        },
+        "fuentes": [
+          "https://bodyadvancenutrition.com/nosotros/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "ganadores-de-peso",
+        "vitaminas-minerales",
+        "colageno",
+        "quemadores-termogenicos",
+        "creatina",
+        "magnesio"
+      ]
+    },
+    {
+      "slug": "xtrenght",
+      "nombre": "Xtrenght Nutrition",
+      "ranking_relevancia": 10,
+      "justificacion_ranking": "Marca reconocida en el nicho deportivo; faltan datos institucionales y tienda oficial ML.",
+      "resumen": "Xtrenght Nutrition es una marca argentina de suplementos deportivos con base en Quilmes que organiza sus productos por disciplina deportiva y por objetivo.",
+      "sitio_oficial": {
+        "valor": "https://xtrenght-nutrition.com/",
+        "fuentes": [
+          "https://xtrenght-nutrition.com/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina (Av. Los Quilmes 870, partido de Quilmes, provincia de Buenos Aires)",
+        "fuentes": [
+          "https://xtrenght-nutrition.com/about-us"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": "Marca en venta al menos desde mayo de 2007 (piso documentado: captura archivada de xtrenght-nutrition.com con la venta de Xtrenght Protein). Año exacto de lanzamiento: PENDIENTE. La sociedad actual, Xience Group S.A., es de 2017",
+        "fuentes": [
+          "https://web.archive.org/web/20070513233226/http://www.xtrenght-nutrition.com/",
+          "https://www.cuitonline.com/detalle/30715634828/xience-group-s.a.html",
+          "https://xtrenght-nutrition.com/"
+        ]
+      },
+      "empresa": {
+        "valor": "Xience Group S.A. (CUIT 30-71563482-8; contrato social del 15/05/2017; presidente Darío Néstor Amigo según la constitución publicada en el Boletín Oficial bonaerense). [Inferencia rotulada] El vínculo con la marca surge de dos fuentes coincidentes: el RNE de Xience Group S.A. figura en Av. Los Quilmes 870, Bernal Oeste, el mismo domicilio que publica el sitio de Xtrenght, y un responsable comercial se presenta en LinkedIn como 'XTRENGHT NUTRITION, XIENCE GROUP S.A'. La marca no lo publica en su web",
+        "fuentes": [
+          "https://www.cuitonline.com/detalle/30715634828/xience-group-s.a.html",
+          "https://www.dateas.com/es/bopb/2017/06/29/xience-group-sa-249353",
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+          "https://linkedin.com/in/hernan-gonzalez-71268439",
+          "https://xtrenght-nutrition.com/"
+        ]
+      },
+      "historia": {
+        "valor": "Se presenta como laboratorio argentino de suplementos que acompaña a deportistas de élite desde hace 15 años. En 2007 la marca ya vendía su proteína Xtrenght Protein desde un sitio propio con domicilio en la Ciudad de Buenos Aires (captura archivada). Hoy publica domicilio en Av. Los Quilmes 870 (Bernal), donde está habilitado el establecimiento de Xience Group S.A. Organiza su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol y ciclismo) y por objetivo. Fundadores: PENDIENTE.",
+        "fuentes": [
+          "https://xtrenght-nutrition.com/",
+          "https://web.archive.org/web/20070513233226/http://www.xtrenght-nutrition.com/",
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Segmenta su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol, ciclismo) y por objetivo.",
+        "fuentes": [
+          "https://xtrenght-nutrition.com/"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "Xtrenght Nutrition: línea única, con combos por disciplina"
+        ],
+        "fuentes": [
+          "https://xtrenght-nutrition.com/index.php/shop",
+          "https://xtrenght-nutrition.com/"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "Advanced Whey",
+          "Best Whey",
+          "Full Creatine",
+          "BCAA Pro",
+          "Nitrogain"
+        ],
+        "fuentes": [
+          "https://xtrenght-nutrition.com/index.php/shop"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "[Verificado INAL 16/11/2026] Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)",
+          "[Verificado INAL 16/11/2026] Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente",
+          "RNPA por producto: ver rótulo",
+          "No se declaran certificaciones en el sitio oficial"
+        ],
+        "fuentes": [
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+          "https://xtrenght-nutrition.com/"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "Sin tienda oficial de la marca confirmada: /tienda/xtrenght y sus variantes no existen. Hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y también reventa, p. ej. la tienda oficial del revendedor RTN Suplementos. Origen del vendedor de las publicaciones con etiqueta de marca: PENDIENTE (Mercado Libre bloqueó la verificación automatizada)",
+        "fuentes": [
+          "https://listado.mercadolibre.com.ar/proteina-xtrenght-protein-x-mayor",
+          "https://www.mercadolibre.com.ar/tienda/rtn-suplementos"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Tienda online oficial: https://xtrenght-nutrition.com/index.php/shop"
+        ],
+        "fuentes": [
+          "https://xtrenght-nutrition.com/index.php/shop"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://www.instagram.com/xtrenghtoficial",
+          "facebook": "https://www.facebook.com/Xtrenghtoficial"
+        },
+        "fuentes": [
+          "https://xtrenght-nutrition.com/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "creatina",
+        "aminoacidos",
+        "quemadores-termogenicos",
+        "pre-entrenos"
+      ]
+    },
+    {
+      "slug": "one-fit-nutrition",
+      "nombre": "One Fit Nutrition",
+      "ranking_relevancia": 11,
+      "justificacion_ranking": "Fabricante en crecimiento con tienda oficial ML; marca joven (2019).",
+      "resumen": "One Fit Nutrition es una marca de X-Nutrition, fabricante santafesino fundado en 2019 que también produce para otras marcas.",
+      "sitio_oficial": {
+        "valor": "https://tiendaxnutrition.com/ (onefitnutrition.com.ar redirige aquí)",
+        "fuentes": [
+          "https://tiendaxnutrition.com/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina (Parque Industrial de Alvear, Santa Fe)",
+        "fuentes": [
+          "https://tiendaxnutrition.com/pages/nosotros"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": "2019 (fundación de X-Nutrition)",
+        "fuentes": [
+          "https://tiendaxnutrition.com/pages/nosotros"
+        ]
+      },
+      "empresa": {
+        "valor": "X-Nutrition S.R.L. (también elabora X-Body y marcas de terceros)",
+        "fuentes": [
+          "https://tiendaxnutrition.com/pages/nosotros",
+          "https://tiendaxnutrition.com/"
+        ]
+      },
+      "historia": {
+        "valor": "X-Nutrition nació en 2019 para integrar desarrollo y fabricación de productos nutricionales; en 2025 trasladó su operación al Parque Industrial de Alvear. Declara 80+ colaboradores y producción para más de 15 marcas de terceros.",
+        "fuentes": [
+          "https://tiendaxnutrition.com/pages/nosotros"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Es la marca de un fabricante que vende directo desde fábrica, con combos de producto. La empresa también se ofrece como fabricante para marcas de terceros.",
+        "fuentes": [
+          "https://tiendaxnutrition.com/",
+          "https://tiendaxnutrition.com/pages/nosotros"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "One Fit",
+          "X-Body"
+        ],
+        "fuentes": [
+          "https://tiendaxnutrition.com/"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "Classic Whey Protein",
+          "Creatina One Fit"
+        ],
+        "fuentes": [
+          "https://tiendaxnutrition.com/"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "[Declarado por la marca] 'RNA habilitado nacional' (probablemente se refiere al registro de establecimiento)",
+          "RNE: no verificado (la consulta en INAL por X-Nutrition no devolvió resultados; jurisdicción Santa Fe/ASSAL)",
+          "RNPA por producto: ver rótulo"
+        ],
+        "fuentes": [
+          "https://tiendaxnutrition.com/pages/nosotros",
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "https://www.mercadolibre.com.ar/tienda/one-fit-nutrition",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/one-fit-nutrition"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Tienda online oficial: https://tiendaxnutrition.com/"
+        ],
+        "fuentes": [
+          "https://tiendaxnutrition.com/"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://www.instagram.com/onefit.nutrition"
+        },
+        "fuentes": [
+          "https://tiendaxnutrition.com/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "creatina",
+        "aminoacidos",
+        "pre-entrenos",
+        "colageno",
+        "barras-snacks"
+      ]
+    },
+    {
+      "slug": "pulver",
+      "nombre": "Pulver",
+      "ranking_relevancia": 12,
+      "justificacion_ranking": "Trayectoria industrial y tienda oficial ML; perfil más orientado a alimentos proteicos accesibles.",
+      "resumen": "Pulver es una empresa alimenticia porteña fundada en 1990 que sumó suplementos y alimentos proteicos a partir de su experiencia en productos en polvo.",
+      "nota_productos": "Productos representativos del catálogo oficial; el sitio no publica un ranking de ventas.",
+      "sitio_oficial": {
+        "valor": "https://www.pulver.com.ar/",
+        "fuentes": [
+          "https://www.pulver.com.ar/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina (Parque Patricios, CABA)",
+        "fuentes": [
+          "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37",
+          "https://ingredientespulver.com.ar/empresa/"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": "1990, como empresa elaboradora de insumos para heladería (Pulver S.R.L.). Suplementos: al menos desde abril de 2005 [piso documentado: el sitio archivado ya ofrecía 'productos para nutrición deportiva'; en noviembre de 2002 todavía figuraba solo como Aditivos Pulver]. Año exacto de lanzamiento: PENDIENTE",
+        "fuentes": [
+          "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37",
+          "https://web.archive.org/web/20050407060429/http://www.pulver.com.ar/",
+          "https://web.archive.org/web/20021125050735/http://www.pulver.com.ar/"
+        ]
+      },
+      "empresa": {
+        "valor": "Pulver S.R.L.",
+        "fuentes": [
+          "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37"
+        ]
+      },
+      "historia": {
+        "valor": "Empresa alimenticia que desde 1990 fabrica esencias, estabilizantes y mousses para heladería; a partir de su experiencia en polvos incursionó en suplementos nutricionales. Es socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten.",
+        "fuentes": [
+          "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37",
+          "https://ingredientespulver.com.ar/empresa/"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Combina suplementos con alimentos proteicos (ovoalbúmina, Prolac, sopas, pancakes y pizzas proteicas) y pone el foco en productos libres de gluten.",
+        "fuentes": [
+          "https://www.pulver.com.ar/",
+          "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "Proteínas (Ovoalbumen, Prolac, Whey Protein, Soy/PEA Protein)",
+          "Aminoácidos y recuperadores",
+          "Carbohidratos y geles",
+          "Salud (colágeno, magnesio, vitaminas)",
+          "Alimentos proteicos"
+        ],
+        "fuentes": [
+          "https://www.pulver.com.ar/"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "Ovoalbumen",
+          "Prolac Whey Protein",
+          "Power Pulver (barras proteicas)"
+        ],
+        "fuentes": [
+          "https://www.pulver.com.ar/"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "[Declarado por la empresa] Productos libres de gluten con aprobación de la Dirección General de Higiene y Seguridad Alimentaria de CABA (texto de la línea de ingredientes)",
+          "[Verificable] Socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten (CAPALIGLU)",
+          "RNE: no verificable en la consulta pública de INAL (jurisdicción CABA no disponible en el buscador)",
+          "RNPA por producto: ver rótulo"
+        ],
+        "fuentes": [
+          "https://ingredientespulver.com.ar/empresa/",
+          "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37",
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "https://www.mercadolibre.com.ar/tienda/pulver",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/pulver"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Tienda online oficial: https://www.pulver.com.ar/"
+        ],
+        "fuentes": [
+          "https://www.pulver.com.ar/"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://www.instagram.com/pulversuplementos",
+          "facebook": "https://www.facebook.com/pulversuplementos"
+        },
+        "fuentes": [
+          "https://www.pulver.com.ar/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "creatina",
+        "aminoacidos",
+        "geles-carbohidratos",
+        "hidratacion-electrolitos",
+        "colageno",
+        "magnesio",
+        "vitaminas-minerales",
+        "barras-snacks",
+        "ganadores-de-peso",
+        "quemadores-termogenicos",
+        "pre-entrenos"
+      ]
+    },
+    {
+      "slug": "nutremax",
+      "nombre": "Nutremax",
+      "ranking_relevancia": 13,
+      "justificacion_ranking": "Nicho endurance/hidratación con planta propia; alcance nacional menor y sin tienda oficial ML verificada.",
+      "resumen": "Nutremax es una marca rosarina especializada en hidratación y deportes de resistencia, conocida por su bebida Hydromax.",
+      "sitio_oficial": {
+        "valor": "https://nutremax.com.ar/",
+        "fuentes": [
+          "https://nutremax.com.ar/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina (Rosario, Santa Fe; orígenes en Villa Constitución)",
+        "fuentes": [
+          "https://nutremax.com.ar/",
+          "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600",
+          "https://puntobiz.com.ar/negocios/-se-fortalecen-con-nuevo-producto-y-le-ponen-fichas-al-mercado-externo--2024710550"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": "PENDIENTE (año exacto). Piso documentado: el dominio nutremax.com.ar ya mostraba 'Nutre-Max Nutrición Deportiva' en abril de 2003 (página en construcción). Punto Biz (2022) le atribuye '15 años de trayectoria' (≈2007, estimado). La sociedad actual, NX Laboratorios S.A.S., se constituyó el 01/12/2020",
+        "fuentes": [
+          "https://web.archive.org/web/20030421095002/http://www.nutremax.com.ar/",
+          "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600",
+          "https://www.santafe.gob.ar/boletinoficial/ver.php?seccion=2021%2F2021-01-18contratos.html"
+        ]
+      },
+      "empresa": {
+        "valor": "NX Laboratorios S.A.S. (constituida el 01/12/2020; accionistas fundadores: David Schneider, técnico químico, y María Fernanda Ledesma). El vínculo con la marca se infiere porque coinciden los titulares que nombra la prensa y el prefijo 'NX' que usan sus productos; confirmación oficial: PENDIENTE",
+        "fuentes": [
+          "https://www.santafe.gob.ar/boletinoficial/ver.php?seccion=2021%2F2021-01-18contratos.html",
+          "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600",
+          "https://nutremax.com.ar/"
+        ]
+      },
+      "historia": {
+        "valor": "Nació en un garaje de Villa Constitución, fundada por el socio de su titular, María Fernanda Ledesma, a quien la prensa describe como ingeniero químico, y luego se trasladó al noroeste de Rosario, a una planta de 1.000 m². Al principio apuntaba al fisicoculturismo y al fitness; hoy se enfoca en deportes de resistencia (ciclismo, running, triatlón, natación). Su producto insignia es Hydromax. Distribuye en todo el país mediante mayoristas (farmacias, dietéticas, bicicleterías, grupos de entrenamiento) y en 2024 participaba de un programa municipal para empezar a exportar.",
+        "fuentes": [
+          "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600",
+          "https://puntobiz.com.ar/negocios/-se-fortalecen-con-nuevo-producto-y-le-ponen-fichas-al-mercado-externo--2024710550",
+          "https://www.santafe.gob.ar/boletinoficial/ver.php?seccion=2021%2F2021-01-18contratos.html"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Se especializa en hidratación y deportes de resistencia y destaca que acompaña carreras con su hidratación.",
+        "fuentes": [
+          "https://nutremax.com.ar/",
+          "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "Endurance",
+          "Fitness",
+          "Wellness",
+          "Serie Elite",
+          "Geles"
+        ],
+        "fuentes": [
+          "https://nutremax.com.ar/"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "Hydromax ('caballito de batalla' según la empresa)",
+          "Creatina",
+          "Prosalts"
+        ],
+        "fuentes": [
+          "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600",
+          "https://nutremax.com.ar/"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "RNE: PENDIENTE (la consulta en INAL por NX Laboratorios no devolvió resultados; jurisdicción Santa Fe/ASSAL)",
+          "No se declaran certificaciones en el sitio oficial",
+          "RNPA por producto: ver rótulo"
+        ],
+        "fuentes": [
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+          "https://nutremax.com.ar/"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "Sin tienda oficial de la marca (no se encontró). Se vende por revendedores, p. ej. las tiendas oficiales de los revendedores ODX y RTN Suplementos",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/odx",
+          "https://www.mercadolibre.com.ar/tienda/rtn-suplementos",
+          "https://rtnsuplementos.com/productos/nutremax-hydromax-pomelo-1320-gr-sin-tacc-1uw5h/"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Sitio oficial con '¿Dónde comprar?': https://nutremax.com.ar/"
+        ],
+        "fuentes": [
+          "https://nutremax.com.ar/"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://www.instagram.com/nutremax.arg",
+          "facebook": "https://www.facebook.com/nutremax.arg"
+        },
+        "fuentes": [
+          "https://nutremax.com.ar/"
+        ]
+      },
+      "categorias": [
+        "hidratacion-electrolitos",
+        "geles-carbohidratos",
+        "creatina",
+        "proteinas",
+        "aminoacidos",
+        "colageno"
+      ]
+    },
+    {
+      "slug": "granger",
+      "nombre": "Granger Nutrición",
+      "ranking_relevancia": 14,
+      "justificacion_ranking": "Marca emergente (2020) de alto crecimiento con tienda oficial ML; más cerca de alimentos proteicos que de suplementación deportiva clásica.",
+      "resumen": "Granger Nutrición es una empresa de Rafaela fundada en 2020 que empezó con proteína de huevo hidrolizada y hoy elabora alimentos proteicos y premezclas.",
+      "sitio_oficial": {
+        "valor": "https://www.grangernutricion.com/",
+        "fuentes": [
+          "https://www.grangernutricion.com/"
+        ]
+      },
+      "origen": {
+        "valor": "Argentina (Rafaela, Santa Fe)",
+        "fuentes": [
+          "https://puntobiz.com.ar/negocios/pasaron-de-producir-en-casa-a-duplicar-planta-y-van-por-los-supermercados-2024810600"
+        ]
+      },
+      "anio_fundacion": {
+        "valor": "2020 (inicio del emprendimiento según la prensa); la sociedad anónima actual se constituyó en 2022",
+        "fuentes": [
+          "https://puntobiz.com.ar/negocios/pasaron-de-producir-en-casa-a-duplicar-planta-y-van-por-los-supermercados-2024810600",
+          "https://puntobiz.com.ar/negocios/encontraron-la-veta-en-la-dieta-keto-crecen-al-300-anual-y-estrenan-planta-2026119600",
+          "https://www.redcame.org.ar/novedades/14245/socios-y-amigos-por-la-alimentacion-saludable",
+          "https://www.santafe.gob.ar/boletinoficial/ver.php?seccion=2022%2F2022-09-15contratos.html"
+        ]
+      },
+      "empresa": {
+        "valor": "Granger S.A. (estatuto publicado en el Boletín Oficial de Santa Fe el 15/09/2022, instrumento del 10/08/2022, domicilio en Rafaela; objeto: elaboración y comercialización de alimentos, especialmente suplementos dietarios y proteicos). Socios: Pablo Andrés Rucci, Mariano Javier Pfaffen y Tomás Alejandro Giuliani, los mismos fundadores que nombra la prensa. CUIT 30-71779148-3 según un registro de terceros",
+        "fuentes": [
+          "https://www.santafe.gob.ar/boletinoficial/ver.php?seccion=2022%2F2022-09-15contratos.html",
+          "https://indicadores.ar/empresa/30717791483",
+          "https://www.redcame.org.ar/novedades/14245/socios-y-amigos-por-la-alimentacion-saludable"
+        ]
+      },
+      "historia": {
+        "valor": "Tres amigos rafaelinos arrancaron en 2020 produciendo proteína de huevo hidrolizada en la casa de uno de ellos. Ampliaron a premezclas y alimentos proteicos (pancakes, keto); en enero de 2026 informaron un crecimiento de producción del 300% y pasaron de 9 a 49 empleados en 18 meses.",
+        "fuentes": [
+          "https://puntobiz.com.ar/negocios/pasaron-de-producir-en-casa-a-duplicar-planta-y-van-por-los-supermercados-2024810600",
+          "https://puntobiz.com.ar/negocios/encontraron-la-veta-en-la-dieta-keto-crecen-al-300-anual-y-estrenan-planta-2026119600"
+        ]
+      },
+      "posicionamiento": {
+        "valor": "Se orienta a alimentos proteicos y premezclas para el día a día (pancakes, cookies, línea keto), además de suplementos, y apunta a llegar a los supermercados.",
+        "fuentes": [
+          "https://www.grangernutricion.com/",
+          "https://puntobiz.com.ar/negocios/pasaron-de-producir-en-casa-a-duplicar-planta-y-van-por-los-supermercados-2024810600"
+        ]
+      },
+      "lineas": {
+        "valor": [
+          "Food (pancakes proteicos, cookies)",
+          "Familia Keto",
+          "Proteínas (incl. proteína de huevo y vegana)",
+          "Gelatina con colágeno"
+        ],
+        "fuentes": [
+          "https://www.grangernutricion.com/"
+        ]
+      },
+      "productos_estrella": {
+        "valor": [
+          "Proteína de huevo hidrolizada (producto fundacional)",
+          "Pancakes proteicos"
+        ],
+        "fuentes": [
+          "https://puntobiz.com.ar/negocios/pasaron-de-producir-en-casa-a-duplicar-planta-y-van-por-los-supermercados-2024810600",
+          "https://www.grangernutricion.com/"
+        ]
+      },
+      "certificaciones": {
+        "valor": [
+          "RNE/RNPA: PENDIENTE (la consulta en INAL por 'Granger' no devolvió resultados; jurisdicción Santa Fe/ASSAL)",
+          "No se declaran certificaciones en el sitio oficial revisado",
+          "RNPA por producto: ver rótulo"
+        ],
+        "fuentes": [
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+          "https://www.grangernutricion.com/"
+        ]
+      },
+      "mercado_libre": {
+        "valor": "https://www.mercadolibre.com.ar/tienda/granger",
+        "fuentes": [
+          "https://www.mercadolibre.com.ar/tienda/granger"
+        ]
+      },
+      "otras_tiendas": {
+        "valor": [
+          "Tienda online oficial: https://www.grangernutricion.com/"
+        ],
+        "fuentes": [
+          "https://www.grangernutricion.com/"
+        ]
+      },
+      "redes": {
+        "valor": {
+          "instagram": "https://instagram.com/grangernutricion",
+          "facebook": "https://www.facebook.com/grangernutricion"
+        },
+        "fuentes": [
+          "https://www.grangernutricion.com/"
+        ]
+      },
+      "categorias": [
+        "proteinas",
+        "barras-snacks",
+        "colageno"
+      ]
+    }
+  ],
+  "excluidas_o_a_revisar": [
+    {
+      "nombre": "Universe Nutrition",
+      "motivo": "Se verificó como empresa peruana (Lima); no se encontró presencia como marca líder en Argentina. No confundir con Universal Nutrition (EE.UU.).",
+      "fuentes": [
+        "https://universenutritionusa.com/nosotros/"
+      ]
+    }
+  ]
+}

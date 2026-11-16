@@ -1,0 +1,81 @@
+<!-- meta title: ENA Sport: historia, productos y dónde comprar | [NOMBRE PORTAL] -->
+<!-- meta description: ENA Sport: origen, empresa, líneas de producto, registros y tiendas oficiales en Argentina. Datos verificados, con fuente y fecha. -->
+<!-- canonical: https://[dominio]/marcas/ena-sport -->
+
+# ENA Sport: historia, líneas de producto y dónde comprar
+
+ENA Sport es una marca argentina de nutrición deportiva nacida en Bahía Blanca en 1988. Según Forbes Argentina (2020), único dato público de participación disponible, era la marca líder del mercado; su catálogo va del deporte al bienestar diario.
+
+## Posicionamiento
+Apunta al público masivo, con distribución amplia en farmacias, dietéticas, gimnasios y canal online. Su catálogo va de la nutrición deportiva al bienestar diario (magnesio, colágeno, vitaminas, resveratrol). Según Forbes Argentina (2020), tenía más del 30% del mercado.
+
+## Historia
+Nació en 1988 en Bahía Blanca, cuando Pablo Fidani decidió fabricar en el país suplementos que hasta entonces se veían importados. Con la llegada de la segunda generación (Martín Fidani) pasó de pyme a empresa regional de nutrición, agrupando sus marcas bajo Laboratorio ENA, con distribución en Argentina, Chile y Uruguay y desembarco en España.
+
+- **Empresa:** Laboratorio ENA (ENA Nutritionals); fundador Pablo Fidani; CEO Martín Fidani (según El Cronista, 2020)
+- **Fundación:** 1988
+- **Origen:** Argentina (Bahía Blanca, Buenos Aires)
+
+## Líneas de producto
+- ENA Sport (nutrición deportiva)
+- Truemade (nombre de una gama de proteínas y colágenos del catálogo ENA)
+- Natuliv (nutrición diaria; con tienda oficial propia en Mercado Libre)
+- ENAcción (movilidad articular, según El Cronista y Forbes, 2020)
+- Vitalgen (nutrición dérmica, según El Cronista, 2020; vigencia actual PENDIENTE)
+
+## Productos destacados
+- Truemade Whey Protein (marcado 'MÁS VENDIDO')
+- Creatina Monohidrato 100% Pura (marcado 'MÁS VENDIDO')
+- Citrato de Magnesio 60 cápsulas (marcado 'MÁS VENDIDO')
+- Colágeno Sport (marcado 'MÁS VENDIDO')
+- Creatina Monohidrato Creapure®
+
+## Categorías en las que compite
+[Proteínas](/categorias/proteinas), [Creatina](/categorias/creatina), [Aminoácidos (BCAA, EAA, glutamina)](/categorias/aminoacidos), [Colágeno](/categorias/colageno), [Vitaminas y minerales](/categorias/vitaminas-minerales), [Omega 3](/categorias/omega-3), [Magnesio](/categorias/magnesio), [Longevidad y bienestar](/categorias/longevidad-bienestar), [Quemadores y termogénicos](/categorias/quemadores-termogenicos), [Ganadores de peso](/categorias/ganadores-de-peso), [Barras y snacks proteicos](/categorias/barras-snacks), [Hidratación y electrolitos](/categorias/hidratacion-electrolitos), [Geles y carbohidratos](/categorias/geles-carbohidratos), [Pre-entrenos y cafeína](/categorias/pre-entrenos)
+
+## Registros y certificaciones
+- [Declarado por la marca] Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad
+- [Informado por terceros] Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial: PENDIENTE
+- RNE de la planta de Bahía Blanca: PENDIENTE (la consulta en INAL no devolvió resultados para las razones sociales probadas)
+- RNPA por producto: ver rótulo
+
+_La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026._
+
+## Dónde comprar
+- Sitio oficial: https://www.enasport.com/
+- Mercado Libre: https://www.mercadolibre.com.ar/tienda/ena
+- Tienda online oficial: https://www.enasport.com/
+- Natuliv en Mercado Libre: https://www.mercadolibre.com.ar/tienda/natuliv
+- ENA Sport España: https://www.enasport.es/
+
+## Redes
+instagram: https://www.instagram.com/enanutritionals · facebook: https://www.facebook.com/enasportnutrition · tiktok: https://www.tiktok.com/@ena.sport
+
+## Preguntas frecuentes
+
+### ¿De dónde es ENA Sport?
+ENA Sport es una marca de Argentina (Bahía Blanca, Buenos Aires).
+
+### ¿Desde cuándo existe ENA Sport?
+Desde 1988.
+
+### ¿ENA Sport tiene tienda oficial en Mercado Libre?
+Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/ena.
+
+### ¿Qué registros o certificaciones tiene ENA Sport?
+[Declarado por la marca] Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad. [Informado por terceros] Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial: PENDIENTE. RNE de la planta de Bahía Blanca: PENDIENTE (la consulta en INAL no devolvió resultados para las razones sociales probadas). RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
+
+## Fuentes
+- ENA Sport – sitio oficial (catálogo): https://www.enasport.com/
+- El Cronista (29/01/2020) – Cómo surgió ENA…: https://www.cronista.com/pyme/negocios-pyme/la-decision-de-ser-una-empresa-internacional/
+- Endeavor Argentina – Martín Fidani / ENA Sport: https://www.endeavor.org.ar/emprendedores/martin-fidani/
+- ENA Sport España – Nosotros: https://www.enasport.es/pages/nosotros
+- Laboratorio ENA – sitio institucional: https://laboratorioena.com
+- Forbes Argentina (19/02/2020) – Suplementos deportivos: el negocio detrás del rendimiento: https://www.forbesargentina.com/negocios/suplementos-deportivos-negocio-detras-rendimiento-n2489
+- Mercado Libre – Tienda oficial Natuliv: https://www.mercadolibre.com.ar/tienda/natuliv
+- ENA Sport – Nosotros: https://www.enasport.com/pages/nosotros
+- Ola! (tercero) – ficha ENA Sport: https://alaola.com.ar/marcas/ena-sport
+- INAL/ANMAT – Consulta pública de establecimientos (RNE). Búsquedas por razón social/RNE realizadas el 16/11/2026: https://inal.sifega.anmat.gob.ar/consultadeRegistro/
+- Mercado Libre – Tienda oficial ENA: https://www.mercadolibre.com.ar/tienda/ena
+
+_Actualizado: 2026-11-16. Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular._

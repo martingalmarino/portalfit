@@ -1,0 +1,70 @@
+<!-- meta title: Optimum Nutrition: historia, productos y dónde comprar | [NOMBRE PORTAL] -->
+<!-- meta description: Optimum Nutrition: origen, empresa, líneas de producto, registros y tiendas oficiales en Argentina. Datos verificados, con fuente y fecha. -->
+<!-- canonical: https://[dominio]/marcas/optimum-nutrition -->
+
+# Optimum Nutrition: historia, líneas de producto y dónde comprar
+
+Optimum Nutrition es una marca estadounidense fundada en 1986 y hoy propiedad de Glanbia. En Argentina se consigue importada; su línea más reconocida es Gold Standard.
+
+## Posicionamiento
+Es una de las marcas internacionales de referencia del sector y llega a Argentina como producto importado. Su franquicia más conocida es Gold Standard.
+
+## Historia
+Fundada en 1986 por los hermanos Tony y Mike Costello; su línea de tiempo oficial registra el pasaje a proteína instantánea, el lanzamiento de su primera proteína de caseína y la compra por Glanbia PLC. Declara distribución en más de 90/100 países.
+
+- **Empresa:** Glanbia PLC (adquirida en 2008 según la línea de tiempo oficial); fundadores Tony y Mike Costello. Distribución en Argentina: Trust Distributions S.A. (que la lista entre sus marcas)
+- **Fundación:** 1986
+- **Origen:** Estados Unidos (importada)
+
+## Líneas de producto
+- Gold Standard
+- Amino Energy
+- Serious Mass
+- Instantized BCAA
+
+## Productos destacados
+- Gold Standard 100% Whey
+- Gold Standard Pre-Workout
+- Amino Energy
+
+## Categorías en las que compite
+[Proteínas](/categorias/proteinas), [Creatina](/categorias/creatina), [Aminoácidos (BCAA, EAA, glutamina)](/categorias/aminoacidos), [Pre-entrenos y cafeína](/categorias/pre-entrenos), [Ganadores de peso](/categorias/ganadores-de-peso), [Hidratación y electrolitos](/categorias/hidratacion-electrolitos)
+
+## Registros y certificaciones
+- RNE del importador (Trust Distributions S.A.): PENDIENTE (la consulta en INAL no devolvió resultados)
+- RNPA por producto: ver rótulo del producto importado
+- Programas de testeo de terceros (Informed Choice/Informed Sport): PENDIENTE
+
+_La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026._
+
+## Dónde comprar
+- Sitio oficial: https://www.optimumnutrition.com/
+- Mercado Libre: https://www.mercadolibre.com.ar/tienda/optimum-nutrition
+- Distribuidor: https://trustdistributions.com.ar/
+
+## Redes
+instagram: https://www.instagram.com/optimumnutrition/ · facebook: https://www.facebook.com/optimumnutrition · youtube: https://www.youtube.com/optimumnutrition · Nota: No se encontró una cuenta argentina oficial (búsqueda del 16/11/2026); se listan las cuentas globales de la marca. El distribuidor Trust Distributions no publica redes propias de ON
+
+## Preguntas frecuentes
+
+### ¿De dónde es Optimum Nutrition?
+Optimum Nutrition es una marca de Estados Unidos (importada).
+
+### ¿Desde cuándo existe Optimum Nutrition?
+Desde 1986.
+
+### ¿Optimum Nutrition tiene tienda oficial en Mercado Libre?
+Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/optimum-nutrition.
+
+### ¿Qué registros o certificaciones tiene Optimum Nutrition?
+RNE del importador (Trust Distributions S.A.): PENDIENTE (la consulta en INAL no devolvió resultados). RNPA por producto: ver rótulo del producto importado. Programas de testeo de terceros (Informed Choice/Informed Sport): PENDIENTE. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
+
+## Fuentes
+- Optimum Nutrition – About us (EE.UU.): https://www.optimumnutrition.com/en-us/pages/about-us
+- Trust Distributions – marcas distribuidas (Argentina): https://trustdistributions.com.ar/
+- INAL/ANMAT – Consulta pública de establecimientos (RNE). Búsquedas por razón social/RNE realizadas el 16/11/2026: https://inal.sifega.anmat.gob.ar/consultadeRegistro/
+- Mercado Libre – Tienda oficial Optimum Nutrition: https://www.mercadolibre.com.ar/tienda/optimum-nutrition
+- Instagram – @optimumnutrition (cuenta global verificada): https://www.instagram.com/optimumnutrition/
+- PR Newswire – Optimum Nutrition: cuentas oficiales en Instagram y TikTok: https://www.prnewswire.com/news-releases/optimum-nutrition-teams-up-with-professional-basketball-player-cameron-brink-actress-ryan-destiny-to-celebrate-women-athletes-and-the-work-that-makes-them-prettydamngood-302356862.html
+
+_Actualizado: 2026-11-16. Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular._
