@@ -12,8 +12,8 @@
 | aviso_legal_pie | Aviso. Contenido informativo. No reemplaza la consulta con médicos, nutricionistas u otros profesionales de la salud. Los suplementos dietarios no están destinados a diagnosticar, tratar, curar ni prevenir enfermedades. En Argentina los suplementos dietarios son alimentos regulados por el Código Alimentario Argentino y la ANMAT. | Aviso. Contenido informativo. No reemplaza la consulta con médicos, nutricionistas u otros profesionales de la salud. Los suplementos dietarios no están destinados a diagnosticar, tratar, curar ni prevenir enfermedades. En Argentina son alimentos regulados por el Código Alimentario Argentino; su registro y control están a cargo del SENASA. |
 | card_guia_proteinas_M14 | La aislada tiene menos grasa y lactosa por porción; la concentrada suele costar menos. Para la mayoría, la diferencia práctica está en la tolerancia y el precio. [badge: Texto de ejemplo] | La concentrada que se usa en suplementos deportivos suele tener entre 70 y 80 % de proteína; la aislada pasa del 90 %, con menos lactosa y grasa. Para comparar, mirá en el rótulo los gramos de proteína por porción. |
 
-- Tarjeta de producto: CTA “Ver en Mercado Libre”; aviso “Link de afiliado: podemos recibir una comisión.”; nota “Sin precio: lo ves en la publicación.”; badge “Tienda oficial” solo si `tienda_oficial` es true.
-- aria-label del botón ML: “Ver {titulo} en Mercado Libre (link de afiliado, se abre en otra pestaña)”
+- Tarjeta de producto: CTA “Ver precio en Mercado Libre”; aviso “Link de afiliado: podemos recibir una comisión.”; nota “Sin precio: lo ves en la publicación.”; badge “Tienda oficial” solo si `tienda_oficial` es true.
+- aria-label del botón ML: “Ver precio en Mercado Libre: {titulo} (se abre en otra pestaña)”. Si hay affiliateUrl, se agrega “, link de afiliado” antes del cierre.
 - Tooltip del aviso de afiliado: “Si comprás desde este link, Mercado Libre puede pagarnos una comisión. Tu precio no cambia.”
 - Categoría sin productos: “Todavía no sumamos productos de esta categoría.”
 

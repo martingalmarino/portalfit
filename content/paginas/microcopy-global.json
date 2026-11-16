@@ -18,12 +18,12 @@
     "despues": "© 2026 Portal FIT · Términos · Privacidad · Mapa del sitio"
   },
   "tarjeta_producto": {
-    "cta": "Ver en Mercado Libre",
+    "cta": "Ver precio en Mercado Libre",
     "aviso_afiliado": "Link de afiliado: podemos recibir una comisión.",
     "nota_precio": "Sin precio: lo ves en la publicación.",
     "badge_tienda_oficial": "Tienda oficial (mostrar solo si tienda_oficial es true)"
   },
-  "boton_ml_aria_label": "Ver {titulo} en Mercado Libre (link de afiliado, se abre en otra pestaña)",
+  "boton_ml_aria_label": "Ver precio en Mercado Libre: {titulo} (se abre en otra pestaña)",
   "tooltip_aviso_afiliado": "Si comprás desde este link, Mercado Libre puede pagarnos una comisión. Tu precio no cambia.",
   "bloque_productos_listado": {
     "antes": "Enlaces de afiliado: si comprás, podemos recibir una comisión sin costo extra para vos. El orden “Relevancia editorial” no depende de comisiones. Fotos ilustrativas.",

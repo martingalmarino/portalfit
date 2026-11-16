@@ -7,7 +7,7 @@ export const MICROCOPY = {
   pieEnlace: "Links de afiliado",
   avisoLegal:
     "Aviso. Contenido informativo. No reemplaza la consulta con médicos, nutricionistas u otros profesionales de la salud. Los suplementos dietarios no están destinados a diagnosticar, tratar, curar ni prevenir enfermedades. En Argentina son alimentos regulados por el Código Alimentario Argentino; su registro y control están a cargo del SENASA.",
-  cta: "Ver en Mercado Libre",
+  cta: "Ver precio en Mercado Libre",
   avisoAfiliado: "Link de afiliado: podemos recibir una comisión.",
   notaPrecio: "Sin precio: lo ves en la publicación.",
   tooltip: "Si comprás desde este link, Mercado Libre puede pagarnos una comisión. Tu precio no cambia.",
@@ -28,6 +28,6 @@ export const MICROCOPY = {
 } as const;
 
 export function mlButtonLabel(titulo: string, afiliado: boolean): string {
-  const extra = afiliado ? "link de afiliado, se abre en otra pestaña" : "se abre en otra pestaña";
-  return `${MICROCOPY.cta}: ${titulo} (${extra})`;
+  const afiliadoNote = afiliado ? ", link de afiliado" : "";
+  return `${MICROCOPY.cta}: ${titulo} (se abre en otra pestaña${afiliadoNote})`;
 }

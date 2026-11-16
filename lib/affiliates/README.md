@@ -17,4 +17,4 @@ El catálogo sale de `content/productos.json`. El sitio no publica precios y no 
 - `getProductsByBrand(slug)` — ficha de marca.
 - `getProductsByCategory(slug)` — listado de categoría.
 
-`productHref` en `links.ts` elige el destino y no modifica `affiliateUrl`. Los `<a>` llevan `rel="sponsored nofollow noopener"` y `target="_blank"`. El texto del botón es “Ver en Mercado Libre”. El aviso “Link de afiliado” aparece en la tarjeta solo si ese producto trae `affiliateUrl`, y el aviso del listado solo si algún producto del bloque lo trae.
+`productHref` en `links.ts` elige el destino y no modifica `affiliateUrl`. Los `<a>` llevan `rel="sponsored nofollow noopener"` y `target="_blank"`. El texto del botón es “Ver precio en Mercado Libre”. El aviso “Link de afiliado” aparece en la tarjeta solo si ese producto trae `affiliateUrl`, y el aviso del listado solo si algún producto del bloque lo trae.
