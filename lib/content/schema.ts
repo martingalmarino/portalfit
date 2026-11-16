@@ -12,6 +12,22 @@ const sourcedStringList = z.object({
   fuentes: z.array(z.string().min(1)).min(1),
 });
 
+export const certEstadoSchema = z.enum([
+  "verificado",
+  "documento",
+  "declarado",
+  "terceros",
+  "inferencia",
+  "rotulo",
+  "sin_dato",
+]);
+
+const certificacionDetalleSchema = z.object({
+  estado: certEstadoSchema,
+  etiqueta: z.string().min(1),
+  texto: z.string().min(1),
+});
+
 export const marcasSchema = z.object({
   actualizado: z.string().min(1),
   criterio_ranking: z.string().min(1),
@@ -42,6 +58,8 @@ export const marcasSchema = z.object({
           fuentes: z.array(z.string().min(1)).min(1),
         }),
         categorias: z.array(z.string().min(1)).min(1),
+        certificaciones_detalle: z.array(certificacionDetalleSchema).min(1),
+        rne_consultado_sifega: z.boolean(),
       }),
     )
     .min(1),
@@ -178,6 +196,7 @@ export const homeSchema = z.object({
       }),
     )
     .min(1),
+  fuentes_portada: z.array(z.object({ nombre: z.string().min(1), url: z.string().url() })).min(1),
   disclaimer: z.string().min(1),
   schema_sugerido: z.record(z.string(), z.unknown()),
   criterios_seo_aeo_geo: z.record(z.string(), z.unknown()),
@@ -203,12 +222,12 @@ export const fichasSchema = z.object({
         intro: z.string().min(1),
         posicionamiento: z.string().min(1),
         historia: z.string().min(1),
-        empresa: z.string().min(1),
+        empresa: z.string().min(1).optional(),
         anio_fundacion: z.union([z.string().min(1), z.number()]),
         origen: z.string().min(1),
         lineas: z.array(z.string().min(1)).min(1),
         productos_destacados: z.array(z.string().min(1)).min(1),
-        nota_productos: z.string().nullable(),
+        nota_productos: z.string().nullable().optional(),
         categorias: z
           .array(
             z.object({
@@ -219,6 +238,8 @@ export const fichasSchema = z.object({
           )
           .min(1),
         certificaciones: z.array(z.string().min(1)).min(1),
+        certificaciones_detalle: z.array(certificacionDetalleSchema).min(1),
+        rne_consultado_sifega: z.boolean(),
         nota_registros: z.string().min(1),
         donde_comprar: z.object({
           sitio_oficial: z.string().min(1),
@@ -249,54 +270,115 @@ export const fichasSchema = z.object({
     .min(1),
 });
 
+const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "La fecha del post tiene que ser AAAA-MM-DD");
+const categoryValue = z.union([z.string().min(1), z.array(z.string().min(1)).min(1)]);
+const sourceValue = z.union([
+  z.string().min(1),
+  z.object({ titulo: z.string().min(1), url: z.string().url() }),
+]);
+
 export const postFrontmatterSchema = z.object({
   title: z.string().min(1),
   description: z.string().min(1),
-  author: z.string().min(1),
-  reviewer: z.string().min(1),
-  reviewerRole: z.string().min(1),
-  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "La fecha del post tiene que ser AAAA-MM-DD"),
-  sources: z.array(z.string().min(1)).min(1),
+  slug: z.string().min(1).optional(),
+  fecha: isoDate.optional(),
+  date: isoDate.optional(),
+  autor: z.string().min(1).optional(),
+  author: z.string().min(1).optional(),
+  categoria: categoryValue.optional(),
+  category: categoryValue.optional(),
+  fuentes: z.array(sourceValue).optional(),
+  sources: z.array(sourceValue).optional(),
+  reviewer: z.string().min(1).optional(),
+  reviewerRole: z.string().min(1).optional(),
   evidence: evidenceLevelSchema.optional(),
-  ejemplo: z.boolean(),
-  category: z.string().min(1).optional(),
+  ejemplo: z.boolean().optional(),
   stage: z.string().min(1).optional(),
-  readingMinutes: z.number().int().positive(),
-  image: z.string().min(1),
-  imageCredit: z.string().min(1),
-  excerpt: z.string().min(1),
-  kicker: z.string().min(1),
-  toc: z.array(z.object({ id: z.string().min(1), label: z.string().min(1) })).min(1),
-  faq: z.array(z.object({ q: z.string().min(1), a: z.string().min(1) })).default([]),
-  relatedProducts: z.array(z.string().min(1)).default([]),
-  rail: z.array(z.string().min(1)).default([]),
+  readingMinutes: z.number().int().positive().optional(),
+  image: z.string().min(1).optional(),
+  imageCredit: z.string().min(1).optional(),
+  excerpt: z.string().min(1).optional(),
+  kicker: z.string().min(1).optional(),
+  toc: z.array(z.object({ id: z.string().min(1), label: z.string().min(1) })).optional(),
+  faq: z.array(z.object({ q: z.string().min(1), a: z.string().min(1) })).optional(),
+  relatedProducts: z.array(z.string().min(1)).optional(),
+  rail: z.array(z.string().min(1)).optional(),
 });
 
+export const postsIndexSchema = z.object({
+  actualizado: z.string().optional(),
+  nota: z.string().optional(),
+  posts: z.array(
+    z
+      .object({
+        slug: z.string().min(1),
+        h1: z.string().min(1),
+        bajada: z.string().min(1),
+        meta_title: z.string().min(1),
+        keyword_objetivo: z.string().min(1).optional(),
+        h2: z.array(z.string().min(1)).default([]),
+        minutos_lectura: z.number().int().positive().optional(),
+        faq: z.array(z.object({ q: z.string().min(1), a: z.string().min(1) })).default([]),
+        enlaces_internos: z.record(z.string(), z.array(z.string())).optional(),
+      })
+      .passthrough(),
+  ),
+});
+
+const affiliateProductSchema = z
+  .object({
+    id: z.string().min(1),
+    titulo: z.string().min(1),
+    marca: z.string().min(1),
+    categoria: z.string().min(1),
+    subcategoria: z.string().min(1).optional(),
+    url: z.string().url().optional(),
+    url_ml: z.string().url().optional(),
+    affiliateUrl: z.string().url().nullable().optional(),
+    imagen: z.string().min(1).optional(),
+    imagen_url: z.string().url().nullable().optional(),
+    posicion: z.string().min(1).optional(),
+    etiquetas: z.array(z.string()).default([]),
+    destacado: z.boolean().default(false),
+    masVendidoSegunMarca: z.boolean().default(false),
+    notaEditorial: z.string().optional(),
+    tiendaOficial: z.boolean().optional(),
+    tienda_oficial: z.boolean().optional(),
+    rne: z.boolean().nullable().optional(),
+  })
+  .transform((product) => {
+    const url = product.url ?? product.url_ml;
+    if (!url) {
+      throw new Error(`El producto "${product.id}" no tiene url`);
+    }
+    const imagenUrl =
+      product.imagen_url && product.imagen_url.startsWith("https://http2.mlstatic.com/")
+        ? product.imagen_url
+        : undefined;
+    return {
+      id: product.id,
+      titulo: product.titulo,
+      marca: product.marca,
+      categoria: product.categoria,
+      subcategoria: product.subcategoria,
+      url,
+      affiliateUrl: product.affiliateUrl ?? undefined,
+      imagen: product.imagen,
+      imagenUrl,
+      posicion: product.posicion,
+      etiquetas: product.etiquetas,
+      destacado: product.destacado,
+      masVendidoSegunMarca: product.masVendidoSegunMarca,
+      tiendaOficial: product.tiendaOficial === true || product.tienda_oficial === true,
+      rne: product.rne === true ? true : undefined,
+      provisional: url.includes("listado.mercadolibre.com.ar"),
+    };
+  });
+
 export const affiliateCatalogSchema = z.object({
-  aviso: z.string().min(1),
-  actualizado: z.string().min(1),
-  productos: z
-    .array(
-      z.object({
-        id: z.string().min(1),
-        titulo: z.string().min(1),
-        marca: z.string().min(1),
-        categoria: z.string().min(1),
-        subcategoria: z.string().min(1).optional(),
-        precioEjemplo: z.number().positive(),
-        moneda: z.literal("ARS"),
-        ejemplo: z.literal(true),
-        etiquetas: z.array(z.string()),
-        imagen: z.string().min(1),
-        posicion: z.string().min(1),
-        url: z.string().url(),
-        urlTipo: z.enum(["tienda-oficial", "busqueda-ejemplo"]),
-        notaEditorial: z.string().min(1),
-        destacado: z.boolean(),
-        masVendidoSegunMarca: z.boolean(),
-      }),
-    )
-    .min(1),
+  aviso: z.string().optional(),
+  actualizado: z.string().optional(),
+  productos: z.array(affiliateProductSchema).min(1),
 });
 
 export type MarcasFile = z.infer<typeof marcasSchema>;

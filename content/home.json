@@ -12,7 +12,7 @@
   },
   "h1": "Suplementos y nutrición deportiva en Argentina, explicados con evidencia",
   "bajada": "Qué tiene respaldo, qué no y qué conviene mirar según tu etapa de vida. Guías claras para quienes entrenan entre los 30 y los 60.",
-  "intro": "En [NOMBRE PORTAL] reunimos información sobre suplementos dietarios y nutrición deportiva disponibles en Argentina. A cada categoría le asignamos un nivel de evidencia general según el marco del Instituto Australiano del Deporte (AIS) y las posturas de la International Society of Sports Nutrition (ISSN), y presentamos las marcas con datos verificados y su fuente. En Argentina los suplementos dietarios son alimentos regulados por el Código Alimentario Argentino y la ANMAT: no son medicamentos y no reemplazan una alimentación variada ni la consulta con profesionales de la salud.",
+  "intro": "En [NOMBRE PORTAL] reunimos información sobre suplementos dietarios y nutrición deportiva disponibles en Argentina. A cada categoría le asignamos un nivel de evidencia general según el marco del Instituto Australiano del Deporte (AIS) y las posturas de la International Society of Sports Nutrition (ISSN), y presentamos las marcas con datos verificados y su fuente. En Argentina los suplementos dietarios son alimentos regulados por el Código Alimentario Argentino; desde agosto de 2026 su registro y control están a cargo del SENASA. No son medicamentos y no reemplazan una alimentación variada ni la consulta con profesionales de la salud.",
   "bloques_categorias": [
     {
       "slug": "proteinas",
@@ -254,18 +254,21 @@
   "faq": [
     {
       "q": "¿Qué es un suplemento dietario en Argentina?",
-      "a": "Según el artículo 1381 del Código Alimentario Argentino, es un producto de administración oral destinado a incrementar la ingesta dietaria habitual de personas sanas con necesidades no satisfechas o mayores a las habituales. Legalmente es un alimento, no un medicamento.",
+      "a": "Según el artículo 1381 del Código Alimentario Argentino (texto actualizado por la Resolución Conjunta 33/2025), es un producto de administración oral destinado a incrementar la ingesta dietaria habitual de personas sanas con necesidades no satisfechas o mayores a las habituales. Legalmente es un alimento, no un medicamento.",
       "fuentes": [
-        "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-3-2020-345768/texto",
+        "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/327521/20250626",
         "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
       ]
     },
     {
       "q": "¿Cómo sé si un suplemento está registrado?",
-      "a": "El rótulo tiene que decir que es un suplemento dietario e incluir el RNPA del producto y el RNE del elaborador o importador. El RNE se puede consultar en el buscador público de INAL/ANMAT.",
+      "a": "El rótulo tiene que decir que es un suplemento dietario e incluir el RNPA del producto y el RNE del elaborador o importador. Los dos se pueden consultar en los buscadores públicos de SIFeGA. Desde el Decreto 697/2026 el registro está a cargo del SENASA, y los registros anteriores siguen vigentes.",
       "fuentes": [
-        "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
-        "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
       ]
     },
     {
@@ -291,6 +294,44 @@
       ]
     }
   ],
+  "fuentes_portada": [
+    {
+      "nombre": "Código Alimentario Argentino, art. 1381 (Res. Conjunta 33/2025)",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/327521/20250626"
+    },
+    {
+      "nombre": "Decreto 697/2026: el SENASA asume el registro y control de alimentos",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803"
+    },
+    {
+      "nombre": "ANMAT: qué son los suplementos dietarios",
+      "url": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
+    },
+    {
+      "nombre": "SIFeGA: buscador de productos autorizados (RNPA)",
+      "url": "https://inal.sifega.anmat.gob.ar/consultadealimentos/"
+    },
+    {
+      "nombre": "SIFeGA: consulta de establecimientos (RNE)",
+      "url": "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+    },
+    {
+      "nombre": "AIS: marco de suplementos, Grupo A",
+      "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+    },
+    {
+      "nombre": "AIS: marco de suplementos, Grupo D",
+      "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+    },
+    {
+      "nombre": "ISSN: postura sobre creatina (Kreider et al., 2017)",
+      "url": "https://doi.org/10.1186/s12970-017-0173-z"
+    },
+    {
+      "nombre": "ISSN: preguntas comunes sobre creatina (Antonio et al., 2021)",
+      "url": "https://doi.org/10.1186/s12970-021-00412-w"
+    }
+  ],
   "disclaimer": "Contenido informativo. No reemplaza la consulta con médicos, nutricionistas u otros profesionales de la salud. Los suplementos dietarios no están destinados a diagnosticar, tratar, curar ni prevenir enfermedades.",
   "schema_sugerido": {
     "WebSite": {
@@ -299,8 +340,7 @@
     },
     "Organization": {
       "name": "[NOMBRE PORTAL]",
-      "url": "https://[dominio]/",
-      "logo": "PENDIENTE"
+      "url": "https://[dominio]/"
     },
     "FAQPage": "usar home.faq"
   },
@@ -318,10 +358,10 @@
       "Cada respuesta con su fuente enlazada"
     ],
     "geo": [
-      "Afirmaciones atribuidas a entidades citables (ANMAT, CAA, AIS, ISSN)",
+      "Afirmaciones atribuidas a entidades citables (SENASA, CAA, AIS, ISSN)",
       "Fecha de actualización visible",
       "Datos estructurados en JSON reutilizable",
-      "Lo no verificado figura explícitamente como PENDIENTE para no propagar errores"
+      "Lo no verificado no se publica como dato firme: se registra aparte, de uso interno, para no propagar errores"
     ]
   }
 }

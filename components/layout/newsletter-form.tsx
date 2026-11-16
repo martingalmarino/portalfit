@@ -9,7 +9,7 @@ export function NewsletterForm({ variant = "footer" }: { variant?: "footer" | "r
       className={variant === "footer" ? "nl" : ""}
       onSubmit={(event) => {
         event.preventDefault();
-        setNote("La newsletter todavía no está activa. No guardamos el email en esta etapa.");
+        setNote("La newsletter todavía no está activa. No guardamos tu email.");
       }}
     >
       <label className="sr-only" htmlFor={variant === "footer" ? "newsletter-email" : "rail-email"}>

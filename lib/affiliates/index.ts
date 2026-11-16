@@ -1,14 +1,13 @@
-import { mockAffiliateProvider } from "@/lib/affiliates/mock";
+import { curatedAffiliateProvider } from "@/lib/affiliates/curated";
 import type { AffiliateProvider } from "@/lib/affiliates/types";
 
 /**
  * Única puerta de los listados de Mercado Libre.
- * Hoy devuelve el proveedor mock. Para la API real, ver README de esta carpeta:
- * se reemplaza esta función y se agrega `revalidate` en las rutas que listen productos.
+ * Hoy lee el catálogo curado de content/productos.json.
  */
 export function getAffiliateProvider(): AffiliateProvider {
-  return mockAffiliateProvider;
+  return curatedAffiliateProvider;
 }
 
 export type { AffiliateProduct, AffiliateProvider } from "@/lib/affiliates/types";
-export { getAffiliateProduct } from "@/lib/affiliates/mock";
+export { blockHasAffiliate, getAffiliateProduct } from "@/lib/affiliates/curated";

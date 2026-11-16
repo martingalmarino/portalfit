@@ -13,25 +13,49 @@ export const EVIDENCE: Record<
   variable: { label: "Variable", grade: null, chip: "ev-variable", gradeClass: "" },
 };
 
-const PENDING = "PENDIENTE";
+const HIDDEN_WORD = /\b(?:pendiente|ejemplo)\b/i;
 
 export function applyPlaceholders(text: string): string {
-  return text.replaceAll("[NOMBRE PORTAL]", getSiteName()).replaceAll("[dominio]", getDomainLabel());
+  const domain = getDomainLabel();
+  return text.replaceAll("[NOMBRE PORTAL]", getSiteName()).replaceAll("[dominio]", domain ?? "");
 }
 
 export function hasPendingToken(text: string): boolean {
-  return text.includes(PENDING);
+  return HIDDEN_WORD.test(text);
 }
 
-/** Reemplaza el token editorial PENDIENTE por la etiqueta visible. No inventa el dato. */
-export function pendingParts(text: string): Array<{ pending: boolean; text: string }> {
-  const filled = applyPlaceholders(text);
-  return filled.split(PENDING).flatMap((part, index, all) => {
-    const nodes: Array<{ pending: boolean; text: string }> = [];
-    if (part) nodes.push({ pending: false, text: part });
-    if (index < all.length - 1) nodes.push({ pending: true, text: "Pendiente" });
-    return nodes;
-  });
+/**
+ * Texto visible. Oculta un dato que no está: saca oraciones y paréntesis con
+ * PENDIENTE o con la palabra ejemplo, y no deja un rótulo en su lugar.
+ */
+export function publicCopy(text: string): string | null {
+  let value = applyPlaceholders(text);
+  value = value.replace(/\s*\((?:[^()]|\([^()]*\))*\)/g, (group) => (HIDDEN_WORD.test(group) ? "" : group));
+  const kept = value
+    .split(/(?<=[.!?])\s+/)
+    .map((part) => part.replace(/\s{2,}/g, " ").trim())
+    .filter((part) => part.length > 0 && !HIDDEN_WORD.test(part));
+  const joined = kept.join(" ").trim();
+  if (!joined || HIDDEN_WORD.test(joined)) return null;
+  return joined;
+}
+
+/** Texto de una guía publicada. Conserva el castellano corriente y oculta solo [dominio] o PENDIENTE. */
+const INTERNAL_TOKEN = /\[dominio\]|\bpendiente\b/i;
+
+export function publishedCopy(text: string): string | null {
+  const kept = text
+    .split(/(?<=[.!?])\s+/)
+    .map((part) => part.replace(/\s{2,}/g, " ").trim())
+    .filter((part) => part.length > 0 && !INTERNAL_TOKEN.test(part));
+  const joined = applyPlaceholders(kept.join(" ")).trim();
+  if (!joined || INTERNAL_TOKEN.test(joined)) return null;
+  return joined;
+}
+
+export function publicYear(raw: string | number): string | null {
+  const text = publicCopy(String(raw));
+  return text?.match(/^(\d{4})\b/)?.[1] ?? null;
 }
 
 export function formatContentDate(iso: string): string {
@@ -61,24 +85,20 @@ export function pathOf(url: string): string {
 }
 
 /** Año para la ficha compacta. Si el dato no arranca con un año, no se inventa. */
-export function compactYear(raw: string | number): { label: string; pending: boolean } {
-  const full = String(raw).trim();
-  if (full === PENDING || full.startsWith(PENDING)) return { label: "Pendiente", pending: true };
-  const year = /^(\d{4})\b/.exec(full);
-  if (year) return { label: year[1], pending: full.includes(PENDING) };
-  if (full.includes(PENDING)) return { label: "Pendiente", pending: true };
-  return { label: full.length > 28 ? `${full.slice(0, 27)}…` : full, pending: false };
+export function compactYear(raw: string | number): { label: string | null; pending: boolean } {
+  const text = publicCopy(String(raw));
+  if (!text) return { label: null, pending: true };
+  const year = /^(\d{4})\b/.exec(text);
+  return { label: year?.[1] ?? text, pending: false };
 }
 
-export function firstClause(text: string, max = 48): string {
-  const clause = applyPlaceholders(text).split(";")[0]?.trim() ?? text;
-  if (clause.length <= max) return clause;
-  return `${clause.slice(0, max - 1)}…`;
+export function firstClause(text: string): string | null {
+  return publicCopy(text);
 }
 
-export function shortOrigin(origen: string): string {
-  const full = applyPlaceholders(origen).trim();
-  if (full === PENDING || full.startsWith(PENDING)) return "Pendiente";
+export function shortOrigin(origen: string): string | null {
+  const full = publicCopy(origen);
+  if (!full) return null;
   const countryRaw = full.split("(")[0]?.trim() ?? full;
   const country = /^estados unidos/i.test(countryRaw) ? "EE. UU." : countryRaw;
   const inner = /\((.*)\)/.exec(full)?.[1] ?? "";
@@ -100,7 +120,7 @@ export function shortOrigin(origen: string): string {
   return country;
 }
 
-export type CertState = "verificado" | "declarado" | "documento" | "terceros" | "pendiente" | "rotulo";
+export type CertState = "verificado" | "documento" | "declarado" | "terceros" | "inferencia" | "rotulo" | "sin_dato";
 
 export function parseCertification(raw: string): { state: CertState; title: string; detail: string } {
   const tag = /^\[([^\]]+)\]\s*/.exec(raw);
@@ -108,29 +128,25 @@ export function parseCertification(raw: string): { state: CertState; title: stri
   const rest = (tag ? raw.slice(tag[0].length) : raw).trim();
   const lower = `${label} ${rest}`.toLowerCase();
   let state: CertState = "declarado";
-  if (/ver rótulo|ver rotulo/.test(lower)) state = "rotulo";
-  else if (label.toLowerCase().includes("verific")) state = "verificado";
+  if (/ver rótulo|ver rotulo|en el rótulo|en el rotulo/.test(lower)) state = "rotulo";
+  else if (label.toLowerCase().includes("verific") || lower.includes("registro oficial")) state = "verificado";
   else if (label.toLowerCase().includes("documento oficial")) state = "documento";
+  else if (label.toLowerCase().includes("inferencia")) state = "inferencia";
+  else if (label.toLowerCase().includes("sin dato")) state = "sin_dato";
   else if (label.toLowerCase().includes("declarado")) state = "declarado";
   else if (label.toLowerCase().includes("terceros")) state = "terceros";
-  else if (
-    lower.includes("pendiente") ||
-    lower.includes("no se declaran") ||
-    lower.includes("no verific")
-  ) {
-    state = "pendiente";
-  }
   const title = rest.replace(/\s+/g, " ");
   return { state, title, detail: label };
 }
 
 export const CERT_LABEL: Record<CertState, string> = {
-  verificado: "Verificado",
-  declarado: "Declarado",
+  verificado: "Registro oficial consultado",
   documento: "Documento oficial",
+  declarado: "Declarado",
   terceros: "Terceros",
-  pendiente: "Pendiente",
-  rotulo: "Ver rótulo",
+  inferencia: "Inferencia propia",
+  rotulo: "En el rótulo",
+  sin_dato: "Sin dato verificable",
 };
 
 export function splitLabeledUrl(line: string): { label: string; href?: string } {

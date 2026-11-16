@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { AffiliateNotice } from "@/components/ui/affiliate-notice";
+import { blockHasAffiliate } from "@/lib/affiliates";
+import { MICROCOPY } from "@/lib/microcopy";
 import { BrandLogo } from "@/components/ui/brand-logo";
 import { Editorial } from "@/components/ui/editorial";
 import { FaqList } from "@/components/ui/faq-list";
@@ -6,8 +9,8 @@ import { IconArrow } from "@/components/ui/icons";
 import { MlGrid } from "@/components/ui/ml-card";
 import { Photo } from "@/components/ui/photo";
 import { getAffiliateProvider } from "@/lib/affiliates";
-import { getCategorias, getEtapas, getFichas, getMarcas, loadHome, loadPosts, loadTaxonomia } from "@/lib/content/load";
-import { EVIDENCE, hostOf, pad2, shortOrigin } from "@/lib/format";
+import { getCategorias, getEtapas, getFichas, getMarcas, getPublishedPosts, loadHome, loadTaxonomia } from "@/lib/content/load";
+import { EVIDENCE, formatContentDate, initials, pad2, shortOrigin } from "@/lib/format";
 import { CATEGORY_FEATURE_PHOTOS, STAGE_PHOTOS } from "@/lib/photos";
 import { applyPlaceholders } from "@/lib/format";
 
@@ -15,8 +18,8 @@ const FEATURED_CATEGORIES = ["proteinas", "creatina", "omega-3"];
 const EVIDENCE_SAMPLE = ["proteinas", "creatina", "colageno", "magnesio"];
 const STANDARDS = [
   ["01", "Nivel de evidencia", "Cada categoría lleva un nivel general según AIS (Grupos A–D) y las posturas de la ISSN."],
-  ["02", "Registros con fuente", "RNE consultado en INAL/ANMAT cuando fue posible, con fecha de búsqueda."],
-  ["03", "Verificado ≠ declarado", "Distinguimos lo verificado, lo declarado por la marca y lo pendiente."],
+  ["02", "Registros con fuente", "RNE consultado en la base oficial SIFeGA cuando fue posible, con fecha de consulta."],
+  ["03", "Verificado ≠ declarado", "Distinguimos lo consultado en registros oficiales de lo que declara cada marca."],
   ["04", "Sin claims médicos", "Contenido informativo. Nada reemplaza la consulta profesional."],
 ];
 
@@ -29,32 +32,29 @@ function splitTitle(title: string): { lead: string; emphasis?: string } {
 
 export function HomeView() {
   const home = loadHome();
-  const tax = loadTaxonomia();
   const categorias = getCategorias();
   const etapas = getEtapas();
   const fichas = getFichas();
   const marcas = getMarcas();
-  const posts = loadPosts();
+  const posts = getPublishedPosts();
   const featured = getAffiliateProvider().getFeatured(4);
   const title = applyPlaceholders(home.h1);
   const { lead, emphasis } = splitTitle(title);
   const bySlug = new Map(categorias.map((item) => [item.slug, item]));
   const fichaBySlug = new Map(fichas.map((item) => [item.slug, item]));
-  const orderedPosts = ["proteina-despues-de-los-40", "creatina-sin-mitos", "rnpa-rne-anmat"]
-    .map((slug) => posts.find((post) => post.slug === slug))
-    .filter((post) => post !== undefined);
 
   return (
     <>
+      <h1 className="sr-only">{title}</h1>
       <section className="mhero">
         <div className="wrap">
-          <Photo file="hero-mujer.jpg" className="mh-img" priority quality={60} sizes="100vw" position="50% 18%" alt="">
+          <Photo file="hero-mujer.jpg" className="mh-img" priority quality={60} sizes="100vw" position="50% 18%">
             <div className="mh-ov">
               <div className="kicker light">Nº 01 · Guía independiente · Argentina</div>
-              <h1 className="h-display" style={{ color: "#fff", marginTop: 12 }}>
+              <p className="h-display" aria-hidden="true" style={{ color: "#fff", marginTop: 12, marginBottom: 0 }}>
                 {lead}
                 {emphasis ? <em>{emphasis}</em> : null}
-              </h1>
+              </p>
               <Link className="link" href="/categorias" style={{ color: "#f0e8d8", marginTop: 14 }}>
                 Explorar categorías <IconArrow />
               </Link>
@@ -73,10 +73,10 @@ export function HomeView() {
               <span style={{ width: 26, height: 1, background: "var(--brass)" }} />
               Guía independiente · Argentina
             </div>
-            <h1 className="h-display" style={{ marginTop: 22 }}>
+            <p className="h-display" aria-hidden="true" style={{ marginTop: 22, marginBottom: 0 }}>
               {lead}
               {emphasis ? <em>{emphasis}</em> : null}
-            </h1>
+            </p>
             <p className="lede" style={{ marginTop: 20, maxWidth: 540 }}>
               <Editorial text={home.bajada} />
             </p>
@@ -84,7 +84,7 @@ export function HomeView() {
               <Link className="btn btn-primary" href="/categorias">
                 Explorar categorías <IconArrow />
               </Link>
-              <Link className="btn btn-ghost" href="/etapas/30-39">
+              <Link className="btn btn-ghost" href="/etapas">
                 Elegir mi etapa de vida
               </Link>
             </div>
@@ -98,13 +98,13 @@ export function HomeView() {
               <a className="srcchip" href="https://www.sportsnutritionsociety.org/" target="_blank" rel="noreferrer">
                 ISSN · Position stands
               </a>
-              <a className="srcchip" href="https://www.argentina.gob.ar/anmat" target="_blank" rel="noreferrer">
-                ANMAT · CAA
+              <a className="srcchip" href="https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803" target="_blank" rel="noreferrer">
+                SENASA · CAA
               </a>
             </div>
           </div>
           <div style={{ position: "relative" }}>
-            <Photo file="hero-mujer.jpg" className="hero-media" priority sizes="(max-width: 1100px) 100vw, 46vw" position="50% 22%" credit tag="Etapa 50 a 60" alt="" />
+            <Photo file="hero-mujer.jpg" className="hero-media" priority sizes="(max-width: 1100px) 100vw, 46vw" position="50% 22%" credit tag="Etapa 50 a 60" />
             <aside className="evcard" aria-label="Evidencia por categoría">
               <div className="kicker" style={{ fontSize: 10.5 }}>Evidencia por categoría</div>
               {EVIDENCE_SAMPLE.map((slug) => {
@@ -118,7 +118,6 @@ export function HomeView() {
                   </div>
                 );
               })}
-              <p className="xs" style={{ marginTop: 10 }}>{tax.nota_evidencia}</p>
             </aside>
           </div>
         </div>
@@ -132,24 +131,14 @@ export function HomeView() {
               <h2 id="destacados-ml" className="h3">
                 Destacados en <em className="it" style={{ color: "var(--forest-3)" }}>Mercado Libre</em>
               </h2>
-              <span className="ex-flag">Productos y precios de ejemplo</span>
+              <span className="xs">Publicaciones reales, sin precios</span>
             </div>
             <Link className="link" href="/categorias">
               Ver todos <IconArrow />
             </Link>
           </div>
           <MlGrid products={featured} />
-          <p className="xs" style={{ marginTop: 16, textAlign: "center" }}>
-            Los precios y la disponibilidad se actualizan en Mercado Libre. Las fotos son ilustrativas: en producción se usa la imagen de cada publicación.
-          </p>
-        </div>
-      </section>
-
-      <section className="sec-sm" style={{ paddingTop: 0 }}>
-        <div className="wrap" style={{ maxWidth: 860 }}>
-          <p className="lede">
-            <Editorial text={home.intro} />
-          </p>
+          <AffiliateNotice text={MICROCOPY.bloqueListado} show={blockHasAffiliate(featured)} />
         </div>
       </section>
 
@@ -177,8 +166,16 @@ export function HomeView() {
                 </div>
               ))}
             </div>
-            <Photo file="capsulas-negro.jpg" className="std-ph" sizes="30vw" position="40% 50%" alt="" />
+            <Photo file="capsulas-negro.jpg" className="std-ph" sizes="30vw" position="40% 50%" />
           </div>
+        </div>
+      </section>
+
+      <section className="sec-sm" style={{ paddingTop: 0 }}>
+        <div className="wrap" style={{ maxWidth: 860 }}>
+          <p className="lede">
+            <Editorial text={home.intro} />
+          </p>
         </div>
       </section>
 
@@ -259,7 +256,6 @@ export function HomeView() {
                       className="feat-ph"
                       sizes="(max-width: 600px) 46vw, 240px"
                       tag={meta.grade ? `${meta.grade} · Evidencia ${meta.label.toLowerCase()}` : meta.label}
-                      alt=""
                     />
                     <div style={{ paddingTop: 16 }}>
                       <div className="num">{pad2(index + 1)}</div>
@@ -315,7 +311,7 @@ export function HomeView() {
               const related = etapa.categorias_relacionadas.slice(0, 3).map((slug) => bySlug.get(slug)?.nombre).filter(Boolean);
               return (
                 <Link className="ecard" href={`/etapas/${etapa.slug}`} key={etapa.slug}>
-                  <Photo file={file} className="ecard" sizes="(max-width: 600px) 100vw, 30vw" position={index === 0 ? "72% 30%" : "50% 30%"} alt="" />
+                  <Photo file={file} className="ecard" sizes="(max-width: 600px) 100vw, 30vw" position={index === 0 ? "72% 30%" : "50% 30%"} />
                   <div className="eov">
                     <div className="num" style={{ color: "var(--brass)" }}>{pad2(index + 1)}</div>
                     <h3 className="h-et">{etapa.nombre}</h3>
@@ -363,13 +359,18 @@ export function HomeView() {
             </Link>
           </div>
           <div className="pgrid">
-            {orderedPosts.map((post, index) => (
+            {posts.map((post, index) => (
               <Link className="pcard" href={`/blog/${post.slug}`} key={post.slug}>
-                <Photo file={post.image} className="guide-ph" sizes={index === 0 ? "(max-width: 600px) 100vw, 50vw" : "30vw"} tag={post.kicker.split("·")[1]?.trim() || post.kicker} alt="" />
+                {post.image ? (
+                  <Photo file={post.image} className="guide-ph" sizes={index === 0 ? "(max-width: 600px) 100vw, 50vw" : "30vw"} />
+                ) : (
+                  <div className="guide-fallback" aria-hidden>
+                    <span className="kicker">Guía</span>
+                  </div>
+                )}
                 <div style={{ paddingTop: 16 }}>
                   <div style={{ display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
-                    {post.ejemplo ? <span className="ex-flag">Ejemplo</span> : null}
-                    <span className="xs">{post.readingMinutes} min de lectura</span>
+                    <span className="xs">{post.readingMinutes ? `${post.readingMinutes} min de lectura` : formatContentDate(post.date)}</span>
                     {post.evidence ? (
                       <span className="xs">
                         · Evidencia <b style={{ color: "var(--forest)" }}>{EVIDENCE[post.evidence].grade ?? EVIDENCE[post.evidence].label}</b>
@@ -377,12 +378,13 @@ export function HomeView() {
                     ) : null}
                   </div>
                   <h3 className={index === 0 ? "h2" : "h3"} style={{ marginTop: 12, fontSize: index === 0 ? 32 : 22 }}>
-                    {post.title}
+                    {post.h1}
                   </h3>
                   <div className="byl">
-                    <span className="av">AE</span>
+                    <span className="av">{initials(post.author)}</span>
                     <span className="xs">
-                      Por <b style={{ color: "var(--ink)" }}>{post.author}</b> · Revisión: <Editorial text={post.reviewer} />
+                      Por <b style={{ color: "var(--ink)" }}>{post.author}</b>
+                      {post.reviewer ? <> · Revisión: <Editorial text={post.reviewer} verbatim /></> : null}
                     </span>
                   </div>
                 </div>
@@ -406,9 +408,21 @@ export function HomeView() {
           <FaqList items={home.faq} />
         </div>
       </section>
-      <p className="wrap xs" style={{ paddingBottom: 28 }}>
-        Fuentes de la portada, entre otras: {home.faq[0]?.fuentes.map(hostOf).join(" · ")}. {applyPlaceholders(home.disclaimer)}
-      </p>
+      <section className="fuentes-portada">
+        <div className="wrap">
+          <div className="kicker">Fuentes</div>
+          <ul>
+            {home.fuentes_portada.map((fuente) => (
+              <li key={fuente.url}>
+                <a href={fuente.url} target="_blank" rel="noreferrer">{fuente.nombre}</a>
+              </li>
+            ))}
+          </ul>
+          <p className="xs" style={{ marginTop: 16 }}>
+            <Editorial text={home.disclaimer} />
+          </p>
+        </div>
+      </section>
     </>
   );
 }
@@ -424,25 +438,25 @@ function EvidenceBand() {
   return (
     <section className="evband">
       <div className="wrap evgrid">
-        <Photo file="mano-capsula.jpg" className="evph" sizes="(max-width: 600px) 100vw, 46vw" position="55% 50%" credit alt="" />
+        <Photo file="mano-capsula.jpg" className="evph" sizes="(max-width: 600px) 100vw, 46vw" position="55% 50%" credit />
         <div style={{ padding: "72px 0" }}>
           <div className="kicker"><span className="num" style={{ marginRight: 12 }}>Nº 06</span>Cómo evaluamos</div>
           <h2 className="h2" style={{ marginTop: 18 }}>
             Cuatro grados, <em>una sola regla:</em> mostrar la fuente
           </h2>
-          <p className="lede" style={{ marginTop: 16, fontSize: 17.5 }}>{tax.nota_evidencia}</p>
+          <p className="lede" style={{ marginTop: 16, fontSize: 17.5 }}><Editorial text={tax.nota_evidencia} /></p>
           <div style={{ marginTop: 24, borderTop: "1px solid var(--line)" }}>
             {levels.map(([grade, gradeClass, label, text]) => (
               <div className="srow" key={grade}>
                 <span className={`grade ${gradeClass}`}>{grade}</span>
                 <div>
                   <b className="serif" style={{ fontSize: 18 }}>{label}</b>
-                  <p className="small">{text}</p>
+                  <p className="small"><Editorial text={text} /></p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="xs" style={{ marginTop: 14 }}>“Variable”: {tax.niveles_de_evidencia.variable}</p>
+          <p className="xs" style={{ marginTop: 14 }}>“Variable”: <Editorial text={tax.niveles_de_evidencia.variable} /></p>
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-import { getCategorias, getEtapas, getMarcas, getPost, loadPosts } from "@/lib/content/load";
+import { getCategorias, getEtapas, getMarcas, getPost, getPublishedPosts } from "@/lib/content/load";
 import { EVIDENCE } from "@/lib/format";
 
 export type NavLink = { href: string; label: string; meta?: string };
@@ -26,7 +26,7 @@ export function getNavData(): NavData {
     href: `/etapas/${item.slug}`,
     label: item.nombre,
   }));
-  const posts = loadPosts().map((item) => ({
+  const posts = getPublishedPosts().map((item) => ({
     href: `/blog/${item.slug}`,
     label: item.title,
   }));

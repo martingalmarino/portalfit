@@ -5,10 +5,10 @@ import { Editorial } from "@/components/ui/editorial";
 import { IconArrow } from "@/components/ui/icons";
 import { JsonLd } from "@/components/ui/json-ld";
 import { Photo } from "@/components/ui/photo";
-import { getCategoria, getEtapa, getEtapas, loadPosts } from "@/lib/content/load";
+import { getCategoria, getEtapa, getEtapas, getPublishedPosts } from "@/lib/content/load";
 import { EVIDENCE, hostOf, isHttpUrl, pad2 } from "@/lib/format";
 import { STAGE_PHOTOS } from "@/lib/photos";
-import { itemListJsonLd, pageMetadata } from "@/lib/seo";
+import { itemListJsonLd, pageMetadata, stageTitle } from "@/lib/seo";
 
 export function generateStaticParams() {
   return getEtapas().map((item) => ({ slug: item.slug }));
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const etapa = getEtapa(slug);
   if (!etapa) return {};
   return pageMetadata({
-    title: etapa.nombre,
+    title: stageTitle(etapa.nombre),
     description: etapa.descripcion,
     path: `/etapas/${slug}`,
   });
@@ -32,7 +32,7 @@ export default async function EtapaPage({ params }: { params: Promise<{ slug: st
   const etapa = getEtapa(slug);
   if (!etapa) notFound();
   const photo = STAGE_PHOTOS[slug] ?? "retrato-hombre.jpg";
-  const posts = loadPosts().filter((post) => post.stage === slug);
+  const posts = getPublishedPosts().filter((post) => post.stage === slug);
 
   return (
     <section className="sec" style={{ paddingTop: 28 }}>
@@ -40,7 +40,7 @@ export default async function EtapaPage({ params }: { params: Promise<{ slug: st
         <Crumbs
           items={[
             { name: "Inicio", path: "/" },
-            { name: "Etapas de vida", path: "/etapas/30-39" },
+            { name: "Etapas de vida", path: "/etapas" },
             { name: etapa.nombre, path: `/etapas/${slug}` },
           ]}
         />
@@ -60,7 +60,7 @@ export default async function EtapaPage({ params }: { params: Promise<{ slug: st
             <h1 className="h1" style={{ marginTop: 12 }}>{etapa.nombre}</h1>
             <p className="lede" style={{ marginTop: 16 }}>{etapa.descripcion}</p>
           </div>
-          <Photo file={photo} className="ch-media" priority sizes="(max-width: 600px) 100vw, 40vw" credit alt="" />
+          <Photo file={photo} className="ch-media" priority sizes="(max-width: 600px) 100vw, 40vw" credit />
         </div>
         <div className="rgrid" style={{ marginTop: 48 }}>
           <div>
@@ -115,11 +115,10 @@ export default async function EtapaPage({ params }: { params: Promise<{ slug: st
         </div>
         {posts.length > 0 ? (
           <div style={{ marginTop: 48 }}>
-            <div className="kicker">Guías de esta etapa</div>
+            <div className="kicker">Guías</div>
             <div className="mpg" style={{ marginTop: 16 }}>
               {posts.map((post) => (
                 <Link key={post.slug} href={`/blog/${post.slug}`} style={{ textDecoration: "none" }}>
-                  {post.ejemplo ? <span className="ex-flag">Ejemplo</span> : null}
                   <h2 className="h3" style={{ marginTop: 10 }}>{post.title}</h2>
                   <span className="link" style={{ marginTop: 12 }}>
                     Leer <IconArrow />
@@ -130,7 +129,7 @@ export default async function EtapaPage({ params }: { params: Promise<{ slug: st
           </div>
         ) : (
           <p className="small" style={{ marginTop: 36 }}>
-            Todavía no hay una guía publicada para esta etapa. Las que existan van a decir si son contenido de ejemplo.
+            Todavía no hay una guía publicada para esta edad.
           </p>
         )}
       </div>

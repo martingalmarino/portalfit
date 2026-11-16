@@ -1,0 +1,527 @@
+{
+  "actualizado": "2026-11-16",
+  "nota": "Los posts reemplazan al contenido de ejemplo del blog. [NOMBRE PORTAL] y [dominio] solo aparecen en meta_title y canonical. No hay revisor profesional asignado: no se incluye ningún campo de revisor. Autor provisorio: 'Equipo editorial Portal FIT' debe renderizarse desde la variable del nombre del sitio (p. ej. `Equipo editorial ${getSiteName()}`), no como texto fijo.",
+  "posts": [
+    {
+      "slug": "creatina-para-que-sirve",
+      "archivo": "blog/creatina-para-que-sirve.md",
+      "tema_plan": 1,
+      "title": "Creatina: para qué sirve y qué dice la evidencia",
+      "h1": "Creatina: para qué sirve y qué dice la evidencia",
+      "bajada": "La creatina es uno de los pocos suplementos con evidencia sólida. Qué hace, cómo se usó en los estudios y qué mitos no resisten la evidencia.",
+      "meta_title": "Creatina: para qué sirve y qué dice la evidencia | [NOMBRE PORTAL]",
+      "meta_title_sin_sufijo_caracteres": 48,
+      "description": "Qué es la creatina, qué respaldan la ISSN y el AIS, cómo se usó en los estudios, qué mitos no se sostienen y qué mirar en el rótulo en Argentina.",
+      "description_caracteres": 145,
+      "canonical": "https://[dominio]/blog/creatina-para-que-sirve",
+      "fecha": "2026-11-16",
+      "autor": "Equipo editorial Portal FIT",
+      "categoria": "creatina",
+      "keyword_objetivo": "creatina para qué sirve",
+      "intencion": "Informativa",
+      "palabras": 1898,
+      "minutos_lectura": 9,
+      "h2": [
+        "Qué es la creatina",
+        "Para qué sirve, según la evidencia",
+        "Cómo se usó en los estudios",
+        "Creatina a los 30, 40 y 50",
+        "Mitos frecuentes",
+        "Monohidrato y otras formas",
+        "Qué mirar en el rótulo en Argentina",
+        "Quiénes deberían consultar antes",
+        "Preguntas frecuentes"
+      ],
+      "enlaces_internos": {
+        "categorias": [
+          "/categorias/creatina"
+        ],
+        "etapas": [
+          "/etapas/30-39",
+          "/etapas/40-49",
+          "/etapas/50-60"
+        ],
+        "marcas": [],
+        "blog": [
+          "/blog/marcas-suplementos-argentinas",
+          "/blog/rotulo-suplemento-rnpa-rne",
+          "/blog/suplementos-sistema-abcd-ais"
+        ],
+        "otros": []
+      },
+      "faq": [
+        {
+          "q": "¿La creatina sirve si no voy al gimnasio?",
+          "a": "Los beneficios que describe la evidencia están ligados al ejercicio, sobre todo a esfuerzos intensos y al entrenamiento de fuerza. Sin entrenamiento, es poco lo que se puede esperar en rendimiento."
+        },
+        {
+          "q": "¿Hace falta hacer fase de carga?",
+          "a": "No es obligatoria. La revisión de 2021 concluye que tomar 3 a 5 g por día, de forma sostenida, también llena las reservas musculares, aunque tarda unas semanas más."
+        },
+        {
+          "q": "¿A qué hora conviene tomarla?",
+          "a": "Lo que más pesa es la constancia diaria. La ISSN menciona que tomarla con carbohidratos, o con carbohidratos y proteína, puede mejorar la retención de creatina en el músculo, aunque no necesariamente el rendimiento."
+        },
+        {
+          "q": "¿Cuánto tarda en notarse?",
+          "a": "Con fase de carga, las reservas se llenan en 5 a 7 días. Sin carga, en unas 3 o 4 semanas. Después, el efecto depende del entrenamiento."
+        },
+        {
+          "q": "¿Qué pasa si la dejo?",
+          "a": "Según la ISSN, una vez que se suspende, las reservas musculares tardan entre 4 y 6 semanas en volver a los valores iniciales. No hay evidencia de que el cuerpo deje de fabricar su propia creatina."
+        }
+      ],
+      "fuentes": [
+        {
+          "titulo": "Kreider RB et al. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. JISSN 14:18",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/"
+        },
+        {
+          "titulo": "Antonio J et al. (2021). Common questions and misconceptions about creatine supplementation: what does the scientific evidence really show? JISSN 18:13",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7871530/"
+        },
+        {
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group A",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        },
+        {
+          "titulo": "Maughan RJ et al. (2018). IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med 52:439-455",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/"
+        },
+        {
+          "titulo": "Código Alimentario Argentino, Capítulo XVII, artículo 1381 (Suplementos dietarios)",
+          "url": "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf"
+        },
+        {
+          "titulo": "ANMAT. ¿Qué son los suplementos dietarios?",
+          "url": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
+        }
+      ],
+      "fuentes_verificadas": "HTTP 200 con curl el 16/11/2026",
+      "autor_origen": "Provisorio. Debe salir de la variable del nombre del sitio: 'Equipo editorial ' + nombre del sitio. Hoy resuelve a 'Equipo editorial Portal FIT'."
+    },
+    {
+      "slug": "rotulo-suplemento-rnpa-rne",
+      "archivo": "blog/rotulo-suplemento-rnpa-rne.md",
+      "tema_plan": 5,
+      "title": "Rótulo de un suplemento: cómo leer el RNPA y el RNE",
+      "h1": "Rótulo de un suplemento: cómo leer el RNPA y el RNE",
+      "bajada": "Qué datos tiene que tener el envase, cómo se lee cada número de registro y cómo verificarlo en el buscador oficial.",
+      "meta_title": "Rótulo de un suplemento: cómo leer el RNPA y el RNE | [NOMBRE PORTAL]",
+      "meta_title_sin_sufijo_caracteres": 51,
+      "description": "Qué tiene que decir el rótulo de un suplemento en Argentina, qué son el RNPA y el RNE, cómo verificarlos y qué cambió al pasar el registro al SENASA.",
+      "description_caracteres": 149,
+      "canonical": "https://[dominio]/blog/rotulo-suplemento-rnpa-rne",
+      "fecha": "2026-11-16",
+      "autor": "Equipo editorial Portal FIT",
+      "categoria": "proteinas",
+      "keyword_objetivo": "rnpa suplemento",
+      "intencion": "Informativa / transaccional",
+      "palabras": 1906,
+      "minutos_lectura": 10,
+      "h2": [
+        "Qué es, legalmente, un suplemento dietario",
+        "Qué cambió en 2026",
+        "Los datos que tiene que tener el rótulo",
+        "RNPA y RNE: qué es cada uno",
+        "Cómo verificar un RNPA paso a paso",
+        "Señales de alerta",
+        "Cómo usar esta información al comprar",
+        "Preguntas frecuentes"
+      ],
+      "enlaces_internos": {
+        "categorias": [
+          "/categorias/proteinas"
+        ],
+        "etapas": [
+          "/etapas/50-60"
+        ],
+        "marcas": [
+          "/marcas/body-advance",
+          "/marcas/mervick-lab",
+          "/marcas/star-nutrition"
+        ],
+        "blog": [
+          "/blog/creatina-para-que-sirve",
+          "/blog/suplementos-sistema-abcd-ais"
+        ],
+        "otros": []
+      },
+      "faq": [
+        {
+          "q": "¿Qué significa RNPA en un suplemento?",
+          "a": "Es el Registro Nacional de Producto Alimenticio: el número que identifica a ese producto autorizado para venderse en el país. Se puede consultar en el buscador público de productos autorizados."
+        },
+        {
+          "q": "¿Y el RNE?",
+          "a": "Es el Registro Nacional de Establecimientos: identifica a la planta que elabora o fracciona el producto, o al importador. El RNE habilita al lugar, no a cada producto."
+        },
+        {
+          "q": "¿Un suplemento con RNPA es seguro o eficaz?",
+          "a": "El registro indica que el producto fue autorizado para comercializarse con esa composición y ese rótulo. No es una garantía de que vaya a funcionar ni de que sea adecuado para vos. Para eso, conviene revisar la evidencia del ingrediente y consultar a un profesional."
+        },
+        {
+          "q": "¿Qué hago si el RNPA no aparece en el buscador?",
+          "a": "Revisá que hayas elegido bien el código jurisdiccional. Si el registro es de la Ciudad de Buenos Aires o de Santa Fe, puede que el buscador no lo muestre completo. En ese caso, consultá a la autoridad sanitaria de esa jurisdicción o pedile la constancia a la marca."
+        },
+        {
+          "q": "¿Cambian los números de registro con el paso a SENASA?",
+          "a": "Los registros existentes se reconocen como vigentes, aunque desde el Decreto 697/2026 su gestión está a cargo del SENASA. El decreto prevé un nuevo formato con la sigla SENASA para ciertos establecimientos y un plazo de dos años para adaptar los rótulos, así que durante la transición vas a ver los dos formatos."
+        }
+      ],
+      "fuentes": [
+        {
+          "titulo": "Código Alimentario Argentino, Capítulo XVII, artículo 1381 (Suplementos dietarios), texto actualizado",
+          "url": "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf"
+        },
+        {
+          "titulo": "ANMAT. ¿Qué son los suplementos dietarios?",
+          "url": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
+        },
+        {
+          "titulo": "Decreto 697/2026 (Código Alimentario Argentino). Boletín Oficial, 03/08/2026",
+          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803"
+        },
+        {
+          "titulo": "Argentina.gob.ar. Cambios en las competencias de control y fiscalización de alimentos",
+          "url": "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
+        },
+        {
+          "titulo": "SIFeGA. Buscador público de productos alimenticios autorizados (RNPA)",
+          "url": "https://inal.sifega.anmat.gob.ar/consultadealimentos/"
+        },
+        {
+          "titulo": "SIFeGA. Consulta pública de establecimientos (RNE)",
+          "url": "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        },
+        {
+          "titulo": "Argentina.gob.ar. Productos alimenticios autorizados: búsqueda pública",
+          "url": "https://www.argentina.gob.ar/anmat/regulados/alimentos/sifega/busqueda-publica/productos-alimenticios-autorizados"
+        },
+        {
+          "titulo": "Argentina.gob.ar. Consejos sobre el etiquetado de productos alimenticios",
+          "url": "https://www.argentina.gob.ar/noticias/consejos-sobre-el-etiquetado-de-productos-alimenticios"
+        }
+      ],
+      "fuentes_verificadas": "HTTP 200 con curl el 16/11/2026",
+      "autor_origen": "Provisorio. Debe salir de la variable del nombre del sitio: 'Equipo editorial ' + nombre del sitio. Hoy resuelve a 'Equipo editorial Portal FIT'."
+    },
+    {
+      "slug": "suplementos-sistema-abcd-ais",
+      "archivo": "blog/suplementos-sistema-abcd-ais.md",
+      "tema_plan": 7,
+      "title": "Sistema ABCD del AIS: qué suplementos tienen evidencia",
+      "h1": "Sistema ABCD del AIS: qué suplementos tienen evidencia",
+      "bajada": "El Instituto Australiano del Deporte ordena los suplementos en cuatro grupos según su seguridad, su legalidad en el deporte y su evidencia. Cómo leerlo.",
+      "meta_title": "Sistema ABCD del AIS: qué suplementos tienen evidencia | [NOMBRE PORTAL]",
+      "meta_title_sin_sufijo_caracteres": 54,
+      "description": "Cómo clasifica el Instituto Australiano del Deporte a los suplementos en los grupos A, B, C y D, qué incluye cada uno y cómo leerlo sin malinterpretarlo.",
+      "description_caracteres": 153,
+      "canonical": "https://[dominio]/blog/suplementos-sistema-abcd-ais",
+      "fecha": "2026-11-16",
+      "autor": "Equipo editorial Portal FIT",
+      "categoria": "pre-entrenos",
+      "keyword_objetivo": "suplementos que funcionan",
+      "intencion": "Informativa",
+      "palabras": 1957,
+      "minutos_lectura": 10,
+      "h2": [
+        "Qué es el AIS y por qué su clasificación sirve",
+        "Los cuatro grupos, de un vistazo",
+        "Grupo A: evidencia sólida, para usos concretos",
+        "Grupo B: evidencia emergente",
+        "Grupo C: sin beneficio demostrado en atletas",
+        "Grupo D: lo que no debería usar un deportista",
+        "Cómo leer el ABCD sin malinterpretarlo",
+        "Cómo usamos esta clasificación en este sitio",
+        "Y en Argentina, ¿qué vale?",
+        "Preguntas frecuentes"
+      ],
+      "enlaces_internos": {
+        "categorias": [
+          "/categorias/aminoacidos",
+          "/categorias/barras-snacks",
+          "/categorias/colageno",
+          "/categorias/geles-carbohidratos",
+          "/categorias/hidratacion-electrolitos",
+          "/categorias/magnesio",
+          "/categorias/omega-3",
+          "/categorias/pre-entrenos",
+          "/categorias/proteinas",
+          "/categorias/quemadores-termogenicos",
+          "/categorias/vitaminas-minerales"
+        ],
+        "etapas": [
+          "/etapas/30-39"
+        ],
+        "marcas": [],
+        "blog": [
+          "/blog/creatina-para-que-sirve",
+          "/blog/rotulo-suplemento-rnpa-rne"
+        ],
+        "otros": [
+          "/como-evaluamos"
+        ]
+      },
+      "faq": [
+        {
+          "q": "¿Qué suplementos están en el Grupo A del AIS?",
+          "a": "Alimentos deportivos (bebidas, geles, gomitas, barras, electrolitos, proteína aislada y suplementos mixtos), suplementos médicos vinculados a deficiencias (calcio, folato, hierro, vitamina D y zinc) y suplementos de rendimiento (cafeína, beta-alanina, nitrato, bicarbonato de sodio, creatina monohidrato y glicerol)."
+        },
+        {
+          "q": "¿Los BCAA sirven, según el AIS?",
+          "a": "El AIS ubica a los BCAA en el Grupo C: su comité acordó pasarlos desde el Grupo B porque la investigación más reciente no respalda un beneficio en atletas."
+        },
+        {
+          "q": "¿El omega 3 y el colágeno tienen evidencia?",
+          "a": "Están en el Grupo B: hay evidencia emergente o mixta, que el AIS considera para casos puntuales y con seguimiento. No alcanza para una recomendación general."
+        },
+        {
+          "q": "¿Por qué los quemadores tienen tan mala fama?",
+          "a": "Porque muchos combinan estimulantes, y varios de ellos, como la sinefrina, la naranja amarga o la DMAA, están en el Grupo D por estar prohibidos o por su alto riesgo de contaminación."
+        },
+        {
+          "q": "¿La clasificación cambia?",
+          "a": "Sí. Un comité del AIS revisa pedidos de inclusión y reclasificación cada tres meses, así que conviene consultar la versión vigente en su sitio."
+        }
+      ],
+      "fuentes": [
+        {
+          "titulo": "Australian Institute of Sport. The AIS Sports Supplement Framework",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements"
+        },
+        {
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group A",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        },
+        {
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group B",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
+        },
+        {
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group C",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_c"
+        },
+        {
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group D",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+        },
+        {
+          "titulo": "Maughan RJ et al. (2018). IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med 52:439-455",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/"
+        },
+        {
+          "titulo": "Agencia Mundial Antidopaje (WADA/AMA)",
+          "url": "https://www.wada-ama.org/"
+        },
+        {
+          "titulo": "Código Alimentario Argentino, Capítulo XVII, artículo 1381 (Suplementos dietarios)",
+          "url": "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf"
+        }
+      ],
+      "fuentes_verificadas": "HTTP 200 con curl el 16/11/2026",
+      "autor_origen": "Provisorio. Debe salir de la variable del nombre del sitio: 'Equipo editorial ' + nombre del sitio. Hoy resuelve a 'Equipo editorial Portal FIT'."
+    },
+    {
+      "slug": "marcas-suplementos-argentinas",
+      "archivo": "blog/marcas-suplementos-argentinas.md",
+      "tema_plan": 22,
+      "title": "Marcas de suplementos argentinas: historia y fabricación",
+      "h1": "Marcas de suplementos argentinas: historia y fabricación",
+      "bajada": "De dónde viene cada marca, quién está detrás y cómo se fabrica un suplemento en el país. Un recorrido con datos públicos y en orden editorial.",
+      "meta_title": "Marcas de suplementos argentinas: historia y fabricación | [NOMBRE PORTAL]",
+      "meta_title_sin_sufijo_caracteres": 56,
+      "description": "Quién está detrás de las principales marcas de suplementos que se venden en Argentina, de dónde vienen, en qué se enfocan y cómo se fabrica un suplemento.",
+      "description_caracteres": 154,
+      "canonical": "https://[dominio]/blog/marcas-suplementos-argentinas",
+      "fecha": "2026-11-16",
+      "autor": "Equipo editorial Portal FIT",
+      "categoria": "proteinas",
+      "keyword_objetivo": "marcas de suplementos argentinas",
+      "intencion": "Informativa / navegacional",
+      "palabras": 1983,
+      "minutos_lectura": 10,
+      "h2": [
+        "Cómo armamos esta guía",
+        "Cómo se fabrica un suplemento en Argentina",
+        "Las marcas, una por una",
+        "Cómo comparar marcas con criterio",
+        "Preguntas frecuentes"
+      ],
+      "enlaces_internos": {
+        "categorias": [
+          "/categorias/proteinas"
+        ],
+        "etapas": [
+          "/etapas/30-39",
+          "/etapas/40-49",
+          "/etapas/50-60"
+        ],
+        "marcas": [
+          "/marcas/body-advance",
+          "/marcas/ena-sport",
+          "/marcas/gentech",
+          "/marcas/gold-nutrition",
+          "/marcas/granger",
+          "/marcas/htn",
+          "/marcas/mervick-lab",
+          "/marcas/nutremax",
+          "/marcas/one-fit-nutrition",
+          "/marcas/optimum-nutrition",
+          "/marcas/pulver",
+          "/marcas/star-nutrition",
+          "/marcas/ultra-tech",
+          "/marcas/xtrenght"
+        ],
+        "blog": [
+          "/blog/creatina-para-que-sirve",
+          "/blog/rotulo-suplemento-rnpa-rne",
+          "/blog/suplementos-sistema-abcd-ais"
+        ],
+        "otros": []
+      },
+      "faq": [
+        {
+          "q": "¿Cuál es la marca de suplementos más grande de Argentina?",
+          "a": "El único dato público de participación de mercado que encontramos es el de ENA Sport: según Forbes Argentina (2020), tenía más del 30 % del mercado. Para el resto de las marcas no hay cifras públicas comparables."
+        },
+        {
+          "q": "¿Los suplementos argentinos son de menor calidad que los importados?",
+          "a": "La calidad no depende del origen sino de cómo se fabrica cada producto. Los suplementos que se venden en el país, nacionales o importados, tienen que cumplir el Código Alimentario Argentino, elaborarse con buenas prácticas de manufactura y tener su registro. Lo que podés hacer es revisar el rótulo y verificar los registros."
+        },
+        {
+          "q": "¿Qué marcas fabrican para otras?",
+          "a": "Según sus propias declaraciones o la prensa, Gentech fabrica productos para terceros y X-Nutrition, la empresa de One Fit Nutrition, declara producir para más de 15 marcas. Por eso, en el rótulo, el elaborador puede ser distinto de la marca."
+        },
+        {
+          "q": "¿Por qué esta lista está en este orden?",
+          "a": "Es un orden editorial basado en datos públicos de escala, trayectoria, presencia comercial y amplitud de catálogo. No mide calidad ni ventas, y no es una recomendación."
+        }
+      ],
+      "fuentes": [
+        {
+          "titulo": "Forbes Argentina. Suplementos deportivos: el negocio detrás del rendimiento",
+          "url": "https://www.forbesargentina.com/negocios/suplementos-deportivos-negocio-detras-rendimiento-n2489"
+        },
+        {
+          "titulo": "El Cronista. La decisión de ser una empresa internacional (ENA)",
+          "url": "https://www.cronista.com/pyme/negocios-pyme/la-decision-de-ser-una-empresa-internacional/"
+        },
+        {
+          "titulo": "Endeavor Argentina. Martín Fidani",
+          "url": "https://www.endeavor.org.ar/emprendedores/martin-fidani/"
+        },
+        {
+          "titulo": "Forbes Argentina. Cómo es Gentech, la compañía pionera de suplementos dietarios que factura $ 116 millones",
+          "url": "https://www.forbesargentina.com/negocios/como-gentech-compania-pionera-suplementos-dietarios-factura-116-millones-n8299"
+        },
+        {
+          "titulo": "Gentech. Sobre el laboratorio",
+          "url": "https://www.gentech.com.ar/sobre-el-laboratorio-de-suplementos-deportivos-gentech"
+        },
+        {
+          "titulo": "Web Supplements (Ultra Tech). Historia",
+          "url": "https://websupplements.com.ar/empresa/historia/"
+        },
+        {
+          "titulo": "Star Nutrition. Nosotros",
+          "url": "https://starnutrition.com.ar/pages/nosotros"
+        },
+        {
+          "titulo": "Optimum Nutrition. About us",
+          "url": "https://www.optimumnutrition.com/en-us/pages/about-us"
+        },
+        {
+          "titulo": "Trust Distributions. Marcas",
+          "url": "https://trustdistributions.com.ar/"
+        },
+        {
+          "titulo": "Mervick Lab. Tienda oficial",
+          "url": "https://tiendamervick.com.ar/"
+        },
+        {
+          "titulo": "Gold Nutrition. Sitio oficial",
+          "url": "https://goldnutrition.com.ar/"
+        },
+        {
+          "titulo": "Gold Nutrition. Página de prelanzamiento archivada (enero de 2018)",
+          "url": "https://web.archive.org/web/20180104140843/http://www.goldnutrition.com.ar/"
+        },
+        {
+          "titulo": "HTN. Somos High Tech Nutrition",
+          "url": "https://htn.com.ar/somos-high-tech-nutrition/"
+        },
+        {
+          "titulo": "Body Advance. Calidad y certificaciones",
+          "url": "https://bodyadvancenutrition.com/calidad-y-certificaciones/"
+        },
+        {
+          "titulo": "ANMAT. Disposición 772/2021 (Body Advance, Whey Protein)",
+          "url": "https://boletin.anmat.gob.ar/enero_2021/Dispo_0772-21.pdf"
+        },
+        {
+          "titulo": "Xtrenght Nutrition. Sitio oficial",
+          "url": "https://xtrenght-nutrition.com/"
+        },
+        {
+          "titulo": "X-Nutrition (One Fit Nutrition). Nosotros",
+          "url": "https://tiendaxnutrition.com/pages/nosotros"
+        },
+        {
+          "titulo": "CAPALIGLU. Ficha de socio: Pulver",
+          "url": "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37"
+        },
+        {
+          "titulo": "Punto Biz. Hacen suplementos deportivos y este año se mudan para triplicar superficie (Nutremax)",
+          "url": "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600"
+        },
+        {
+          "titulo": "Punto Biz. Pasaron de producir en casa a duplicar planta, y van por los supermercados (Granger)",
+          "url": "https://puntobiz.com.ar/negocios/pasaron-de-producir-en-casa-a-duplicar-planta-y-van-por-los-supermercados-2024810600"
+        },
+        {
+          "titulo": "ENA Sport España. Sobre nosotros",
+          "url": "https://www.enasport.es/pages/nosotros"
+        },
+        {
+          "titulo": "ANMAT. Retiro del mercado de suplementos dietarios Whey Protein de Body Advance",
+          "url": "https://www.argentina.gob.ar/noticias/retiro-del-mercado-de-suplementos-dietarios-whey-protein-de-body-advance"
+        },
+        {
+          "titulo": "Body Advance. Certificado de Buenas Prácticas de Manufactura (INAL/ANMAT, 18/02/2026)",
+          "url": "https://bodyadvancenutrition.com/wp-content/uploads/2026/06/certificado-buenas-practicas-anmat-body-advance.pdf"
+        },
+        {
+          "titulo": "Xtrenght Nutrition. Nosotros",
+          "url": "https://xtrenght-nutrition.com/about-us"
+        },
+        {
+          "titulo": "Punto Biz. Se fortalecen con nuevo producto y le ponen fichas al mercado externo (Nutremax, 2024)",
+          "url": "https://puntobiz.com.ar/negocios/-se-fortalecen-con-nuevo-producto-y-le-ponen-fichas-al-mercado-externo--2024710550"
+        },
+        {
+          "titulo": "Boletín Oficial de Santa Fe, 15/09/2022. Granger S.A., estatuto",
+          "url": "https://www.santafe.gob.ar/boletinoficial/ver.php?seccion=2022%2F2022-09-15contratos.html"
+        },
+        {
+          "titulo": "Gentech. Sitio oficial",
+          "url": "https://www.gentech.com.ar/"
+        },
+        {
+          "titulo": "HTN. Sitio oficial",
+          "url": "https://htn.com.ar/"
+        },
+        {
+          "titulo": "SIFeGA. Consulta pública de establecimientos (RNE)",
+          "url": "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+        },
+        {
+          "titulo": "Código Alimentario Argentino, Capítulo XVII, artículo 1381 (Suplementos dietarios)",
+          "url": "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf"
+        }
+      ],
+      "fuentes_verificadas": "HTTP 200 con curl el 16/11/2026",
+      "autor_origen": "Provisorio. Debe salir de la variable del nombre del sitio: 'Equipo editorial ' + nombre del sitio. Hoy resuelve a 'Equipo editorial Portal FIT'."
+    }
+  ]
+}

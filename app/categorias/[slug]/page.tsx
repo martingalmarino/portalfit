@@ -5,10 +5,19 @@ import { Crumbs } from "@/components/ui/crumbs";
 import { JsonLd } from "@/components/ui/json-ld";
 import { Photo } from "@/components/ui/photo";
 import { getAffiliateProvider } from "@/lib/affiliates";
-import { getCategoria, getCategorias, getEtapas, getMarcas, loadTaxonomia } from "@/lib/content/load";
+import { getCategoria, getCategorias, getMarcas, loadTaxonomia } from "@/lib/content/load";
+import { Editorial } from "@/components/ui/editorial";
 import { EVIDENCE, hostOf, isHttpUrl, pad2 } from "@/lib/format";
 import { CATEGORY_FEATURE_PHOTOS, LINE_PHOTOS } from "@/lib/photos";
-import { itemListJsonLd, pageMetadata } from "@/lib/seo";
+import { categoryTitle, itemListJsonLd, pageMetadata } from "@/lib/seo";
+
+const LEVEL_NAME = {
+  alto: "Alto",
+  moderado: "Moderado",
+  bajo: "Bajo",
+  precaucion: "Precaución",
+  variable: "Variable",
+} as const;
 
 export function generateStaticParams() {
   return getCategorias().map((item) => ({ slug: item.slug }));
@@ -21,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const categoria = getCategoria(slug);
   if (!categoria) return {};
   return pageMetadata({
-    title: categoria.nombre,
+    title: categoryTitle(categoria.nombre),
     description: categoria.descripcion,
     path: `/categorias/${slug}`,
   });
@@ -60,23 +69,24 @@ export default async function CategoriaPage({ params }: { params: Promise<{ slug
           <div className="ch-grid" style={{ marginTop: 12 }}>
             <div>
               <div className="kicker">
-                <span className="num">{pad2(index + 1)}</span> de {getCategorias().length}
+                Categoría {pad2(index + 1)} de {getCategorias().length} · {categoria.subcategorias.length} subcategorías · {categoria.marcas.length} marcas
               </div>
               <h1 className="h1" style={{ marginTop: 12 }}>{categoria.nombre}</h1>
-              <p className="lede" style={{ marginTop: 16 }}>{categoria.descripcion}</p>
+              <p className="lede" style={{ marginTop: 16 }}><Editorial text={categoria.descripcion} /></p>
               <div className="evbox">
                 <div className="evb-l">
                   {meta.grade ? <span className={`grade ${meta.gradeClass}`} style={{ width: 54, height: 54, fontSize: 26 }}>{meta.grade}</span> : <span className="num">·</span>}
                   <div>
-                    <b className="serif" style={{ fontSize: 22 }}>Evidencia {meta.label.toLowerCase()}</b>
+                    <div className="kicker">Nivel de evidencia</div>
+                    <b className="serif" style={{ fontSize: 22 }}>{LEVEL_NAME[categoria.nivel_evidencia]}</b>
                     <p className="xs" style={{ marginTop: 4 }}>{meta.grade ? `AIS Grupo ${meta.grade}` : "Se evalúa por subcategoría"}</p>
                   </div>
                 </div>
-                <p className="small" style={{ margin: 0 }}>{categoria.nota_evidencia}</p>
+                <p className="small" style={{ margin: 0 }}><Editorial text={categoria.nota_evidencia} /></p>
               </div>
-              <p className="xs" style={{ marginTop: 14 }}>{tax.nota_evidencia}</p>
+              <p className="xs" style={{ marginTop: 14 }}><Editorial text={tax.nota_evidencia} /></p>
             </div>
-            <Photo file={photo} className="ch-media" priority sizes="(max-width: 600px) 100vw, 40vw" tag="Imagen ilustrativa" alt="" />
+            <Photo file={photo} className="ch-media" priority sizes="(max-width: 600px) 100vw, 40vw" tag="Imagen ilustrativa" />
           </div>
         </div>
       </section>
@@ -86,8 +96,6 @@ export default async function CategoriaPage({ params }: { params: Promise<{ slug
             products={products}
             subcategorias={categoria.subcategorias.map((item) => ({ slug: item.slug, nombre: item.nombre }))}
             marcas={categoria.marcas.map((item) => ({ slug: item, nombre: marcaName.get(item) ?? item }))}
-            etapas={getEtapas().map((item) => ({ slug: item.slug, nombre: item.nombre }))}
-            niveles={tax.niveles_de_usuario.map((item) => ({ slug: item.slug, nombre: item.nombre }))}
             showGuide={slug === "proteinas"}
           />
           <div className="rgrid" style={{ marginTop: 56 }}>
@@ -96,12 +104,14 @@ export default async function CategoriaPage({ params }: { params: Promise<{ slug
               <ul style={{ listStyle: "none", padding: 0, margin: "16px 0 0", display: "grid", gap: 8 }}>
                 {categoria.subcategorias.map((item) => (
                   <li key={item.slug}>
-                    <span className="serif" style={{ fontSize: 20 }}>{item.nombre}</span>
+                    <Link className="serif" href={`/categorias/${slug}?sub=${item.slug}`} style={{ fontSize: 20 }}>
+                      {item.nombre}
+                    </Link>
                   </li>
                 ))}
               </ul>
               <p className="xs" style={{ marginTop: 12 }}>
-                Las subcategorías filtran el listado de arriba. Todavía no tienen página propia.
+                Cada nombre filtra el listado de arriba.
               </p>
             </div>
             <div>

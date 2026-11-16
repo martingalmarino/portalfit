@@ -1,7 +1,9 @@
 import { loadAffiliateFile, loadMarcas, loadTaxonomia } from "@/lib/content/load";
-import { formatExamplePrice, isHttpUrl } from "@/lib/format";
-import { buildAffiliateHref } from "@/lib/affiliates/links";
+import { productHref } from "@/lib/affiliates/links";
+import { blockHasAffiliate } from "@/lib/affiliates/notice";
 import type { AffiliateProduct, AffiliateProvider } from "@/lib/affiliates/types";
+
+const HOME_PICKS = ["proteinas", "creatina", "pre-entrenos", "aminoacidos"];
 
 function catalog(): AffiliateProduct[] {
   const file = loadAffiliateFile();
@@ -11,9 +13,9 @@ function catalog(): AffiliateProduct[] {
     const marca = marcas.get(product.marca);
     const categoria = categorias.get(product.categoria);
     if (!marca || !categoria) {
-      throw new Error(`Producto de ejemplo "${product.id}" sin marca o categoría cargada`);
+      throw new Error(`El producto "${product.id}" no tiene marca o categoría cargada`);
     }
-    const rneVerificado = marca.certificaciones.valor.some((item) => /\[verific/i.test(item));
+    const afiliado = Boolean(product.affiliateUrl);
     return {
       id: product.id,
       titulo: product.titulo,
@@ -23,28 +25,33 @@ function catalog(): AffiliateProduct[] {
       categoriaNombre: categoria.nombre,
       subcategoria: product.subcategoria,
       etiquetas: product.etiquetas,
-      precioEjemplo: product.precioEjemplo,
-      precioLabel: formatExamplePrice(product.precioEjemplo),
-      ejemplo: true,
-      imagen: product.imagen,
-      posicion: product.posicion,
-      href: buildAffiliateHref(product.url),
-      urlTipo: product.urlTipo,
-      notaEditorial: product.notaEditorial,
+      imagenUrl: product.imagenUrl,
+      posicion: product.posicion ?? "50% 50%",
+      href: productHref({
+        url: product.url,
+        affiliateUrl: product.affiliateUrl,
+        titulo: product.titulo,
+        provisional: product.provisional,
+      }),
+      afiliado,
       destacado: product.destacado,
       masVendidoSegunMarca: product.masVendidoSegunMarca,
       evidence: categoria.nivel_evidencia,
-      tiendaOficial: isHttpUrl(String(marca.mercado_libre.valor)),
-      rneVerificado,
+      tiendaOficial: product.tiendaOficial,
+      rneVerificado: marca.rne_consultado_sifega,
     };
   });
 }
 
-export const mockAffiliateProvider: AffiliateProvider = {
+export const curatedAffiliateProvider: AffiliateProvider = {
   getFeatured(limit = 4) {
-    return catalog()
-      .filter((item) => item.destacado)
-      .slice(0, limit);
+    const all = catalog();
+    const flagged = all.filter((item) => item.destacado);
+    if (flagged.length > 0) return flagged.slice(0, limit);
+    return HOME_PICKS.flatMap((slug) => {
+      const match = all.find((item) => item.categoriaSlug === slug);
+      return match ? [match] : [];
+    }).slice(0, limit);
   },
   getProductsByBrand(brandSlug: string) {
     return catalog().filter((item) => item.marcaSlug === brandSlug);
@@ -57,3 +64,5 @@ export const mockAffiliateProvider: AffiliateProvider = {
 export function getAffiliateProduct(id: string): AffiliateProduct | undefined {
   return catalog().find((item) => item.id === id);
 }
+
+export { blockHasAffiliate };

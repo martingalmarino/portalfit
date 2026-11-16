@@ -13,7 +13,7 @@ export function BrandLogo({
   scale?: number;
 }) {
   const spec = logoFor(slug);
-  if (!spec) return <span className="pend">Pendiente</span>;
+  if (!spec) return <span className="brandname">{name}</span>;
   const box: LogoBox = spec[variant];
   const width = Math.round(box.w * scale);
   const height = Math.round(box.h * scale);

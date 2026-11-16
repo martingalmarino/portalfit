@@ -1,21 +1,19 @@
 import Link from "next/link";
 import { Crumbs } from "@/components/ui/crumbs";
-import { Editorial } from "@/components/ui/editorial";
 import { JsonLd } from "@/components/ui/json-ld";
 import { Photo } from "@/components/ui/photo";
-import { loadPosts } from "@/lib/content/load";
-import { EVIDENCE, formatContentDate } from "@/lib/format";
+import { getPublishedPosts } from "@/lib/content/load";
+import { EVIDENCE, formatContentDate, publishedCopy } from "@/lib/format";
 import { itemListJsonLd, pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Guías",
-  description:
-    "Guías de Portal FIT sobre suplementos y nutrición deportiva. Cada pieza lleva autor, revisor, fecha, fuentes y grado de evidencia. Las marcadas como ejemplo no son la versión editorial definitiva.",
+  title: "Guías de suplementos en Argentina",
+  description: "Guías de Portal FIT sobre suplementos y nutrición deportiva, con autor, fecha y fuentes.",
   path: "/blog",
 });
 
 export default function BlogPage() {
-  const posts = loadPosts();
+  const posts = getPublishedPosts();
   return (
     <section className="sec" style={{ paddingTop: 28 }}>
       <div className="wrap">
@@ -31,37 +29,38 @@ export default function BlogPage() {
           <div className="kicker">Guías</div>
           <h1 className="h1">Lecturas con byline y fuentes</h1>
           <p className="lede" style={{ marginTop: 16, maxWidth: 680 }}>
-            La etapa 1 publica la plantilla con un artículo de ejemplo, tomado del boceto, y dos fichas cortas para que el índice no quede vacío. Todo lo marcado como ejemplo se reemplaza por un MDX de Redacción.
+            Cada guía lleva autor, fecha y fuentes.
           </p>
         </div>
         <div className="pgrid">
-          {posts.map((post, index) => (
-            <Link className="pcard" href={`/blog/${post.slug}`} key={post.slug} style={{ textDecoration: "none" }}>
-              <Photo
-                file={post.image}
-                className="guide-ph"
-                sizes="(max-width: 600px) 100vw, 40vw"
-                alt=""
-                priority={index === 0}
-                quality={index === 0 ? 60 : 75}
-              />
-              <div style={{ paddingTop: 14, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
-                {post.ejemplo ? <span className="ex-flag">Ejemplo</span> : null}
-                <span className="xs">{formatContentDate(post.date)} · {post.readingMinutes} min</span>
-                {post.evidence ? (
-                  <span className={`pill ev ${EVIDENCE[post.evidence].chip}`}>
-                    <span className="dot" />
-                    {EVIDENCE[post.evidence].label}
+          {posts.map((post) => {
+            const bajada = publishedCopy(post.bajada);
+            return (
+              <Link className="pcard" href={`/blog/${post.slug}`} key={post.slug} style={{ textDecoration: "none" }}>
+                {post.image ? (
+                  <Photo file={post.image} className="guide-ph" sizes="(max-width: 600px) 100vw, 40vw" />
+                ) : (
+                  <div className="guide-fallback" aria-hidden>
+                    <span className="kicker">Guía</span>
+                  </div>
+                )}
+                <div style={{ paddingTop: 14, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
+                  <span className="xs">
+                    {formatContentDate(post.date)}
+                    {post.readingMinutes ? ` · ${post.readingMinutes} min` : ""}
                   </span>
-                ) : null}
-              </div>
-              <h2 className="h3" style={{ marginTop: 12 }}>{post.title}</h2>
-              <p className="small">{post.excerpt}</p>
-              <p className="xs">
-                {post.author} · Revisión: <Editorial text={post.reviewer} />
-              </p>
-            </Link>
-          ))}
+                  {post.evidence ? (
+                    <span className={`pill ev ${EVIDENCE[post.evidence].chip}`}>
+                      <span className="dot" />
+                      {EVIDENCE[post.evidence].label}
+                    </span>
+                  ) : null}
+                </div>
+                <h2 className="h3" style={{ marginTop: 12 }}>{post.h1}</h2>
+                {bajada ? <p className="small">{bajada}</p> : null}
+              </Link>
+            );
+          })}
         </div>
       </div>
     </section>

@@ -30,11 +30,10 @@ Tres amigos rafaelinos arrancaron en 2020 produciendo proteína de huevo hidroli
 [Proteínas](/categorias/proteinas), [Barras y snacks proteicos](/categorias/barras-snacks), [Colágeno](/categorias/colageno)
 
 ## Registros y certificaciones
-- RNE/RNPA: PENDIENTE (la consulta en INAL por 'Granger' no devolvió resultados; jurisdicción Santa Fe/ASSAL)
 - No se declaran certificaciones en el sitio oficial revisado
-- RNPA por producto: ver rótulo
+- RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)
 
-_La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026._
+_Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA._
 
 ## Dónde comprar
 - Sitio oficial: https://www.grangernutricion.com/
@@ -56,7 +55,7 @@ Granger Nutrición es una marca de Argentina (Rafaela, Santa Fe).
 Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/granger.
 
 ### ¿Qué registros o certificaciones tiene Granger Nutrición?
-RNE/RNPA: PENDIENTE (la consulta en INAL por 'Granger' no devolvió resultados; jurisdicción Santa Fe/ASSAL). No se declaran certificaciones en el sitio oficial revisado. RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
+No se declaran certificaciones en el sitio oficial revisado. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
 
 ## Fuentes
 - Granger Nutrición – sitio oficial: https://www.grangernutricion.com/
@@ -65,7 +64,9 @@ RNE/RNPA: PENDIENTE (la consulta en INAL por 'Granger' no devolvió resultados; 
 - CAME (09/06/2025) – Socios y amigos por la alimentación saludable (Granger Nutrición): https://www.redcame.org.ar/novedades/14245/socios-y-amigos-por-la-alimentacion-saludable
 - Boletín Oficial de Santa Fe (15/09/2022) – Granger S.A., estatuto (instrumento del 10/08/2022, Rafaela; socios Rucci, Pfaffen y Giuliani; objeto: suplementos dietarios y proteicos): https://www.santafe.gob.ar/boletinoficial/ver.php?seccion=2022%2F2022-09-15contratos.html
 - Indicadores AR – Granger S.A., CUIT 30-71779148-3 (registro de terceros): https://indicadores.ar/empresa/30717791483
-- INAL/ANMAT – Consulta pública de establecimientos (RNE). Búsquedas por razón social/RNE realizadas el 16/11/2026: https://inal.sifega.anmat.gob.ar/consultadeRegistro/
+- SIFeGA – Consulta pública de establecimientos (RNE). Búsquedas por razón social/RNE realizadas el 16/11/2026: https://inal.sifega.anmat.gob.ar/consultadeRegistro/
+- Decreto 697/2026 (Código Alimentario Argentino). Boletín Oficial, 03/08/2026: https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803
+- Argentina.gob.ar (06/08/2026) – Cambios en las competencias de control y fiscalización de alimentos: https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos
 - Mercado Libre – Tienda oficial Granger: https://www.mercadolibre.com.ar/tienda/granger
 
-_Actualizado: 2026-11-16. Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular._
+_Actualizado: 2026-11-16. Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular._

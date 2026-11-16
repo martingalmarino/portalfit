@@ -1,0 +1,39 @@
+{
+  "slug": "herramientas-proteina-diaria",
+  "ruta": "/herramientas/proteina-diaria",
+  "hallazgo": "QA-A13",
+  "meta": {
+    "title": "Calculadora de proteína diaria",
+    "description": "Un rango orientativo de proteína por día según tu peso y tu entrenamiento. Próximamente."
+  },
+  "kicker": "Próximamente",
+  "h1": "Calculadora de proteína diaria",
+  "bajada": "Esta calculadora todavía no está disponible. Va a darte un rango orientativo de proteína por día según tu peso y tu nivel de entrenamiento, con la fuente de cada número.",
+  "secciones": [
+    {
+      "h2": "Qué va a hacer",
+      "parrafos": [
+        "Vas a ingresar tu peso y cuánto entrenás, y te va a mostrar un rango de referencia en gramos por día. El cálculo se va a hacer en tu navegador: no vamos a guardar los datos que ingreses."
+      ]
+    },
+    {
+      "h2": "Qué no va a hacer",
+      "parrafos": [
+        "No reemplaza una indicación profesional. Si tenés alguna condición de salud, como una enfermedad renal, o estás embarazada, consultá con tu médico o nutricionista antes de cambiar cuánta proteína comés."
+      ]
+    },
+    {
+      "h2": "Mientras tanto",
+      "parrafos": [
+        "En la categoría Proteínas explicamos los tipos de proteína en polvo y qué mirar en el rótulo."
+      ]
+    }
+  ],
+  "enlaces": [
+    {
+      "texto": "Ver la categoría Proteínas",
+      "url": "/categorias/proteinas"
+    }
+  ],
+  "actualizado": "2026-11-16"
+}

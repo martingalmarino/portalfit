@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AffiliateNotice } from "@/components/ui/affiliate-notice";
 import { BrandLogo } from "@/components/ui/brand-logo";
 import { Crumbs } from "@/components/ui/crumbs";
 import { Editorial } from "@/components/ui/editorial";
@@ -6,19 +7,20 @@ import { FaqList } from "@/components/ui/faq-list";
 import { IconArrow, IconCheck, IconInfo, IconOut } from "@/components/ui/icons";
 import { MlGrid } from "@/components/ui/ml-card";
 import { Photo } from "@/components/ui/photo";
-import { getAffiliateProvider } from "@/lib/affiliates";
+import { blockHasAffiliate, getAffiliateProvider } from "@/lib/affiliates";
+import { MICROCOPY } from "@/lib/microcopy";
 import { getFicha, getMarcas, loadFichasFile, loadTaxonomia } from "@/lib/content/load";
 import {
   CERT_LABEL,
   EVIDENCE,
-  compactYear,
   cx,
-  firstClause,
   hostOf,
   isHttpUrl,
   pad2,
-  parseCertification,
   pathOf,
+  publishedCopy,
+  publicCopy,
+  publicYear,
   sentences,
   splitLabeledUrl,
   type CertState,
@@ -31,8 +33,9 @@ const STATUS_CLASS: Record<CertState, string> = {
   declarado: "st-dec",
   documento: "st-doc",
   terceros: "st-ter",
-  pendiente: "st-pen",
+  inferencia: "st-inf",
   rotulo: "st-rot",
+  sin_dato: "st-sin",
 };
 
 export function BrandView({ slug }: { slug: string }) {
@@ -43,7 +46,9 @@ export function BrandView({ slug }: { slug: string }) {
   const tax = loadTaxonomia();
   const updated = loadFichasFile().actualizado;
   const products = getAffiliateProvider().getProductsByBrand(slug);
-  const year = compactYear(ficha.anio_fundacion);
+  const yearNumber = publicYear(ficha.anio_fundacion);
+  const yearText = publicCopy(String(ficha.anio_fundacion));
+  const empresa = ficha.empresa ? publicCopy(ficha.empresa) : null;
   const index = all.findIndex((item) => item.slug === slug);
   const related = all.filter((item) => item.slug !== slug).slice(index, index + 4);
   const relatedBrands = related.length < 4 ? [...related, ...all.filter((item) => item.slug !== slug && !related.includes(item))].slice(0, 4) : related;
@@ -55,8 +60,8 @@ export function BrandView({ slug }: { slug: string }) {
   const channels = [
     splitLabeledUrl(ficha.donde_comprar.sitio_oficial.startsWith("http") ? `Sitio oficial: ${ficha.donde_comprar.sitio_oficial}` : ficha.donde_comprar.sitio_oficial),
     isHttpUrl(ficha.donde_comprar.mercado_libre)
-      ? splitLabeledUrl(`Tienda oficial en Mercado Libre: ${ficha.donde_comprar.mercado_libre}`)
-      : { label: "Mercado Libre", href: undefined as string | undefined, pending: ficha.donde_comprar.mercado_libre },
+      ? splitLabeledUrl(`Mercado Libre: ${ficha.donde_comprar.mercado_libre}`)
+      : { label: "Mercado Libre", href: undefined as string | undefined },
     ...ficha.donde_comprar.otras.map((item) => splitLabeledUrl(item)),
   ];
 
@@ -96,7 +101,7 @@ export function BrandView({ slug }: { slug: string }) {
             </p>
           </div>
           <div className="bh-media">
-            <Photo file="polvo-scoop.jpg" className="duo-paper brand-still" sizes="40vw" position="50% 55%" alt="" tag="Imagen ilustrativa" />
+            <Photo file="polvo-scoop.jpg" className="duo-paper brand-still" sizes="40vw" position="50% 55%" tag="Imagen ilustrativa" />
             <div className="bh-quote">
               <div className="kicker">En números</div>
               {percent && percentSentence ? (
@@ -111,17 +116,21 @@ export function BrandView({ slug }: { slug: string }) {
                 </div>
               ) : (
                 <div className="bigstat">
-                  <span className="statnum" style={{ fontSize: 48 }}>{year.label}</span>
-                  <p style={{ fontSize: 14, color: "#cfc9bb" }}>
-                    <Editorial text={String(ficha.anio_fundacion)} />
-                  </p>
+                  {yearNumber ? <span className="statnum" style={{ fontSize: 48 }}>{yearNumber}</span> : null}
+                  {yearText ? (
+                    <p style={{ fontSize: 14, color: "#cfc9bb" }}>
+                      <Editorial text={String(ficha.anio_fundacion)} />
+                    </p>
+                  ) : null}
                 </div>
               )}
               <div className="bigrow">
-                <div>
-                  <b>{year.label}</b>
-                  <span className="xs">Fundación</span>
-                </div>
+                {yearNumber ? (
+                  <div>
+                    <b>{yearNumber}</b>
+                    <span className="xs">Fundación</span>
+                  </div>
+                ) : null}
                 <div>
                   <b>{ficha.lineas.length}</b>
                   <span className="xs">Líneas</span>
@@ -140,14 +149,13 @@ export function BrandView({ slug }: { slug: string }) {
                 <h2 className="h3">
                   Productos de {marca.nombre} en <em className="it" style={{ color: "var(--forest-3)" }}>Mercado Libre</em>
                 </h2>
-                <span className="ex-flag">Precios de ejemplo</span>
               </div>
             </div>
             <MlGrid products={products} />
             <p className="xs" style={{ marginTop: 14 }}>
-              {ficha.nota_productos ? <Editorial text={ficha.nota_productos} /> : "“Más vendido” es como los marca el sitio oficial de la marca, no una evaluación de Portal FIT. "}
-              Enlaces de afiliado: podemos recibir una comisión.
+              {ficha.nota_productos ? <Editorial text={ficha.nota_productos} /> : "“Más vendido” es como los marca el sitio oficial de la marca, no una evaluación de Portal FIT."}
             </p>
+            <AffiliateNotice text={MICROCOPY.fichaProductos} show={blockHasAffiliate(products)} />
           </div>
           <div className="bh-facts">
             <div className="facts">
@@ -155,24 +163,24 @@ export function BrandView({ slug }: { slug: string }) {
                 <span className="xs">Origen</span>
                 <b><Editorial text={ficha.origen} /></b>
               </div>
-              <div className="fact">
-                <span className="xs">Fundación</span>
-                <b className={year.pending ? "pend" : undefined} title={String(ficha.anio_fundacion)}>
-                  {year.pending ? "Pendiente" : year.label}
-                </b>
-              </div>
-              <div className="fact">
-                <span className="xs">Empresa</span>
-                <b title={ficha.empresa}>{firstClause(ficha.empresa, 64)}</b>
-              </div>
-              <div className="fact">
-                <span className="xs">Tienda oficial en ML</span>
-                <b>
-                  {isHttpUrl(ficha.donde_comprar.mercado_libre)
-                    ? `Sí · ${pathOf(ficha.donde_comprar.mercado_libre)}`
-                    : "Sin tienda oficial"}
-                </b>
-              </div>
+              {yearText ? (
+                <div className="fact">
+                  <span className="xs">Fundación</span>
+                  <b>{yearText}</b>
+                </div>
+              ) : null}
+              {empresa ? (
+                <div className="fact">
+                  <span className="xs">Empresa</span>
+                  <b>{empresa}</b>
+                </div>
+              ) : null}
+              {products.some((item) => item.tiendaOficial) ? (
+                <div className="fact">
+                  <span className="xs">{MICROCOPY.tiendaOficial}</span>
+                  <b>En Mercado Libre</b>
+                </div>
+              ) : null}
             </div>
             <p className="xs" style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 16 }}>
               <span className="st st-ver">
@@ -252,8 +260,8 @@ export function BrandView({ slug }: { slug: string }) {
               const name = parsed?.[1] ?? linea;
               const noteLine = parsed?.[2] ?? "";
               return (
-                <article className="lcard" key={linea}>
-                  <Photo file={LINE_PHOTOS[lineIndex % LINE_PHOTOS.length] ?? "tarro-scoop.jpg"} className="lph" sizes="240px" tag={pad2(lineIndex + 1)} alt="" />
+                <article className="lcard" key={lineIndex}>
+                  <Photo file={LINE_PHOTOS[lineIndex % LINE_PHOTOS.length] ?? "tarro-scoop.jpg"} className="lph" sizes="240px" tag={pad2(lineIndex + 1)} />
                   <div className="lbody">
                     <h3 className="h3" style={{ margin: "4px 0 0", fontSize: 24 }}>
                       <Editorial text={name} />
@@ -307,18 +315,14 @@ export function BrandView({ slug }: { slug: string }) {
           </div>
           <div className="chlist">
             {channels.map((channel, channelIndex) => {
-              const pendingText = "pending" in channel ? channel.pending : undefined;
+              const label = publicCopy(channel.label);
+              if (!label || !channel.href) return null;
               const body = (
                 <>
                   <span className="num" style={{ color: "var(--brass)" }}>{pad2(channelIndex + 1)}</span>
                   <span>
-                    <b>{channel.label}</b>
-                    {channel.href ? <span className="url">{hostOf(channel.href)}{pathOf(channel.href)}</span> : null}
-                    {pendingText ? (
-                      <span className="url">
-                        <Editorial text={pendingText} />
-                      </span>
-                    ) : null}
+                    <b>{label}</b>
+                    <span className="url">{hostOf(channel.href)}{pathOf(channel.href)}</span>
                   </span>
                   <span aria-hidden><IconOut /></span>
                 </>
@@ -353,17 +357,18 @@ export function BrandView({ slug }: { slug: string }) {
                 </tr>
               </thead>
               <tbody>
-                {ficha.certificaciones.map((item) => {
-                  const parsed = parseCertification(item);
+                {ficha.certificaciones_detalle.map((item, index) => {
+                  const title = publishedCopy(item.texto);
+                  if (!title) return null;
                   return (
-                    <tr key={item}>
+                    <tr key={`${item.estado}-${index}`}>
                       <td>
-                        <b className="serif"><Editorial text={parsed.title} /></b>
+                        <b className="serif">{title}</b>
                       </td>
                       <td>
-                        <span className={`st ${STATUS_CLASS[parsed.state]}`}>{CERT_LABEL[parsed.state]}</span>
+                        <span className={`st ${STATUS_CLASS[item.estado]}`}>{CERT_LABEL[item.estado]}</span>
                       </td>
-                      <td className="xs">{parsed.detail || "—"}</td>
+                      <td className="xs">{item.etiqueta}</td>
                     </tr>
                   );
                 })}
@@ -376,7 +381,7 @@ export function BrandView({ slug }: { slug: string }) {
           <div className="disclaimer" style={{ marginTop: 18 }}>
             <IconInfo />
             <p>
-              <b>Antes de comprar:</b> revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador. El RNE se puede consultar en el buscador público de INAL/ANMAT.
+              <b>Antes de comprar:</b> revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador. Los dos números se pueden consultar en los buscadores públicos de SIFeGA (productos autorizados y establecimientos).
             </p>
           </div>
         </div>
@@ -390,27 +395,29 @@ export function BrandView({ slug }: { slug: string }) {
             <p className="body-l" style={{ marginTop: 16 }}>
               <Editorial text={ficha.historia} />
             </p>
-            <p className="small" style={{ marginTop: 18 }}>
-              <span className="xs">Empresa</span>
-              <br />
-              <b className="serif" style={{ fontSize: 20, color: "var(--ink)" }}>
-                <Editorial text={ficha.empresa} />
-              </b>
-            </p>
+            {empresa ? (
+              <p className="small" style={{ marginTop: 18 }}>
+                <span className="xs">Empresa</span>
+                <br />
+                <b className="serif" style={{ fontSize: 20, color: "var(--ink)" }}>{empresa}</b>
+              </p>
+            ) : null}
             <p className="small">
               <Editorial text={String(ficha.anio_fundacion)} />
             </p>
           </div>
           <div className="timeline">
-            {sentences(ficha.historia).map((sentence, sentenceIndex) => (
-              <div className="step" key={sentence}>
-                <span className="sdot" />
-                <div className="num" style={{ fontSize: 22 }}>{sentenceIndex === 0 ? year.label : pad2(sentenceIndex + 1)}</div>
-                <p className="small">
-                  <Editorial text={sentence} />
-                </p>
-              </div>
-            ))}
+            {sentences(ficha.historia).map((sentence, sentenceIndex) => {
+              const visible = publicCopy(sentence);
+              if (!visible) return null;
+              return (
+                <div className="step" key={sentence}>
+                  <span className="sdot" />
+                  <div className="num" style={{ fontSize: 22 }}>{sentenceIndex === 0 && yearNumber ? yearNumber : pad2(sentenceIndex + 1)}</div>
+                  <p className="small">{visible}</p>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>

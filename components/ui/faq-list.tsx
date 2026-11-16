@@ -3,8 +3,10 @@ import { hostOf, isHttpUrl, pad2 } from "@/lib/format";
 
 export function FaqList({
   items,
+  verbatim = false,
 }: {
   items: Array<{ q: string; a: string; fuentes?: string[] }>;
+  verbatim?: boolean;
 }) {
   return (
     <div className="faq">
@@ -15,12 +17,12 @@ export function FaqList({
               <span className="num" style={{ marginRight: 14 }}>
                 {pad2(index + 1)}
               </span>
-              <Editorial text={item.q} />
+              <Editorial text={item.q} verbatim={verbatim} />
             </span>
             <span className="pm" aria-hidden />
           </summary>
           <p className="a">
-            <Editorial text={item.a} />
+            <Editorial text={item.a} verbatim={verbatim} />
           </p>
           {item.fuentes && item.fuentes.length > 0 ? (
             <p className="src">

@@ -15,6 +15,7 @@ const fraunces = Fraunces({
   weight: ["300", "400", "500", "600"],
   style: ["normal", "italic"],
   variable: "--font-fraunces",
+  adjustFontFallback: true,
   preload: false,
 });
 
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: {
     default: getSiteName(),
-    template: `%s · ${getSiteName()}`,
+    template: `%s | ${getSiteName()}`,
   },
   description:
     "Guía independiente sobre suplementos, nutrición deportiva, longevidad y rendimiento en Argentina. Contenido informativo, no médico.",

@@ -458,11 +458,11 @@
         }
       ],
       "nivel_evidencia": "precaucion",
-      "nota_evidencia": "AIS lista estimulantes como sinefrina/naranja amarga y otros en Grupo D por riesgo de ingredientes prohibidos o contaminación; L-carnitina figura en Grupo B (otros). La ANMAT prohíbe publicitar suplementos con propiedades terapéuticas o de prevención de enfermedades.",
+      "nota_evidencia": "AIS lista estimulantes como sinefrina/naranja amarga y otros en Grupo D por riesgo de ingredientes prohibidos o contaminación; L-carnitina figura en Grupo B (otros). El Código Alimentario Argentino prohíbe atribuir a los suplementos indicaciones terapéuticas en el rótulo y la publicidad.",
       "fuentes": [
         "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
         "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
-        "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/327521/20250626"
       ],
       "marcas": [
         "ena-sport",
@@ -799,19 +799,21 @@
     }
   ],
   "marco_regulatorio_argentino": {
-    "resumen": "En Argentina los suplementos dietarios son alimentos, no medicamentos. Están definidos en el artículo 1381 del Código Alimentario Argentino (Capítulo XVII, Alimentos de régimen o dietéticos), actualizado por la Resolución Conjunta 3/2020: productos destinados a incrementar la ingesta dietaria habitual de personas sanas con necesidades no satisfechas o mayores a las habituales, de administración oral, elaborados bajo buenas prácticas de manufactura; la autorización de comercialización dura 5 años. Para venderse deben contar con RNPA (Registro Nacional de Producto Alimenticio) y el elaborador/importador con RNE; el rótulo debe decir 'suplemento dietario' e incluir advertencias obligatorias ('Consulte a su médico', no usar en embarazo, lactancia ni niños salvo indicación, etc.). La Disposición ANMAT 4980/2005 prohíbe que la publicidad atribuya propiedades terapéuticas o preventivas, sugiera reemplazar comidas o use la expresión 'venta libre'. Los registros pueden consultarse en el sistema público de INAL/ANMAT.",
+    "resumen": "En Argentina los suplementos dietarios son alimentos, no medicamentos. Están definidos en el artículo 1381 del Código Alimentario Argentino (Capítulo XVII, Alimentos de régimen o dietéticos), cuyo texto vigente fue actualizado por la Resolución Conjunta 33/2025: productos destinados a incrementar la ingesta dietaria habitual de personas sanas con necesidades no satisfechas o mayores a las habituales, de administración oral, elaborados bajo buenas prácticas de manufactura; la autorización de comercialización dura 5 años. Para venderse deben contar con RNPA (Registro Nacional de Producto Alimenticio) y el elaborador/importador con RNE; el rótulo debe decir 'suplemento dietario' e incluir leyendas obligatorias ('Consulte a su médico y/o nutricionista', no utilizar en embarazo, lactancia ni niños salvo productos específicos, etc.). Ni el rótulo, ni la marca, ni la publicidad pueden atribuirles indicaciones terapéuticas; solo se admiten las declaraciones de propiedades saludables autorizadas por la autoridad sanitaria nacional. Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de alimentos y suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes siguen vigentes sin reinscripción y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los productos autorizados (RNPA) y los establecimientos (RNE) se pueden consultar en los buscadores públicos de SIFeGA.",
     "implicancias_editoriales": [
       "No usar verbos como curar, tratar, prevenir, aliviar o mitigar enfermedades",
       "No presentar suplementos como reemplazo de comidas",
-      "Mostrar RNPA/RNE cuando esté verificado; si no, PENDIENTE",
+      "Mostrar RNPA/RNE solo cuando esté verificado; si no, omitir el campo",
       "Incluir siempre la recomendación de consultar a un profesional"
     ],
     "fuentes": [
       "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf",
-      "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-3-2020-345768/texto",
-      "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
-      "https://www.anmat.gob.ar/Alimentos/Suplementos_Dietarios-Hierbas.pdf",
+      "https://www.boletinoficial.gob.ar/detalleAviso/primera/327521/20250626",
+      "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+      "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
+      "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
       "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+      "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
       "https://www.argentina.gob.ar/anmat/codigoalimentario"
     ]
   }

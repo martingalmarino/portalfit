@@ -1,9 +1,6 @@
 import type { EvidenceLevel } from "@/lib/format";
 
-/**
- * Producto de afiliado listo para renderizar.
- * `ejemplo` queda en true mientras la fuente sea el mock: no hay precio real.
- */
+/** Producto listo para renderizar. Sin precio y sin datos internos del archivo. */
 export type AffiliateProduct = {
   id: string;
   titulo: string;
@@ -13,14 +10,10 @@ export type AffiliateProduct = {
   categoriaNombre: string;
   subcategoria?: string;
   etiquetas: string[];
-  precioEjemplo: number;
-  precioLabel: string;
-  ejemplo: true;
-  imagen: string;
+  imagenUrl?: string;
   posicion: string;
   href: string;
-  urlTipo: "tienda-oficial" | "busqueda-ejemplo";
-  notaEditorial: string;
+  afiliado: boolean;
   destacado: boolean;
   masVendidoSegunMarca: boolean;
   evidence: EvidenceLevel;

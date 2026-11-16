@@ -1,30 +1,29 @@
 import Image from "next/image";
 import { BrandLogo } from "@/components/ui/brand-logo";
 import { EVIDENCE } from "@/lib/format";
-import { photoByFile } from "@/lib/photos";
+import { MICROCOPY, mlButtonLabel } from "@/lib/microcopy";
 import type { AffiliateProduct } from "@/lib/affiliates";
 import { IconOut } from "@/components/ui/icons";
 
 export function MlCard({ product }: { product: AffiliateProduct }) {
-  const photo = photoByFile(product.imagen);
   const evidence = EVIDENCE[product.evidence];
   return (
     <article className="mlc">
-      <div className="media">
-        <Image
-          src={photo.src}
-          alt=""
-          fill
-          sizes="(max-width: 600px) 46vw, 280px"
-          style={{ objectPosition: product.posicion }}
-        />
+      <div className={product.imagenUrl ? "media" : "media is-mark"}>
+        {product.imagenUrl ? (
+          <Image src={product.imagenUrl} alt={product.titulo} fill unoptimized sizes="(max-width: 480px) 100vw, 280px" />
+        ) : (
+          <div className="mark-fallback">
+            <BrandLogo slug={product.marcaSlug} name={product.marcaNombre} variant="card" scale={1.6} />
+          </div>
+        )}
         <span className="ml-badge">
           <i>ML</i>Mercado Libre
         </span>
         <span className="logo-chip">
           <BrandLogo slug={product.marcaSlug} name={product.marcaNombre} variant="chip" />
         </span>
-        <span className="illus">Foto ilustrativa</span>
+        {product.tiendaOficial ? <span className="official">{MICROCOPY.tiendaOficial}</span> : null}
       </div>
       <div className="body">
         <div className="meta">
@@ -47,14 +46,21 @@ export function MlCard({ product }: { product: AffiliateProduct }) {
             ))}
           </div>
         ) : null}
-        <div className="price">
-          <b>{product.precioLabel}</b>
-          <span className="ex">Precio de ejemplo</span>
-        </div>
-        <a className="cta-ml" href={product.href} target="_blank" rel="sponsored nofollow noopener">
-          Ver en Mercado Libre <IconOut />
+        {product.afiliado ? (
+          <p className="xs affiliate-flag" title={MICROCOPY.tooltip}>
+            {MICROCOPY.avisoAfiliado}
+          </p>
+        ) : null}
+        <p className="xs">{MICROCOPY.notaPrecio}</p>
+        <a
+          className="cta-ml"
+          href={product.href}
+          target="_blank"
+          rel="sponsored nofollow noopener"
+          aria-label={mlButtonLabel(product.titulo, product.afiliado)}
+        >
+          {MICROCOPY.cta} <IconOut />
         </a>
-        <p className="comm">Enlace de afiliado · podemos recibir comisión</p>
       </div>
     </article>
   );
@@ -62,12 +68,7 @@ export function MlCard({ product }: { product: AffiliateProduct }) {
 
 export function MlGrid({ products }: { products: AffiliateProduct[] }) {
   if (products.length === 0) {
-    return (
-      <p className="empty">
-        No hay productos de ejemplo para esta selección. Cuando se conecte Mercado Libre, acá van a aparecer
-        publicaciones reales. No completamos el espacio con precios inventados.
-      </p>
-    );
+    return <p className="empty">Todavía no hay publicaciones en esta selección.</p>;
   }
   return (
     <div className="ml-grid">

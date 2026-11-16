@@ -8,25 +8,47 @@ export function getSiteName(): string {
   return name && name.length > 0 ? name : "Portal FIT";
 }
 
-export function getSiteUrl(): string {
-  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim().replace(/\/$/, "");
-  if (raw && /^https?:\/\//.test(raw)) return raw;
-  return "http://localhost:3000";
+function httpsHost(value: string | undefined): string | null {
+  const host = value?.trim().replace(/^https?:\/\//, "").replace(/\/$/, "");
+  return host ? `https://${host}` : null;
 }
 
-/** Host visible. Si no hay URL configurada, se conserva el placeholder. */
-export function getDomainLabel(): string {
-  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim();
-  if (!raw) return "[dominio]";
-  try {
-    return new URL(raw).host;
-  } catch {
-    return "[dominio]";
-  }
+export function getSiteUrl(): string {
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim().replace(/\/$/, "");
+  if (explicit && /^https?:\/\//.test(explicit)) return explicit;
+  return (
+    httpsHost(process.env.VERCEL_PROJECT_PRODUCTION_URL) ??
+    httpsHost(process.env.VERCEL_URL) ??
+    "http://localhost:3000"
+  );
+}
+
+/** Solo el rótulo público. Si no está definido, el pie no muestra dominio. */
+export function getDomainLabel(): string | null {
+  const label = process.env.NEXT_PUBLIC_DOMAIN_LABEL?.trim();
+  return label ? label : null;
 }
 
 export function allowsIndexing(): boolean {
   return process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true";
+}
+
+const CONTACT_USER_CODES = [109, 46, 103, 97, 108, 109, 97, 114, 105, 110, 111];
+const CONTACT_DOMAIN_CODES = [103, 109, 97, 105, 108, 46, 99, 111, 109];
+
+function fromCodes(codes: number[]): string {
+  return String.fromCharCode(...codes);
+}
+
+/** Usuario y dominio por separado. No armar la dirección en un solo string. */
+export function contactEmailUser(): string {
+  const value = process.env.NEXT_PUBLIC_CONTACT_EMAIL_USER?.trim();
+  return value ? value : fromCodes(CONTACT_USER_CODES);
+}
+
+export function contactEmailDomain(): string {
+  const value = process.env.NEXT_PUBLIC_CONTACT_EMAIL_DOMAIN?.trim();
+  return value ? value : fromCodes(CONTACT_DOMAIN_CODES);
 }
 
 export function absoluteUrl(path: string): string {

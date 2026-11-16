@@ -3,11 +3,12 @@ import { BrandLogo } from "@/components/ui/brand-logo";
 import { Crumbs } from "@/components/ui/crumbs";
 import { JsonLd } from "@/components/ui/json-ld";
 import { getFicha, getMarcas } from "@/lib/content/load";
+import { Editorial } from "@/components/ui/editorial";
 import { pad2, shortOrigin } from "@/lib/format";
 import { itemListJsonLd, pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Marcas",
+  title: "Marcas de suplementos en Argentina",
   description:
     "Las 14 marcas de suplementos y nutrición deportiva que sigue Portal FIT, en el orden editorial. Fichas con fuentes, sin ranking de calidad.",
   path: "/marcas",
@@ -54,7 +55,7 @@ export default function MarcasPage() {
                 <Link href={`/marcas/${marca.slug}`}>
                   <b className="serif" style={{ fontSize: 22 }}>{marca.nombre}</b>
                 </Link>
-                <p className="small" style={{ margin: 0 }}>{ficha?.intro}</p>
+                <p className="small" style={{ margin: 0 }}>{ficha ? <Editorial text={ficha.intro} /> : null}</p>
                 <Link href={`/marcas/${marca.slug}`} aria-label={`Ver ficha de ${marca.nombre}`}>→</Link>
               </article>
             );

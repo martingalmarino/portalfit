@@ -6,7 +6,7 @@ import { EVIDENCE, pad2 } from "@/lib/format";
 import { itemListJsonLd, pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Categorías",
+  title: "Categorías de suplementos en Argentina",
   description:
     "Catorce categorías de suplementos y nutrición deportiva, cada una con un nivel general de evidencia según AIS e ISSN.",
   path: "/categorias",

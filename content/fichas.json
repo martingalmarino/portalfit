@@ -25,7 +25,7 @@
         "Truemade (nombre de una gama de proteínas y colágenos del catálogo ENA)",
         "Natuliv (nutrición diaria; con tienda oficial propia en Mercado Libre)",
         "ENAcción (movilidad articular, según El Cronista y Forbes, 2020)",
-        "Vitalgen (nutrición dérmica, según El Cronista, 2020; vigencia actual PENDIENTE)"
+        "Vitalgen (nutrición dérmica, según El Cronista, 2020)"
       ],
       "productos_destacados": [
         "Truemade Whey Protein (marcado 'MÁS VENDIDO')",
@@ -34,7 +34,6 @@
         "Colágeno Sport (marcado 'MÁS VENDIDO')",
         "Creatina Monohidrato Creapure®"
       ],
-      "nota_productos": null,
       "categorias": [
         {
           "slug": "proteinas",
@@ -108,12 +107,29 @@
         }
       ],
       "certificaciones": [
-        "[Declarado por la marca] Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad",
-        "[Informado por terceros] Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial: PENDIENTE",
-        "RNE de la planta de Bahía Blanca: PENDIENTE (la consulta en INAL no devolvió resultados para las razones sociales probadas)",
-        "RNPA por producto: ver rótulo"
+        "Declarado por la marca: Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad",
+        "Informado por terceros: Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial",
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la marca",
+          "texto": "Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad"
+        },
+        {
+          "estado": "terceros",
+          "etiqueta": "Informado por terceros",
+          "texto": "Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial"
+        },
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        }
+      ],
+      "rne_consultado_sifega": false,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://www.enasport.com/",
         "mercado_libre": "https://www.mercadolibre.com.ar/tienda/ena",
@@ -155,11 +171,13 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene ENA Sport?",
-          "a": "[Declarado por la marca] Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad. [Informado por terceros] Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial: PENDIENTE. RNE de la planta de Bahía Blanca: PENDIENTE (la consulta en INAL no devolvió resultados para las razones sociales probadas). RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Declarado por la marca: Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad. Informado por terceros: Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://www.enasport.com/pages/nosotros",
             "https://alaola.com.ar/marcas/ena-sport",
-            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -174,6 +192,8 @@
         "https://www.enasport.com/pages/nosotros",
         "https://alaola.com.ar/marcas/ena-sport",
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/ena"
       ],
       "schema_sugerido": {
@@ -181,7 +201,7 @@
         "name": "ENA Sport",
         "url": "https://www.enasport.com/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "gentech",
@@ -208,7 +228,6 @@
         "Whey Protein 7900",
         "Creatina AFA"
       ],
-      "nota_productos": null,
       "categorias": [
         {
           "slug": "proteinas",
@@ -272,12 +291,35 @@
         }
       ],
       "certificaciones": [
-        "[Declarado por la marca] Certificados ANMAT, certificación sin gluten y GMP",
-        "[Declarado por la marca] Línea 'libre de doping'",
-        "RNE: no verificable en la consulta pública de INAL (jurisdicción CABA no disponible en el buscador)",
-        "RNPA por producto: ver rótulo"
+        "Declarado por la marca: Certificados ANMAT, certificación sin gluten y GMP",
+        "Declarado por la marca: Línea 'libre de doping'",
+        "RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador)",
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la marca",
+          "texto": "Certificados ANMAT, certificación sin gluten y GMP"
+        },
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la marca",
+          "texto": "Línea 'libre de doping'"
+        },
+        {
+          "estado": "sin_dato",
+          "etiqueta": "Sin dato verificable",
+          "texto": "RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador)"
+        },
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        }
+      ],
+      "rne_consultado_sifega": false,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://www.gentech.com.ar/",
         "mercado_libre": "https://www.mercadolibre.com.ar/tienda/gentech",
@@ -316,11 +358,13 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Gentech?",
-          "a": "[Declarado por la marca] Certificados ANMAT, certificación sin gluten y GMP. [Declarado por la marca] Línea 'libre de doping'. RNE: no verificable en la consulta pública de INAL (jurisdicción CABA no disponible en el buscador). RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Declarado por la marca: Certificados ANMAT, certificación sin gluten y GMP. Declarado por la marca: Línea 'libre de doping'. RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://www.gentech.com.ar/",
             "https://www.gentech.com.ar/sobre-el-laboratorio-de-suplementos-deportivos-gentech",
-            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -331,6 +375,8 @@
         "https://www.perfil.com/noticias/politica/martin-menem-desembarca-en-chile-con-su-empresa-de-suplementos-dietarios.phtml",
         "https://www.gentech.com.ar/sobre-el-laboratorio-de-suplementos-deportivos-gentech",
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/gentech"
       ],
       "schema_sugerido": {
@@ -338,7 +384,7 @@
         "name": "Gentech",
         "url": "https://www.gentech.com.ar/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "ultra-tech",
@@ -370,7 +416,6 @@
         "Whey Protein",
         "Ultra Weight Gainer"
       ],
-      "nota_productos": null,
       "categorias": [
         {
           "slug": "proteinas",
@@ -434,12 +479,35 @@
         }
       ],
       "certificaciones": [
-        "[Declarado por la marca] Primer RNPA para suplementos dietarios del país (1991)",
-        "[Declarado por la marca] Planta en Córdoba con registro de establecimiento ante la FDA de EE.UU.",
-        "RNE: no verificable en la consulta pública de INAL (jurisdicción Córdoba no disponible en el buscador)",
-        "RNPA por producto: ver rótulo"
+        "Declarado por la marca: Primer RNPA para suplementos dietarios del país (1991)",
+        "Declarado por la marca: Planta en Córdoba con registro de establecimiento ante la FDA de EE.UU.",
+        "RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción Córdoba no disponible en el buscador)",
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la marca",
+          "texto": "Primer RNPA para suplementos dietarios del país (1991)"
+        },
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la marca",
+          "texto": "Planta en Córdoba con registro de establecimiento ante la FDA de EE.UU."
+        },
+        {
+          "estado": "sin_dato",
+          "etiqueta": "Sin dato verificable",
+          "texto": "RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción Córdoba no disponible en el buscador)"
+        },
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        }
+      ],
+      "rne_consultado_sifega": false,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://ultratechnutrition.com/",
         "mercado_libre": "https://www.mercadolibre.com.ar/tienda/ultra-tech",
@@ -479,11 +547,13 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Ultra Tech?",
-          "a": "[Declarado por la marca] Primer RNPA para suplementos dietarios del país (1991). [Declarado por la marca] Planta en Córdoba con registro de establecimiento ante la FDA de EE.UU. RNE: no verificable en la consulta pública de INAL (jurisdicción Córdoba no disponible en el buscador). RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Declarado por la marca: Primer RNPA para suplementos dietarios del país (1991). Declarado por la marca: Planta en Córdoba con registro de establecimiento ante la FDA de EE.UU. RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción Córdoba no disponible en el buscador). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://ultratechnutrition.com/quienes-somos-web-supplements/",
             "https://websupplements.com.ar/empresa/historia/",
-            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -492,6 +562,8 @@
         "https://websupplements.com.ar/empresa/historia/",
         "https://ultratechnutrition.com/quienes-somos-web-supplements/",
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/ultra-tech"
       ],
       "schema_sugerido": {
@@ -499,7 +571,7 @@
         "name": "Ultra Tech",
         "url": "https://ultratechnutrition.com/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "star-nutrition",
@@ -512,9 +584,9 @@
       "h1": "Star Nutrition: historia, líneas de producto y dónde comprar",
       "intro": "Star Nutrition es una marca argentina de Nutriciencia S.A. que apuesta a la relación calidad-precio frente a las marcas internacionales, con un catálogo organizado por momento del entrenamiento.",
       "posicionamiento": "Se propone igualar la calidad de las marcas internacionales a precios pensados para el consumidor argentino (según la propia marca). Organiza el catálogo por momento del entrenamiento (pre, intra y post) e incluye opciones veganas y sin lactosa.",
-      "historia": "La marca se describe como 'una empresa joven' que elabora con materias primas importadas en laboratorio propio, con el objetivo de igualar la calidad de las marcas internacionales a precios accesibles para el consumidor argentino. Fundadores e hitos: PENDIENTE.",
+      "historia": "La marca se describe como 'una empresa joven' que elabora con materias primas importadas en laboratorio propio, con el objetivo de igualar la calidad de las marcas internacionales a precios accesibles para el consumidor argentino.",
       "empresa": "Nutriciencia S.A.",
-      "anio_fundacion": "PENDIENTE (año exacto de lanzamiento). Piso documentado: la marca ya figuraba en enero de 2011 entre las marcas de una tienda de terceros y su sitio propio con catálogo está archivado desde julio de 2012. Alta societaria de Nutriciencia S.A.: 06/10/2003",
+      "anio_fundacion": "Año exacto no publicado. Primer registro documentado: la marca ya figuraba en enero de 2011 entre las marcas de una tienda de terceros y su sitio propio con catálogo está archivado desde julio de 2012. Alta societaria de Nutriciencia S.A.: 06/10/2003",
       "origen": "Argentina (Nutriciencia S.A.; domicilios en Tigre y Mar del Plata, Buenos Aires)",
       "lineas": [
         "Star Nutrition: línea única organizada por momento del entrenamiento (pre, intra y post training)"
@@ -589,12 +661,35 @@
         }
       ],
       "certificaciones": [
-        "[Verificado INAL 16/11/2026] Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente",
-        "[Verificado INAL 16/11/2026] Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido",
-        "[Declarado por la marca] Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP",
-        "RNPA por producto: ver rótulo"
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente",
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido",
+        "Declarado por la marca: Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP",
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "verificado",
+          "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
+          "texto": "Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente"
+        },
+        {
+          "estado": "verificado",
+          "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
+          "texto": "Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido"
+        },
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la marca",
+          "texto": "Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP"
+        },
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        }
+      ],
+      "rne_consultado_sifega": true,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://starnutrition.com.ar/",
         "mercado_libre": "https://www.mercadolibre.com.ar/tienda/star-nutrition",
@@ -617,7 +712,7 @@
         },
         {
           "q": "¿Desde cuándo existe Star Nutrition?",
-          "a": "PENDIENTE (año exacto de lanzamiento). Piso documentado: la marca ya figuraba en enero de 2011 entre las marcas de una tienda de terceros y su sitio propio con catálogo está archivado desde julio de 2012. Alta societaria de Nutriciencia S.A.: 06/10/2003.",
+          "a": "Año exacto no publicado. Primer registro documentado: la marca ya figuraba en enero de 2011 entre las marcas de una tienda de terceros y su sitio propio con catálogo está archivado desde julio de 2012. Alta societaria de Nutriciencia S.A.: 06/10/2003.",
           "fuentes": [
             "https://web.archive.org/web/20110102163845/http://www.goldnutrition.com.ar/",
             "https://web.archive.org/web/20120720021152/http://www.starnutrition.com.ar/",
@@ -633,10 +728,12 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Star Nutrition?",
-          "a": "[Verificado INAL 16/11/2026] Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente. [Verificado INAL 16/11/2026] Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido. [Declarado por la marca] Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP. RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente. Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido. Declarado por la marca: Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
-            "https://starnutrition.com.ar/pages/nosotros"
+            "https://starnutrition.com.ar/pages/nosotros",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -648,6 +745,8 @@
         "https://web.archive.org/web/20120720021152/http://www.starnutrition.com.ar/",
         "https://starnutrition.com.ar/pages/nosotros",
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/star-nutrition"
       ],
       "schema_sugerido": {
@@ -655,7 +754,7 @@
         "name": "Star Nutrition",
         "url": "https://starnutrition.com.ar/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "optimum-nutrition",
@@ -683,7 +782,6 @@
         "Gold Standard Pre-Workout",
         "Amino Energy"
       ],
-      "nota_productos": null,
       "categorias": [
         {
           "slug": "proteinas",
@@ -717,11 +815,17 @@
         }
       ],
       "certificaciones": [
-        "RNE del importador (Trust Distributions S.A.): PENDIENTE (la consulta en INAL no devolvió resultados)",
-        "RNPA por producto: ver rótulo del producto importado",
-        "Programas de testeo de terceros (Informed Choice/Informed Sport): PENDIENTE"
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        }
+      ],
+      "rne_consultado_sifega": false,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://www.optimumnutrition.com/",
         "mercado_libre": "https://www.mercadolibre.com.ar/tienda/optimum-nutrition",
@@ -759,10 +863,12 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Optimum Nutrition?",
-          "a": "RNE del importador (Trust Distributions S.A.): PENDIENTE (la consulta en INAL no devolvió resultados). RNPA por producto: ver rótulo del producto importado. Programas de testeo de terceros (Informed Choice/Informed Sport): PENDIENTE. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
-            "https://trustdistributions.com.ar/"
+            "https://trustdistributions.com.ar/",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -770,6 +876,8 @@
         "https://www.optimumnutrition.com/en-us/pages/about-us",
         "https://trustdistributions.com.ar/",
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/optimum-nutrition",
         "https://www.instagram.com/optimumnutrition/",
         "https://www.prnewswire.com/news-releases/optimum-nutrition-teams-up-with-professional-basketball-player-cameron-brink-actress-ryan-destiny-to-celebrate-women-athletes-and-the-work-that-makes-them-prettydamngood-302356862.html"
@@ -779,7 +887,7 @@
         "name": "Optimum Nutrition",
         "url": "https://www.optimumnutrition.com/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "mervick-lab",
@@ -792,9 +900,9 @@
       "h1": "Mervick Lab: historia, líneas de producto y dónde comprar",
       "intro": "Mervick Lab es una marca argentina de la provincia de Buenos Aires orientada a los deportes de resistencia, con geles, carbohidratos e hidratación junto a proteínas y creatina.",
       "posicionamiento": "Se orienta a los deportes de resistencia (running, trail y ciclismo) además del fitness: ofrece geles, carbohidratos e hidratación junto a proteínas y creatina.",
-      "historia": "PENDIENTE (no se encontró relato oficial de historia). Datos registrales: sociedad anónima con domicilio en Panamericana km 40,5, Del Viso.",
+      "historia": "Datos registrales: sociedad anónima con domicilio en Panamericana km 40,5, Del Viso.",
       "empresa": "Mervick-Lab S.A.",
-      "anio_fundacion": "PENDIENTE (año exacto de lanzamiento). Piso documentado: la marca Mervick ya figuraba en enero de 2011 entre las marcas de una tienda de terceros; el sitio mervicklab.com.ar con catálogo propio está archivado desde octubre de 2015. Alta societaria de Mervick-Lab S.A.: 17/12/2002",
+      "anio_fundacion": "Año exacto no publicado. Primer registro documentado: la marca Mervick ya figuraba en enero de 2011 entre las marcas de una tienda de terceros; el sitio mervicklab.com.ar con catálogo propio está archivado desde octubre de 2015. Alta societaria de Mervick-Lab S.A.: 17/12/2002",
       "origen": "Argentina (Del Viso, Buenos Aires)",
       "lineas": [
         "Mervick Lab: líneas de resistencia (running, trail, ciclismo) y fitness"
@@ -805,7 +913,6 @@
         "Creatina Monohidratada",
         "Whey Protein Bar"
       ],
-      "nota_productos": null,
       "categorias": [
         {
           "slug": "proteinas",
@@ -854,12 +961,29 @@
         }
       ],
       "certificaciones": [
-        "[Verificado INAL 16/11/2026] Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente",
-        "[Verificado INAL 16/11/2026] Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente",
-        "RNPA por producto: ver rótulo",
-        "BPM/GMP u otras certificaciones: PENDIENTE (no declaradas en el sitio)"
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente",
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente",
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "verificado",
+          "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
+          "texto": "Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente"
+        },
+        {
+          "estado": "verificado",
+          "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
+          "texto": "Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente"
+        },
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        }
+      ],
+      "rne_consultado_sifega": true,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://tiendamervick.com.ar/",
         "mercado_libre": "https://www.mercadolibre.com.ar/tienda/mervick-lab",
@@ -881,7 +1005,7 @@
         },
         {
           "q": "¿Desde cuándo existe Mervick Lab?",
-          "a": "PENDIENTE (año exacto de lanzamiento). Piso documentado: la marca Mervick ya figuraba en enero de 2011 entre las marcas de una tienda de terceros; el sitio mervicklab.com.ar con catálogo propio está archivado desde octubre de 2015. Alta societaria de Mervick-Lab S.A.: 17/12/2002.",
+          "a": "Año exacto no publicado. Primer registro documentado: la marca Mervick ya figuraba en enero de 2011 entre las marcas de una tienda de terceros; el sitio mervicklab.com.ar con catálogo propio está archivado desde octubre de 2015. Alta societaria de Mervick-Lab S.A.: 17/12/2002.",
           "fuentes": [
             "https://web.archive.org/web/20110102163845/http://www.goldnutrition.com.ar/",
             "https://web.archive.org/web/20151011234302/http://www.mervicklab.com.ar/",
@@ -897,9 +1021,11 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Mervick Lab?",
-          "a": "[Verificado INAL 16/11/2026] Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente. [Verificado INAL 16/11/2026] Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente. RNPA por producto: ver rótulo. BPM/GMP u otras certificaciones: PENDIENTE (no declaradas en el sitio). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente. Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
-            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -909,6 +1035,8 @@
         "https://web.archive.org/web/20110102163845/http://www.goldnutrition.com.ar/",
         "https://web.archive.org/web/20151011234302/http://www.mervicklab.com.ar/",
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/mervick-lab"
       ],
       "schema_sugerido": {
@@ -916,7 +1044,7 @@
         "name": "Mervick Lab",
         "url": "https://tiendamervick.com.ar/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "gold-nutrition",
@@ -929,9 +1057,9 @@
       "h1": "Gold Nutrition: historia, líneas de producto y dónde comprar",
       "intro": "Gold Nutrition es una marca que se posiciona en el segmento premium nacional a partir de materias primas con marca registrada, como Creapure®, Peptan® o Arla Foods.",
       "posicionamiento": "Se posiciona como marca premium nacional y destaca el uso de materias primas con marca registrada: Creapure® (creatina), Pronovapure® (omega-3), Peptan® (colágeno), dsm-firmenich (vitaminas) y Arla Foods (proteínas lácteas).",
-      "historia": "Gold Nutrition S.A.S., con sede en la Ciudad de Buenos Aires, anunció la marca en enero de 2018 con dos líneas, Gold Line y Black Label, que describía como 'desarrolladas en EE.UU.' (página archivada). Hacia 2021 su sitio ya listaba proteínas, aminoácidos, creatina, ganadores y preentreno. Hoy se presenta como un intento de 'elevar los estándares de la industria nacional' y usa materias primas de marca (Creapure®, Pronovapure®, Peptan®, dsm-firmenich, Arla Foods). Fundadores: PENDIENTE.",
+      "historia": "Gold Nutrition S.A.S., con sede en la Ciudad de Buenos Aires, anunció la marca en enero de 2018 con dos líneas, Gold Line y Black Label, que describía como 'desarrolladas en EE.UU.' (página archivada). Hacia 2021 su sitio ya listaba proteínas, aminoácidos, creatina, ganadores y preentreno. Hoy se presenta como un intento de 'elevar los estándares de la industria nacional' y usa materias primas de marca (Creapure®, Pronovapure®, Peptan®, dsm-firmenich, Arla Foods).",
       "empresa": "Gold Nutrition S.A.S.",
-      "anio_fundacion": "2018 [Inferencia rotulada]: en enero de 2018 el sitio goldnutrition.com.ar mostraba una página de prelanzamiento ('Muy pronto') de Gold Nutrition Sports Supplements, y la S.A.S. inició actividades el 01/03/2018. Antes de eso, hasta al menos 2014, el dominio lo usaba una tienda de terceros. El vínculo con la marca uruguaya homónima (2012) no está verificado",
+      "anio_fundacion": "2018 Inferencia propia: en enero de 2018 el sitio goldnutrition.com.ar mostraba una página de prelanzamiento ('Muy pronto') de Gold Nutrition Sports Supplements, y la S.A.S. inició actividades el 01/03/2018. Antes de eso, hasta al menos 2014, el dominio lo usaba una tienda de terceros. El vínculo con la marca uruguaya homónima (2012) no está verificado",
       "origen": "Argentina (CABA)",
       "lineas": [
         "Gold Nutrition: proteínas, creatinas, ganador de masa, quemadores, aminoácidos, hidratación, energía celular, vitaminas y minerales, ácidos grasos, 'hormonal' y preentreno"
@@ -942,7 +1070,6 @@
         "Iso Gold Protein",
         "Gainer Gold"
       ],
-      "nota_productos": null,
       "categorias": [
         {
           "slug": "proteinas",
@@ -996,11 +1123,29 @@
         }
       ],
       "certificaciones": [
-        "[Declarado por la marca] Uso de materias primas de proveedores con marca registrada (Creapure®, Pronovapure®, Peptan®, dsm-firmenich, Arla Foods)",
-        "RNE: no verificable en la consulta pública de INAL (jurisdicción CABA no disponible en el buscador)",
-        "RNPA por producto: ver rótulo"
+        "Declarado por la marca: Uso de materias primas de proveedores con marca registrada (Creapure®, Pronovapure®, Peptan®, dsm-firmenich, Arla Foods)",
+        "RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador)",
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la marca",
+          "texto": "Uso de materias primas de proveedores con marca registrada (Creapure®, Pronovapure®, Peptan®, dsm-firmenich, Arla Foods)"
+        },
+        {
+          "estado": "sin_dato",
+          "etiqueta": "Sin dato verificable",
+          "texto": "RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador)"
+        },
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        }
+      ],
+      "rne_consultado_sifega": false,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://goldnutrition.com.ar/",
         "mercado_libre": "https://www.mercadolibre.com.ar/tienda/gold-nutrition",
@@ -1023,7 +1168,7 @@
         },
         {
           "q": "¿Desde cuándo existe Gold Nutrition?",
-          "a": "2018 [Inferencia rotulada]: en enero de 2018 el sitio goldnutrition.com.ar mostraba una página de prelanzamiento ('Muy pronto') de Gold Nutrition Sports Supplements, y la S.A.S. inició actividades el 01/03/2018. Antes de eso, hasta al menos 2014, el dominio lo usaba una tienda de terceros. El vínculo con la marca uruguaya homónima (2012) no está verificado.",
+          "a": "2018 Inferencia propia: en enero de 2018 el sitio goldnutrition.com.ar mostraba una página de prelanzamiento ('Muy pronto') de Gold Nutrition Sports Supplements, y la S.A.S. inició actividades el 01/03/2018. Antes de eso, hasta al menos 2014, el dominio lo usaba una tienda de terceros. El vínculo con la marca uruguaya homónima (2012) no está verificado.",
           "fuentes": [
             "https://web.archive.org/web/20180104140843/http://www.goldnutrition.com.ar/",
             "https://w20argentina.com/empresa/gold-nutrition-sas-30715938584",
@@ -1040,10 +1185,12 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Gold Nutrition?",
-          "a": "[Declarado por la marca] Uso de materias primas de proveedores con marca registrada (Creapure®, Pronovapure®, Peptan®, dsm-firmenich, Arla Foods). RNE: no verificable en la consulta pública de INAL (jurisdicción CABA no disponible en el buscador). RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Declarado por la marca: Uso de materias primas de proveedores con marca registrada (Creapure®, Pronovapure®, Peptan®, dsm-firmenich, Arla Foods). RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://goldnutrition.com.ar/",
-            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -1055,6 +1202,8 @@
         "https://www.goldnutrition.com.ar/legales.html",
         "https://www.goldnutrition.com.ar/productos.js",
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/gold-nutrition"
       ],
       "schema_sugerido": {
@@ -1062,7 +1211,7 @@
         "name": "Gold Nutrition",
         "url": "https://goldnutrition.com.ar/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "htn",
@@ -1075,8 +1224,7 @@
       "h1": "HTN (High Tech Nutrition): historia, líneas de producto y dónde comprar",
       "intro": "HTN (High Tech Nutrition) es una marca argentina de nutrición deportiva que declara desarrollar suplementos desde 1999 y organiza su oferta en las líneas Xplode Series y Pro Series.",
       "posicionamiento": "Destaca su trayectoria y organiza la oferta en líneas (Xplode Series, Pro Series) y por objetivo de entrenamiento. Declara trabajar con materias primas importadas y certificadas.",
-      "historia": "Según la propia marca, desarrolla suplementos desde 1999 y fue pionera en el mercado local en varias categorías: proteínas con enzimas digestivas, proteínas de liberación progresiva, productos aptos para veganos y la línea PRO con Beta-BCAA 8.0. Fundadores e hitos con fecha: PENDIENTE.",
-      "empresa": "PENDIENTE (razón social no publicada: los términos y condiciones solo hablan de 'el Titular'). Indicios sin confirmar: el sitio muestra el formulario 960 de AFIP (Data Fiscal), cuya consulta no pudo abrirse desde nuestro entorno; un directorio de terceros ubica a High Tech Nutrition en Ávalos 748, CABA",
+      "historia": "Según la propia marca, desarrolla suplementos desde 1999 y fue pionera en el mercado local en varias categorías: proteínas con enzimas digestivas, proteínas de liberación progresiva, productos aptos para veganos y la línea PRO con Beta-BCAA 8.0.",
       "anio_fundacion": 1999,
       "origen": "Argentina",
       "lineas": [
@@ -1089,7 +1237,6 @@
         "XT Gold Protein (marcado 'MÁS VENDIDO')",
         "Usa Soy Protein Isolate"
       ],
-      "nota_productos": null,
       "categorias": [
         {
           "slug": "proteinas",
@@ -1138,16 +1285,28 @@
         }
       ],
       "certificaciones": [
-        "[Declarado por la marca] Productos fabricados en 'instalaciones certificadas' (no se indica cuáles)",
-        "RNE: PENDIENTE (razón social desconocida; las búsquedas en INAL por 'HTN' y 'High Tech' no devolvieron resultados)",
-        "RNPA por producto: ver rótulo"
+        "Declarado por la marca: Productos fabricados en 'instalaciones certificadas' (no se indica cuáles)",
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la marca",
+          "texto": "Productos fabricados en 'instalaciones certificadas' (no se indica cuáles)"
+        },
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        }
+      ],
+      "rne_consultado_sifega": false,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://htn.com.ar/",
         "mercado_libre": "https://www.mercadolibre.com.ar/tienda/htn",
         "otras": [
-          "Tienda online oficial: https://htn.com.ar/tienda-oficial/"
+          "Tienda online oficial (catálogo con carrito de compras): https://htn.com.ar/productos/"
         ]
       },
       "redes": {
@@ -1179,10 +1338,12 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene HTN (High Tech Nutrition)?",
-          "a": "[Declarado por la marca] Productos fabricados en 'instalaciones certificadas' (no se indica cuáles). RNE: PENDIENTE (razón social desconocida; las búsquedas en INAL por 'HTN' y 'High Tech' no devolvieron resultados). RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Declarado por la marca: Productos fabricados en 'instalaciones certificadas' (no se indica cuáles). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://htn.com.ar/somos-high-tech-nutrition/",
-            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -1191,6 +1352,8 @@
         "https://htn.com.ar/somos-high-tech-nutrition/",
         "https://www.bizearch.com/company/High_Tech_Nutrition_318769.htm",
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/htn"
       ],
       "schema_sugerido": {
@@ -1198,7 +1361,7 @@
         "name": "HTN (High Tech Nutrition)",
         "url": "https://htn.com.ar/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "body-advance",
@@ -1210,10 +1373,10 @@
       },
       "h1": "Body Advance: historia, líneas de producto y dónde comprar",
       "intro": "Body Advance es una marca argentina que elabora suplementos dietarios en su planta de la provincia de Buenos Aires, con proteínas, creatina, magnesio, colágenos y multivitamínicos.",
-      "posicionamiento": "Hace de la transparencia en calidad su diferencial: publica en su web el certificado de BPM de INAL/ANMAT y análisis de laboratorio de producto.",
-      "historia": "Empresa argentina que elabora suplementos dietarios en planta propia, en Caseros (Tres de Febrero), con materia prima importada. Su dueño, César Servan, protagonizó en Olé un reality de 8 semanas de entrenamiento y suplementación para difundir la marca. En diciembre de 2020 la firma titular del establecimiento hizo un retiro voluntario de cuatro sabores de Whey Protein, porque sus rótulos usaban el símbolo 'sin TACC' sin tener esa autorización (los productos sí tenían RNPA vigente), y en enero de 2021 ANMAT prohibió la comercialización de esos lotes rotulados así. En febrero de 2026 la planta obtuvo un certificado de Buenas Prácticas de Manufactura de INAL. Año de inicio: PENDIENTE.",
+      "posicionamiento": "Hace de la transparencia en calidad su diferencial: publica en su web el certificado de BPM emitido por INAL/ANMAT y análisis de laboratorio de producto.",
+      "historia": "Empresa argentina que elabora suplementos dietarios en planta propia, en Caseros (Tres de Febrero), con materia prima importada. Su dueño, César Servan, protagonizó en Olé un reality de 8 semanas de entrenamiento y suplementación para difundir la marca. En diciembre de 2020 la firma titular del establecimiento hizo un retiro voluntario de cuatro sabores de Whey Protein, porque sus rótulos usaban el símbolo 'sin TACC' sin tener esa autorización (los productos sí tenían RNPA vigente), y en enero de 2021 ANMAT prohibió la comercialización de esos lotes rotulados así. En febrero de 2026 la planta obtuvo un certificado de Buenas Prácticas de Manufactura otorgado por INAL, antes del traspaso de esas funciones al SENASA.",
       "empresa": "Víctor Hernán Kuschniroff (persona humana), titular del RNE 02-035075 según ANMAT (2020-2021); el certificado BPM de 2026 figura a nombre de la firma 'BODY ADVANCE' sin razón social completa. Responsable y dueño de la marca: César Servan, según Olé. No hay una sociedad comercial identificada",
-      "anio_fundacion": "PENDIENTE (año exacto). Piso documentado: en 2020 ANMAT ya registraba productos de la marca (RNPA 02-600324 a 02-600330) elaborados en el RNE 02-035075",
+      "anio_fundacion": "Año exacto no publicado. Primer registro documentado: en 2020 ANMAT ya registraba productos de la marca (RNPA 02-600324 a 02-600330) elaborados en el RNE 02-035075",
       "origen": "Argentina (planta en San Roque 4576, Ciudadela/Caseros, provincia de Buenos Aires)",
       "lineas": [
         "Proteínas y Ganadores",
@@ -1265,13 +1428,41 @@
         }
       ],
       "certificaciones": [
-        "[Documento oficial publicado por la marca] Certificado de Buenas Prácticas de Manufactura INAL/ANMAT CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos)",
-        "[Verificado INAL 16/11/2026] RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente",
-        "[Declarado por la marca] RNPA de sus productos y permisos de importación/exportación",
-        "[Declarado por la marca] Análisis de laboratorio de terceros publicados (p. ej. Melacrom)",
-        "[Verificado ANMAT] RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein, 2020), vigentes a esa fecha según ANMAT; antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021"
+        "Documento oficial publicado por la marca: certificado de Buenas Prácticas de Manufactura emitido por INAL/ANMAT antes del traspaso a SENASA, CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos)",
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente",
+        "Declarado por la marca: RNPA de sus productos y permisos de importación/exportación",
+        "Declarado por la marca: Análisis de laboratorio de terceros publicados (p. ej. Melacrom)",
+        "Según la ANMAT (2020), los RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein) estaban vigentes a esa fecha. Antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "documento",
+          "etiqueta": "Documento oficial publicado por la marca",
+          "texto": "Certificado de Buenas Prácticas de Manufactura emitido por INAL/ANMAT antes del traspaso a SENASA, CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos)"
+        },
+        {
+          "estado": "verificado",
+          "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
+          "texto": "RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente"
+        },
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la marca",
+          "texto": "RNPA de sus productos y permisos de importación/exportación"
+        },
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la marca",
+          "texto": "Análisis de laboratorio de terceros publicados (p. ej. Melacrom)"
+        },
+        {
+          "estado": "documento",
+          "etiqueta": "Dato oficial de la ANMAT (2020)",
+          "texto": "Según la ANMAT (2020), los RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein) estaban vigentes a esa fecha. Antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021"
+        }
+      ],
+      "rne_consultado_sifega": true,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://bodyadvancenutrition.com/",
         "mercado_libre": "Sin tienda oficial de la marca (no se encontró). Se vende en Mercado Libre por revendedores, p. ej. la tienda oficial del revendedor ODX",
@@ -1294,7 +1485,7 @@
         },
         {
           "q": "¿Desde cuándo existe Body Advance?",
-          "a": "PENDIENTE (año exacto). Piso documentado: en 2020 ANMAT ya registraba productos de la marca (RNPA 02-600324 a 02-600330) elaborados en el RNE 02-035075.",
+          "a": "Año exacto no publicado. Primer registro documentado: en 2020 ANMAT ya registraba productos de la marca (RNPA 02-600324 a 02-600330) elaborados en el RNE 02-035075.",
           "fuentes": [
             "https://www.argentina.gob.ar/noticias/retiro-del-mercado-de-suplementos-dietarios-whey-protein-de-body-advance",
             "https://boletin.anmat.gob.ar/enero_2021/Dispo_0772-21.pdf"
@@ -1310,14 +1501,16 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Body Advance?",
-          "a": "[Documento oficial publicado por la marca] Certificado de Buenas Prácticas de Manufactura INAL/ANMAT CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos). [Verificado INAL 16/11/2026] RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente. [Declarado por la marca] RNPA de sus productos y permisos de importación/exportación. [Declarado por la marca] Análisis de laboratorio de terceros publicados (p. ej. Melacrom). [Verificado ANMAT] RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein, 2020), vigentes a esa fecha según ANMAT; antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Documento oficial publicado por la marca: certificado de Buenas Prácticas de Manufactura emitido por INAL/ANMAT antes del traspaso a SENASA, CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos). Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente. Declarado por la marca: RNPA de sus productos y permisos de importación/exportación. Declarado por la marca: Análisis de laboratorio de terceros publicados (p. ej. Melacrom). Según la ANMAT (2020), los RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein) estaban vigentes a esa fecha. Antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://bodyadvancenutrition.com/wp-content/uploads/2026/06/certificado-buenas-practicas-anmat-body-advance.pdf",
             "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
             "https://bodyadvancenutrition.com/nosotros/",
             "https://bodyadvancenutrition.com/calidad-y-certificaciones/",
             "https://www.argentina.gob.ar/noticias/retiro-del-mercado-de-suplementos-dietarios-whey-protein-de-body-advance",
-            "https://boletin.anmat.gob.ar/enero_2021/Dispo_0772-21.pdf"
+            "https://boletin.anmat.gob.ar/enero_2021/Dispo_0772-21.pdf",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -1331,6 +1524,8 @@
         "https://bodyadvancenutrition.com/calidad-y-certificaciones/",
         "https://bodyadvancenutrition.com/wp-content/uploads/2026/06/certificado-buenas-practicas-anmat-body-advance.pdf",
         "https://bodyadvancenutrition.com/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/odx",
         "https://www.mercadolibre.com.ar/body-advance-whey-protein-3-kg-gold-line-con-creatina-y-vit-c-sabor-chocolate/p/MLA50291911"
       ],
@@ -1339,7 +1534,7 @@
         "name": "Body Advance",
         "url": "https://bodyadvancenutrition.com/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "xtrenght",
@@ -1352,9 +1547,9 @@
       "h1": "Xtrenght Nutrition: historia, líneas de producto y dónde comprar",
       "intro": "Xtrenght Nutrition es una marca argentina de suplementos deportivos con base en Quilmes que organiza sus productos por disciplina deportiva y por objetivo.",
       "posicionamiento": "Segmenta su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol, ciclismo) y por objetivo.",
-      "historia": "Se presenta como laboratorio argentino de suplementos que acompaña a deportistas de élite desde hace 15 años. En 2007 la marca ya vendía su proteína Xtrenght Protein desde un sitio propio con domicilio en la Ciudad de Buenos Aires (captura archivada). Hoy publica domicilio en Av. Los Quilmes 870 (Bernal), donde está habilitado el establecimiento de Xience Group S.A. Organiza su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol y ciclismo) y por objetivo. Fundadores: PENDIENTE.",
-      "empresa": "Xience Group S.A. (CUIT 30-71563482-8; contrato social del 15/05/2017; presidente Darío Néstor Amigo según la constitución publicada en el Boletín Oficial bonaerense). [Inferencia rotulada] El vínculo con la marca surge de dos fuentes coincidentes: el RNE de Xience Group S.A. figura en Av. Los Quilmes 870, Bernal Oeste, el mismo domicilio que publica el sitio de Xtrenght, y un responsable comercial se presenta en LinkedIn como 'XTRENGHT NUTRITION, XIENCE GROUP S.A'. La marca no lo publica en su web",
-      "anio_fundacion": "Marca en venta al menos desde mayo de 2007 (piso documentado: captura archivada de xtrenght-nutrition.com con la venta de Xtrenght Protein). Año exacto de lanzamiento: PENDIENTE. La sociedad actual, Xience Group S.A., es de 2017",
+      "historia": "Se presenta como laboratorio argentino de suplementos que acompaña a deportistas de élite desde hace 15 años. En 2007 la marca ya vendía su proteína Xtrenght Protein desde un sitio propio con domicilio en la Ciudad de Buenos Aires (captura archivada). Hoy publica domicilio en Av. Los Quilmes 870 (Bernal), donde está habilitado el establecimiento de Xience Group S.A. Organiza su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol y ciclismo) y por objetivo.",
+      "empresa": "Xience Group S.A. (CUIT 30-71563482-8; contrato social del 15/05/2017; presidente Darío Néstor Amigo según la constitución publicada en el Boletín Oficial bonaerense). Inferencia propia: El vínculo con la marca surge de dos fuentes coincidentes: el RNE de Xience Group S.A. figura en Av. Los Quilmes 870, Bernal Oeste, el mismo domicilio que publica el sitio de Xtrenght, y un responsable comercial se presenta en LinkedIn como 'XTRENGHT NUTRITION, XIENCE GROUP S.A'. La marca no lo publica en su web",
+      "anio_fundacion": "Marca en venta al menos desde mayo de 2007 (primer registro documentado: captura archivada de xtrenght-nutrition.com con la venta de Xtrenght Protein). La sociedad actual, Xience Group S.A., es de 2017",
       "origen": "Argentina (Av. Los Quilmes 870, partido de Quilmes, provincia de Buenos Aires)",
       "lineas": [
         "Xtrenght Nutrition: línea única, con combos por disciplina"
@@ -1366,7 +1561,6 @@
         "BCAA Pro",
         "Nitrogain"
       ],
-      "nota_productos": null,
       "categorias": [
         {
           "slug": "proteinas",
@@ -1395,15 +1589,38 @@
         }
       ],
       "certificaciones": [
-        "[Verificado INAL 16/11/2026] Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)",
-        "[Verificado INAL 16/11/2026] Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente",
-        "RNPA por producto: ver rótulo",
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)",
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente",
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)",
         "No se declaran certificaciones en el sitio oficial"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "verificado",
+          "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
+          "texto": "Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)"
+        },
+        {
+          "estado": "verificado",
+          "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
+          "texto": "Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente"
+        },
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        },
+        {
+          "estado": "sin_dato",
+          "etiqueta": "Sin dato verificable",
+          "texto": "No se declaran certificaciones en el sitio oficial"
+        }
+      ],
+      "rne_consultado_sifega": true,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://xtrenght-nutrition.com/",
-        "mercado_libre": "Sin tienda oficial de la marca confirmada: /tienda/xtrenght y sus variantes no existen. Hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y también reventa, p. ej. la tienda oficial del revendedor RTN Suplementos. Origen del vendedor de las publicaciones con etiqueta de marca: PENDIENTE (Mercado Libre bloqueó la verificación automatizada)",
+        "mercado_libre": "Sin tienda oficial de la marca confirmada: /tienda/xtrenght y sus variantes no existen. Hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y también reventa, p. ej. la tienda oficial del revendedor RTN Suplementos.",
         "otras": [
           "Tienda online oficial: https://xtrenght-nutrition.com/index.php/shop"
         ]
@@ -1422,7 +1639,7 @@
         },
         {
           "q": "¿Desde cuándo existe Xtrenght Nutrition?",
-          "a": "Marca en venta al menos desde mayo de 2007 (piso documentado: captura archivada de xtrenght-nutrition.com con la venta de Xtrenght Protein). Año exacto de lanzamiento: PENDIENTE. La sociedad actual, Xience Group S.A., es de 2017.",
+          "a": "Marca en venta al menos desde mayo de 2007 (primer registro documentado: captura archivada de xtrenght-nutrition.com con la venta de Xtrenght Protein). La sociedad actual, Xience Group S.A., es de 2017.",
           "fuentes": [
             "https://web.archive.org/web/20070513233226/http://www.xtrenght-nutrition.com/",
             "https://www.cuitonline.com/detalle/30715634828/xience-group-s.a.html",
@@ -1431,7 +1648,7 @@
         },
         {
           "q": "¿Xtrenght Nutrition tiene tienda oficial en Mercado Libre?",
-          "a": "Sin tienda oficial de la marca confirmada: /tienda/xtrenght y sus variantes no existen. Hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y también reventa, p. ej. la tienda oficial del revendedor RTN Suplementos. Origen del vendedor de las publicaciones con etiqueta de marca: PENDIENTE (Mercado Libre bloqueó la verificación automatizada).",
+          "a": "Sin tienda oficial de la marca confirmada: /tienda/xtrenght y sus variantes no existen. Hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y también reventa, p. ej. la tienda oficial del revendedor RTN Suplementos.",
           "fuentes": [
             "https://listado.mercadolibre.com.ar/proteina-xtrenght-protein-x-mayor",
             "https://www.mercadolibre.com.ar/tienda/rtn-suplementos"
@@ -1439,10 +1656,12 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Xtrenght Nutrition?",
-          "a": "[Verificado INAL 16/11/2026] Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido). [Verificado INAL 16/11/2026] Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente. RNPA por producto: ver rótulo. No se declaran certificaciones en el sitio oficial. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido). Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). No se declaran certificaciones en el sitio oficial. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
-            "https://xtrenght-nutrition.com/"
+            "https://xtrenght-nutrition.com/",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -1455,6 +1674,8 @@
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
         "https://linkedin.com/in/hernan-gonzalez-71268439",
         "https://xtrenght-nutrition.com/index.php/shop",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://listado.mercadolibre.com.ar/proteina-xtrenght-protein-x-mayor",
         "https://www.mercadolibre.com.ar/tienda/rtn-suplementos"
       ],
@@ -1463,7 +1684,7 @@
         "name": "Xtrenght Nutrition",
         "url": "https://xtrenght-nutrition.com/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "one-fit-nutrition",
@@ -1488,7 +1709,6 @@
         "Classic Whey Protein",
         "Creatina One Fit"
       ],
-      "nota_productos": null,
       "categorias": [
         {
           "slug": "proteinas",
@@ -1522,11 +1742,29 @@
         }
       ],
       "certificaciones": [
-        "[Declarado por la marca] 'RNA habilitado nacional' (probablemente se refiere al registro de establecimiento)",
-        "RNE: no verificado (la consulta en INAL por X-Nutrition no devolvió resultados; jurisdicción Santa Fe/ASSAL)",
-        "RNPA por producto: ver rótulo"
+        "Declarado por la marca: 'RNA habilitado nacional' (probablemente se refiere al registro de establecimiento)",
+        "RNE: no verificado (la consulta en la base oficial SIFeGA por X-Nutrition no devolvió resultados; jurisdicción Santa Fe/ASSAL)",
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la marca",
+          "texto": "'RNA habilitado nacional' (probablemente se refiere al registro de establecimiento)"
+        },
+        {
+          "estado": "sin_dato",
+          "etiqueta": "Sin dato verificable",
+          "texto": "RNE: no verificado (la consulta en la base oficial SIFeGA por X-Nutrition no devolvió resultados; jurisdicción Santa Fe/ASSAL)"
+        },
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        }
+      ],
+      "rne_consultado_sifega": false,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://tiendaxnutrition.com/ (onefitnutrition.com.ar redirige aquí)",
         "mercado_libre": "https://www.mercadolibre.com.ar/tienda/one-fit-nutrition",
@@ -1561,10 +1799,12 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene One Fit Nutrition?",
-          "a": "[Declarado por la marca] 'RNA habilitado nacional' (probablemente se refiere al registro de establecimiento). RNE: no verificado (la consulta en INAL por X-Nutrition no devolvió resultados; jurisdicción Santa Fe/ASSAL). RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Declarado por la marca: 'RNA habilitado nacional' (probablemente se refiere al registro de establecimiento). RNE: no verificado (la consulta en la base oficial SIFeGA por X-Nutrition no devolvió resultados; jurisdicción Santa Fe/ASSAL). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://tiendaxnutrition.com/pages/nosotros",
-            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -1572,6 +1812,8 @@
         "https://tiendaxnutrition.com/",
         "https://tiendaxnutrition.com/pages/nosotros",
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/one-fit-nutrition"
       ],
       "schema_sugerido": {
@@ -1579,7 +1821,7 @@
         "name": "One Fit Nutrition",
         "url": "https://tiendaxnutrition.com/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "pulver",
@@ -1594,7 +1836,7 @@
       "posicionamiento": "Combina suplementos con alimentos proteicos (ovoalbúmina, Prolac, sopas, pancakes y pizzas proteicas) y pone el foco en productos libres de gluten.",
       "historia": "Empresa alimenticia que desde 1990 fabrica esencias, estabilizantes y mousses para heladería; a partir de su experiencia en polvos incursionó en suplementos nutricionales. Es socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten.",
       "empresa": "Pulver S.R.L.",
-      "anio_fundacion": "1990, como empresa elaboradora de insumos para heladería (Pulver S.R.L.). Suplementos: al menos desde abril de 2005 [piso documentado: el sitio archivado ya ofrecía 'productos para nutrición deportiva'; en noviembre de 2002 todavía figuraba solo como Aditivos Pulver]. Año exacto de lanzamiento: PENDIENTE",
+      "anio_fundacion": "1990, como empresa elaboradora de insumos para heladería (Pulver S.R.L.). Suplementos: al menos desde abril de 2005 [primer registro documentado: el sitio archivado ya ofrecía 'productos para nutrición deportiva'; en noviembre de 2002 todavía figuraba solo como Aditivos Pulver].",
       "origen": "Argentina (Parque Patricios, CABA)",
       "lineas": [
         "Proteínas (Ovoalbumen, Prolac, Whey Protein, Soy/PEA Protein)",
@@ -1672,12 +1914,35 @@
         }
       ],
       "certificaciones": [
-        "[Declarado por la empresa] Productos libres de gluten con aprobación de la Dirección General de Higiene y Seguridad Alimentaria de CABA (texto de la línea de ingredientes)",
-        "[Verificable] Socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten (CAPALIGLU)",
-        "RNE: no verificable en la consulta pública de INAL (jurisdicción CABA no disponible en el buscador)",
-        "RNPA por producto: ver rótulo"
+        "Declarado por la empresa: Productos libres de gluten con aprobación de la Dirección General de Higiene y Seguridad Alimentaria de CABA (texto de la línea de ingredientes)",
+        "Socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten (CAPALIGLU)",
+        "RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador)",
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la empresa",
+          "texto": "Productos libres de gluten con aprobación de la Dirección General de Higiene y Seguridad Alimentaria de CABA (texto de la línea de ingredientes)"
+        },
+        {
+          "estado": "declarado",
+          "etiqueta": "Declarado por la marca",
+          "texto": "Socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten (CAPALIGLU)"
+        },
+        {
+          "estado": "sin_dato",
+          "etiqueta": "Sin dato verificable",
+          "texto": "RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador)"
+        },
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        }
+      ],
+      "rne_consultado_sifega": false,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://www.pulver.com.ar/",
         "mercado_libre": "https://www.mercadolibre.com.ar/tienda/pulver",
@@ -1700,7 +1965,7 @@
         },
         {
           "q": "¿Desde cuándo existe Pulver?",
-          "a": "1990, como empresa elaboradora de insumos para heladería (Pulver S.R.L.). Suplementos: al menos desde abril de 2005 [piso documentado: el sitio archivado ya ofrecía 'productos para nutrición deportiva'; en noviembre de 2002 todavía figuraba solo como Aditivos Pulver]. Año exacto de lanzamiento: PENDIENTE.",
+          "a": "1990, como empresa elaboradora de insumos para heladería (Pulver S.R.L.). Suplementos: al menos desde abril de 2005 [primer registro documentado: el sitio archivado ya ofrecía 'productos para nutrición deportiva'; en noviembre de 2002 todavía figuraba solo como Aditivos Pulver].",
           "fuentes": [
             "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37",
             "https://web.archive.org/web/20050407060429/http://www.pulver.com.ar/",
@@ -1716,11 +1981,13 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Pulver?",
-          "a": "[Declarado por la empresa] Productos libres de gluten con aprobación de la Dirección General de Higiene y Seguridad Alimentaria de CABA (texto de la línea de ingredientes). [Verificable] Socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten (CAPALIGLU). RNE: no verificable en la consulta pública de INAL (jurisdicción CABA no disponible en el buscador). RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Declarado por la empresa: Productos libres de gluten con aprobación de la Dirección General de Higiene y Seguridad Alimentaria de CABA (texto de la línea de ingredientes). Socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten (CAPALIGLU). RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://ingredientespulver.com.ar/empresa/",
             "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37",
-            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+            "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -1731,6 +1998,8 @@
         "https://web.archive.org/web/20050407060429/http://www.pulver.com.ar/",
         "https://web.archive.org/web/20021125050735/http://www.pulver.com.ar/",
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/pulver"
       ],
       "schema_sugerido": {
@@ -1738,7 +2007,7 @@
         "name": "Pulver",
         "url": "https://www.pulver.com.ar/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "nutremax",
@@ -1752,8 +2021,8 @@
       "intro": "Nutremax es una marca rosarina especializada en hidratación y deportes de resistencia, conocida por su bebida Hydromax.",
       "posicionamiento": "Se especializa en hidratación y deportes de resistencia y destaca que acompaña carreras con su hidratación.",
       "historia": "Nació en un garaje de Villa Constitución, fundada por el socio de su titular, María Fernanda Ledesma, a quien la prensa describe como ingeniero químico, y luego se trasladó al noroeste de Rosario, a una planta de 1.000 m². Al principio apuntaba al fisicoculturismo y al fitness; hoy se enfoca en deportes de resistencia (ciclismo, running, triatlón, natación). Su producto insignia es Hydromax. Distribuye en todo el país mediante mayoristas (farmacias, dietéticas, bicicleterías, grupos de entrenamiento) y en 2024 participaba de un programa municipal para empezar a exportar.",
-      "empresa": "NX Laboratorios S.A.S. (constituida el 01/12/2020; accionistas fundadores: David Schneider, técnico químico, y María Fernanda Ledesma). El vínculo con la marca se infiere porque coinciden los titulares que nombra la prensa y el prefijo 'NX' que usan sus productos; confirmación oficial: PENDIENTE",
-      "anio_fundacion": "PENDIENTE (año exacto). Piso documentado: el dominio nutremax.com.ar ya mostraba 'Nutre-Max Nutrición Deportiva' en abril de 2003 (página en construcción). Punto Biz (2022) le atribuye '15 años de trayectoria' (≈2007, estimado). La sociedad actual, NX Laboratorios S.A.S., se constituyó el 01/12/2020",
+      "empresa": "NX Laboratorios S.A.S. (constituida el 01/12/2020; accionistas fundadores: David Schneider, técnico químico, y María Fernanda Ledesma). El vínculo con la marca se infiere porque coinciden los titulares que nombra la prensa y el prefijo 'NX' que usan sus productos; sin confirmación oficial",
+      "anio_fundacion": "Año exacto no publicado. Primer registro documentado: el dominio nutremax.com.ar ya mostraba 'Nutre-Max Nutrición Deportiva' en abril de 2003 (página en construcción). Punto Biz (2022) le atribuye '15 años de trayectoria' (≈2007, estimado). La sociedad actual, NX Laboratorios S.A.S., se constituyó el 01/12/2020",
       "origen": "Argentina (Rosario, Santa Fe; orígenes en Villa Constitución)",
       "lineas": [
         "Endurance",
@@ -1767,7 +2036,6 @@
         "Creatina",
         "Prosalts"
       ],
-      "nota_productos": null,
       "categorias": [
         {
           "slug": "hidratacion-electrolitos",
@@ -1801,11 +2069,23 @@
         }
       ],
       "certificaciones": [
-        "RNE: PENDIENTE (la consulta en INAL por NX Laboratorios no devolvió resultados; jurisdicción Santa Fe/ASSAL)",
         "No se declaran certificaciones en el sitio oficial",
-        "RNPA por producto: ver rótulo"
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "sin_dato",
+          "etiqueta": "Sin dato verificable",
+          "texto": "No se declaran certificaciones en el sitio oficial"
+        },
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        }
+      ],
+      "rne_consultado_sifega": false,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://nutremax.com.ar/",
         "mercado_libre": "Sin tienda oficial de la marca (no se encontró). Se vende por revendedores, p. ej. las tiendas oficiales de los revendedores ODX y RTN Suplementos",
@@ -1829,7 +2109,7 @@
         },
         {
           "q": "¿Desde cuándo existe Nutremax?",
-          "a": "PENDIENTE (año exacto). Piso documentado: el dominio nutremax.com.ar ya mostraba 'Nutre-Max Nutrición Deportiva' en abril de 2003 (página en construcción). Punto Biz (2022) le atribuye '15 años de trayectoria' (≈2007, estimado). La sociedad actual, NX Laboratorios S.A.S., se constituyó el 01/12/2020.",
+          "a": "Año exacto no publicado. Primer registro documentado: el dominio nutremax.com.ar ya mostraba 'Nutre-Max Nutrición Deportiva' en abril de 2003 (página en construcción). Punto Biz (2022) le atribuye '15 años de trayectoria' (≈2007, estimado). La sociedad actual, NX Laboratorios S.A.S., se constituyó el 01/12/2020.",
           "fuentes": [
             "https://web.archive.org/web/20030421095002/http://www.nutremax.com.ar/",
             "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600",
@@ -1847,10 +2127,12 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Nutremax?",
-          "a": "RNE: PENDIENTE (la consulta en INAL por NX Laboratorios no devolvió resultados; jurisdicción Santa Fe/ASSAL). No se declaran certificaciones en el sitio oficial. RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "No se declaran certificaciones en el sitio oficial. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
-            "https://nutremax.com.ar/"
+            "https://nutremax.com.ar/",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -1861,6 +2143,8 @@
         "https://web.archive.org/web/20030421095002/http://www.nutremax.com.ar/",
         "https://www.santafe.gob.ar/boletinoficial/ver.php?seccion=2021%2F2021-01-18contratos.html",
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/odx",
         "https://www.mercadolibre.com.ar/tienda/rtn-suplementos",
         "https://rtnsuplementos.com/productos/nutremax-hydromax-pomelo-1320-gr-sin-tacc-1uw5h/"
@@ -1870,7 +2154,7 @@
         "name": "Nutremax",
         "url": "https://nutremax.com.ar/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     },
     {
       "slug": "granger",
@@ -1897,7 +2181,6 @@
         "Proteína de huevo hidrolizada (producto fundacional)",
         "Pancakes proteicos"
       ],
-      "nota_productos": null,
       "categorias": [
         {
           "slug": "proteinas",
@@ -1916,11 +2199,23 @@
         }
       ],
       "certificaciones": [
-        "RNE/RNPA: PENDIENTE (la consulta en INAL por 'Granger' no devolvió resultados; jurisdicción Santa Fe/ASSAL)",
         "No se declaran certificaciones en el sitio oficial revisado",
-        "RNPA por producto: ver rótulo"
+        "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
-      "nota_registros": "La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026.",
+      "certificaciones_detalle": [
+        {
+          "estado": "sin_dato",
+          "etiqueta": "Sin dato verificable",
+          "texto": "No se declaran certificaciones en el sitio oficial revisado"
+        },
+        {
+          "estado": "rotulo",
+          "etiqueta": "En el rótulo y en el buscador de productos autorizados",
+          "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
+        }
+      ],
+      "rne_consultado_sifega": false,
+      "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://www.grangernutricion.com/",
         "mercado_libre": "https://www.mercadolibre.com.ar/tienda/granger",
@@ -1959,10 +2254,12 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Granger Nutrición?",
-          "a": "RNE/RNPA: PENDIENTE (la consulta en INAL por 'Granger' no devolvió resultados; jurisdicción Santa Fe/ASSAL). No se declaran certificaciones en el sitio oficial revisado. RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "No se declaran certificaciones en el sitio oficial revisado. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
-            "https://www.grangernutricion.com/"
+            "https://www.grangernutricion.com/",
+            "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+            "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
           ]
         }
       ],
@@ -1974,6 +2271,8 @@
         "https://www.santafe.gob.ar/boletinoficial/ver.php?seccion=2022%2F2022-09-15contratos.html",
         "https://indicadores.ar/empresa/30717791483",
         "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
         "https://www.mercadolibre.com.ar/tienda/granger"
       ],
       "schema_sugerido": {
@@ -1981,7 +2280,7 @@
         "name": "Granger Nutrición",
         "url": "https://www.grangernutricion.com/"
       },
-      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
+      "disclaimer": "Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular."
     }
   ]
 }

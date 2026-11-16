@@ -30,12 +30,12 @@ Martín Menem inició la marca importando siete productos de EE.UU. en 1998. Tra
 [Proteínas](/categorias/proteinas), [Creatina](/categorias/creatina), [Aminoácidos (BCAA, EAA, glutamina)](/categorias/aminoacidos), [Barras y snacks proteicos](/categorias/barras-snacks), [Pre-entrenos y cafeína](/categorias/pre-entrenos), [Geles y carbohidratos](/categorias/geles-carbohidratos), [Quemadores y termogénicos](/categorias/quemadores-termogenicos), [Colágeno](/categorias/colageno), [Omega 3](/categorias/omega-3), [Vitaminas y minerales](/categorias/vitaminas-minerales), [Magnesio](/categorias/magnesio), [Ganadores de peso](/categorias/ganadores-de-peso)
 
 ## Registros y certificaciones
-- [Declarado por la marca] Certificados ANMAT, certificación sin gluten y GMP
-- [Declarado por la marca] Línea 'libre de doping'
-- RNE: no verificable en la consulta pública de INAL (jurisdicción CABA no disponible en el buscador)
-- RNPA por producto: ver rótulo
+- Declarado por la marca: Certificados ANMAT, certificación sin gluten y GMP
+- Declarado por la marca: Línea 'libre de doping'
+- RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador)
+- RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)
 
-_La consulta pública de INAL busca establecimientos (RNE), no productos (RNPA): el RNPA de cada producto debe leerse en el rótulo. El buscador ofrece jurisdicciones provinciales, pero en su selector no figuran la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía. Tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). Búsquedas realizadas el 16/11/2026._
+_Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; tampoco hubo resultados para Laboratorio ENA/ENA Nutritionals/Fidani, Trust Distributions, X-Nutrition, NX Laboratorios, Granger ni HTN/High Tech. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA._
 
 ## Dónde comprar
 - Sitio oficial: https://www.gentech.com.ar/
@@ -57,7 +57,7 @@ Gentech es una marca de Argentina (planta en Constitución, CABA).
 Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/gentech.
 
 ### ¿Qué registros o certificaciones tiene Gentech?
-[Declarado por la marca] Certificados ANMAT, certificación sin gluten y GMP. [Declarado por la marca] Línea 'libre de doping'. RNE: no verificable en la consulta pública de INAL (jurisdicción CABA no disponible en el buscador). RNPA por producto: ver rótulo. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
+Declarado por la marca: Certificados ANMAT, certificación sin gluten y GMP. Declarado por la marca: Línea 'libre de doping'. RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
 
 ## Fuentes
 - Gentech – sitio oficial: https://www.gentech.com.ar/
@@ -65,7 +65,9 @@ Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/gentech.
 - Indicadores AR – G.E.N. Tech Argentina S.A. (registro societario): https://indicadores.ar/empresa/30694765382
 - Perfil – Martín Menem desembarca en Chile con Gentech: https://www.perfil.com/noticias/politica/martin-menem-desembarca-en-chile-con-su-empresa-de-suplementos-dietarios.phtml
 - Gentech – Sobre el laboratorio: https://www.gentech.com.ar/sobre-el-laboratorio-de-suplementos-deportivos-gentech
-- INAL/ANMAT – Consulta pública de establecimientos (RNE). Búsquedas por razón social/RNE realizadas el 16/11/2026: https://inal.sifega.anmat.gob.ar/consultadeRegistro/
+- SIFeGA – Consulta pública de establecimientos (RNE). Búsquedas por razón social/RNE realizadas el 16/11/2026: https://inal.sifega.anmat.gob.ar/consultadeRegistro/
+- Decreto 697/2026 (Código Alimentario Argentino). Boletín Oficial, 03/08/2026: https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803
+- Argentina.gob.ar (06/08/2026) – Cambios en las competencias de control y fiscalización de alimentos: https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos
 - Mercado Libre – Tienda oficial Gentech: https://www.mercadolibre.com.ar/tienda/gentech
 
-_Actualizado: 2026-11-16. Información relevada de fuentes públicas. Cada certificación indica si fue verificada en INAL o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular._
+_Actualizado: 2026-11-16. Información relevada de fuentes públicas. Cada certificación indica si fue consultada en la base oficial SIFeGA o si es una declaración de la marca. [NOMBRE PORTAL] no recomienda productos ni marcas en particular._

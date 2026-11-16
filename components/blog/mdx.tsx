@@ -100,7 +100,7 @@ export function CalcTable() {
   ];
   return (
     <div className="calcb">
-      <div className="kicker">Ejemplo de cálculo</div>
+      <div className="kicker">Cálculo orientativo</div>
       <table>
         <thead>
           <tr>
@@ -121,7 +121,7 @@ export function CalcTable() {
         </tbody>
       </table>
       <p className="xs" style={{ marginTop: 10 }}>
-        Orientativo, para personas sanas que entrenan. No es una recomendación individual. Texto de ejemplo.
+        Orientativo, para personas sanas que entrenan. No es una recomendación individual.
       </p>
     </div>
   );
@@ -150,11 +150,7 @@ export function Check({ children }: { children: ReactNode }) {
 }
 
 export function ExampleNote({ children }: { children: ReactNode }) {
-  return (
-    <p className="small">
-      <span className="ex-flag">Contenido de ejemplo</span> {children}
-    </p>
-  );
+  return <p className="small">{children}</p>;
 }
 
 export function GuideLink({ href, children }: { href: string; children: ReactNode }) {

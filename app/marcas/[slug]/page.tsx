@@ -2,8 +2,8 @@ import { notFound } from "next/navigation";
 import { BrandView } from "@/components/marca/brand-view";
 import { JsonLd } from "@/components/ui/json-ld";
 import { getFicha, getMarcas } from "@/lib/content/load";
-import { applyPlaceholders, isHttpUrl } from "@/lib/format";
-import { pageMetadata } from "@/lib/seo";
+import { applyPlaceholders, isHttpUrl, publicCopy } from "@/lib/format";
+import { faqJsonLd, pageMetadata } from "@/lib/seo";
 import { absoluteUrl } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -34,18 +34,10 @@ export default async function MarcaPage({ params }: { params: Promise<{ slug: st
     "@type": "Brand",
     name: ficha.schema_sugerido.name,
     url: absoluteUrl(`/marcas/${slug}`),
-    description: applyPlaceholders(ficha.intro),
+    description: publicCopy(ficha.intro) ?? ficha.schema_sugerido.name,
   };
   if (typeof logo === "string" && isHttpUrl(logo)) brand.logo = logo;
-  const faq = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: ficha.faq.map((item) => ({
-      "@type": "Question",
-      name: applyPlaceholders(item.q),
-      acceptedAnswer: { "@type": "Answer", text: applyPlaceholders(item.a) },
-    })),
-  };
+  const faq = faqJsonLd(ficha.faq);
   return (
     <>
       <JsonLd data={brand} />

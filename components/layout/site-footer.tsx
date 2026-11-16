@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { NewsletterForm } from "@/components/layout/newsletter-form";
+import { ContactEmail } from "@/components/ui/contact-email";
 import { Wordmark } from "@/components/ui/wordmark";
 import { contentUpdatedLabel } from "@/lib/content/load";
 import { formatContentDate } from "@/lib/format";
+import { MICROCOPY } from "@/lib/microcopy";
 import type { NavData } from "@/lib/nav";
-import { getDomainLabel, getSiteName } from "@/lib/site";
+import { contactEmailDomain, contactEmailUser, getSiteName } from "@/lib/site";
 
 export function UtilityBar() {
   const updated = formatContentDate(contentUpdatedLabel());
@@ -19,9 +21,9 @@ export function UtilityBar() {
           <span className="d-only">Actualizado {updated}</span>
         </div>
         <div className="r">
-          Enlaces de afiliado de Mercado Libre: podemos recibir una comisión
+          {MICROCOPY.barra}
           <span className="sep">·</span>
-          <Link href="/transparencia-afiliados">Cómo nos financiamos</Link>
+          <Link href="/transparencia-afiliados">{MICROCOPY.barraLink}</Link>
         </div>
       </div>
     </div>
@@ -98,7 +100,10 @@ export function SiteFooter({ nav }: { nav: NavData }) {
                   <Link href="/como-evaluamos#politica">Política editorial</Link>
                 </li>
                 <li>
-                  <Link href="/transparencia-afiliados">Política de afiliados</Link>
+                  <Link href="/transparencia-afiliados">{MICROCOPY.pieEnlace}</Link>
+                </li>
+                <li>
+                  <Link href="/contacto">Contacto</Link>
                 </li>
                 <li>
                   <Link href="/herramientas">
@@ -116,21 +121,15 @@ export function SiteFooter({ nav }: { nav: NavData }) {
           </div>
         </div>
         <div className="legal">
-          <p>
-            <b>Aviso.</b> Contenido informativo. No reemplaza la consulta con médicos, nutricionistas u otros
-            profesionales de la salud. Los suplementos dietarios no están destinados a diagnosticar, tratar, curar ni
-            prevenir enfermedades. En Argentina los suplementos dietarios son alimentos regulados por el Código
-            Alimentario Argentino y la ANMAT.
-          </p>
-          <p>
-            <b>Afiliados.</b> Algunos enlaces a Mercado Libre son de afiliado: si comprás, {name} puede recibir una
-            comisión, sin costo extra para vos. No cambia el orden ni la evaluación.
-          </p>
+          <p>{MICROCOPY.avisoLegal}</p>
+          <p>{MICROCOPY.pieBloque}</p>
         </div>
         <div className="bottom">
           <span>
-            © {year} {name} · {getDomainLabel()} · <Link href="/terminos">Términos</Link> ·{" "}
-            <Link href="/privacidad">Privacidad</Link> · <Link href="/sitemap.xml">Mapa del sitio</Link>
+            © {year} {name} · <Link href="/terminos">Términos</Link> · <Link href="/privacidad">Privacidad</Link> ·{" "}
+            <Link href="/sitemap.xml">Mapa del sitio</Link>
+            <span className="sep">·</span>
+            <ContactEmail user={contactEmailUser()} domain={contactEmailDomain()} />
           </span>
           <span>Fotos de Pexels · <Link href="/creditos">ver créditos</Link></span>
         </div>
