@@ -5,7 +5,7 @@ import { pageMetadata } from "@/lib/seo";
 const page = loadTextPage("herramientas");
 
 export const metadata = pageMetadata({
-  title: page.title,
+  title: "Herramientas y calculadoras del sitio",
   description: page.description,
   path: "/herramientas",
   absoluteTitle: page.absoluteTitle,

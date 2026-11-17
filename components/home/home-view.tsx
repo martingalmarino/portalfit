@@ -48,7 +48,7 @@ export function HomeView() {
       <h1 className="sr-only">{title}</h1>
       <section className="mhero">
         <div className="wrap">
-          <Photo file="hero-mujer.jpg" className="mh-img" priority quality={60} sizes="100vw" position="50% 18%">
+          <Photo file="hero-mujer.jpg" className="mh-img" priority quality={60} sizes="(min-width: 601px) 640px, 100vw" position="50% 18%">
             <div className="mh-ov">
               <div className="kicker light">Nº 01 · Guía independiente · Argentina</div>
               <p className="h-display" aria-hidden="true" style={{ color: "#fff", marginTop: 12, marginBottom: 0 }}>
@@ -104,7 +104,14 @@ export function HomeView() {
             </div>
           </div>
           <div style={{ position: "relative" }}>
-            <Photo file="hero-mujer.jpg" className="hero-media" priority sizes="(max-width: 1100px) 100vw, 46vw" position="50% 22%" credit tag="Etapa 50 a 60" />
+            <link
+              rel="preload"
+              as="image"
+              media="(min-width: 601px)"
+              href="/_next/image?url=%2Fimg%2Fhero-mujer.jpg&w=640&q=60"
+              fetchPriority="high"
+            />
+            <Photo file="hero-mujer.jpg" className="hero-media" quality={60} sizes="(max-width: 600px) 100vw, 640px" position="50% 22%" credit tag="Etapa 50 a 60" />
             <aside className="evcard" aria-label="Evidencia por categoría">
               <div className="kicker" style={{ fontSize: 10.5 }}>Evidencia por categoría</div>
               {EVIDENCE_SAMPLE.map((slug) => {
@@ -133,9 +140,12 @@ export function HomeView() {
               </h2>
               <span className="xs">Publicaciones de Mercado Libre. El precio lo ves en cada publicación.</span>
             </div>
-            <Link className="link" href="/categorias">
-              Ver todos <IconArrow />
-            </Link>
+            <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+              <span className="xs">Selección editorial</span>
+              <Link className="link" href="/categorias">
+                Ver todos <IconArrow />
+              </Link>
+            </div>
           </div>
           <MlGrid products={featured} />
           <AffiliateNotice text={MICROCOPY.bloqueListado} show={blockHasAffiliate(featured)} />

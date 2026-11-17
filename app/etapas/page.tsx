@@ -9,7 +9,7 @@ import { STAGE_PHOTOS } from "@/lib/photos";
 import { itemListJsonLd, pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Etapas de vida y suplementos",
+  title: "Etapas de vida y suplementos según la edad",
   description: "Cómo cambia la suplementación según la edad, con el enfoque editorial de cada etapa.",
   path: "/etapas",
 });

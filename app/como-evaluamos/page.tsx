@@ -6,7 +6,7 @@ import { CERT_LABEL, EVIDENCE, hostOf, isHttpUrl, pad2, publicCopy, type CertSta
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Cómo evaluamos suplementos",
+  title: "Cómo evaluamos suplementos y marcas",
   description:
     "Cómo Portal FIT asigna el nivel de evidencia, qué significa cada estado de un registro y cuál es el criterio del orden de marcas.",
   path: "/como-evaluamos",

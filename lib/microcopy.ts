@@ -1,6 +1,6 @@
 /** Textos de interfaz tomados de content/paginas/microcopy-global.json. */
 export const MICROCOPY = {
-  barra: "Algunos links a Mercado Libre son de afiliado: podemos recibir una comisión",
+  barra: "Algunos links a Mercado Libre pueden ser de afiliado: podemos recibir una comisión",
   barraLink: "Cómo funciona",
   pieBloque:
     "Afiliados. Algunos links a Mercado Libre pueden ser de afiliado: si comprás desde ellos, podemos recibir una comisión. No cambia tu precio. Ninguna marca paga por aparecer ni por su posición.",

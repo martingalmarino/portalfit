@@ -2,7 +2,7 @@
 
 | Lugar | Antes | Después |
 |---|---|---|
-| barra_superior | Enlaces de afiliado de Mercado Libre: podemos recibir una comisión · Cómo nos financiamos | Algunos links a Mercado Libre son de afiliado: podemos recibir una comisión · Cómo funciona |
+| barra_superior | Enlaces de afiliado de Mercado Libre: podemos recibir una comisión · Cómo nos financiamos | Algunos links a Mercado Libre pueden ser de afiliado: podemos recibir una comisión · Cómo funciona |
 | pie_bloque_afiliados | Afiliados. Algunos enlaces a Mercado Libre son de afiliado: si comprás, Portal FIT puede recibir una comisión, sin costo extra para vos. No cambia el orden ni la evaluación. | Afiliados. Algunos links a Mercado Libre pueden ser de afiliado: si comprás desde ellos, podemos recibir una comisión. No cambia tu precio. Ninguna marca paga por aparecer ni por su posición. |
 | pie_enlace | Política de afiliados | Links de afiliado |
 | pie_copyright | © 2026 Portal FIT · [dominio] · Términos · Privacidad · Mapa del sitio | © 2026 Portal FIT · Términos · Privacidad · Mapa del sitio |

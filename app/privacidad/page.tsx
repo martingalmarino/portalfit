@@ -5,7 +5,7 @@ import { pageMetadata } from "@/lib/seo";
 const page = loadTextPage("privacidad");
 
 export const metadata = pageMetadata({
-  title: page.title,
+  title: "Política de privacidad de este sitio",
   description: page.description,
   path: "/privacidad",
   absoluteTitle: page.absoluteTitle,

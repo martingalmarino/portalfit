@@ -3,7 +3,7 @@ import Link from "next/link";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Página no encontrada | Portal FIT",
+  title: "Página no encontrada: volvé al inicio",
   description: "No encontramos esa página. Volvé al inicio o recorré las categorías y las marcas.",
   path: "/404",
   absoluteTitle: true,

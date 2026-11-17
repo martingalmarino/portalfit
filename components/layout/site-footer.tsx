@@ -113,8 +113,9 @@ export function SiteFooter({ nav }: { nav: NavData }) {
                   <Link href="/contacto">Contacto</Link>
                 </li>
                 <li>
-                  <Link href="/herramientas">
-                    Herramientas <span className="soon">Próximamente</span>
+                  <Link className="foot-tool" href="/herramientas">
+                    <span>Herramientas</span>
+                    <span className="soon">Próximamente</span>
                   </Link>
                 </li>
                 <li>
