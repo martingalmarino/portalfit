@@ -29,7 +29,7 @@ Los loaders (`lib/content/load.ts`) leen los JSON, los validan y cruzan slugs, i
 
 JSON-LD: `Organization` y `WebSite` en todo el sitio, `Brand` en las marcas, `ItemList` en listados, `Article` y `FAQPage` en el blog, `BreadcrumbList` en las migas. No hay `Product` ni `Offer`: el sitio no publica precios.
 
-`robots.ts` y la meta robots dejan el sitio en `noindex` / `disallow` hasta que `NEXT_PUBLIC_ALLOW_INDEXING` sea `true`.
+`isIndexingAllowed()` en `lib/site.ts` es la única decisión de indexado. Con `NEXT_PUBLIC_ALLOW_INDEXING` distinto de `true`, la meta robots queda en `noindex, nofollow`, `robots.txt` responde `Disallow: /` y el header `X-Robots-Tag` repite `noindex, nofollow`. El sitemap sigue publicado y apunta a `SITE_URL`.
 
 ## Cómo actualiza Redacción
 
@@ -60,9 +60,9 @@ Copiá `.env.example` a `.env.local` para desarrollar. En Vercel, las mismas cla
 | Variable | Uso |
 | --- | --- |
 | `NEXT_PUBLIC_SITE_NAME` | Nombre visible. Si no está, se usa `Portal FIT`. |
-| `NEXT_PUBLIC_SITE_URL` | Canónico, Open Graph y sitemap. Sin barra final. En Vercel, si falta, se usa `VERCEL_PROJECT_PRODUCTION_URL` y después `VERCEL_URL`. |
+| `NEXT_PUBLIC_SITE_URL` | Canónico, Open Graph, sitemap y JSON-LD. Sin barra final. Si falta, se usa `https://www.portalfit.com.ar`. |
 | `NEXT_PUBLIC_DOMAIN_LABEL` | Texto del dominio en el pie. Si no está, el pie no muestra dominio. |
-| `NEXT_PUBLIC_ALLOW_INDEXING` | `false` hasta el lanzamiento. `true` habilita el indexado. |
+| `NEXT_PUBLIC_ALLOW_INDEXING` | `false` hasta el lanzamiento. Solo `true` habilita el indexado. |
 
 ## Desarrollo
 
@@ -76,9 +76,8 @@ pnpm build
 ## Deploy en Vercel
 
 1. Importar el repositorio. Framework: Next.js. El gestor es pnpm (hay `packageManager` en `package.json`).
-2. Cargar las variables de arriba. Dejar `NEXT_PUBLIC_ALLOW_INDEXING` en `false` hasta tener dominio y revisión.
-3. Deploy. No hace falta configurar build command, output directory ni regiones.
-4. Cuando exista el dominio, setear `NEXT_PUBLIC_SITE_URL` con `https://` y volver a desplegar para que canónicos y sitemap apunten ahí.
-5. Recién entonces pasar `NEXT_PUBLIC_ALLOW_INDEXING` a `true`.
+2. Cargar las variables de arriba. Dejar `NEXT_PUBLIC_ALLOW_INDEXING` en `false` hasta la revisión final.
+3. Deploy. No hace falta configurar build command, output directory ni regiones. No hace falta un redirect del host de preview al dominio: el canonical ya apunta a `https://www.portalfit.com.ar`.
+4. Para activar el indexado: en Vercel, Environment Variables, poner `NEXT_PUBLIC_ALLOW_INDEXING` en `true` solo en Production y volver a desplegar. Meta robots, `robots.txt` y `X-Robots-Tag` salen de esa misma variable.
 
 No se despliega a producción desde este repositorio de etapa 1 sin esa decisión.

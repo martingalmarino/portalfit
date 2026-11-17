@@ -1,14 +1,10 @@
 import type { MetadataRoute } from "next";
-import { allowsIndexing, getSiteUrl } from "@/lib/site";
+import { absoluteUrl, isIndexingAllowed } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
-  if (!allowsIndexing()) {
-    return {
-      rules: { userAgent: "*", disallow: "/" },
-    };
+  const sitemap = absoluteUrl("/sitemap.xml");
+  if (!isIndexingAllowed()) {
+    return { rules: { userAgent: "*", disallow: "/" }, sitemap };
   }
-  return {
-    rules: { userAgent: "*", allow: "/" },
-    sitemap: `${getSiteUrl()}/sitemap.xml`,
-  };
+  return { rules: { userAgent: "*", allow: "/" }, sitemap };
 }

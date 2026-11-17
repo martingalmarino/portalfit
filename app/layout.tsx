@@ -6,7 +6,7 @@ import { JsonLd } from "@/components/ui/json-ld";
 import { assertContentGraph } from "@/lib/content/load";
 import { getNavData } from "@/lib/nav";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo";
-import { allowsIndexing, getSiteName, getSiteUrl } from "@/lib/site";
+import { absoluteUrl, getSiteName, getSiteUrl, robotsMetadata } from "@/lib/site";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -36,13 +36,17 @@ export const metadata: Metadata = {
   },
   description:
     "Guía independiente sobre suplementos, nutrición deportiva, longevidad y rendimiento en Argentina. Contenido informativo, no médico.",
-  robots: allowsIndexing()
-    ? { index: true, follow: true }
-    : { index: false, follow: false, nocache: true },
+  robots: robotsMetadata(),
   openGraph: {
     type: "website",
     locale: "es_AR",
+    url: absoluteUrl("/"),
     siteName: getSiteName(),
+    images: [{ url: absoluteUrl("/opengraph-image"), width: 1200, height: 630, alt: getSiteName() }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: [absoluteUrl("/opengraph-image")],
   },
 };
 

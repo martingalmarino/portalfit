@@ -8,19 +8,18 @@ export function getSiteName(): string {
   return name && name.length > 0 ? name : "Portal FIT";
 }
 
-function httpsHost(value: string | undefined): string | null {
-  const host = value?.trim().replace(/^https?:\/\//, "").replace(/\/$/, "");
-  return host ? `https://${host}` : null;
+const DEFAULT_SITE_URL = "https://www.portalfit.com.ar";
+
+function normalizeSiteUrl(value: string | undefined): string | null {
+  const url = value?.trim().replace(/\/+$/, "");
+  return url && /^https?:\/\//.test(url) ? url : null;
 }
 
+/** URL canónica, sin barra final. Si la env no está, el dominio definitivo. */
+export const SITE_URL = normalizeSiteUrl(process.env.NEXT_PUBLIC_SITE_URL) ?? DEFAULT_SITE_URL;
+
 export function getSiteUrl(): string {
-  const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim().replace(/\/$/, "");
-  if (explicit && /^https?:\/\//.test(explicit)) return explicit;
-  return (
-    httpsHost(process.env.VERCEL_PROJECT_PRODUCTION_URL) ??
-    httpsHost(process.env.VERCEL_URL) ??
-    "http://localhost:3000"
-  );
+  return SITE_URL;
 }
 
 /** Solo el rótulo público. Si no está definido, el pie no muestra dominio. */
@@ -29,8 +28,14 @@ export function getDomainLabel(): string | null {
   return label ? label : null;
 }
 
-export function allowsIndexing(): boolean {
+/** Única fuente del noindex. Solo "true" habilita el indexado; cualquier otro valor lo deja apagado. */
+export function isIndexingAllowed(): boolean {
   return process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true";
+}
+
+export function robotsMetadata(): { index: boolean; follow: boolean; nocache?: boolean } {
+  if (isIndexingAllowed()) return { index: true, follow: true };
+  return { index: false, follow: false, nocache: true };
 }
 
 /** El formulario no guarda nada. Solo se muestra si esta variable es "true". */
