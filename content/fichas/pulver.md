@@ -14,7 +14,7 @@ Empresa alimenticia que desde 1990 fabrica esencias, estabilizantes y mousses pa
 
 - **Empresa:** Marca de Pulver S.R.L. (Ciudad de Buenos Aires).
 - **Fundación:** 1990 como empresa; con suplementos deportivos al menos desde 2005.
-- **Origen:** Argentina (Parque Patricios, CABA)
+- **Origen:** Argentina (Ciudad de Buenos Aires)
 
 ## Líneas de producto
 - Proteínas (Ovoalbumen, Prolac, Whey Protein, Soy/PEA Protein)
@@ -52,7 +52,7 @@ instagram: https://www.instagram.com/pulversuplementos · facebook: https://www.
 ## Preguntas frecuentes
 
 ### ¿De dónde es Pulver?
-Pulver es una marca de Argentina (Parque Patricios, CABA).
+Pulver es una marca de Argentina (Ciudad de Buenos Aires).
 
 ### ¿Desde cuándo existe Pulver?
 1990 como empresa; con suplementos deportivos al menos desde 2005.

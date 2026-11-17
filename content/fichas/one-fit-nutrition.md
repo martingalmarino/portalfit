@@ -14,7 +14,7 @@ X-Nutrition nació en 2019 para integrar desarrollo y fabricación de productos 
 
 - **Empresa:** Elaborada por X-Nutrition S.R.L., en Alvear (Santa Fe), que también fabrica otras marcas.
 - **Fundación:** 2019.
-- **Origen:** Argentina (Parque Industrial de Alvear, Santa Fe)
+- **Origen:** Argentina (Alvear, Santa Fe)
 
 ## Líneas de producto
 - One Fit
@@ -45,7 +45,7 @@ instagram: https://www.instagram.com/onefit.nutrition
 ## Preguntas frecuentes
 
 ### ¿De dónde es One Fit Nutrition?
-One Fit Nutrition es una marca de Argentina (Parque Industrial de Alvear, Santa Fe).
+One Fit Nutrition es una marca de Argentina (Alvear, Santa Fe).
 
 ### ¿Desde cuándo existe One Fit Nutrition?
 2019.

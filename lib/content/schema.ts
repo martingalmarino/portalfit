@@ -345,6 +345,14 @@ const affiliateProductSchema = z
     tiendaOficial: z.boolean().optional(),
     tienda_oficial: z.boolean().optional(),
     rne: z.boolean().nullable().optional(),
+    alternativa: z
+      .object({
+        url_ml: z.string().url(),
+        titulo: z.string().min(1).optional(),
+        motivo: z.string().min(1).optional(),
+        verificado: z.string().min(1).optional(),
+      })
+      .optional(),
   })
   .transform((product) => {
     const url = product.url ?? product.url_ml;

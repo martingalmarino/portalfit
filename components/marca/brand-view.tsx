@@ -152,9 +152,11 @@ export function BrandView({ slug }: { slug: string }) {
               </div>
             </div>
             <MlGrid products={products} />
-            <p className="xs" style={{ marginTop: 14 }}>
-              {ficha.nota_productos ? <Editorial text={ficha.nota_productos} /> : "“Más vendido” es como los marca el sitio oficial de la marca, no una evaluación de Portal FIT."}
-            </p>
+            {ficha.nota_productos ? (
+              <p className="xs" style={{ marginTop: 14 }}>
+                <Editorial text={ficha.nota_productos} />
+              </p>
+            ) : null}
             <AffiliateNotice text={MICROCOPY.fichaProductos} show={blockHasAffiliate(products)} />
           </div>
           <div className="bh-facts">

@@ -14,7 +14,7 @@ La marca se describe como 'una empresa joven' que elabora con materias primas im
 
 - **Empresa:** Marca de Nutriciencia S.A. (provincia de Buenos Aires).
 - **Fundación:** Presente en el mercado al menos desde 2011.
-- **Origen:** Argentina (Nutriciencia S.A.; domicilios en Tigre y Mar del Plata, Buenos Aires)
+- **Origen:** Argentina (provincia de Buenos Aires)
 
 ## Líneas de producto
 - Star Nutrition: línea única organizada por momento del entrenamiento (pre, intra y post training)
@@ -31,8 +31,8 @@ _El sitio no marca 'más vendidos': se listan productos representativos del cat�
 [Proteínas](/categorias/proteinas), [Creatina](/categorias/creatina), [Aminoácidos (BCAA, EAA, glutamina)](/categorias/aminoacidos), [Pre-entrenos y cafeína](/categorias/pre-entrenos), [Ganadores de peso](/categorias/ganadores-de-peso), [Vitaminas y minerales](/categorias/vitaminas-minerales), [Magnesio](/categorias/magnesio), [Colágeno](/categorias/colageno), [Omega 3](/categorias/omega-3), [Quemadores y termogénicos](/categorias/quemadores-termogenicos), [Hidratación y electrolitos](/categorias/hidratacion-electrolitos), [Longevidad y bienestar](/categorias/longevidad-bienestar)
 
 ## Registros y certificaciones
-- Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente
-- Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido
+- Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Los Troncos del Talar (Bs. As.): Vigente
+- Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Mar del Plata: Vencido
 - Declarado por la marca: Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP
 - RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)
 
@@ -49,7 +49,7 @@ instagram: https://www.instagram.com/starnutrition.oficial · facebook: https://
 ## Preguntas frecuentes
 
 ### ¿De dónde es Star Nutrition?
-Star Nutrition es una marca de Argentina (Nutriciencia S.A.; domicilios en Tigre y Mar del Plata, Buenos Aires).
+Star Nutrition es una marca de Argentina (provincia de Buenos Aires).
 
 ### ¿Desde cuándo existe Star Nutrition?
 Presente en el mercado al menos desde 2011.
@@ -58,7 +58,7 @@ Presente en el mercado al menos desde 2011.
 Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/star-nutrition.
 
 ### ¿Qué registros o certificaciones tiene Star Nutrition?
-Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente. Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido. Declarado por la marca: Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
+Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Los Troncos del Talar (Bs. As.): Vigente. Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Mar del Plata: Vencido. Declarado por la marca: Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
 
 ## Fuentes
 - Star Nutrition – sitio oficial: https://starnutrition.com.ar/

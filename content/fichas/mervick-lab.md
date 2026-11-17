@@ -29,8 +29,8 @@ Datos registrales: sociedad anónima con domicilio en Panamericana km 40,5, Del 
 [Proteínas](/categorias/proteinas), [Creatina](/categorias/creatina), [Aminoácidos (BCAA, EAA, glutamina)](/categorias/aminoacidos), [Geles y carbohidratos](/categorias/geles-carbohidratos), [Hidratación y electrolitos](/categorias/hidratacion-electrolitos), [Barras y snacks proteicos](/categorias/barras-snacks), [Magnesio](/categorias/magnesio), [Ganadores de peso](/categorias/ganadores-de-peso), [Quemadores y termogénicos](/categorias/quemadores-termogenicos)
 
 ## Registros y certificaciones
-- Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente
-- Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente
+- Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Pilar (Bs. As.): Vigente
+- Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, Parada Robles–Pavón (Bs. As.): Vigente
 - RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)
 
 _Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; para el resto de las marcas la consulta no arrojó resultados con los nombres de sus empresas, así que su registro no figura como consultado. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA._
@@ -55,7 +55,7 @@ Presente en el mercado al menos desde 2011.
 Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/mervick-lab.
 
 ### ¿Qué registros o certificaciones tiene Mervick Lab?
-Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente. Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
+Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Pilar (Bs. As.): Vigente. Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, Parada Robles–Pavón (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
 
 ## Fuentes
 - Mervick Lab – tienda oficial: https://tiendamervick.com.ar/

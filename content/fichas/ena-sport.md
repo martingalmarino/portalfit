@@ -30,6 +30,8 @@ Nació en 1988 en Bahía Blanca, cuando Pablo Fidani decidió fabricar en el pa�
 - Colágeno Sport (marcado 'MÁS VENDIDO')
 - Creatina Monohidrato Creapure®
 
+_“Más vendido” es la etiqueta que usa el sitio oficial de la marca, no una evaluación de Portal FIT._
+
 ## Categorías en las que compite
 [Proteínas](/categorias/proteinas), [Creatina](/categorias/creatina), [Aminoácidos (BCAA, EAA, glutamina)](/categorias/aminoacidos), [Colágeno](/categorias/colageno), [Vitaminas y minerales](/categorias/vitaminas-minerales), [Omega 3](/categorias/omega-3), [Magnesio](/categorias/magnesio), [Longevidad y bienestar](/categorias/longevidad-bienestar), [Quemadores y termogénicos](/categorias/quemadores-termogenicos), [Ganadores de peso](/categorias/ganadores-de-peso), [Barras y snacks proteicos](/categorias/barras-snacks), [Hidratación y electrolitos](/categorias/hidratacion-electrolitos), [Geles y carbohidratos](/categorias/geles-carbohidratos), [Pre-entrenos y cafeína](/categorias/pre-entrenos)
 

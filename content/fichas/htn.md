@@ -25,6 +25,8 @@ Según la propia marca, desarrolla suplementos desde 1999 y fue pionera en el me
 - XT Gold Protein (marcado 'MÁS VENDIDO')
 - Usa Soy Protein Isolate
 
+_“Más vendido” es la etiqueta que usa el sitio oficial de la marca, no una evaluación de Portal FIT._
+
 ## Categorías en las que compite
 [Proteínas](/categorias/proteinas), [Creatina](/categorias/creatina), [Aminoácidos (BCAA, EAA, glutamina)](/categorias/aminoacidos), [Pre-entrenos y cafeína](/categorias/pre-entrenos), [Ganadores de peso](/categorias/ganadores-de-peso), [Quemadores y termogénicos](/categorias/quemadores-termogenicos), [Colágeno](/categorias/colageno), [Magnesio](/categorias/magnesio), [Vitaminas y minerales](/categorias/vitaminas-minerales)
 
@@ -59,7 +61,7 @@ Declarado por la marca: Productos fabricados en 'instalaciones certificadas' (no
 ## Fuentes
 - HTN (High Tech Nutrition) – sitio oficial: https://htn.com.ar/
 - HTN – Somos High Tech Nutrition: https://htn.com.ar/somos-high-tech-nutrition/
-- Bizearch (directorio de terceros, sin fecha) – High Tech Nutrition, Ávalos 748, CABA: https://www.bizearch.com/company/High_Tech_Nutrition_318769.htm
+- Bizearch (directorio de terceros, sin fecha) – High Tech Nutrition, CABA: https://www.bizearch.com/company/High_Tech_Nutrition_318769.htm
 - SIFeGA – Consulta pública de establecimientos (RNE). Búsquedas por razón social/RNE realizadas el 16/11/2026: https://inal.sifega.anmat.gob.ar/consultadeRegistro/
 - Decreto 697/2026 (Código Alimentario Argentino). Boletín Oficial, 03/08/2026: https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803
 - Argentina.gob.ar (06/08/2026) – Cambios en las competencias de control y fiscalización de alimentos: https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos

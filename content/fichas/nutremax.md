@@ -14,7 +14,7 @@ Nació en un garaje de Villa Constitución, fundada por el socio de su titular, 
 
 - **Empresa:** Vinculada a NX Laboratorios S.A.S. (Santa Fe). Dato surgido de registros públicos; la marca no lo confirma en su web.
 - **Fundación:** En el mercado al menos desde 2003.
-- **Origen:** Argentina (Rosario, Santa Fe; orígenes en Villa Constitución)
+- **Origen:** Argentina (Rosario, Santa Fe)
 
 ## Líneas de producto
 - Endurance
@@ -48,7 +48,7 @@ instagram: https://www.instagram.com/nutremax.arg · facebook: https://www.faceb
 ## Preguntas frecuentes
 
 ### ¿De dónde es Nutremax?
-Nutremax es una marca de Argentina (Rosario, Santa Fe; orígenes en Villa Constitución).
+Nutremax es una marca de Argentina (Rosario, Santa Fe).
 
 ### ¿Desde cuándo existe Nutremax?
 En el mercado al menos desde 2003.

@@ -34,6 +34,7 @@
         "Colágeno Sport (marcado 'MÁS VENDIDO')",
         "Creatina Monohidrato Creapure®"
       ],
+      "nota_productos": "“Más vendido” es la etiqueta que usa el sitio oficial de la marca, no una evaluación de Portal FIT.",
       "categorias": [
         {
           "slug": "proteinas",
@@ -217,7 +218,7 @@
       "historia": "Martín Menem inició la marca importando siete productos de EE.UU. en 1998. Tras la crisis de 2001 decidió producir en el país y en 2003 lanzó los primeros productos hechos en Argentina en su planta de Constitución. Según Forbes (2021) fabrica más de 80 productos propios y para terceros.",
       "empresa": "Elaborada por G.E.N. Tech Argentina S.A., en la Ciudad de Buenos Aires.",
       "anio_fundacion": "1998, como importadora; fabrica en el país desde 2003.",
-      "origen": "Argentina (planta en Constitución, CABA)",
+      "origen": "Argentina (Ciudad de Buenos Aires)",
       "lineas": [
         "Gentech (suplementos)",
         "Iron Bar (barras proteicas)",
@@ -335,7 +336,7 @@
       "faq": [
         {
           "q": "¿De dónde es Gentech?",
-          "a": "Gentech es una marca de Argentina (planta en Constitución, CABA).",
+          "a": "Gentech es una marca de Argentina (Ciudad de Buenos Aires).",
           "fuentes": [
             "https://www.forbesargentina.com/negocios/como-gentech-compania-pionera-suplementos-dietarios-factura-116-millones-n8299"
           ]
@@ -587,7 +588,7 @@
       "historia": "La marca se describe como 'una empresa joven' que elabora con materias primas importadas en laboratorio propio, con el objetivo de igualar la calidad de las marcas internacionales a precios accesibles para el consumidor argentino.",
       "empresa": "Marca de Nutriciencia S.A. (provincia de Buenos Aires).",
       "anio_fundacion": "Presente en el mercado al menos desde 2011.",
-      "origen": "Argentina (Nutriciencia S.A.; domicilios en Tigre y Mar del Plata, Buenos Aires)",
+      "origen": "Argentina (provincia de Buenos Aires)",
       "lineas": [
         "Star Nutrition: línea única organizada por momento del entrenamiento (pre, intra y post training)"
       ],
@@ -661,8 +662,8 @@
         }
       ],
       "certificaciones": [
-        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente",
-        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido",
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Los Troncos del Talar (Bs. As.): Vigente",
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Mar del Plata: Vencido",
         "Declarado por la marca: Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP",
         "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
@@ -670,12 +671,12 @@
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente"
+          "texto": "Nutriciencia S.A., RNE 02040050, Los Troncos del Talar (Bs. As.): Vigente"
         },
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido"
+          "texto": "Nutriciencia S.A., RNE 02034280, Mar del Plata: Vencido"
         },
         {
           "estado": "declarado",
@@ -704,7 +705,7 @@
       "faq": [
         {
           "q": "¿De dónde es Star Nutrition?",
-          "a": "Star Nutrition es una marca de Argentina (Nutriciencia S.A.; domicilios en Tigre y Mar del Plata, Buenos Aires).",
+          "a": "Star Nutrition es una marca de Argentina (provincia de Buenos Aires).",
           "fuentes": [
             "https://w20argentina.com/empresa/nutriciencia-sociedad-anonima-30708530863",
             "https://appsb.mardelplata.gob.ar/Consultas/nOfertasProduccion/OfertaExportable/Empresa.aspx?id=2288"
@@ -728,7 +729,7 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Star Nutrition?",
-          "a": "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente. Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido. Declarado por la marca: Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Los Troncos del Talar (Bs. As.): Vigente. Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Mar del Plata: Vencido. Declarado por la marca: Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
             "https://starnutrition.com.ar/pages/nosotros",
@@ -961,20 +962,20 @@
         }
       ],
       "certificaciones": [
-        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente",
-        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente",
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Pilar (Bs. As.): Vigente",
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, Parada Robles–Pavón (Bs. As.): Vigente",
         "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
       "certificaciones_detalle": [
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente"
+          "texto": "Mervick Lab S.A., RNE 02033878, Pilar (Bs. As.): Vigente"
         },
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente"
+          "texto": "Mervick Lab S.A., RNE 02042398, Parada Robles–Pavón (Bs. As.): Vigente"
         },
         {
           "estado": "rotulo",
@@ -1021,7 +1022,7 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Mervick Lab?",
-          "a": "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente. Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Pilar (Bs. As.): Vigente. Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, Parada Robles–Pavón (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
             "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
@@ -1070,6 +1071,7 @@
         "Iso Gold Protein",
         "Gainer Gold"
       ],
+      "nota_productos": "“Más vendido” es la etiqueta que usa el sitio oficial de la marca, no una evaluación de Portal FIT.",
       "categorias": [
         {
           "slug": "proteinas",
@@ -1237,6 +1239,7 @@
         "XT Gold Protein (marcado 'MÁS VENDIDO')",
         "Usa Soy Protein Isolate"
       ],
+      "nota_productos": "“Más vendido” es la etiqueta que usa el sitio oficial de la marca, no una evaluación de Portal FIT.",
       "categorias": [
         {
           "slug": "proteinas",
@@ -1377,7 +1380,7 @@
       "historia": "Empresa argentina que elabora suplementos dietarios en planta propia, en Caseros (Tres de Febrero), con materia prima importada. Su dueño, César Servan, protagonizó en Olé un reality de 8 semanas de entrenamiento y suplementación para difundir la marca. En diciembre de 2020 la firma titular del establecimiento hizo un retiro voluntario de cuatro sabores de Whey Protein, porque sus rótulos usaban el símbolo 'sin TACC' sin tener esa autorización (los productos sí tenían RNPA vigente), y en enero de 2021 ANMAT prohibió la comercialización de esos lotes rotulados así. En febrero de 2026 la planta obtuvo un certificado de Buenas Prácticas de Manufactura otorgado por INAL, antes del traspaso de esas funciones al SENASA.",
       "empresa": "Elaborada en planta propia en Caseros (Buenos Aires). La marca no publica una razón social.",
       "anio_fundacion": "Con productos registrados al menos desde 2020.",
-      "origen": "Argentina (planta en San Roque 4576, Ciudadela/Caseros, provincia de Buenos Aires)",
+      "origen": "Argentina (Caseros, Buenos Aires)",
       "lineas": [
         "Proteínas y Ganadores",
         "Multivitamínicos y Colágenos",
@@ -1429,7 +1432,7 @@
       ],
       "certificaciones": [
         "Documento oficial publicado por la marca: certificado de Buenas Prácticas de Manufactura emitido por INAL/ANMAT antes del traspaso a SENASA, CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos)",
-        "Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente",
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, Caseros (Bs. As.): Vigente",
         "Declarado por la marca: RNPA de sus productos y permisos de importación/exportación",
         "Declarado por la marca: Análisis de laboratorio de terceros publicados (p. ej. Melacrom)",
         "Según la ANMAT (2020), los RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein) estaban vigentes a esa fecha. Antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021"
@@ -1443,7 +1446,7 @@
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente"
+          "texto": "RNE 02035075, Caseros (Bs. As.): Vigente"
         },
         {
           "estado": "declarado",
@@ -1477,7 +1480,7 @@
       "faq": [
         {
           "q": "¿De dónde es Body Advance?",
-          "a": "Body Advance es una marca de Argentina (planta en San Roque 4576, Ciudadela/Caseros, provincia de Buenos Aires).",
+          "a": "Body Advance es una marca de Argentina (Caseros, Buenos Aires).",
           "fuentes": [
             "https://bodyadvancenutrition.com/wp-content/uploads/2026/06/certificado-buenas-practicas-anmat-body-advance.pdf",
             "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
@@ -1501,7 +1504,7 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Body Advance?",
-          "a": "Documento oficial publicado por la marca: certificado de Buenas Prácticas de Manufactura emitido por INAL/ANMAT antes del traspaso a SENASA, CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos). Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente. Declarado por la marca: RNPA de sus productos y permisos de importación/exportación. Declarado por la marca: Análisis de laboratorio de terceros publicados (p. ej. Melacrom). Según la ANMAT (2020), los RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein) estaban vigentes a esa fecha. Antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Documento oficial publicado por la marca: certificado de Buenas Prácticas de Manufactura emitido por INAL/ANMAT antes del traspaso a SENASA, CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos). Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, Caseros (Bs. As.): Vigente. Declarado por la marca: RNPA de sus productos y permisos de importación/exportación. Declarado por la marca: Análisis de laboratorio de terceros publicados (p. ej. Melacrom). Según la ANMAT (2020), los RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein) estaban vigentes a esa fecha. Antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://bodyadvancenutrition.com/wp-content/uploads/2026/06/certificado-buenas-practicas-anmat-body-advance.pdf",
             "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
@@ -1547,10 +1550,10 @@
       "h1": "Xtrenght Nutrition: historia, líneas de producto y dónde comprar",
       "intro": "Xtrenght Nutrition es una marca argentina de suplementos deportivos con base en Quilmes que organiza sus productos por disciplina deportiva y por objetivo.",
       "posicionamiento": "Segmenta su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol, ciclismo) y por objetivo.",
-      "historia": "Se presenta como laboratorio argentino de suplementos que acompaña a deportistas de élite desde hace 15 años. En 2007 la marca ya vendía su proteína Xtrenght Protein desde un sitio propio con domicilio en la Ciudad de Buenos Aires (captura archivada). Hoy publica domicilio en Av. Los Quilmes 870 (Bernal), donde está habilitado el establecimiento de Xience Group S.A. Organiza su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol y ciclismo) y por objetivo.",
+      "historia": "Se presenta como laboratorio argentino de suplementos que acompaña a deportistas de élite desde hace 15 años. En 2007 la marca ya vendía su proteína Xtrenght Protein desde un sitio propio con domicilio en la Ciudad de Buenos Aires (captura archivada). Hoy publica domicilio en Bernal, donde está habilitado el establecimiento de Xience Group S.A. Organiza su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol y ciclismo) y por objetivo.",
       "empresa": "Elaborada por Xience Group S.A. (Bernal, Buenos Aires). Dato surgido de registros públicos; la marca no lo publica en su web.",
       "anio_fundacion": "En el mercado al menos desde 2007.",
-      "origen": "Argentina (Av. Los Quilmes 870, partido de Quilmes, provincia de Buenos Aires)",
+      "origen": "Argentina (Bernal, Buenos Aires)",
       "lineas": [
         "Xtrenght Nutrition: línea única, con combos por disciplina"
       ],
@@ -1589,8 +1592,8 @@
         }
       ],
       "certificaciones": [
-        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)",
-        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente",
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)",
+        "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Wilde (Bs. As.): Vigente",
         "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)",
         "No se declaran certificaciones en el sitio oficial"
       ],
@@ -1598,12 +1601,12 @@
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)"
+          "texto": "Xience Group S.A., RNE 02042640, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)"
         },
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente"
+          "texto": "Xience Group S.A., RNE 02034521, Wilde (Bs. As.): Vigente"
         },
         {
           "estado": "rotulo",
@@ -1632,7 +1635,7 @@
       "faq": [
         {
           "q": "¿De dónde es Xtrenght Nutrition?",
-          "a": "Xtrenght Nutrition es una marca de Argentina (Av. Los Quilmes 870, partido de Quilmes, provincia de Buenos Aires).",
+          "a": "Xtrenght Nutrition es una marca de Argentina (Bernal, Buenos Aires).",
           "fuentes": [
             "https://xtrenght-nutrition.com/about-us"
           ]
@@ -1656,7 +1659,7 @@
         },
         {
           "q": "¿Qué registros o certificaciones tiene Xtrenght Nutrition?",
-          "a": "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido). Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). No se declaran certificaciones en el sitio oficial. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido). Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Wilde (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). No se declaran certificaciones en el sitio oficial. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
             "https://xtrenght-nutrition.com/",
@@ -1699,7 +1702,7 @@
       "historia": "X-Nutrition nació en 2019 para integrar desarrollo y fabricación de productos nutricionales; en 2025 trasladó su operación al Parque Industrial de Alvear. Declara 80+ colaboradores y producción para más de 15 marcas de terceros.",
       "empresa": "Elaborada por X-Nutrition S.R.L., en Alvear (Santa Fe), que también fabrica otras marcas.",
       "anio_fundacion": "2019.",
-      "origen": "Argentina (Parque Industrial de Alvear, Santa Fe)",
+      "origen": "Argentina (Alvear, Santa Fe)",
       "lineas": [
         "One Fit",
         "X-Body"
@@ -1777,7 +1780,7 @@
       "faq": [
         {
           "q": "¿De dónde es One Fit Nutrition?",
-          "a": "One Fit Nutrition es una marca de Argentina (Parque Industrial de Alvear, Santa Fe).",
+          "a": "One Fit Nutrition es una marca de Argentina (Alvear, Santa Fe).",
           "fuentes": [
             "https://tiendaxnutrition.com/pages/nosotros"
           ]
@@ -1836,7 +1839,7 @@
       "historia": "Empresa alimenticia que desde 1990 fabrica esencias, estabilizantes y mousses para heladería; a partir de su experiencia en polvos incursionó en suplementos nutricionales. Es socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten.",
       "empresa": "Marca de Pulver S.R.L. (Ciudad de Buenos Aires).",
       "anio_fundacion": "1990 como empresa; con suplementos deportivos al menos desde 2005.",
-      "origen": "Argentina (Parque Patricios, CABA)",
+      "origen": "Argentina (Ciudad de Buenos Aires)",
       "lineas": [
         "Proteínas (Ovoalbumen, Prolac, Whey Protein, Soy/PEA Protein)",
         "Aminoácidos y recuperadores",
@@ -1956,7 +1959,7 @@
       "faq": [
         {
           "q": "¿De dónde es Pulver?",
-          "a": "Pulver es una marca de Argentina (Parque Patricios, CABA).",
+          "a": "Pulver es una marca de Argentina (Ciudad de Buenos Aires).",
           "fuentes": [
             "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37",
             "https://ingredientespulver.com.ar/empresa/"
@@ -2022,7 +2025,7 @@
       "historia": "Nació en un garaje de Villa Constitución, fundada por el socio de su titular, María Fernanda Ledesma, a quien la prensa describe como ingeniero químico, y luego se trasladó al noroeste de Rosario, a una planta de 1.000 m². Al principio apuntaba al fisicoculturismo y al fitness; hoy se enfoca en deportes de resistencia (ciclismo, running, triatlón, natación). Su producto insignia es Hydromax. Distribuye en todo el país mediante mayoristas (farmacias, dietéticas, bicicleterías, grupos de entrenamiento) y en 2024 participaba de un programa municipal para empezar a exportar.",
       "empresa": "Vinculada a NX Laboratorios S.A.S. (Santa Fe). Dato surgido de registros públicos; la marca no lo confirma en su web.",
       "anio_fundacion": "En el mercado al menos desde 2003.",
-      "origen": "Argentina (Rosario, Santa Fe; orígenes en Villa Constitución)",
+      "origen": "Argentina (Rosario, Santa Fe)",
       "lineas": [
         "Endurance",
         "Fitness",
@@ -2099,7 +2102,7 @@
       "faq": [
         {
           "q": "¿De dónde es Nutremax?",
-          "a": "Nutremax es una marca de Argentina (Rosario, Santa Fe; orígenes en Villa Constitución).",
+          "a": "Nutremax es una marca de Argentina (Rosario, Santa Fe).",
           "fuentes": [
             "https://nutremax.com.ar/",
             "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600",

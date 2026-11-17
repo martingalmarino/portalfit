@@ -16,6 +16,7 @@
       "ranking_relevancia": 1,
       "justificacion_ranking": "Único actor con dato público de participación de mercado (>30%, Forbes 2020), 35+ años de trayectoria, fabricación propia, red de 5.000 puntos de venta y tienda oficial en ML.",
       "resumen": "ENA Sport es una marca argentina de nutrición deportiva nacida en Bahía Blanca en 1988. Según Forbes Argentina (2020), único dato público de participación disponible, era la marca líder del mercado; su catálogo va del deporte al bienestar diario.",
+      "nota_productos": "“Más vendido” es la etiqueta que usa el sitio oficial de la marca, no una evaluación de Portal FIT.",
       "sitio_oficial": {
         "valor": "https://www.enasport.com/",
         "fuentes": [
@@ -183,7 +184,7 @@
         ]
       },
       "origen": {
-        "valor": "Argentina (planta en Constitución, CABA)",
+        "valor": "Argentina (Ciudad de Buenos Aires)",
         "fuentes": [
           "https://www.forbesargentina.com/negocios/como-gentech-compania-pionera-suplementos-dietarios-factura-116-millones-n8299"
         ]
@@ -480,7 +481,7 @@
         ]
       },
       "origen": {
-        "valor": "Argentina (Nutriciencia S.A.; domicilios en Tigre y Mar del Plata, Buenos Aires)",
+        "valor": "Argentina (provincia de Buenos Aires)",
         "fuentes": [
           "https://w20argentina.com/empresa/nutriciencia-sociedad-anonima-30708530863",
           "https://appsb.mardelplata.gob.ar/Consultas/nOfertasProduccion/OfertaExportable/Empresa.aspx?id=2288"
@@ -535,8 +536,8 @@
       },
       "certificaciones": {
         "valor": [
-          "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente",
-          "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido",
+          "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Los Troncos del Talar (Bs. As.): Vigente",
+          "Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Mar del Plata: Vencido",
           "Declarado por la marca: Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP",
           "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
         ],
@@ -588,12 +589,12 @@
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "Nutriciencia S.A., RNE 02040050, Austria Norte 2010, Los Troncos del Talar (Bs. As.): Vigente"
+          "texto": "Nutriciencia S.A., RNE 02040050, Los Troncos del Talar (Bs. As.): Vigente"
         },
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "Nutriciencia S.A., RNE 02034280, Irala 9520, Mar del Plata: Vencido"
+          "texto": "Nutriciencia S.A., RNE 02034280, Mar del Plata: Vencido"
         },
         {
           "estado": "declarado",
@@ -804,8 +805,8 @@
       },
       "certificaciones": {
         "valor": [
-          "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente",
-          "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente",
+          "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Pilar (Bs. As.): Vigente",
+          "Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, Parada Robles–Pavón (Bs. As.): Vigente",
           "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)",
           "BPM/GMP u otras certificaciones: PENDIENTE (no declaradas en el sitio)"
         ],
@@ -853,12 +854,12 @@
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "Mervick Lab S.A., RNE 02033878, Ruta Panamericana km 40,5, Pilar (Bs. As.): Vigente"
+          "texto": "Mervick Lab S.A., RNE 02033878, Pilar (Bs. As.): Vigente"
         },
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "Mervick Lab S.A., RNE 02042398, La Noria 48, Parada Robles–Pavón (Bs. As.): Vigente"
+          "texto": "Mervick Lab S.A., RNE 02042398, Parada Robles–Pavón (Bs. As.): Vigente"
         },
         {
           "estado": "rotulo",
@@ -879,6 +880,7 @@
       "ranking_relevancia": 7,
       "justificacion_ranking": "Posicionamiento premium diferencial y tienda oficial ML; historia y escala sin verificar.",
       "resumen": "Gold Nutrition es una marca que se posiciona en el segmento premium nacional a partir de materias primas con marca registrada, como Creapure®, Peptan® o Arla Foods.",
+      "nota_productos": "“Más vendido” es la etiqueta que usa el sitio oficial de la marca, no una evaluación de Portal FIT.",
       "sitio_oficial": {
         "valor": "https://goldnutrition.com.ar/",
         "fuentes": [
@@ -1014,6 +1016,7 @@
       "ranking_relevancia": 8,
       "justificacion_ranking": "Entra al relevamiento: trayectoria declarada desde 1999, sitio y tienda oficial propios, tienda oficial en Mercado Libre y catálogo amplio. Queda debajo de las marcas con más información verificable porque no publica razón social ni registros.",
       "resumen": "HTN (High Tech Nutrition) es una marca argentina de nutrición deportiva que declara desarrollar suplementos desde 1999 y organiza su oferta en las líneas Xplode Series y Pro Series.",
+      "nota_productos": "“Más vendido” es la etiqueta que usa el sitio oficial de la marca, no una evaluación de Portal FIT.",
       "sitio_oficial": {
         "valor": "https://htn.com.ar/",
         "fuentes": [
@@ -1153,7 +1156,7 @@
         ]
       },
       "origen": {
-        "valor": "Argentina (planta en San Roque 4576, Ciudadela/Caseros, provincia de Buenos Aires)",
+        "valor": "Argentina (Caseros, Buenos Aires)",
         "fuentes": [
           "https://bodyadvancenutrition.com/wp-content/uploads/2026/06/certificado-buenas-practicas-anmat-body-advance.pdf",
           "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
@@ -1216,7 +1219,7 @@
       "certificaciones": {
         "valor": [
           "Documento oficial publicado por la marca: certificado de Buenas Prácticas de Manufactura emitido por INAL/ANMAT antes del traspaso a SENASA, CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos)",
-          "Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente",
+          "Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, Caseros (Bs. As.): Vigente",
           "Declarado por la marca: RNPA de sus productos y permisos de importación/exportación",
           "Declarado por la marca: Análisis de laboratorio de terceros publicados (p. ej. Melacrom)",
           "Según la ANMAT (2020), los RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein) estaban vigentes a esa fecha. Antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021"
@@ -1274,7 +1277,7 @@
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente"
+          "texto": "RNE 02035075, Caseros (Bs. As.): Vigente"
         },
         {
           "estado": "declarado",
@@ -1307,7 +1310,7 @@
         ]
       },
       "origen": {
-        "valor": "Argentina (Av. Los Quilmes 870, partido de Quilmes, provincia de Buenos Aires)",
+        "valor": "Argentina (Bernal, Buenos Aires)",
         "fuentes": [
           "https://xtrenght-nutrition.com/about-us"
         ]
@@ -1330,7 +1333,7 @@
         ]
       },
       "historia": {
-        "valor": "Se presenta como laboratorio argentino de suplementos que acompaña a deportistas de élite desde hace 15 años. En 2007 la marca ya vendía su proteína Xtrenght Protein desde un sitio propio con domicilio en la Ciudad de Buenos Aires (captura archivada). Hoy publica domicilio en Av. Los Quilmes 870 (Bernal), donde está habilitado el establecimiento de Xience Group S.A. Organiza su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol y ciclismo) y por objetivo. Fundadores: PENDIENTE.",
+        "valor": "Se presenta como laboratorio argentino de suplementos que acompaña a deportistas de élite desde hace 15 años. En 2007 la marca ya vendía su proteína Xtrenght Protein desde un sitio propio con domicilio en la Ciudad de Buenos Aires (captura archivada). Hoy publica domicilio en Bernal, donde está habilitado el establecimiento de Xience Group S.A. Organiza su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol y ciclismo) y por objetivo. Fundadores: PENDIENTE.",
         "fuentes": [
           "https://xtrenght-nutrition.com/",
           "https://web.archive.org/web/20070513233226/http://www.xtrenght-nutrition.com/",
@@ -1366,8 +1369,8 @@
       },
       "certificaciones": {
         "valor": [
-          "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)",
-          "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente",
+          "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)",
+          "Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Wilde (Bs. As.): Vigente",
           "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)",
           "No se declaran certificaciones en el sitio oficial"
         ],
@@ -1413,12 +1416,12 @@
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)"
+          "texto": "Xience Group S.A., RNE 02042640, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)"
         },
         {
           "estado": "verificado",
           "etiqueta": "Registro consultado en SIFeGA (16/11/2026)",
-          "texto": "Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente"
+          "texto": "Xience Group S.A., RNE 02034521, Wilde (Bs. As.): Vigente"
         },
         {
           "estado": "rotulo",
@@ -1446,7 +1449,7 @@
         ]
       },
       "origen": {
-        "valor": "Argentina (Parque Industrial de Alvear, Santa Fe)",
+        "valor": "Argentina (Alvear, Santa Fe)",
         "fuentes": [
           "https://tiendaxnutrition.com/pages/nosotros"
         ]
@@ -1571,7 +1574,7 @@
         ]
       },
       "origen": {
-        "valor": "Argentina (Parque Patricios, CABA)",
+        "valor": "Argentina (Ciudad de Buenos Aires)",
         "fuentes": [
           "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37",
           "https://ingredientespulver.com.ar/empresa/"
@@ -1716,7 +1719,7 @@
         ]
       },
       "origen": {
-        "valor": "Argentina (Rosario, Santa Fe; orígenes en Villa Constitución)",
+        "valor": "Argentina (Rosario, Santa Fe)",
         "fuentes": [
           "https://nutremax.com.ar/",
           "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600",

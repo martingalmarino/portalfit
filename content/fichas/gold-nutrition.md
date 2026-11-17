@@ -25,6 +25,8 @@ Gold Nutrition S.A.S., con sede en la Ciudad de Buenos Aires, anunció la marca 
 - Iso Gold Protein
 - Gainer Gold
 
+_“Más vendido” es la etiqueta que usa el sitio oficial de la marca, no una evaluación de Portal FIT._
+
 ## Categorías en las que compite
 [Proteínas](/categorias/proteinas), [Creatina](/categorias/creatina), [Ganadores de peso](/categorias/ganadores-de-peso), [Quemadores y termogénicos](/categorias/quemadores-termogenicos), [Aminoácidos (BCAA, EAA, glutamina)](/categorias/aminoacidos), [Hidratación y electrolitos](/categorias/hidratacion-electrolitos), [Vitaminas y minerales](/categorias/vitaminas-minerales), [Omega 3](/categorias/omega-3), [Colágeno](/categorias/colageno), [Pre-entrenos y cafeína](/categorias/pre-entrenos)
 

@@ -14,7 +14,7 @@ Empresa argentina que elabora suplementos dietarios en planta propia, en Caseros
 
 - **Empresa:** Elaborada en planta propia en Caseros (Buenos Aires). La marca no publica una razón social.
 - **Fundación:** Con productos registrados al menos desde 2020.
-- **Origen:** Argentina (planta en San Roque 4576, Ciudadela/Caseros, provincia de Buenos Aires)
+- **Origen:** Argentina (Caseros, Buenos Aires)
 
 ## Líneas de producto
 - Proteínas y Ganadores
@@ -34,7 +34,7 @@ _Productos que la home oficial muestra en primer lugar; no es un ranking de vent
 
 ## Registros y certificaciones
 - Documento oficial publicado por la marca: certificado de Buenas Prácticas de Manufactura emitido por INAL/ANMAT antes del traspaso a SENASA, CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos)
-- Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente
+- Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, Caseros (Bs. As.): Vigente
 - Declarado por la marca: RNPA de sus productos y permisos de importación/exportación
 - Declarado por la marca: Análisis de laboratorio de terceros publicados (p. ej. Melacrom)
 - Según la ANMAT (2020), los RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein) estaban vigentes a esa fecha. Antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021
@@ -52,7 +52,7 @@ instagram: https://www.instagram.com/bodyadvanceoficial · tiktok: https://www.t
 ## Preguntas frecuentes
 
 ### ¿De dónde es Body Advance?
-Body Advance es una marca de Argentina (planta en San Roque 4576, Ciudadela/Caseros, provincia de Buenos Aires).
+Body Advance es una marca de Argentina (Caseros, Buenos Aires).
 
 ### ¿Desde cuándo existe Body Advance?
 Con productos registrados al menos desde 2020.
@@ -61,7 +61,7 @@ Con productos registrados al menos desde 2020.
 Sin tienda oficial de la marca (no se encontró). Se vende en Mercado Libre por revendedores, p. ej. la tienda oficial del revendedor ODX.
 
 ### ¿Qué registros o certificaciones tiene Body Advance?
-Documento oficial publicado por la marca: certificado de Buenas Prácticas de Manufactura emitido por INAL/ANMAT antes del traspaso a SENASA, CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos). Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, San Roque 4576/78, Caseros (Bs. As.): Vigente. Declarado por la marca: RNPA de sus productos y permisos de importación/exportación. Declarado por la marca: Análisis de laboratorio de terceros publicados (p. ej. Melacrom). Según la ANMAT (2020), los RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein) estaban vigentes a esa fecha. Antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
+Documento oficial publicado por la marca: certificado de Buenas Prácticas de Manufactura emitido por INAL/ANMAT antes del traspaso a SENASA, CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos). Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, Caseros (Bs. As.): Vigente. Declarado por la marca: RNPA de sus productos y permisos de importación/exportación. Declarado por la marca: Análisis de laboratorio de terceros publicados (p. ej. Melacrom). Según la ANMAT (2020), los RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein) estaban vigentes a esa fecha. Antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
 
 ## Fuentes
 - Body Advance – Nosotros: https://bodyadvancenutrition.com/nosotros/

@@ -14,7 +14,7 @@ Martín Menem inició la marca importando siete productos de EE.UU. en 1998. Tra
 
 - **Empresa:** Elaborada por G.E.N. Tech Argentina S.A., en la Ciudad de Buenos Aires.
 - **Fundación:** 1998, como importadora; fabrica en el país desde 2003.
-- **Origen:** Argentina (planta en Constitución, CABA)
+- **Origen:** Argentina (Ciudad de Buenos Aires)
 
 ## Líneas de producto
 - Gentech (suplementos)
@@ -48,7 +48,7 @@ instagram: https://www.instagram.com/gentecharg · facebook: https://www.faceboo
 ## Preguntas frecuentes
 
 ### ¿De dónde es Gentech?
-Gentech es una marca de Argentina (planta en Constitución, CABA).
+Gentech es una marca de Argentina (Ciudad de Buenos Aires).
 
 ### ¿Desde cuándo existe Gentech?
 1998, como importadora; fabrica en el país desde 2003.

@@ -10,11 +10,11 @@ Xtrenght Nutrition es una marca argentina de suplementos deportivos con base en 
 Segmenta su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol, ciclismo) y por objetivo.
 
 ## Historia
-Se presenta como laboratorio argentino de suplementos que acompaña a deportistas de élite desde hace 15 años. En 2007 la marca ya vendía su proteína Xtrenght Protein desde un sitio propio con domicilio en la Ciudad de Buenos Aires (captura archivada). Hoy publica domicilio en Av. Los Quilmes 870 (Bernal), donde está habilitado el establecimiento de Xience Group S.A. Organiza su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol y ciclismo) y por objetivo.
+Se presenta como laboratorio argentino de suplementos que acompaña a deportistas de élite desde hace 15 años. En 2007 la marca ya vendía su proteína Xtrenght Protein desde un sitio propio con domicilio en la Ciudad de Buenos Aires (captura archivada). Hoy publica domicilio en Bernal, donde está habilitado el establecimiento de Xience Group S.A. Organiza su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol y ciclismo) y por objetivo.
 
 - **Empresa:** Elaborada por Xience Group S.A. (Bernal, Buenos Aires). Dato surgido de registros públicos; la marca no lo publica en su web.
 - **Fundación:** En el mercado al menos desde 2007.
-- **Origen:** Argentina (Av. Los Quilmes 870, partido de Quilmes, provincia de Buenos Aires)
+- **Origen:** Argentina (Bernal, Buenos Aires)
 
 ## Líneas de producto
 - Xtrenght Nutrition: línea única, con combos por disciplina
@@ -30,8 +30,8 @@ Se presenta como laboratorio argentino de suplementos que acompaña a deportista
 [Proteínas](/categorias/proteinas), [Creatina](/categorias/creatina), [Aminoácidos (BCAA, EAA, glutamina)](/categorias/aminoacidos), [Quemadores y termogénicos](/categorias/quemadores-termogenicos), [Pre-entrenos y cafeína](/categorias/pre-entrenos)
 
 ## Registros y certificaciones
-- Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)
-- Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente
+- Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido)
+- Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Wilde (Bs. As.): Vigente
 - RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)
 - No se declaran certificaciones en el sitio oficial
 
@@ -48,7 +48,7 @@ instagram: https://www.instagram.com/xtrenghtoficial · facebook: https://www.fa
 ## Preguntas frecuentes
 
 ### ¿De dónde es Xtrenght Nutrition?
-Xtrenght Nutrition es una marca de Argentina (Av. Los Quilmes 870, partido de Quilmes, provincia de Buenos Aires).
+Xtrenght Nutrition es una marca de Argentina (Bernal, Buenos Aires).
 
 ### ¿Desde cuándo existe Xtrenght Nutrition?
 En el mercado al menos desde 2007.
@@ -57,15 +57,15 @@ En el mercado al menos desde 2007.
 Sin tienda oficial de la marca confirmada: /tienda/xtrenght y sus variantes no existen. Hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y también reventa, p. ej. la tienda oficial del revendedor RTN Suplementos.
 
 ### ¿Qué registros o certificaciones tiene Xtrenght Nutrition?
-Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Av. Los Quilmes 870, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido). Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Fabián Onsari 1064/68, Wilde (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). No se declaran certificaciones en el sitio oficial. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
+Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido). Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Wilde (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). No se declaran certificaciones en el sitio oficial. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
 
 ## Fuentes
 - Xtrenght Nutrition – sitio oficial: https://xtrenght-nutrition.com/
 - Xtrenght Nutrition – Nosotros: https://xtrenght-nutrition.com/about-us
-- Internet Archive – xtrenght-nutrition.com, captura del 13/05/2007 (venta de Xtrenght Protein; domicilio Esmeralda 923, CABA): https://web.archive.org/web/20070513233226/http://www.xtrenght-nutrition.com/
+- Internet Archive – xtrenght-nutrition.com, captura del 13/05/2007 (venta de Xtrenght Protein; domicilio en CABA): https://web.archive.org/web/20070513233226/http://www.xtrenght-nutrition.com/
 - CUIT Online – XIENCE GROUP S.A., CUIT 30-71563482-8, Bernal (contrato social 15/05/2017): https://www.cuitonline.com/detalle/30715634828/xience-group-s.a.html
 - Boletín Oficial de la Provincia de Buenos Aires (29/06/2017), constitución de Xience Group S.A., vía Dateas: https://www.dateas.com/es/bopb/2017/06/29/xience-group-sa-249353
-- SIFeGA – Consulta pública de establecimientos (RNE): XIENCE GROUP S.A., RNE 02042640 (Av. Los Quilmes 870, Bernal Oeste, Vigente) y RNE 02034521 (Fabián Onsari 1064/68, Wilde, Vigente); consulta 16/11/2026: https://inal.sifega.anmat.gob.ar/consultadeRegistro/
+- SIFeGA – Consulta pública de establecimientos (RNE): XIENCE GROUP S.A., RNE 02042640 (Bernal Oeste, Vigente) y RNE 02034521 (Wilde, Vigente); consulta 16/11/2026: https://inal.sifega.anmat.gob.ar/consultadeRegistro/
 - Xtrenght Nutrition – Productos: https://xtrenght-nutrition.com/index.php/shop
 - Decreto 697/2026 (Código Alimentario Argentino). Boletín Oficial, 03/08/2026: https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803
 - Argentina.gob.ar (06/08/2026) – Cambios en las competencias de control y fiscalización de alimentos: https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos
