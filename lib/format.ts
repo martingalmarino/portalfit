@@ -13,7 +13,12 @@ export const EVIDENCE: Record<
   variable: { label: "Variable", grade: null, chip: "ev-variable", gradeClass: "" },
 };
 
-const HIDDEN_WORD = /\b(?:pendiente|ejemplo)\b/i;
+/**
+ * Marcadores internos, no palabras del texto publicado.
+ * Oculta [PENDIENTE], [PENDIENTE: …], el token PENDIENTE en mayúsculas
+ * y [EJEMPLO] / "Texto de ejemplo". Deja pasar "por ejemplo", "de ejemplo" y "pendiente".
+ */
+const INTERNAL_MARKER = /\[PENDIENTE\b[^\]]*\]|\bPENDIENTE\b|\[EJEMPLO\b[^\]]*\]|Texto de ejemplo/;
 
 export function applyPlaceholders(text: string): string {
   const domain = getDomainLabel();
@@ -21,27 +26,27 @@ export function applyPlaceholders(text: string): string {
 }
 
 export function hasPendingToken(text: string): boolean {
-  return HIDDEN_WORD.test(text);
+  return INTERNAL_MARKER.test(text);
 }
 
 /**
- * Texto visible. Oculta un dato que no está: saca oraciones y paréntesis con
- * PENDIENTE o con la palabra ejemplo, y no deja un rótulo en su lugar.
+ * Texto visible. Oculta un dato que no está: saca oraciones y paréntesis
+ * que traen un marcador interno, y no deja un rótulo en su lugar.
  */
 export function publicCopy(text: string): string | null {
   let value = applyPlaceholders(text);
-  value = value.replace(/\s*\((?:[^()]|\([^()]*\))*\)/g, (group) => (HIDDEN_WORD.test(group) ? "" : group));
+  value = value.replace(/\s*\((?:[^()]|\([^()]*\))*\)/g, (group) => (INTERNAL_MARKER.test(group) ? "" : group));
   const kept = value
     .split(/(?<=[.!?])\s+/)
     .map((part) => part.replace(/\s{2,}/g, " ").trim())
-    .filter((part) => part.length > 0 && !HIDDEN_WORD.test(part));
+    .filter((part) => part.length > 0 && !INTERNAL_MARKER.test(part));
   const joined = kept.join(" ").trim();
-  if (!joined || HIDDEN_WORD.test(joined)) return null;
+  if (!joined || INTERNAL_MARKER.test(joined)) return null;
   return joined;
 }
 
 /** Texto de una guía publicada. Conserva el castellano corriente y oculta solo [dominio] o PENDIENTE. */
-const INTERNAL_TOKEN = /\[dominio\]|\bpendiente\b/i;
+const INTERNAL_TOKEN = /\[dominio\]|\[PENDIENTE\b[^\]]*\]|\bPENDIENTE\b|\[EJEMPLO\b[^\]]*\]|Texto de ejemplo/;
 
 export function publishedCopy(text: string): string | null {
   const kept = text

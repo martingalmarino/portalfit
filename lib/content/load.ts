@@ -2,7 +2,9 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import type { ZodType, ZodTypeDef } from "zod";
+import { hasPendingToken } from "@/lib/format";
 import { photoByFile } from "@/lib/photos";
+import { PLANNED_TOOLS } from "@/lib/tools";
 import { getSiteName } from "@/lib/site";
 import {
   affiliateCatalogSchema,
@@ -31,7 +33,7 @@ function stripInternalFields(value: unknown): unknown {
   if (!value || typeof value !== "object") return value;
   const out: Record<string, unknown> = {};
   for (const [key, child] of Object.entries(value as Record<string, unknown>)) {
-    if (key.endsWith("_detalle_interno")) continue;
+    if (key === "_interno" || key.endsWith("_interno") || key.endsWith("_detalle_interno")) continue;
     out[key] = stripInternalFields(child);
   }
   return out;
@@ -145,7 +147,7 @@ function asSources(value: PostFrontmatter["fuentes"]): PostSource[] {
 
 function noteInternal(slug: string, field: string, text: string) {
   if (/\[dominio\]/i.test(text)) internalTextWarnings.push(`${slug} · ${field} trae [dominio] y no se muestra`);
-  if (/\bpendiente\b/i.test(text)) internalTextWarnings.push(`${slug} · ${field} trae PENDIENTE y no se muestra`);
+  if (hasPendingToken(text)) internalTextWarnings.push(`${slug} · ${field} trae un marcador interno y no se muestra`);
 }
 
 function markdownLinks(body: string): string[] {
@@ -191,7 +193,7 @@ export function loadPosts(): Post[] {
     }
     const visibleBody = body
       .split(/\n{2,}/)
-      .filter((block) => !/\[dominio\]/i.test(block) && !/\bpendiente\b/i.test(block))
+      .filter((block) => !/\[dominio\]/i.test(block) && !hasPendingToken(block))
       .join("\n\n")
       .trim();
     noteInternal(slug, "cuerpo", body);
@@ -345,10 +347,26 @@ export function assertContentGraph(): void {
       }
     }
   }
+  const postSlugs = new Set(posts.map((item) => item.slug));
+  const toolSlugs = new Set(PLANNED_TOOLS.map((item) => item.slug));
+  const subByCat = new Map(tax.categorias.map((item) => [item.slug, new Set(item.subcategorias.map((sub) => sub.slug))]));
+  const knownRoutes = { catSlugs, etapaSlugs, marcaSet, postSlugs, subByCat, toolSlugs };
   for (const etapa of tax.etapas_de_vida) {
     for (const categoria of etapa.categorias_relacionadas) {
       if (!catSlugs.has(categoria)) {
         throw new Error(`La etapa "${etapa.slug}" referencia la categoría inexistente "${categoria}"`);
+      }
+    }
+    const hrefs = [
+      ...etapa.enlaces_internos.map((item) => item.href),
+      ...etapa.nutrientes_a_vigilar.flatMap((item) => (item.enlace ? [item.enlace] : [])),
+      ...etapa.suplementos.con_sentido.map((item) => item.enlace),
+      ...etapa.suplementos.poca_evidencia.map((item) => item.enlace),
+      ...etapa.suplementos.evitar.map((item) => item.enlace),
+    ];
+    for (const href of hrefs) {
+      if (!routeExists(href, knownRoutes)) {
+        throw new Error(`La etapa "${etapa.slug}" enlaza a ${href}, que no existe`);
       }
     }
   }
@@ -377,7 +395,6 @@ export function assertContentGraph(): void {
       throw new Error(`El post "${post.slug}" referencia la etapa inexistente "${post.stage}"`);
     }
   }
-  const subByCat = new Map(tax.categorias.map((item) => [item.slug, new Set(item.subcategorias.map((sub) => sub.slug))]));
   const ids = new Set<string>();
   for (const product of catalog.productos) {
     if (ids.has(product.id)) throw new Error(`content/productos.json repite el id "${product.id}"`);
@@ -401,9 +418,8 @@ export function assertContentGraph(): void {
         throw new Error(`El post "${post.slug}" menciona el producto inexistente "${id}"`);
       }
     }
-    const postSlugs = new Set(posts.map((item) => item.slug));
     for (const href of post.internalLinks) {
-      if (!routeExists(href, { catSlugs, etapaSlugs, marcaSet, postSlugs, subByCat })) {
+      if (!routeExists(href, knownRoutes)) {
         const warning = `${post.slug} enlaza a ${href}, que no existe`;
         if (!linkWarnings.includes(warning)) linkWarnings.push(warning);
       }
@@ -423,9 +439,11 @@ function routeExists(
     marcaSet: Set<string>;
     postSlugs: Set<string>;
     subByCat: Map<string, Set<string>>;
+    toolSlugs: Set<string>;
   },
 ): boolean {
   const pathName = href.split("?")[0]?.split("#")[0] ?? href;
+  const sub = new URLSearchParams(href.split("?")[1]?.split("#")[0] ?? "").get("sub");
   const staticPaths = new Set([
     "/",
     "/blog",
@@ -444,7 +462,12 @@ function routeExists(
   if (parts[0] === "blog" && parts.length === 2) return known.postSlugs.has(parts[1] ?? "");
   if (parts[0] === "marcas" && parts.length === 2) return known.marcaSet.has(parts[1] ?? "");
   if (parts[0] === "etapas" && parts.length === 2) return known.etapaSlugs.has(parts[1] ?? "");
-  if (parts[0] === "categorias" && parts.length === 2) return known.catSlugs.has(parts[1] ?? "");
+  if (parts[0] === "herramientas" && parts.length === 2) return known.toolSlugs.has(parts[1] ?? "");
+  if (parts[0] === "categorias" && parts.length === 2) {
+    if (!known.catSlugs.has(parts[1] ?? "")) return false;
+    if (sub && !known.subByCat.get(parts[1] ?? "")?.has(sub)) return false;
+    return true;
+  }
   if (parts[0] === "categorias" && parts.length === 3) {
     return known.subByCat.get(parts[1] ?? "")?.has(parts[2] ?? "") ?? false;
   }
