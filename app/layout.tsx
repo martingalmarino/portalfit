@@ -52,6 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es-AR" className={`${fraunces.variable} ${sourceSans.variable}`}>
       <body>
+        <style>{`@media (max-width: 600px){.mhero{display:block}.hero{display:none}}`}</style>
         <a className="skip" href="#contenido">
           Saltar al contenido
         </a>

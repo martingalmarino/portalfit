@@ -26,19 +26,20 @@ export function FaqList({
           </p>
           {item.fuentes && item.fuentes.length > 0 ? (
             <p className="src">
-              Fuente:{" "}
-              {item.fuentes.map((fuente, fuenteIndex) => (
-                <span key={fuente}>
-                  {fuenteIndex > 0 ? " · " : null}
-                  {isHttpUrl(fuente) ? (
-                    <a href={fuente} target="_blank" rel="noreferrer">
-                      {hostOf(fuente)}
-                    </a>
-                  ) : (
-                    <Editorial text={fuente} />
-                  )}
-                </span>
-              ))}
+              <span>Fuente:</span>
+              {item.fuentes.map((fuente) => {
+                const label = (isHttpUrl(fuente) ? hostOf(fuente) : fuente).trim();
+                if (!label) return null;
+                return isHttpUrl(fuente) ? (
+                  <a key={fuente} href={fuente} target="_blank" rel="noreferrer">
+                    {label}
+                  </a>
+                ) : (
+                  <span key={fuente}>
+                    <Editorial text={label} />
+                  </span>
+                );
+              })}
             </p>
           ) : null}
         </details>
