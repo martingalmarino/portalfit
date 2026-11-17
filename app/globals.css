@@ -388,6 +388,40 @@ a { color: inherit; }
 .evbox:before { content: ""; position: absolute; left: 26px; width: 64px; top: -1px; height: 2px; background: var(--brass); }
 .evb-l { display: flex; gap: 16px; align-items: center; padding-right: 24px; border-right: 1px solid var(--line); }
 .ch-media { border-radius: 22px; min-height: 440px; }
+.etapa { overflow-x: clip; }
+.etapa-hero { padding-top: 28px; }
+.etapa-hero .ch-grid { align-items: start; }
+.etapa-hero .ch-media { height: 460px; }
+.etapa-copy, .etapa-side { min-width: 0; }
+.etapa-intro p { margin: 14px 0 0; max-width: 68ch; }
+.etapa-note { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--line); max-width: 68ch; font-size: 14.5px; line-height: 1.5; color: var(--ink-2); }
+.etapa-index { margin-top: 26px; }
+.etapa-index ol { list-style: none; margin: 8px 0 0; padding: 0; }
+.etapa-index a { display: flex; align-items: center; gap: 12px; min-height: 44px; text-decoration: none; border-bottom: 1px solid var(--line); }
+.etapa-index a:hover { color: var(--forest); }
+.prio { margin-top: 8px; border-top: 1px solid var(--line); }
+.prio article { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 8px 18px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+.prio h3, .nut-card h3, .supl-item h3, .err h3 { margin: 0; }
+.nut-grid, .supl-list, .err-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 28px; }
+.nut-card, .supl-item, .err { min-width: 0; background: var(--white); border: 1px solid var(--line); border-radius: var(--r); padding: 18px 18px 8px; }
+.nut-card p, .supl-item p, .err p { margin: 8px 0 0; color: var(--ink-2); font-size: 15.5px; }
+.supl-groups { display: grid; gap: 32px; margin-top: 28px; }
+.supl-group.is-limited .supl-item { background: transparent; }
+.supl-group.is-avoid .supl-item { background: var(--paper); border-color: var(--line-2); }
+.week { margin-top: 22px; border-top: 1px solid var(--line); }
+.week article { display: grid; grid-template-columns: 110px minmax(0, 1fr) minmax(0, 1fr); gap: 8px 22px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.week b { font: 500 18px/1.3 var(--serif); }
+.week p { margin: 0; color: var(--ink-2); font-size: 15.5px; }
+.etapa-links { display: grid; gap: 0; margin-top: 18px; }
+.etapa-links a { min-height: 44px; }
+.etapa-refs { font-size: 12px; margin-left: 3px; letter-spacing: 0; }
+.etapa-refs a { color: var(--brass-ink); text-decoration: none; }
+.supl-group.is-yes .supl-item { border-top: 2px solid var(--brass); }
+.week-head { display: grid; grid-template-columns: 110px minmax(0, 1fr) minmax(0, 1fr); gap: 8px 22px; padding: 0 0 8px; }
+.cat-stack { margin-top: 28px; display: grid; gap: 12px; }
+@media (min-width: 901px) {
+  .etapa-index ol { display: grid; grid-template-columns: 1fr 1fr; column-gap: 16px; }
+}
 .fbar { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 16px 0; margin-bottom: 28px; max-width: 100%; }
 .chips { display: flex; gap: 8px; flex-wrap: wrap; max-width: 100%; }
 .fchip { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; height: auto; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line-2); background: var(--white); font: 500 13.5px/1.3 var(--sans); color: var(--ink); cursor: pointer; text-align: left; }
@@ -572,6 +606,18 @@ blockquote.pullq cite { display: block; margin-top: 10px; font: 600 12px/1 var(-
   .h-et { font-size: 28px; }
   .bh-media { display: none; }
   .evph, .std-ph { display: block; min-height: 200px; height: 220px; }
+  .etapa-hero { padding-top: 16px; }
+  .etapa-hero .ch-grid { display: flex; flex-direction: column; }
+  .etapa-copy, .etapa-side { display: contents; }
+  .etapa-lead { order: 1; }
+  .etapa-hero .etapa-photo { order: 2; width: 100%; height: 440px; min-height: 440px; align-self: stretch; }
+  .etapa-rest { order: 3; }
+  .etapa-index { order: 4; }
+  .etapa-index ol { grid-template-columns: 1fr; }
+  .nut-grid, .supl-list, .err-grid { grid-template-columns: 1fr; }
+  .prio article, .week article, .week-head { grid-template-columns: 1fr; gap: 6px; }
+  .week-head { display: none; }
+  .week article { padding: 14px 0; }
   .evph { margin: 0 -20px; }
   .std-items { grid-template-columns: 1fr; border-left: 0; margin: 8px 0 0; }
   .std-intro { padding: 48px 0 12px; }

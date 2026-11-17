@@ -137,6 +137,20 @@ export function websiteJsonLd() {
   };
 }
 
+export function webPageJsonLd({ name, description, path }: { name: string; description: string; path: string }) {
+  const site = getSiteName();
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name,
+    description,
+    url: absoluteUrl(path),
+    inLanguage: "es-AR",
+    isPartOf: { "@type": "WebSite", name: site, url: absoluteUrl("/") },
+    publisher: { "@type": "Organization", name: site, url: absoluteUrl("/") },
+  };
+}
+
 export function breadcrumbJsonLd(items: Array<{ name: string; path: string }>) {
   return {
     "@context": "https://schema.org",

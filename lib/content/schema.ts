@@ -2,6 +2,72 @@ import { z } from "zod";
 
 export const evidenceLevelSchema = z.enum(["alto", "moderado", "bajo", "precaucion", "variable"]);
 
+const fuenteRefs = z.array(z.number().int().positive());
+const suplementoItemSchema = z.object({
+  nombre: z.string().min(1),
+  nivel_evidencia: evidenceLevelSchema,
+  texto: z.string().min(1),
+  enlace: z.string().min(1),
+  fuentes: fuenteRefs,
+});
+
+const etapaVidaSchema = z.object({
+  slug: z.string().min(1),
+  nombre: z.string().min(1),
+  url: z.string().min(1),
+  descripcion: z.string().min(1),
+  enfoque_editorial: z.array(z.string().min(1)).min(1),
+  categorias_relacionadas: z.array(z.string().min(1)).min(1),
+  fuentes: z.array(z.string().min(1)).min(1),
+  meta_title: z.string().min(1).max(47),
+  meta_description: z.string().min(120).max(160),
+  intro: z.array(z.string().min(1)).length(3),
+  intro_fuentes: fuenteRefs.optional(),
+  aviso_profesional: z.string().min(1),
+  prioridades: z
+    .array(
+      z.object({
+        tipo: z.enum(["entrenamiento", "nutricion", "habitos"]),
+        titulo: z.string().min(1),
+        texto: z.string().min(1),
+        nivel_evidencia: evidenceLevelSchema,
+        respaldo: z.string().min(1),
+        fuentes: fuenteRefs,
+      }),
+    )
+    .min(4),
+  nutrientes_a_vigilar: z
+    .array(
+      z.object({
+        nutriente: z.string().min(1),
+        por_que: z.string().min(1),
+        como_cubrirlo: z.string().min(1),
+        enlace: z.string().min(1).nullable(),
+        fuentes: fuenteRefs,
+      }),
+    )
+    .min(3),
+  suplementos: z.object({
+    con_sentido: z.array(suplementoItemSchema).min(1),
+    poca_evidencia: z.array(suplementoItemSchema).min(1),
+    evitar: z.array(suplementoItemSchema).min(1),
+  }),
+  errores_comunes: z.array(z.object({ titulo: z.string().min(1), texto: z.string().min(1) })).length(5),
+  semana_tipo: z.object({
+    bajada: z.string().min(1),
+    dias: z
+      .array(z.object({ dia: z.string().min(1), entrenamiento: z.string().min(1), habitos: z.string().min(1) }))
+      .length(7),
+  }),
+  faq: z.array(z.object({ pregunta: z.string().min(1), respuesta: z.string().min(1) })).length(5),
+  enlaces_internos: z
+    .array(z.object({ tipo: z.string().min(1), href: z.string().min(1), texto: z.string().min(1) }))
+    .min(1),
+  fuentes_detalle: z
+    .array(z.object({ n: z.number().int().positive(), titulo: z.string().min(1), url: z.string().url() }))
+    .min(1),
+});
+
 const sourcedString = z.object({
   valor: z.union([z.string().min(1), z.number()]),
   fuentes: z.array(z.string().min(1)).min(1),
@@ -105,19 +171,7 @@ export const taxonomiaSchema = z.object({
       }),
     )
     .min(1),
-  etapas_de_vida: z
-    .array(
-      z.object({
-        slug: z.string().min(1),
-        nombre: z.string().min(1),
-        url: z.string().min(1),
-        descripcion: z.string().min(1),
-        enfoque_editorial: z.array(z.string().min(1)).min(1),
-        categorias_relacionadas: z.array(z.string().min(1)).min(1),
-        fuentes: z.array(z.string().min(1)).min(1),
-      }),
-    )
-    .min(1),
+  etapas_de_vida: z.array(etapaVidaSchema).length(7),
   niveles_de_usuario: z
     .array(
       z.object({

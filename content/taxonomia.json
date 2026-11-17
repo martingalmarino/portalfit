@@ -645,10 +645,435 @@
         "barras-snacks"
       ],
       "fuentes": [
+        "https://www.who.int/publications/i/item/9789240015128",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
         "https://doi.org/10.1186/s12970-017-0177-8",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/",
         "https://doi.org/10.1186/s12970-017-0173-z",
-        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
-      ]
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7777221/",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/",
+        "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
+      ],
+      "meta_title": "De 30 a 39 años: suplementos con evidencia",
+      "meta_description": "Prioridades de entrenamiento y nutrición entre los 30 y 39 años: proteína, creatina, hidratación, errores comunes, una semana tipo y preguntas frecuentes.",
+      "intro": [
+        "Entre los 30 y los 39 años, para la mayoría, el desafío no es saber qué hacer, sino sostenerlo. El trabajo, la familia y los horarios compiten con el entrenamiento, y lo que define los resultados suele ser la constancia de varios meses más que cualquier producto puntual.",
+        "Es una buena etapa para consolidar la base: entrenar fuerza al menos dos veces por semana, sumar actividad aeróbica, comer suficiente proteína repartida en el día y dormir lo necesario. La Organización Mundial de la Salud recomienda entre 150 y 300 minutos semanales de actividad aeróbica moderada (o 75 a 150 de intensa) y trabajo de fuerza de todos los grandes grupos musculares dos o más días por semana.",
+        "Los suplementos pueden ayudar a cubrir huecos concretos —la proteína cuando no llegás con la comida, la creatina si entrenás fuerza o esfuerzos intensos, la hidratación en sesiones largas o con calor—, pero no reemplazan esa base. Acá ordenamos qué tiene evidencia sólida, qué tiene evidencia limitada y qué conviene evitar, siempre como información general."
+      ],
+      "intro_fuentes": [
+        1,
+        2
+      ],
+      "aviso_profesional": "Esta página es informativa y no reemplaza la consulta con un médico o un nutricionista. Si tenés una enfermedad diagnosticada, tomás medicación, estás embarazada o en período de lactancia, consultá antes de sumar cualquier suplemento.",
+      "prioridades": [
+        {
+          "tipo": "entrenamiento",
+          "titulo": "Fuerza dos o más días por semana",
+          "texto": "Trabajar todos los grandes grupos musculares al menos dos días por semana es la recomendación de la OMS para adultos. Es la base sobre la que la proteína y la creatina muestran efecto.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020 (recomendación fuerte)",
+          "fuentes": [
+            1,
+            2
+          ]
+        },
+        {
+          "tipo": "entrenamiento",
+          "titulo": "Actividad aeróbica semanal",
+          "texto": "Entre 150 y 300 minutos de actividad moderada o 75 a 150 de intensa por semana, combinables. Caminar rápido, bici o correr suman.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020 (recomendación fuerte)",
+          "fuentes": [
+            1,
+            2
+          ]
+        },
+        {
+          "tipo": "nutricion",
+          "titulo": "Proteína suficiente y repartida",
+          "texto": "Para la mayoría de las personas que entrenan, la ISSN ubica la ingesta diaria entre 1,4 y 2,0 g de proteína por kilo de peso, repartida en tomas de 20 a 40 g cada 3 a 4 horas. Primero con comida; el suplemento, si hace falta.",
+          "nivel_evidencia": "alto",
+          "respaldo": "Position stand ISSN 2017; AIS Grupo A (proteína aislada)",
+          "fuentes": [
+            3,
+            7
+          ]
+        },
+        {
+          "tipo": "nutricion",
+          "titulo": "Carbohidratos e hidratación según el deporte",
+          "texto": "En sesiones largas, intensas o con calor, las bebidas deportivas, los geles y los electrolitos tienen respaldo para usos concretos. En una sesión corta de gimnasio, en general alcanza con agua y comida.",
+          "nivel_evidencia": "alto",
+          "respaldo": "AIS Grupo A (alimentos deportivos), para usos específicos",
+          "fuentes": [
+            7
+          ]
+        },
+        {
+          "tipo": "habitos",
+          "titulo": "Comer variado como punto de partida",
+          "texto": "Las Guías Alimentarias para la Población Argentina proponen alimentos de todos los grupos, frutas y verduras a diario, legumbres, lácteos y agua como bebida principal. Es el marco sobre el que se piensa cualquier suplemento.",
+          "nivel_evidencia": "alto",
+          "respaldo": "GAPA, Ministerio de Salud de la Nación",
+          "fuentes": [
+            11
+          ]
+        }
+      ],
+      "nutrientes_a_vigilar": [
+        {
+          "nutriente": "Proteína",
+          "por_que": "Con agendas cargadas es común saltear comidas y quedar lejos del rango que plantea la ISSN para quienes entrenan.",
+          "como_cubrirlo": "Sumar una fuente proteica en cada comida (carnes, huevo, lácteos, legumbres). La calculadora de proteína diaria del sitio te da un rango orientativo.",
+          "enlace": "/herramientas/proteina-diaria",
+          "fuentes": [
+            3
+          ]
+        },
+        {
+          "nutriente": "Carbohidratos",
+          "por_que": "Si hacés deportes de resistencia o entrenás dos veces por día, quedarte corto afecta el rendimiento y la recuperación.",
+          "como_cubrirlo": "Ajustarlos a la carga del día: más en días largos o intensos, menos en días de descanso.",
+          "enlace": "/categorias/geles-carbohidratos",
+          "fuentes": [
+            7
+          ]
+        },
+        {
+          "nutriente": "Líquidos y sodio",
+          "por_que": "En verano, en sesiones largas o si transpirás mucho, la pérdida de agua y sodio puede ser alta.",
+          "como_cubrirlo": "Agua durante el día y, en esfuerzos prolongados, bebidas con electrolitos.",
+          "enlace": "/categorias/hidratacion-electrolitos",
+          "fuentes": [
+            7,
+            11
+          ]
+        },
+        {
+          "nutriente": "Hierro y vitamina D",
+          "por_que": "Son nutrientes en los que pueden aparecer déficits según la alimentación, la exposición al sol o, en mujeres, las pérdidas menstruales.",
+          "como_cubrirlo": "No suplementar a ciegas: medir con un análisis indicado por tu médico y decidir con un profesional.",
+          "enlace": "/categorias/vitaminas-minerales",
+          "fuentes": [
+            7,
+            10
+          ]
+        }
+      ],
+      "suplementos": {
+        "con_sentido": [
+          {
+            "nombre": "Proteína en polvo (whey o vegetal)",
+            "nivel_evidencia": "alto",
+            "texto": "Práctica para completar la proteína del día cuando no llegás con comida. No es mejor que la comida: es más cómoda.",
+            "enlace": "/categorias/proteinas",
+            "fuentes": [
+              3,
+              7,
+              4
+            ]
+          },
+          {
+            "nombre": "Creatina monohidrato",
+            "nivel_evidencia": "alto",
+            "texto": "Uno de los suplementos con más respaldo para fuerza y esfuerzos intensos cuando se combina con entrenamiento. La forma más estudiada es el monohidrato.",
+            "enlace": "/categorias/creatina",
+            "fuentes": [
+              5,
+              7
+            ]
+          },
+          {
+            "nombre": "Cafeína",
+            "nivel_evidencia": "alto",
+            "texto": "Mejora el rendimiento en muchas disciplinas, con respuestas muy individuales. Ojo con el horario: puede afectar el sueño.",
+            "enlace": "/categorias/pre-entrenos?sub=cafeina",
+            "fuentes": [
+              6,
+              7
+            ]
+          },
+          {
+            "nombre": "Bebidas deportivas, geles y electrolitos",
+            "nivel_evidencia": "alto",
+            "texto": "Tienen sentido en sesiones largas o con calor. En una rutina corta de gimnasio no suelen hacer falta.",
+            "enlace": "/categorias/hidratacion-electrolitos",
+            "fuentes": [
+              7
+            ]
+          }
+        ],
+        "poca_evidencia": [
+          {
+            "nombre": "BCAA y glutamina",
+            "nivel_evidencia": "bajo",
+            "texto": "Si ya cubrís la proteína del día, no suman. El AIS ubica a los BCAA en el Grupo C.",
+            "enlace": "/categorias/aminoacidos",
+            "fuentes": [
+              8
+            ]
+          },
+          {
+            "nombre": "Pre-entrenos con muchos ingredientes",
+            "nivel_evidencia": "variable",
+            "texto": "El efecto suele venir de la cafeína. Mirá el rótulo: dosis por porción, mezclas sin cantidades declaradas y estimulantes poco conocidos.",
+            "enlace": "/categorias/pre-entrenos",
+            "fuentes": [
+              7,
+              9
+            ]
+          }
+        ],
+        "evitar": [
+          {
+            "nombre": "Quemadores y termogénicos",
+            "nivel_evidencia": "precaucion",
+            "texto": "Prometen más de lo que muestra la evidencia y algunos combinan estimulantes. El AIS incluye varios de sus ingredientes en el Grupo D.",
+            "enlace": "/categorias/quemadores-termogenicos",
+            "fuentes": [
+              9
+            ]
+          },
+          {
+            "nombre": "'Boosters' hormonales",
+            "nivel_evidencia": "precaucion",
+            "texto": "El AIS los lista en el Grupo D por el riesgo de contaminación con sustancias prohibidas.",
+            "enlace": "/etapas/hombre",
+            "fuentes": [
+              9
+            ]
+          }
+        ]
+      },
+      "errores_comunes": [
+        {
+          "titulo": "Empezar por el suplemento",
+          "texto": "Comprar proteína o pre-entreno antes de tener una rutina estable. Sin entrenamiento sostenido, el suplemento no tiene sobre qué actuar."
+        },
+        {
+          "titulo": "Entrenar fuerte el fin de semana y nada en la semana",
+          "texto": "Concentrar todo en uno o dos días aumenta el cansancio y el riesgo de lesión. Repartir el volumen funciona mejor."
+        },
+        {
+          "titulo": "Cubrir la proteína en una sola comida",
+          "texto": "Muchas personas desayunan poco y cenan mucho. La ISSN sugiere repartirla en varias tomas a lo largo del día."
+        },
+        {
+          "titulo": "Usar la cafeína para tapar el mal descanso",
+          "texto": "Pre-entrenos a la noche y café hasta tarde suelen empeorar el sueño, que es parte de la recuperación."
+        },
+        {
+          "titulo": "No leer el rótulo",
+          "texto": "En Argentina los suplementos son alimentos: el rótulo debe indicar el RNPA y el RNE. Vale la pena chequearlos antes de comprar."
+        }
+      ],
+      "semana_tipo": {
+        "bajada": "Una semana orientativa para alguien que entrena 4 a 5 días con trabajo de oficina. No es un plan individual: adaptala a tu nivel y, si tenés una condición de salud, consultala con un profesional.",
+        "dias": [
+          {
+            "dia": "Lunes",
+            "entrenamiento": "Fuerza de cuerpo completo (45–60 min).",
+            "habitos": "Proteína en las cuatro comidas principales."
+          },
+          {
+            "dia": "Martes",
+            "entrenamiento": "Aeróbico moderado: 30–40 min de caminata rápida, bici o trote suave.",
+            "habitos": "Planificar compras y viandas de la semana."
+          },
+          {
+            "dia": "Miércoles",
+            "entrenamiento": "Fuerza de cuerpo completo, con otros ejercicios.",
+            "habitos": "Agua a mano durante la jornada."
+          },
+          {
+            "dia": "Jueves",
+            "entrenamiento": "Descanso activo: caminar y movilidad.",
+            "habitos": "Acostarte a horario."
+          },
+          {
+            "dia": "Viernes",
+            "entrenamiento": "Fuerza o deporte que te guste.",
+            "habitos": "Si tomás creatina, sostenerla todos los días, también los de descanso."
+          },
+          {
+            "dia": "Sábado",
+            "entrenamiento": "Actividad más larga: fútbol, running, bici o trekking.",
+            "habitos": "Hidratación y carbohidratos acordes a la duración."
+          },
+          {
+            "dia": "Domingo",
+            "entrenamiento": "Descanso.",
+            "habitos": "Revisar cómo dormiste y cómo te sentiste en la semana."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "pregunta": "¿Conviene tomar creatina a los 30?",
+          "respuesta": "Si entrenás fuerza o hacés esfuerzos intensos, la creatina monohidrato es de los suplementos con más evidencia (ISSN y AIS Grupo A). No es imprescindible: sin entrenamiento no tiene sobre qué actuar. Si tenés alguna enfermedad renal o tomás medicación, consultá antes."
+        },
+        {
+          "pregunta": "¿Cuánta proteína necesito si entreno?",
+          "respuesta": "La ISSN plantea entre 1,4 y 2,0 g por kilo de peso por día para la mayoría de las personas que entrenan, repartida en varias comidas. Es un rango orientativo: un nutricionista puede ajustarlo a tu caso."
+        },
+        {
+          "pregunta": "¿Necesito un pre-entreno para rendir?",
+          "respuesta": "No. El ingrediente con más respaldo de la mayoría de los pre-entrenos es la cafeína, que también podés tomar en un café. Si lo usás, evitá hacerlo cerca de la hora de dormir."
+        },
+        {
+          "pregunta": "¿La proteína en polvo engorda?",
+          "respuesta": "La proteína en polvo es un alimento con calorías, como cualquier otro. Lo que define el cambio de peso es el balance total del día, no un producto puntual."
+        },
+        {
+          "pregunta": "¿Cómo sé si un suplemento está registrado en Argentina?",
+          "respuesta": "El rótulo debe mostrar el número de RNPA del producto y el RNE del establecimiento. Podés verificarlos en la consulta pública oficial; lo explicamos paso a paso en nuestra guía sobre el rótulo."
+        }
+      ],
+      "enlaces_internos": [
+        {
+          "tipo": "guia",
+          "href": "/blog/creatina-para-que-sirve",
+          "texto": "Creatina: para qué sirve y qué dice la evidencia"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/suplementos-sistema-abcd-ais",
+          "texto": "Sistema ABCD del AIS: qué suplementos tienen evidencia"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/rotulo-suplemento-rnpa-rne",
+          "texto": "Cómo leer el RNPA y el RNE en el rótulo"
+        },
+        {
+          "tipo": "herramienta",
+          "href": "/herramientas/proteina-diaria",
+          "texto": "Calculadora de proteína diaria"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/proteinas",
+          "texto": "Proteínas"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/creatina?sub=creatina-monohidrato",
+          "texto": "Creatina monohidrato"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/hidratacion-electrolitos",
+          "texto": "Hidratación y electrolitos"
+        },
+        {
+          "tipo": "marcas",
+          "href": "/marcas",
+          "texto": "Marcas analizadas, con fuentes"
+        },
+        {
+          "tipo": "etapa",
+          "href": "/etapas/40-49",
+          "texto": "Siguiente etapa: 40 a 49 años"
+        }
+      ],
+      "fuentes_detalle": [
+        {
+          "n": 1,
+          "titulo": "Organización Mundial de la Salud (2020). WHO guidelines on physical activity and sedentary behaviour",
+          "url": "https://www.who.int/publications/i/item/9789240015128"
+        },
+        {
+          "n": 2,
+          "titulo": "Bull FC et al. (2020). World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 54:1451-1462",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/"
+        },
+        {
+          "n": 3,
+          "titulo": "Jäger R et al. (2017). International Society of Sports Nutrition Position Stand: protein and exercise. JISSN 14:20",
+          "url": "https://doi.org/10.1186/s12970-017-0177-8"
+        },
+        {
+          "n": 4,
+          "titulo": "Morton RW et al. (2018). A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. Br J Sports Med 52:376-384",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/"
+        },
+        {
+          "n": 5,
+          "titulo": "Kreider RB et al. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. JISSN 14:18",
+          "url": "https://doi.org/10.1186/s12970-017-0173-z"
+        },
+        {
+          "n": 6,
+          "titulo": "Guest NS et al. (2021). International society of sports nutrition position stand: caffeine and exercise performance. JISSN 18:1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7777221/"
+        },
+        {
+          "n": 7,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group A",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        },
+        {
+          "n": 8,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group C",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_c"
+        },
+        {
+          "n": 9,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group D",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+        },
+        {
+          "n": 10,
+          "titulo": "Maughan RJ et al. (2018). IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med 52:439-455",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/"
+        },
+        {
+          "n": 11,
+          "titulo": "Ministerio de Salud de la Nación. Guías Alimentarias para la Población Argentina como estándar de referencia (Res. 693/2019)",
+          "url": "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
+        }
+      ],
+      "_interno": {
+        "campos_nuevos": [
+          "meta_title",
+          "meta_description",
+          "intro",
+          "intro_fuentes",
+          "aviso_profesional",
+          "prioridades",
+          "nutrientes_a_vigilar",
+          "suplementos",
+          "errores_comunes",
+          "semana_tipo",
+          "faq",
+          "enlaces_internos",
+          "fuentes_detalle"
+        ],
+        "campos_existentes_modificados": [
+          "fuentes (se amplía con todas las URLs citadas; mismo tipo string[])"
+        ],
+        "fuentes_existentes_previas": [
+          "https://doi.org/10.1186/s12970-017-0177-8",
+          "https://doi.org/10.1186/s12970-017-0173-z",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        ],
+        "enlaces_sugeridos_pendientes": [
+          {
+            "tema": "Guía de proteína: cuánta, cuándo y de qué fuentes",
+            "href_propuesto": "/blog/proteina-cuanta-necesitas",
+            "motivo": "Varias etapas remiten a la ingesta de proteína; hoy solo existe la calculadora."
+          },
+          {
+            "tema": "Cafeína y pre-entrenos: qué tienen y qué mirar",
+            "href_propuesto": "/blog/pre-entrenos-cafeina",
+            "motivo": "Responde a una duda frecuente de esta edad."
+          }
+        ]
+      }
     },
     {
       "slug": "40-49",
@@ -669,10 +1094,433 @@
         "magnesio"
       ],
       "fuentes": [
+        "https://www.who.int/publications/i/item/9789240015128",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
         "https://doi.org/10.1186/s12970-017-0177-8",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/",
+        "https://doi.org/10.1186/s12970-017-0173-z",
         "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
-        "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
-      ]
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/",
+        "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
+      ],
+      "meta_title": "Suplementos de 40 a 49 años: qué priorizar",
+      "meta_description": "Entre los 40 y 49: fuerza, proteína repartida, recuperación y micronutrientes. Qué suplementos tienen evidencia, cuáles no, errores comunes y una semana tipo.",
+      "intro": [
+        "Entre los 40 y los 49 años el objetivo suele cambiar de ganar a conservar: sostener la masa muscular y la fuerza, recuperarse bien entre sesiones y llegar a los 50 con una base sólida. Es una década en la que pesan más el descanso, la regularidad y la calidad de la alimentación.",
+        "El entrenamiento de fuerza pasa a ser el centro. La OMS lo recomienda para todos los adultos al menos dos días por semana, y la evidencia muestra que la respuesta a la proteína y a la creatina depende de que exista ese estímulo. Un metaanálisis publicado en British Journal of Sports Medicine encontró, además, que el efecto adicional de suplementar proteína durante el entrenamiento de fuerza se achica con la edad: por eso importa más repartirla bien y cubrirla primero con comida.",
+        "También es una etapa para revisar micronutrientes con criterio. Vitamina D, hierro o calcio no se suplementan porque sí: se miden con un análisis y se decide con un profesional. Acá ordenamos qué priorizar, qué suplementos tienen respaldo y cuáles tienen poca evidencia."
+      ],
+      "intro_fuentes": [
+        1,
+        4
+      ],
+      "aviso_profesional": "Esta información es general y no reemplaza la consulta médica ni nutricional. Antes de suplementar vitaminas o minerales, hacete un control con tu médico; y si tomás medicación o tenés una enfermedad diagnosticada, consultá antes de sumar cualquier suplemento.",
+      "prioridades": [
+        {
+          "tipo": "entrenamiento",
+          "titulo": "Fuerza como base",
+          "texto": "Dos o más sesiones semanales que trabajen todos los grandes grupos musculares, con progresión gradual de cargas. Es la recomendación de la OMS para adultos.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020 (recomendación fuerte)",
+          "fuentes": [
+            1,
+            2
+          ]
+        },
+        {
+          "tipo": "entrenamiento",
+          "titulo": "Aeróbico sin abandonar la fuerza",
+          "texto": "Mantener 150 a 300 minutos semanales de actividad moderada, o 75 a 150 de intensa. Si te gusta correr o pedalear, sumalo a la fuerza, no en su lugar.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020",
+          "fuentes": [
+            1
+          ]
+        },
+        {
+          "tipo": "nutricion",
+          "titulo": "Proteína repartida en varias comidas",
+          "texto": "La ISSN sugiere tomas de 20 a 40 g de proteína cada 3 a 4 horas, dentro de un total de 1,4 a 2,0 g por kilo por día para quienes entrenan. Más que una gran cena proteica, conviene repartirla.",
+          "nivel_evidencia": "alto",
+          "respaldo": "Position stand ISSN 2017",
+          "fuentes": [
+            3,
+            4
+          ]
+        },
+        {
+          "tipo": "nutricion",
+          "titulo": "Creatina junto con el entrenamiento",
+          "texto": "La creatina monohidrato tiene evidencia para fuerza y masa magra cuando acompaña el entrenamiento de fuerza, también en adultos de mediana edad.",
+          "nivel_evidencia": "alto",
+          "respaldo": "Position stand ISSN 2017; AIS Grupo A",
+          "fuentes": [
+            5,
+            6
+          ]
+        },
+        {
+          "tipo": "habitos",
+          "titulo": "Recuperación y descanso",
+          "texto": "Dormir lo suficiente y dejar días más livianos entre sesiones exigentes ayuda a sostener la regularidad, que es lo que más pesa en esta etapa.",
+          "nivel_evidencia": "moderado",
+          "respaldo": "Criterio editorial [PENDIENTE: sumar una fuente específica sobre sueño y recuperación]",
+          "fuentes": []
+        }
+      ],
+      "nutrientes_a_vigilar": [
+        {
+          "nutriente": "Proteína",
+          "por_que": "Un metaanálisis encontró que el efecto adicional de la proteína sobre la masa muscular se achica con la edad; por eso conviene no quedarse corto y repartirla.",
+          "como_cubrirlo": "Una fuente proteica en cada comida, incluido el desayuno.",
+          "enlace": "/herramientas/proteina-diaria",
+          "fuentes": [
+            3,
+            4
+          ]
+        },
+        {
+          "nutriente": "Vitamina D",
+          "por_que": "Depende mucho de la exposición al sol y puede quedar baja en invierno o con poca vida al aire libre.",
+          "como_cubrirlo": "Medirla con un análisis y suplementar solo si tu médico lo indica.",
+          "enlace": "/categorias/vitaminas-minerales?sub=vitamina-d",
+          "fuentes": [
+            6,
+            10
+          ]
+        },
+        {
+          "nutriente": "Hierro",
+          "por_que": "Un déficit puede afectar la capacidad de entrenar. Es más frecuente en mujeres con menstruaciones abundantes y en dietas con pocas fuentes de hierro.",
+          "como_cubrirlo": "Medir antes: el exceso de hierro también es un problema. La suplementación se decide con un profesional.",
+          "enlace": "/categorias/vitaminas-minerales?sub=hierro",
+          "fuentes": [
+            6,
+            10
+          ]
+        },
+        {
+          "nutriente": "Calcio",
+          "por_que": "Es parte de la estructura ósea y muchas personas no llegan a cubrirlo si comen pocos lácteos.",
+          "como_cubrirlo": "Lácteos a diario, como proponen las GAPA, u otras fuentes. El suplemento, con indicación profesional.",
+          "enlace": "/categorias/vitaminas-minerales?sub=calcio",
+          "fuentes": [
+            11,
+            6
+          ]
+        },
+        {
+          "nutriente": "Omega-3",
+          "por_que": "Las GAPA recomiendan aumentar el consumo de pescado, la principal fuente de omega-3 de cadena larga.",
+          "como_cubrirlo": "Pescado dos veces por semana cuando sea posible. El suplemento tiene evidencia moderada (AIS Grupo B).",
+          "enlace": "/categorias/omega-3",
+          "fuentes": [
+            11,
+            7
+          ]
+        }
+      ],
+      "suplementos": {
+        "con_sentido": [
+          {
+            "nombre": "Proteína en polvo",
+            "nivel_evidencia": "alto",
+            "texto": "Útil para completar una comida pobre en proteína, como el desayuno o la merienda.",
+            "enlace": "/categorias/proteinas",
+            "fuentes": [
+              3,
+              6
+            ]
+          },
+          {
+            "nombre": "Creatina monohidrato",
+            "nivel_evidencia": "alto",
+            "texto": "Junto con el entrenamiento de fuerza, es de las opciones con más respaldo. Consultá antes si tenés alguna enfermedad renal o tomás medicación.",
+            "enlace": "/categorias/creatina",
+            "fuentes": [
+              5,
+              6
+            ]
+          },
+          {
+            "nombre": "Vitamina D, hierro o calcio",
+            "nivel_evidencia": "variable",
+            "texto": "El AIS los agrupa como suplementos de uso médico: tienen sentido cuando un análisis muestra que hacen falta y con indicación profesional.",
+            "enlace": "/categorias/vitaminas-minerales",
+            "fuentes": [
+              6
+            ]
+          }
+        ],
+        "poca_evidencia": [
+          {
+            "nombre": "Omega-3",
+            "nivel_evidencia": "moderado",
+            "texto": "Evidencia emergente o mixta en deportistas (AIS Grupo B). Antes que el suplemento, pescado en la dieta.",
+            "enlace": "/categorias/omega-3",
+            "fuentes": [
+              7
+            ]
+          },
+          {
+            "nombre": "Colágeno",
+            "nivel_evidencia": "moderado",
+            "texto": "El AIS lo ubica en el Grupo B: hay investigación en curso, sin resultados concluyentes para todos los usos que se promocionan.",
+            "enlace": "/categorias/colageno",
+            "fuentes": [
+              7
+            ]
+          },
+          {
+            "nombre": "Magnesio",
+            "nivel_evidencia": "bajo",
+            "texto": "El AIS lo pasó al Grupo C: sin beneficio demostrado en deportistas si no hay un déficit.",
+            "enlace": "/categorias/magnesio",
+            "fuentes": [
+              8
+            ]
+          }
+        ],
+        "evitar": [
+          {
+            "nombre": "Quemadores y 'boosters' hormonales",
+            "nivel_evidencia": "precaucion",
+            "texto": "Varios de sus ingredientes figuran en el Grupo D del AIS por el riesgo de contaminación con sustancias prohibidas.",
+            "enlace": "/categorias/quemadores-termogenicos",
+            "fuentes": [
+              9
+            ]
+          }
+        ]
+      },
+      "errores_comunes": [
+        {
+          "titulo": "Cambiar fuerza por solo cardio",
+          "texto": "Correr o pedalear suma, pero no reemplaza el estímulo de fuerza para conservar masa muscular."
+        },
+        {
+          "titulo": "Suplementar vitaminas sin medir",
+          "texto": "Tomar vitamina D o hierro 'por las dudas' puede no servir o generar excesos. Primero el análisis."
+        },
+        {
+          "titulo": "Entrenar como a los 25 sin ajustar la recuperación",
+          "texto": "Mismo volumen, menos descanso y más estrés laboral suelen terminar en molestias que cortan la continuidad."
+        },
+        {
+          "titulo": "Desayuno sin proteína",
+          "texto": "Si tu desayuno no tiene proteína, sumar huevo, lácteos o un batido cambia el total del día."
+        },
+        {
+          "titulo": "Creer que un suplemento compensa el sedentarismo",
+          "texto": "Pasar muchas horas sentado y entrenar una hora no se equilibra con una cápsula. Moverse más durante el día también cuenta."
+        }
+      ],
+      "semana_tipo": {
+        "bajada": "Una semana orientativa con tres sesiones de fuerza y aeróbico moderado. No es un plan individual: ajustala a tu nivel y, si tenés una condición de salud, consultala con tu médico.",
+        "dias": [
+          {
+            "dia": "Lunes",
+            "entrenamiento": "Fuerza de cuerpo completo (45–60 min), con entrada en calor de 10 min.",
+            "habitos": "Desayuno con proteína."
+          },
+          {
+            "dia": "Martes",
+            "entrenamiento": "Caminata rápida o bici, 30–45 min.",
+            "habitos": "Pausas activas cada una o dos horas si trabajás sentado."
+          },
+          {
+            "dia": "Miércoles",
+            "entrenamiento": "Fuerza de cuerpo completo.",
+            "habitos": "Pescado en alguna comida, si es posible."
+          },
+          {
+            "dia": "Jueves",
+            "entrenamiento": "Movilidad y estiramientos, 20–30 min.",
+            "habitos": "Acostarte a horario."
+          },
+          {
+            "dia": "Viernes",
+            "entrenamiento": "Fuerza, con algo de potencia o velocidad si tu nivel lo permite.",
+            "habitos": "Lácteos o fuentes de calcio en el día."
+          },
+          {
+            "dia": "Sábado",
+            "entrenamiento": "Actividad aeróbica más larga o deporte recreativo.",
+            "habitos": "Hidratación acorde al calor y la duración."
+          },
+          {
+            "dia": "Domingo",
+            "entrenamiento": "Descanso o caminata tranquila.",
+            "habitos": "Agendar el control médico anual si lo tenés atrasado."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "pregunta": "¿Es tarde para empezar a entrenar fuerza a los 40?",
+          "respuesta": "No. La OMS recomienda fuerza para todos los adultos, sin límite de edad. Si hace mucho que no entrenás o tenés alguna condición de salud, empezá con cargas bajas y, si podés, con supervisión profesional."
+        },
+        {
+          "pregunta": "¿La creatina sirve después de los 40?",
+          "respuesta": "La evidencia revisada por la ISSN muestra beneficios en fuerza y masa magra cuando se combina con entrenamiento de fuerza, también en adultos de mediana edad y mayores. Si tenés una enfermedad renal o tomás medicación, consultá antes."
+        },
+        {
+          "pregunta": "¿Tengo que tomar vitamina D?",
+          "respuesta": "Depende de tus niveles. Lo recomendable es medirla con un análisis y que tu médico decida si hace falta suplementar y en qué cantidad."
+        },
+        {
+          "pregunta": "¿El colágeno sirve para las articulaciones?",
+          "respuesta": "El AIS lo ubica en el Grupo B: evidencia emergente o mixta. No hay respaldo suficiente para prometer resultados concretos; si tenés dolor articular, lo indicado es consultar a un profesional."
+        },
+        {
+          "pregunta": "¿Cuántos días por semana conviene entrenar a esta edad?",
+          "respuesta": "Como referencia general, la OMS plantea fuerza dos o más días y entre 150 y 300 minutos de actividad aeróbica moderada por semana. La distribución concreta depende de tu nivel y tu agenda."
+        }
+      ],
+      "enlaces_internos": [
+        {
+          "tipo": "guia",
+          "href": "/blog/creatina-para-que-sirve#creatina-a-los-30-40-y-50",
+          "texto": "Creatina a los 30, 40 y 50"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/suplementos-sistema-abcd-ais",
+          "texto": "Sistema ABCD del AIS: qué suplementos tienen evidencia"
+        },
+        {
+          "tipo": "herramienta",
+          "href": "/herramientas/proteina-diaria",
+          "texto": "Calculadora de proteína diaria"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/proteinas",
+          "texto": "Proteínas"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/creatina",
+          "texto": "Creatina"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/vitaminas-minerales",
+          "texto": "Vitaminas y minerales"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/omega-3",
+          "texto": "Omega-3"
+        },
+        {
+          "tipo": "marcas",
+          "href": "/marcas",
+          "texto": "Marcas analizadas, con fuentes"
+        },
+        {
+          "tipo": "etapa",
+          "href": "/etapas/50-60",
+          "texto": "Siguiente etapa: 50 a 60 años"
+        }
+      ],
+      "fuentes_detalle": [
+        {
+          "n": 1,
+          "titulo": "Organización Mundial de la Salud (2020). WHO guidelines on physical activity and sedentary behaviour",
+          "url": "https://www.who.int/publications/i/item/9789240015128"
+        },
+        {
+          "n": 2,
+          "titulo": "Bull FC et al. (2020). World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 54:1451-1462",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/"
+        },
+        {
+          "n": 3,
+          "titulo": "Jäger R et al. (2017). International Society of Sports Nutrition Position Stand: protein and exercise. JISSN 14:20",
+          "url": "https://doi.org/10.1186/s12970-017-0177-8"
+        },
+        {
+          "n": 4,
+          "titulo": "Morton RW et al. (2018). A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. Br J Sports Med 52:376-384",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/"
+        },
+        {
+          "n": 5,
+          "titulo": "Kreider RB et al. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. JISSN 14:18",
+          "url": "https://doi.org/10.1186/s12970-017-0173-z"
+        },
+        {
+          "n": 6,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group A",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        },
+        {
+          "n": 7,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group B",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
+        },
+        {
+          "n": 8,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group C",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_c"
+        },
+        {
+          "n": 9,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group D",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+        },
+        {
+          "n": 10,
+          "titulo": "Maughan RJ et al. (2018). IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med 52:439-455",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/"
+        },
+        {
+          "n": 11,
+          "titulo": "Ministerio de Salud de la Nación. Guías Alimentarias para la Población Argentina como estándar de referencia (Res. 693/2019)",
+          "url": "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
+        }
+      ],
+      "_interno": {
+        "campos_nuevos": [
+          "meta_title",
+          "meta_description",
+          "intro",
+          "intro_fuentes",
+          "aviso_profesional",
+          "prioridades",
+          "nutrientes_a_vigilar",
+          "suplementos",
+          "errores_comunes",
+          "semana_tipo",
+          "faq",
+          "enlaces_internos",
+          "fuentes_detalle"
+        ],
+        "campos_existentes_modificados": [
+          "fuentes (se amplía con todas las URLs citadas; mismo tipo string[])"
+        ],
+        "fuentes_existentes_previas": [
+          "https://doi.org/10.1186/s12970-017-0177-8",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
+        ],
+        "enlaces_sugeridos_pendientes": [
+          {
+            "tema": "Vitamina D: cuándo medirla y qué dice la evidencia",
+            "href_propuesto": "/blog/vitamina-d-deportistas",
+            "motivo": "Aparece como nutriente a vigilar en 40-49, 50-60, Mujer y Perimenopausia."
+          },
+          {
+            "tema": "Colágeno: qué se sabe y qué no",
+            "href_propuesto": "/blog/colageno-evidencia",
+            "motivo": "Consulta frecuente en esta franja."
+          }
+        ]
+      }
     },
     {
       "slug": "50-60",
@@ -692,11 +1540,446 @@
         "longevidad-bienestar"
       ],
       "fuentes": [
+        "https://www.who.int/publications/i/item/9789240015128",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+        "https://doi.org/10.1519/JSC.0000000000003230",
         "https://doi.org/10.1016/j.jamda.2013.05.021",
+        "https://doi.org/10.1186/s12970-017-0177-8",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5679696/",
         "https://doi.org/10.1186/s12970-017-0173-z",
-        "https://doi.org/10.1093/ageing/afy169",
-        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
-      ]
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/",
+        "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
+      ],
+      "meta_title": "Suplementos de 50 a 60 años: fuerza y proteína",
+      "meta_description": "De 50 a 60 años: por qué la fuerza y la proteína pasan al centro, qué suplementos tienen evidencia, cuáles no, nutrientes a revisar y una semana tipo.",
+      "intro": [
+        "Entre los 50 y los 60 años, conservar la fuerza y la masa muscular deja de ser una cuestión estética y pasa a ser una inversión en autonomía: subir escaleras, cargar bolsas o sostener el ritmo de un viaje dependen de esa base. Con los años se pierde masa y fuerza muscular de forma gradual, y el entrenamiento de fuerza es uno de los pilares con más respaldo para sostenerlas.",
+        "La OMS recomienda trabajo de fuerza al menos dos días por semana para todos los adultos y, desde los 65, actividad multicomponente con equilibrio y fuerza tres o más días. La Asociación Nacional de Fuerza y Acondicionamiento de Estados Unidos (NSCA) publicó una declaración de posición específica sobre entrenamiento de fuerza en adultos mayores que respalda programas progresivos y supervisados.",
+        "En la alimentación, la proteína gana peso: el grupo europeo PROT-AGE planteó que las personas mayores necesitan más proteína que las jóvenes. Algunos suplementos, como la creatina junto con entrenamiento, tienen evidencia en esta franja; otros se venden con promesas que la ciencia no respalda. En esta etapa es especialmente importante decidir con tu médico o nutricionista, sobre todo si tomás medicación."
+      ],
+      "intro_fuentes": [
+        3,
+        1,
+        2,
+        4
+      ],
+      "aviso_profesional": "A partir de esta edad es frecuente tomar medicación o tener alguna condición de salud. Antes de empezar un plan de entrenamiento exigente o sumar suplementos, consultá con tu médico. Esta página es informativa y no reemplaza esa consulta.",
+      "prioridades": [
+        {
+          "tipo": "entrenamiento",
+          "titulo": "Fuerza progresiva, dos o tres días",
+          "texto": "Ejercicios para todos los grandes grupos musculares, con cargas que aumentan de a poco. Si recién empezás, conviene hacerlo con supervisión.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020; declaración de posición NSCA 2019",
+          "fuentes": [
+            1,
+            3
+          ]
+        },
+        {
+          "tipo": "entrenamiento",
+          "titulo": "Equilibrio y movilidad",
+          "texto": "La OMS recomienda a los mayores de 65 actividad multicomponente con equilibrio y fuerza tres o más días por semana. Incorporarlo antes ayuda a llegar con el hábito armado.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020 (recomendación para 65+); la anticipación es criterio editorial",
+          "fuentes": [
+            1,
+            2
+          ]
+        },
+        {
+          "tipo": "nutricion",
+          "titulo": "Proteína suficiente en cada comida",
+          "texto": "PROT-AGE plantea al menos 1,0 a 1,2 g por kilo por día en mayores de 65 sanos, y 1,2 g o más en quienes hacen ejercicio. Para esta franja es una referencia útil: no quedarse corto y repartirla.",
+          "nivel_evidencia": "alto",
+          "respaldo": "Position paper PROT-AGE 2013; ISSN 2017",
+          "fuentes": [
+            4,
+            5
+          ]
+        },
+        {
+          "tipo": "nutricion",
+          "titulo": "Creatina junto con fuerza",
+          "texto": "Un metaanálisis de 22 estudios con 721 participantes de entre 57 y 70 años de edad promedio encontró más ganancia de masa magra y de fuerza con creatina que con placebo, siempre durante entrenamiento de fuerza.",
+          "nivel_evidencia": "alto",
+          "respaldo": "Metaanálisis Chilibeck 2017; ISSN 2017",
+          "fuentes": [
+            6,
+            7
+          ]
+        },
+        {
+          "tipo": "habitos",
+          "titulo": "Menos tiempo sentado",
+          "texto": "La OMS señala que reemplazar tiempo sedentario por actividad de cualquier intensidad, incluso liviana, tiene beneficios.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020",
+          "fuentes": [
+            2
+          ]
+        }
+      ],
+      "nutrientes_a_vigilar": [
+        {
+          "nutriente": "Proteína",
+          "por_que": "Según PROT-AGE, con los años cambia el metabolismo de la proteína y baja la respuesta anabólica a lo que se come.",
+          "como_cubrirlo": "Fuentes proteicas en todas las comidas. Si tenés una enfermedad renal, la cantidad la define tu médico.",
+          "enlace": "/herramientas/proteina-diaria",
+          "fuentes": [
+            4
+          ]
+        },
+        {
+          "nutriente": "Vitamina D y calcio",
+          "por_que": "Son parte del cuidado de los huesos; sus necesidades y niveles conviene revisarlos en los controles de esta edad.",
+          "como_cubrirlo": "Lácteos a diario según las GAPA y análisis de vitamina D. El suplemento, solo con indicación médica.",
+          "enlace": "/categorias/vitaminas-minerales?sub=vitamina-d",
+          "fuentes": [
+            13,
+            8,
+            12
+          ]
+        },
+        {
+          "nutriente": "Omega-3",
+          "por_que": "Las GAPA recomiendan aumentar el consumo de pescado.",
+          "como_cubrirlo": "Pescado en la semana; el suplemento tiene evidencia moderada (AIS Grupo B). Si tomás medicación, consultalo antes.",
+          "enlace": "/categorias/omega-3",
+          "fuentes": [
+            13,
+            9
+          ]
+        },
+        {
+          "nutriente": "Líquidos",
+          "por_que": "Las GAPA recomiendan tomar a diario agua segura y no esperar a tener sed.",
+          "como_cubrirlo": "Agua a mano durante el día y más en verano o al entrenar.",
+          "enlace": "/categorias/hidratacion-electrolitos",
+          "fuentes": [
+            13
+          ]
+        }
+      ],
+      "suplementos": {
+        "con_sentido": [
+          {
+            "nombre": "Proteína en polvo",
+            "nivel_evidencia": "alto",
+            "texto": "Una forma práctica de sumar proteína a comidas que se quedan cortas, como el desayuno.",
+            "enlace": "/categorias/proteinas",
+            "fuentes": [
+              5,
+              4,
+              8
+            ]
+          },
+          {
+            "nombre": "Creatina monohidrato",
+            "nivel_evidencia": "alto",
+            "texto": "Con evidencia en esta franja de edad cuando acompaña el entrenamiento de fuerza. Consultá antes si tenés una enfermedad renal o tomás medicación.",
+            "enlace": "/categorias/creatina",
+            "fuentes": [
+              6,
+              7
+            ]
+          },
+          {
+            "nombre": "Vitamina D y calcio",
+            "nivel_evidencia": "variable",
+            "texto": "Tienen sentido cuando un análisis o la evaluación médica lo indica; no como rutina para todos.",
+            "enlace": "/categorias/vitaminas-minerales",
+            "fuentes": [
+              8
+            ]
+          }
+        ],
+        "poca_evidencia": [
+          {
+            "nombre": "Omega-3",
+            "nivel_evidencia": "moderado",
+            "texto": "Evidencia emergente o mixta en deportistas (AIS Grupo B).",
+            "enlace": "/categorias/omega-3",
+            "fuentes": [
+              9
+            ]
+          },
+          {
+            "nombre": "Productos de 'longevidad' (NAD, adaptógenos, polifenoles)",
+            "nivel_evidencia": "bajo",
+            "texto": "Mucho marketing y poca evidencia en personas que entrenan. Algunos polifenoles y la curcumina figuran en el Grupo B del AIS; el resto, sin respaldo suficiente.",
+            "enlace": "/categorias/longevidad-bienestar",
+            "fuentes": [
+              9
+            ]
+          },
+          {
+            "nombre": "HMB",
+            "nivel_evidencia": "bajo",
+            "texto": "El AIS lo reclasificó al Grupo C: la evidencia actual no muestra beneficios claros en deportistas.",
+            "enlace": "/categorias/aminoacidos?sub=hmb",
+            "fuentes": [
+              10
+            ]
+          }
+        ],
+        "evitar": [
+          {
+            "nombre": "Termogénicos con estimulantes",
+            "nivel_evidencia": "precaucion",
+            "texto": "Pueden combinar varios estimulantes; algunos ingredientes figuran en el Grupo D del AIS. Si tomás medicación, es un motivo más para consultar antes.",
+            "enlace": "/categorias/quemadores-termogenicos",
+            "fuentes": [
+              11
+            ]
+          }
+        ]
+      },
+      "errores_comunes": [
+        {
+          "titulo": "Pensar que ya es tarde para la fuerza",
+          "texto": "Las declaraciones de la OMS y la NSCA respaldan el entrenamiento de fuerza también en adultos mayores, con cargas adaptadas."
+        },
+        {
+          "titulo": "Comer poca proteína por costumbre",
+          "texto": "Desayunos y cenas livianos sin fuentes proteicas son habituales. Revisar la distribución del día suele ser el primer ajuste."
+        },
+        {
+          "titulo": "Sumar suplementos sin contarle al médico",
+          "texto": "Algunos productos interactúan con medicamentos. Llevá la lista de lo que tomás a cada control."
+        },
+        {
+          "titulo": "Solo caminar",
+          "texto": "Caminar es valioso, pero no reemplaza el estímulo de fuerza ni el trabajo de equilibrio."
+        },
+        {
+          "titulo": "Creerle al envase",
+          "texto": "Promesas como 'rejuvenece' o 'devuelve la energía' no tienen respaldo. En Argentina, un suplemento es un alimento, no un medicamento."
+        }
+      ],
+      "semana_tipo": {
+        "bajada": "Una semana orientativa que combina fuerza, aeróbico y equilibrio. Antes de empezar, consultala con tu médico, sobre todo si estás retomando la actividad o tomás medicación.",
+        "dias": [
+          {
+            "dia": "Lunes",
+            "entrenamiento": "Fuerza de cuerpo completo (40–50 min), con supervisión si estás empezando.",
+            "habitos": "Proteína en el desayuno."
+          },
+          {
+            "dia": "Martes",
+            "entrenamiento": "Caminata rápida 30–40 min y 10 min de equilibrio.",
+            "habitos": "Agua a mano durante el día."
+          },
+          {
+            "dia": "Miércoles",
+            "entrenamiento": "Descanso activo o movilidad.",
+            "habitos": "Pescado o legumbres en alguna comida."
+          },
+          {
+            "dia": "Jueves",
+            "entrenamiento": "Fuerza de cuerpo completo.",
+            "habitos": "Levantarte y moverte cada una o dos horas."
+          },
+          {
+            "dia": "Viernes",
+            "entrenamiento": "Bici, natación o caminata, 30–45 min.",
+            "habitos": "Lácteos o fuentes de calcio."
+          },
+          {
+            "dia": "Sábado",
+            "entrenamiento": "Fuerza liviana y equilibrio, o una actividad recreativa.",
+            "habitos": "Tiempo al aire libre."
+          },
+          {
+            "dia": "Domingo",
+            "entrenamiento": "Descanso.",
+            "habitos": "Repasar la lista de suplementos y medicamentos para el próximo control."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "pregunta": "¿Cuánta proteína se recomienda después de los 50?",
+          "respuesta": "No hay una cifra única para esta franja. Como referencia, el grupo PROT-AGE planteó al menos 1,0 a 1,2 g por kilo por día en mayores de 65 sanos y 1,2 g o más si hacen ejercicio. Tu médico o nutricionista puede ajustarlo, especialmente si tenés alguna enfermedad renal."
+        },
+        {
+          "pregunta": "¿La creatina es segura a los 50 o 60?",
+          "respuesta": "La creatina monohidrato es uno de los suplementos más estudiados y la ISSN la considera segura en personas sanas en las cantidades usadas en los estudios. Igual, a esta edad conviene consultarlo con tu médico, sobre todo si tomás medicación o tenés una enfermedad renal."
+        },
+        {
+          "pregunta": "¿Puedo empezar a entrenar fuerza a los 55 sin experiencia?",
+          "respuesta": "Sí. La NSCA respalda programas progresivos para adultos mayores. Lo ideal es empezar con cargas bajas, aprender la técnica con un profesional y hacer un control médico previo."
+        },
+        {
+          "pregunta": "¿Hace falta tomar un multivitamínico?",
+          "respuesta": "No necesariamente. El AIS lo ubica en el Grupo B y tiene sentido en situaciones puntuales. Una alimentación variada y un análisis indicado por tu médico son mejor punto de partida."
+        },
+        {
+          "pregunta": "¿Qué diferencia hay entre perder músculo con la edad y la sarcopenia?",
+          "respuesta": "La pérdida gradual de músculo acompaña al envejecimiento. La sarcopenia es una enfermedad muscular definida por consensos médicos y su diagnóstico lo hace un profesional. Lo explicamos en la página de masa muscular y sarcopenia."
+        }
+      ],
+      "enlaces_internos": [
+        {
+          "tipo": "guia",
+          "href": "/blog/creatina-para-que-sirve#quienes-deberian-consultar-antes",
+          "texto": "Creatina: quiénes deberían consultar antes"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/suplementos-sistema-abcd-ais",
+          "texto": "Sistema ABCD del AIS: qué suplementos tienen evidencia"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/rotulo-suplemento-rnpa-rne",
+          "texto": "Cómo leer el RNPA y el RNE en el rótulo"
+        },
+        {
+          "tipo": "herramienta",
+          "href": "/herramientas/proteina-diaria",
+          "texto": "Calculadora de proteína diaria"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/proteinas",
+          "texto": "Proteínas"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/creatina",
+          "texto": "Creatina"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/vitaminas-minerales",
+          "texto": "Vitaminas y minerales"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/longevidad-bienestar",
+          "texto": "Longevidad y bienestar"
+        },
+        {
+          "tipo": "etapa",
+          "href": "/etapas/sarcopenia",
+          "texto": "Masa muscular y sarcopenia"
+        },
+        {
+          "tipo": "marcas",
+          "href": "/marcas",
+          "texto": "Marcas analizadas, con fuentes"
+        }
+      ],
+      "fuentes_detalle": [
+        {
+          "n": 1,
+          "titulo": "Organización Mundial de la Salud (2020). WHO guidelines on physical activity and sedentary behaviour",
+          "url": "https://www.who.int/publications/i/item/9789240015128"
+        },
+        {
+          "n": 2,
+          "titulo": "Bull FC et al. (2020). World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 54:1451-1462",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/"
+        },
+        {
+          "n": 3,
+          "titulo": "Fragala MS et al. (2019). Resistance Training for Older Adults: Position Statement From the National Strength and Conditioning Association. J Strength Cond Res 33(8):2019-2052",
+          "url": "https://doi.org/10.1519/JSC.0000000000003230"
+        },
+        {
+          "n": 4,
+          "titulo": "Bauer J et al. (2013). Evidence-based recommendations for optimal dietary protein intake in older people: a position paper from the PROT-AGE Study Group. J Am Med Dir Assoc 14(8):542-559",
+          "url": "https://doi.org/10.1016/j.jamda.2013.05.021"
+        },
+        {
+          "n": 5,
+          "titulo": "Jäger R et al. (2017). International Society of Sports Nutrition Position Stand: protein and exercise. JISSN 14:20",
+          "url": "https://doi.org/10.1186/s12970-017-0177-8"
+        },
+        {
+          "n": 6,
+          "titulo": "Chilibeck PD et al. (2017). Effect of creatine supplementation during resistance training on lean tissue mass and muscular strength in older adults: a meta-analysis. Open Access J Sports Med 8:213-226",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5679696/"
+        },
+        {
+          "n": 7,
+          "titulo": "Kreider RB et al. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. JISSN 14:18",
+          "url": "https://doi.org/10.1186/s12970-017-0173-z"
+        },
+        {
+          "n": 8,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group A",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        },
+        {
+          "n": 9,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group B",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
+        },
+        {
+          "n": 10,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group C",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_c"
+        },
+        {
+          "n": 11,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group D",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+        },
+        {
+          "n": 12,
+          "titulo": "Maughan RJ et al. (2018). IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med 52:439-455",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/"
+        },
+        {
+          "n": 13,
+          "titulo": "Ministerio de Salud de la Nación. Guías Alimentarias para la Población Argentina como estándar de referencia (Res. 693/2019)",
+          "url": "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
+        }
+      ],
+      "_interno": {
+        "campos_nuevos": [
+          "meta_title",
+          "meta_description",
+          "intro",
+          "intro_fuentes",
+          "aviso_profesional",
+          "prioridades",
+          "nutrientes_a_vigilar",
+          "suplementos",
+          "errores_comunes",
+          "semana_tipo",
+          "faq",
+          "enlaces_internos",
+          "fuentes_detalle"
+        ],
+        "campos_existentes_modificados": [
+          "fuentes (se amplía con todas las URLs citadas; mismo tipo string[])"
+        ],
+        "fuentes_existentes_previas": [
+          "https://doi.org/10.1016/j.jamda.2013.05.021",
+          "https://doi.org/10.1186/s12970-017-0173-z",
+          "https://doi.org/10.1093/ageing/afy169",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        ],
+        "enlaces_sugeridos_pendientes": [
+          {
+            "tema": "Entrenamiento de fuerza después de los 50: cómo empezar",
+            "href_propuesto": "/blog/fuerza-despues-de-los-50",
+            "motivo": "Es la prioridad número uno de la etapa y no hay guía."
+          },
+          {
+            "tema": "Suplementos y medicación: por qué contarle al médico",
+            "href_propuesto": "/blog/suplementos-y-medicacion",
+            "motivo": "Riesgo de interacciones mencionado en 50-60, Perimenopausia y Sarcopenia."
+          }
+        ]
+      }
     },
     {
       "slug": "mujer",
@@ -717,8 +2000,413 @@
       ],
       "fuentes": [
         "https://doi.org/10.1080/15502783.2023.2204066",
-        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
-      ]
+        "https://doi.org/10.1136/bjsports-2023-106994",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7998865/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7777221/",
+        "https://www.who.int/publications/i/item/9789240015128",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+        "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
+      ],
+      "meta_title": "Suplementos para mujeres que entrenan: guía",
+      "meta_description": "Energía suficiente, hierro, vitamina D, calcio, proteína y creatina en mujeres que entrenan: qué dice la evidencia, qué suplementos tienen sentido y qué evitar.",
+      "intro": [
+        "Durante años, buena parte de la investigación en nutrición deportiva se hizo con hombres y sus conclusiones se trasladaron a las mujeres sin más. Eso empezó a cambiar: en 2023 la Sociedad Internacional de Nutrición Deportiva (ISSN) publicó una declaración de posición específica sobre las necesidades nutricionales de las mujeres que entrenan.",
+        "Su primer punto es que los perfiles hormonales de cada mujer son propios y cambian a lo largo de la vida, por lo que sugiere registrar cómo se siente cada una en el entrenamiento y la recuperación para encontrar sus patrones. El segundo es la prioridad de comer lo suficiente: una disponibilidad de energía adecuada es la base de todo lo demás. El Comité Olímpico Internacional (COI) describe los problemas de salud y rendimiento asociados a la baja disponibilidad energética, que afectan tanto a mujeres como a hombres.",
+        "Sobre esa base, la ISSN señala que la cafeína, el hierro y la creatina son los suplementos con más evidencia en mujeres. El hierro y la vitamina D, en cambio, no se toman a ciegas: se miden y se decide con un profesional. Si estás embarazada, en período de lactancia o buscando un embarazo, cualquier suplemento se consulta antes con tu médico."
+      ],
+      "intro_fuentes": [
+        1,
+        2
+      ],
+      "aviso_profesional": "Esta página es informativa. Si estás embarazada, en lactancia o buscando un embarazo, si tus ciclos cambiaron sin causa clara o si tomás medicación, consultá con tu médico antes de sumar suplementos o cambiar tu alimentación.",
+      "prioridades": [
+        {
+          "tipo": "nutricion",
+          "titulo": "Comer lo suficiente",
+          "texto": "Para la ISSN, la consideración nutricional principal es cubrir la energía que demanda el entrenamiento. Restringir mucho mientras se entrena fuerte afecta la salud y el rendimiento, según el consenso del COI.",
+          "nivel_evidencia": "alto",
+          "respaldo": "Position stand ISSN 2023; consenso COI 2023",
+          "fuentes": [
+            1,
+            2
+          ]
+        },
+        {
+          "tipo": "nutricion",
+          "titulo": "Proteína en el rango medio-alto",
+          "texto": "La ISSN plantea entre 1,4 y 2,2 g por kilo por día para mujeres en todas las etapas, repartida cada 3 a 4 horas.",
+          "nivel_evidencia": "alto",
+          "respaldo": "Position stand ISSN 2023",
+          "fuentes": [
+            1
+          ]
+        },
+        {
+          "tipo": "entrenamiento",
+          "titulo": "Fuerza, también para mujeres",
+          "texto": "La OMS recomienda trabajo de fuerza al menos dos días por semana para todos los adultos. No hay una versión 'liviana' para mujeres: la progresión depende del nivel, no del sexo.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020",
+          "fuentes": [
+            5,
+            6
+          ]
+        },
+        {
+          "tipo": "habitos",
+          "titulo": "Conocer tu propio patrón",
+          "texto": "Los efectos del ciclo sobre el rendimiento son muy individuales. Registrar energía, sueño y rendimiento a lo largo del mes ayuda a ajustar cargas y alimentación.",
+          "nivel_evidencia": "moderado",
+          "respaldo": "Position stand ISSN 2023 (investigación todavía limitada)",
+          "fuentes": [
+            1
+          ]
+        }
+      ],
+      "nutrientes_a_vigilar": [
+        {
+          "nutriente": "Hierro",
+          "por_que": "Según la ISSN, la deficiencia de hierro y la anemia por deficiencia son entre cinco y siete veces más frecuentes en deportistas mujeres que en hombres, por las pérdidas menstruales, la alimentación y el propio ejercicio.",
+          "como_cubrirlo": "Fuentes de hierro en la dieta y un análisis indicado por tu médico. Suplementar solo con indicación: el exceso también es un problema.",
+          "enlace": "/categorias/vitaminas-minerales?sub=hierro",
+          "fuentes": [
+            1,
+            7
+          ]
+        },
+        {
+          "nutriente": "Energía total",
+          "por_que": "Una ingesta baja sostenida en relación con el entrenamiento se asocia a problemas de salud y rendimiento descriptos por el COI.",
+          "como_cubrirlo": "No entrenar en ayunas prolongados de forma habitual y ajustar las porciones a la carga. Ante dudas, un nutricionista.",
+          "enlace": null,
+          "fuentes": [
+            2,
+            1
+          ]
+        },
+        {
+          "nutriente": "Calcio y vitamina D",
+          "por_que": "Son parte del cuidado de los huesos y pueden quedar cortos con pocos lácteos o poca exposición al sol.",
+          "como_cubrirlo": "Lácteos a diario como proponen las GAPA; vitamina D medida y suplementada solo si tu médico lo indica.",
+          "enlace": "/categorias/vitaminas-minerales?sub=calcio",
+          "fuentes": [
+            10,
+            7
+          ]
+        },
+        {
+          "nutriente": "Proteína",
+          "por_que": "Es frecuente quedar por debajo del rango de la ISSN, sobre todo con dietas restrictivas.",
+          "como_cubrirlo": "Una fuente proteica por comida; la calculadora del sitio da un rango orientativo.",
+          "enlace": "/herramientas/proteina-diaria",
+          "fuentes": [
+            1
+          ]
+        }
+      ],
+      "suplementos": {
+        "con_sentido": [
+          {
+            "nombre": "Creatina monohidrato",
+            "nivel_evidencia": "alto",
+            "texto": "La ISSN la menciona entre los suplementos con más evidencia en mujeres. Una revisión señala que las mujeres tienen reservas de creatina entre 70 y 80 % más bajas que los hombres. No 'masculiniza' ni es solo para fisicoculturismo.",
+            "enlace": "/categorias/creatina",
+            "fuentes": [
+              1,
+              3
+            ]
+          },
+          {
+            "nombre": "Proteína en polvo",
+            "nivel_evidencia": "alto",
+            "texto": "Práctica para llegar al rango diario cuando la comida no alcanza.",
+            "enlace": "/categorias/proteinas",
+            "fuentes": [
+              1,
+              7
+            ]
+          },
+          {
+            "nombre": "Cafeína",
+            "nivel_evidencia": "alto",
+            "texto": "Con respaldo para rendimiento; la respuesta y la tolerancia son individuales. En embarazo, consultá con tu médico.",
+            "enlace": "/categorias/pre-entrenos?sub=cafeina",
+            "fuentes": [
+              1,
+              4
+            ]
+          },
+          {
+            "nombre": "Hierro",
+            "nivel_evidencia": "variable",
+            "texto": "Muy eficaz cuando hay déficit, según la ISSN. Sin análisis previo, no.",
+            "enlace": "/categorias/vitaminas-minerales?sub=hierro",
+            "fuentes": [
+              1,
+              7
+            ]
+          }
+        ],
+        "poca_evidencia": [
+          {
+            "nombre": "Colágeno",
+            "nivel_evidencia": "moderado",
+            "texto": "En el Grupo B del AIS: evidencia emergente. No reemplaza a la proteína completa para el músculo.",
+            "enlace": "/categorias/colageno",
+            "fuentes": [
+              8
+            ]
+          },
+          {
+            "nombre": "Multivitamínicos",
+            "nivel_evidencia": "moderado",
+            "texto": "En el Grupo B del AIS. Pueden tener sentido en situaciones puntuales, no como reemplazo de una alimentación variada.",
+            "enlace": "/categorias/vitaminas-minerales?sub=multivitaminicos",
+            "fuentes": [
+              8
+            ]
+          }
+        ],
+        "evitar": [
+          {
+            "nombre": "Quemadores, 'detox' y saciadores",
+            "nivel_evidencia": "precaucion",
+            "texto": "Prometen cambios rápidos que la evidencia no respalda y pueden incluir estimulantes del Grupo D del AIS. Además, empujan a comer menos de lo necesario.",
+            "enlace": "/categorias/quemadores-termogenicos",
+            "fuentes": [
+              9,
+              2
+            ]
+          }
+        ]
+      },
+      "errores_comunes": [
+        {
+          "titulo": "Comer muy poco para 'tonificar'",
+          "texto": "Entrenar más y comer menos a la vez suele terminar en cansancio, peor recuperación y, a veces, cambios en el ciclo. Si tu ciclo se altera, consultá."
+        },
+        {
+          "titulo": "Evitar la fuerza por miedo a 'agrandarse'",
+          "texto": "El entrenamiento de fuerza está recomendado para todos los adultos. Los cambios de volumen muscular son graduales y dependen de muchos factores."
+        },
+        {
+          "titulo": "Tomar hierro por las dudas",
+          "texto": "El hierro se suplementa cuando un análisis lo indica. Tomarlo sin control puede no servir o generar excesos."
+        },
+        {
+          "titulo": "Pensar que la creatina es 'para hombres'",
+          "texto": "La evidencia en mujeres existe y la ISSN la incluye entre los suplementos con más respaldo para ellas."
+        },
+        {
+          "titulo": "Copiar planes pensados para otros",
+          "texto": "Los efectos del ciclo y de los anticonceptivos son individuales. Lo que le funciona a otra persona puede no funcionarte a vos."
+        }
+      ],
+      "semana_tipo": {
+        "bajada": "Una semana orientativa para una mujer que entrena 4 o 5 días. No es un plan individual: ajustala a tu nivel, a cómo te sentís en cada momento del mes y, si tenés una condición de salud, consultala con un profesional.",
+        "dias": [
+          {
+            "dia": "Lunes",
+            "entrenamiento": "Fuerza de tren inferior y zona media.",
+            "habitos": "Desayuno con proteína."
+          },
+          {
+            "dia": "Martes",
+            "entrenamiento": "Aeróbico moderado 30–45 min.",
+            "habitos": "Fuentes de hierro en alguna comida (carnes, legumbres)."
+          },
+          {
+            "dia": "Miércoles",
+            "entrenamiento": "Fuerza de tren superior.",
+            "habitos": "Registrar energía y sueño."
+          },
+          {
+            "dia": "Jueves",
+            "entrenamiento": "Descanso activo o yoga/movilidad.",
+            "habitos": "Lácteos o fuentes de calcio."
+          },
+          {
+            "dia": "Viernes",
+            "entrenamiento": "Fuerza de cuerpo completo.",
+            "habitos": "No llegar al entrenamiento después de muchas horas sin comer."
+          },
+          {
+            "dia": "Sábado",
+            "entrenamiento": "Deporte, running o clase grupal.",
+            "habitos": "Hidratación acorde a la duración y el calor."
+          },
+          {
+            "dia": "Domingo",
+            "entrenamiento": "Descanso.",
+            "habitos": "Ajustar la semana siguiente según cómo te sentiste."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "pregunta": "¿Las mujeres pueden tomar creatina?",
+          "respuesta": "Sí. La ISSN incluye a la creatina entre los suplementos con más evidencia en mujeres. Si estás embarazada, en lactancia o tenés una enfermedad renal, consultá antes con tu médico."
+        },
+        {
+          "pregunta": "¿Cuánta proteína necesita una mujer que entrena?",
+          "respuesta": "La ISSN plantea entre 1,4 y 2,2 g por kilo de peso por día, repartida cada 3 a 4 horas, para mujeres en todas las etapas. Un nutricionista puede ajustar el número a tu caso."
+        },
+        {
+          "pregunta": "¿Tengo que tomar hierro si entreno?",
+          "respuesta": "No necesariamente. La deficiencia es más frecuente en mujeres que entrenan, pero el hierro se suplementa solo si un análisis lo muestra y con indicación médica."
+        },
+        {
+          "pregunta": "¿Conviene adaptar el entrenamiento al ciclo menstrual?",
+          "respuesta": "La evidencia muestra efectos muy individuales. La ISSN sugiere registrar tu propio patrón y ajustar a partir de eso, más que seguir reglas generales."
+        },
+        {
+          "pregunta": "¿El colágeno sirve para la piel o el pelo?",
+          "respuesta": "Nuestro análisis se centra en la evidencia para el entrenamiento: ahí el AIS lo ubica en el Grupo B, con evidencia emergente. No hacemos afirmaciones sobre efectos estéticos."
+        }
+      ],
+      "enlaces_internos": [
+        {
+          "tipo": "guia",
+          "href": "/blog/creatina-para-que-sirve",
+          "texto": "Creatina: para qué sirve y qué dice la evidencia"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/suplementos-sistema-abcd-ais",
+          "texto": "Sistema ABCD del AIS"
+        },
+        {
+          "tipo": "herramienta",
+          "href": "/herramientas/proteina-diaria",
+          "texto": "Calculadora de proteína diaria"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/creatina",
+          "texto": "Creatina"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/proteinas",
+          "texto": "Proteínas"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/vitaminas-minerales?sub=hierro",
+          "texto": "Hierro"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/colageno",
+          "texto": "Colágeno"
+        },
+        {
+          "tipo": "etapa",
+          "href": "/etapas/menopausia",
+          "texto": "Perimenopausia y menopausia"
+        },
+        {
+          "tipo": "marcas",
+          "href": "/marcas",
+          "texto": "Marcas analizadas, con fuentes"
+        }
+      ],
+      "fuentes_detalle": [
+        {
+          "n": 1,
+          "titulo": "Smith-Ryan AE et al. (2023). International Society of Sports Nutrition position stand: nutritional concerns of the female athlete. JISSN 20(1):2204066",
+          "url": "https://doi.org/10.1080/15502783.2023.2204066"
+        },
+        {
+          "n": 2,
+          "titulo": "Mountjoy M et al. (2023). 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). Br J Sports Med 57:1073-1097",
+          "url": "https://doi.org/10.1136/bjsports-2023-106994"
+        },
+        {
+          "n": 3,
+          "titulo": "Smith-Ryan AE et al. (2021). Creatine Supplementation in Women's Health: A Lifespan Perspective. Nutrients 13(3):877",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7998865/"
+        },
+        {
+          "n": 4,
+          "titulo": "Guest NS et al. (2021). International society of sports nutrition position stand: caffeine and exercise performance. JISSN 18:1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7777221/"
+        },
+        {
+          "n": 5,
+          "titulo": "Organización Mundial de la Salud (2020). WHO guidelines on physical activity and sedentary behaviour",
+          "url": "https://www.who.int/publications/i/item/9789240015128"
+        },
+        {
+          "n": 6,
+          "titulo": "Bull FC et al. (2020). World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 54:1451-1462",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/"
+        },
+        {
+          "n": 7,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group A",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        },
+        {
+          "n": 8,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group B",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
+        },
+        {
+          "n": 9,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group D",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+        },
+        {
+          "n": 10,
+          "titulo": "Ministerio de Salud de la Nación. Guías Alimentarias para la Población Argentina como estándar de referencia (Res. 693/2019)",
+          "url": "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
+        }
+      ],
+      "_interno": {
+        "campos_nuevos": [
+          "meta_title",
+          "meta_description",
+          "intro",
+          "intro_fuentes",
+          "aviso_profesional",
+          "prioridades",
+          "nutrientes_a_vigilar",
+          "suplementos",
+          "errores_comunes",
+          "semana_tipo",
+          "faq",
+          "enlaces_internos",
+          "fuentes_detalle"
+        ],
+        "campos_existentes_modificados": [
+          "fuentes (se amplía con todas las URLs citadas; mismo tipo string[])"
+        ],
+        "fuentes_existentes_previas": [
+          "https://doi.org/10.1080/15502783.2023.2204066",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        ],
+        "enlaces_sugeridos_pendientes": [
+          {
+            "tema": "Hierro en mujeres que entrenan",
+            "href_propuesto": "/blog/hierro-mujeres-que-entrenan",
+            "motivo": "Nutriente central de la página, sin guía propia."
+          },
+          {
+            "tema": "Creatina en mujeres",
+            "href_propuesto": "/blog/creatina-en-mujeres",
+            "motivo": "Duda frecuente; hoy se cubre dentro de la guía general de creatina."
+          },
+          {
+            "tema": "Baja disponibilidad energética (REDs) explicada",
+            "href_propuesto": "/blog/disponibilidad-energetica",
+            "motivo": "Prioridad número uno según ISSN 2023."
+          }
+        ]
+      }
     },
     {
       "slug": "menopausia",
@@ -738,9 +2426,431 @@
         "omega-3"
       ],
       "fuentes": [
+        "https://www.who.int/news-room/fact-sheets/detail/menopause",
         "https://doi.org/10.1080/15502783.2023.2204066",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7998865/",
+        "https://doi.org/10.1186/s12970-017-0173-z",
+        "https://www.who.int/publications/i/item/9789240015128",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/",
+        "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares",
+        "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf",
         "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
-      ]
+      ],
+      "meta_title": "Perimenopausia y menopausia: entrenar y comer",
+      "meta_description": "Perimenopausia y menopausia desde los hábitos: fuerza, proteína y micronutrientes con evidencia, qué suplementos no tienen respaldo y cuándo consultar.",
+      "intro": [
+        "La menopausia es una etapa natural de la vida. Según la Organización Mundial de la Salud, la mayoría de las mujeres la atraviesa entre los 45 y los 55 años. La transición previa, la perimenopausia, empieza con los primeros cambios en el ciclo menstrual, puede durar varios años y termina un año después de la última menstruación. Los cambios hormonales de esta etapa se viven de forma muy distinta: algunas mujeres casi no notan síntomas y otras sí, con impacto en el día a día.",
+        "Esta página no aborda el diagnóstico ni el tratamiento de los síntomas. Eso corresponde a tu médico o ginecólogo, que es quien puede evaluar tu caso y las opciones disponibles. Acá nos ocupamos de lo que está a tu alcance en el día a día: el entrenamiento, la alimentación y qué dice la evidencia sobre algunos suplementos.",
+        "La ISSN, en su declaración de 2023 sobre la mujer que entrena, dedica un apartado a la peri y la posmenopausia: sugiere registrar cómo responde cada una al entrenamiento y la recuperación, y apuntar a la parte alta de los rangos de proteína. El entrenamiento de fuerza sigue siendo, como en cualquier etapa adulta, la base recomendada por la OMS."
+      ],
+      "intro_fuentes": [
+        1,
+        2,
+        5
+      ],
+      "aviso_profesional": "Esta página es informativa y no ofrece diagnóstico ni tratamiento. Los síntomas de la perimenopausia y la menopausia, y cualquier decisión sobre medicación u hormonas, se consultan con tu médico o ginecólogo. Antes de sumar suplementos, especialmente si tomás medicación, consultá con un profesional.",
+      "prioridades": [
+        {
+          "tipo": "entrenamiento",
+          "titulo": "Fuerza dos o más días",
+          "texto": "La recomendación de la OMS para todas las personas adultas: trabajo de fuerza de todos los grandes grupos musculares, con progresión gradual. Si nunca entrenaste fuerza, empezá con supervisión.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020",
+          "fuentes": [
+            5,
+            6
+          ]
+        },
+        {
+          "tipo": "entrenamiento",
+          "titulo": "Aeróbico y movimiento diario",
+          "texto": "Entre 150 y 300 minutos semanales de actividad moderada, y menos horas sentada. Cualquier intensidad suma frente al sedentarismo.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020",
+          "fuentes": [
+            6
+          ]
+        },
+        {
+          "tipo": "nutricion",
+          "titulo": "Proteína en la parte alta del rango",
+          "texto": "Para mujeres que entrenan, la ISSN plantea entre 1,4 y 2,2 g por kilo por día, y sugiere que en la peri y la posmenopausia se apunte al extremo superior, con la proteína repartida en el día.",
+          "nivel_evidencia": "moderado",
+          "respaldo": "Position stand ISSN 2023 (investigación específica todavía limitada)",
+          "fuentes": [
+            2
+          ]
+        },
+        {
+          "tipo": "habitos",
+          "titulo": "Registrar tu respuesta",
+          "texto": "La ISSN sugiere que cada mujer siga cómo responde al entrenamiento y la recuperación para encontrar su propio patrón. Anotar sueño, energía y rendimiento ayuda también en la consulta médica.",
+          "nivel_evidencia": "moderado",
+          "respaldo": "Position stand ISSN 2023",
+          "fuentes": [
+            2
+          ]
+        }
+      ],
+      "nutrientes_a_vigilar": [
+        {
+          "nutriente": "Proteína",
+          "por_que": "La ISSN la señala como prioridad en esta etapa para quienes entrenan.",
+          "como_cubrirlo": "Fuentes proteicas en todas las comidas; la calculadora del sitio da un rango orientativo.",
+          "enlace": "/herramientas/proteina-diaria",
+          "fuentes": [
+            2
+          ]
+        },
+        {
+          "nutriente": "Calcio",
+          "por_que": "Es parte de la estructura de los huesos, un tema que tu médico va a seguir de cerca en esta etapa.",
+          "como_cubrirlo": "Lácteos a diario según las GAPA u otras fuentes. Si hace falta un suplemento, lo indica tu médico.",
+          "enlace": "/categorias/vitaminas-minerales?sub=calcio",
+          "fuentes": [
+            12,
+            7
+          ]
+        },
+        {
+          "nutriente": "Vitamina D",
+          "por_que": "Sus niveles dependen de la exposición al sol y de la alimentación.",
+          "como_cubrirlo": "Medirla en los controles. Suplementar solo con indicación profesional.",
+          "enlace": "/categorias/vitaminas-minerales?sub=vitamina-d",
+          "fuentes": [
+            7,
+            11
+          ]
+        },
+        {
+          "nutriente": "Energía total",
+          "por_que": "Ante los cambios de composición corporal, una dieta muy restrictiva dificulta sostener el entrenamiento y llegar a la proteína.",
+          "como_cubrirlo": "Ajustes graduales con un nutricionista, sin recortes extremos.",
+          "enlace": null,
+          "fuentes": [
+            2
+          ]
+        }
+      ],
+      "suplementos": {
+        "con_sentido": [
+          {
+            "nombre": "Proteína en polvo",
+            "nivel_evidencia": "alto",
+            "texto": "Para llegar a la proteína diaria cuando la comida no alcanza. Es un alimento, no un producto para la menopausia.",
+            "enlace": "/categorias/proteinas",
+            "fuentes": [
+              2,
+              7
+            ]
+          },
+          {
+            "nombre": "Creatina monohidrato",
+            "nivel_evidencia": "moderado",
+            "texto": "Tiene evidencia sólida en general con entrenamiento de fuerza. En mujeres posmenopáusicas la investigación es más reciente y se estudió junto con entrenamiento; consultalo con tu médico antes de empezar.",
+            "enlace": "/categorias/creatina",
+            "fuentes": [
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "nombre": "Calcio y vitamina D",
+            "nivel_evidencia": "variable",
+            "texto": "Solo si tu médico lo indica a partir de tu alimentación y tus análisis.",
+            "enlace": "/categorias/vitaminas-minerales",
+            "fuentes": [
+              7
+            ]
+          }
+        ],
+        "poca_evidencia": [
+          {
+            "nombre": "Omega-3",
+            "nivel_evidencia": "moderado",
+            "texto": "Evidencia emergente o mixta en deportistas (AIS Grupo B). Primero, pescado en la dieta.",
+            "enlace": "/categorias/omega-3",
+            "fuentes": [
+              8,
+              12
+            ]
+          },
+          {
+            "nombre": "Colágeno",
+            "nivel_evidencia": "moderado",
+            "texto": "En el Grupo B del AIS. No hay respaldo para presentarlo como solución para esta etapa.",
+            "enlace": "/categorias/colageno",
+            "fuentes": [
+              8
+            ]
+          },
+          {
+            "nombre": "Magnesio",
+            "nivel_evidencia": "bajo",
+            "texto": "En el Grupo C del AIS: sin beneficio demostrado en deportistas si no hay déficit.",
+            "enlace": "/categorias/magnesio",
+            "fuentes": [
+              9
+            ]
+          }
+        ],
+        "evitar": [
+          {
+            "nombre": "Productos que prometen aliviar los síntomas",
+            "nivel_evidencia": "precaucion",
+            "texto": "En Argentina los suplementos dietarios son alimentos (CAA art. 1381): no tratan la menopausia ni sus síntomas. Desconfiá de cualquier envase o publicidad que lo prometa y consultá con tu médico.",
+            "enlace": "/blog/rotulo-suplemento-rnpa-rne",
+            "fuentes": [
+              13,
+              14
+            ]
+          },
+          {
+            "nombre": "Quemadores y termogénicos",
+            "nivel_evidencia": "precaucion",
+            "texto": "Varios de sus ingredientes figuran en el Grupo D del AIS. No son una respuesta a los cambios de peso de esta etapa.",
+            "enlace": "/categorias/quemadores-termogenicos",
+            "fuentes": [
+              10
+            ]
+          }
+        ]
+      },
+      "errores_comunes": [
+        {
+          "titulo": "Buscar en un suplemento la respuesta a los síntomas",
+          "texto": "Los síntomas se consultan con el médico, que conoce las opciones con evidencia. Los suplementos dietarios no están para eso."
+        },
+        {
+          "titulo": "Pasarse solo al cardio",
+          "texto": "Sumar horas de cardio y dejar la fuerza no es la mejor respuesta a los cambios de composición corporal. La fuerza sigue siendo la base recomendada."
+        },
+        {
+          "titulo": "Recortar mucho la comida",
+          "texto": "Dietas muy restrictivas dificultan entrenar y quedarse corta de proteína."
+        },
+        {
+          "titulo": "Postergar los controles",
+          "texto": "Esta etapa es un buen momento para hacer los controles que tu médico indique y revisar calcio y vitamina D."
+        },
+        {
+          "titulo": "Compararte con otras mujeres",
+          "texto": "La OMS remarca que los síntomas varían mucho de una persona a otra. Tu experiencia es la referencia."
+        }
+      ],
+      "semana_tipo": {
+        "bajada": "Una semana orientativa centrada en hábitos, no un plan médico. Adaptala a cómo te sentís cada día y consultala con tu médico si tenés alguna condición de salud o estás retomando la actividad.",
+        "dias": [
+          {
+            "dia": "Lunes",
+            "entrenamiento": "Fuerza de cuerpo completo (40–50 min).",
+            "habitos": "Proteína en el desayuno."
+          },
+          {
+            "dia": "Martes",
+            "entrenamiento": "Caminata rápida o bici, 30–40 min.",
+            "habitos": "Registrar sueño y energía."
+          },
+          {
+            "dia": "Miércoles",
+            "entrenamiento": "Movilidad, yoga o pilates.",
+            "habitos": "Lácteos o fuentes de calcio."
+          },
+          {
+            "dia": "Jueves",
+            "entrenamiento": "Fuerza de cuerpo completo.",
+            "habitos": "Pausas activas si pasás muchas horas sentada."
+          },
+          {
+            "dia": "Viernes",
+            "entrenamiento": "Aeróbico a elección.",
+            "habitos": "Pescado o legumbres en alguna comida."
+          },
+          {
+            "dia": "Sábado",
+            "entrenamiento": "Fuerza liviana o actividad recreativa al aire libre.",
+            "habitos": "Hidratación acorde al calor."
+          },
+          {
+            "dia": "Domingo",
+            "entrenamiento": "Descanso.",
+            "habitos": "Anotar dudas para tu próximo control médico."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "pregunta": "¿Qué es la perimenopausia?",
+          "respuesta": "Según la OMS, es el período que empieza con los primeros cambios en el ciclo menstrual y termina un año después de la última menstruación. Puede durar varios años y se vive de forma muy distinta en cada mujer."
+        },
+        {
+          "pregunta": "¿Hay suplementos para la menopausia?",
+          "respuesta": "Los suplementos dietarios son alimentos y no tratan la menopausia ni sus síntomas. Si tenés síntomas que te afectan, consultá con tu médico o ginecólogo, que puede evaluar las opciones con evidencia."
+        },
+        {
+          "pregunta": "¿Conviene entrenar fuerza en la menopausia?",
+          "respuesta": "La OMS recomienda fuerza al menos dos días por semana para todas las personas adultas, sin límite de edad. Si nunca entrenaste, empezá con supervisión."
+        },
+        {
+          "pregunta": "¿La creatina sirve después de la menopausia?",
+          "respuesta": "La investigación en mujeres posmenopáusicas es más reciente y se hizo junto con entrenamiento de fuerza. La ISSN la menciona como una opción con evidencia en mujeres. Consultalo con tu médico antes de empezar."
+        },
+        {
+          "pregunta": "¿Cuánta proteína se recomienda en esta etapa?",
+          "respuesta": "Para mujeres que entrenan, la ISSN plantea entre 1,4 y 2,2 g por kilo por día y sugiere apuntar a la parte alta en la peri y la posmenopausia. Un nutricionista puede ajustarlo a tu caso."
+        }
+      ],
+      "enlaces_internos": [
+        {
+          "tipo": "etapa",
+          "href": "/etapas/mujer",
+          "texto": "Mujer que entrena"
+        },
+        {
+          "tipo": "etapa",
+          "href": "/etapas/sarcopenia",
+          "texto": "Masa muscular y sarcopenia"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/rotulo-suplemento-rnpa-rne",
+          "texto": "Cómo leer el rótulo de un suplemento"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/creatina-para-que-sirve",
+          "texto": "Creatina: para qué sirve y qué dice la evidencia"
+        },
+        {
+          "tipo": "herramienta",
+          "href": "/herramientas/proteina-diaria",
+          "texto": "Calculadora de proteína diaria"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/proteinas",
+          "texto": "Proteínas"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/vitaminas-minerales",
+          "texto": "Vitaminas y minerales"
+        },
+        {
+          "tipo": "pagina",
+          "href": "/como-evaluamos",
+          "texto": "Cómo evaluamos la evidencia"
+        }
+      ],
+      "fuentes_detalle": [
+        {
+          "n": 1,
+          "titulo": "Organización Mundial de la Salud. Menopause (nota descriptiva)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/menopause"
+        },
+        {
+          "n": 2,
+          "titulo": "Smith-Ryan AE et al. (2023). International Society of Sports Nutrition position stand: nutritional concerns of the female athlete. JISSN 20(1):2204066",
+          "url": "https://doi.org/10.1080/15502783.2023.2204066"
+        },
+        {
+          "n": 3,
+          "titulo": "Smith-Ryan AE et al. (2021). Creatine Supplementation in Women's Health: A Lifespan Perspective. Nutrients 13(3):877",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7998865/"
+        },
+        {
+          "n": 4,
+          "titulo": "Kreider RB et al. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. JISSN 14:18",
+          "url": "https://doi.org/10.1186/s12970-017-0173-z"
+        },
+        {
+          "n": 5,
+          "titulo": "Organización Mundial de la Salud (2020). WHO guidelines on physical activity and sedentary behaviour",
+          "url": "https://www.who.int/publications/i/item/9789240015128"
+        },
+        {
+          "n": 6,
+          "titulo": "Bull FC et al. (2020). World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 54:1451-1462",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/"
+        },
+        {
+          "n": 7,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group A",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        },
+        {
+          "n": 8,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group B",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
+        },
+        {
+          "n": 9,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group C",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_c"
+        },
+        {
+          "n": 10,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group D",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+        },
+        {
+          "n": 11,
+          "titulo": "Maughan RJ et al. (2018). IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med 52:439-455",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/"
+        },
+        {
+          "n": 12,
+          "titulo": "Ministerio de Salud de la Nación. Guías Alimentarias para la Población Argentina como estándar de referencia (Res. 693/2019)",
+          "url": "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
+        },
+        {
+          "n": 13,
+          "titulo": "Código Alimentario Argentino, Capítulo XVII, artículo 1381 (Suplementos dietarios)",
+          "url": "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf"
+        },
+        {
+          "n": 14,
+          "titulo": "ANMAT. ¿Qué son los suplementos dietarios?",
+          "url": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
+        }
+      ],
+      "_interno": {
+        "campos_nuevos": [
+          "meta_title",
+          "meta_description",
+          "intro",
+          "intro_fuentes",
+          "aviso_profesional",
+          "prioridades",
+          "nutrientes_a_vigilar",
+          "suplementos",
+          "errores_comunes",
+          "semana_tipo",
+          "faq",
+          "enlaces_internos",
+          "fuentes_detalle"
+        ],
+        "campos_existentes_modificados": [
+          "fuentes (se amplía con todas las URLs citadas; mismo tipo string[])"
+        ],
+        "fuentes_existentes_previas": [
+          "https://doi.org/10.1080/15502783.2023.2204066",
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
+        ],
+        "enlaces_sugeridos_pendientes": [
+          {
+            "tema": "Entrenar en la perimenopausia y la menopausia (post de backlog ya previsto)",
+            "href_propuesto": "/blog/entrenar-en-la-menopausia",
+            "motivo": "Tema de backlog; esta página lo cubre en versión breve."
+          }
+        ]
+      }
     },
     {
       "slug": "hombre",
@@ -758,9 +2868,449 @@
         "vitaminas-minerales"
       ],
       "fuentes": [
+        "https://www.who.int/publications/i/item/9789240015128",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+        "https://doi.org/10.1186/s12970-017-0177-8",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/",
+        "https://doi.org/10.1186/s12970-017-0173-z",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7871530/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7777221/",
+        "https://doi.org/10.1136/bjsports-2023-106994",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
         "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
-        "https://doi.org/10.1186/s12970-017-0173-z"
-      ]
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/",
+        "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
+      ],
+      "meta_title": "Suplementos para hombres que entrenan: guía",
+      "meta_description": "Proteína, creatina y cafeína con evidencia para hombres que entrenan, por qué evitar los 'boosters' de testosterona, errores comunes y una semana tipo.",
+      "intro": [
+        "Buena parte del mercado de suplementos le habla al hombre con promesas de más fuerza, más volumen o más testosterona. La evidencia es bastante más sobria: lo que más pesa en el rendimiento y la composición corporal es entrenar con regularidad, comer suficiente proteína y energía, y dormir bien.",
+        "Dentro de los suplementos, los que tienen respaldo sólido son pocos y conocidos: la proteína para completar la dieta, la creatina monohidrato junto con entrenamiento y la cafeína para rendir. En el otro extremo están los llamados 'boosters' de testosterona: el Instituto Australiano del Deporte (AIS) los ubica en el Grupo D, el de los productos que no deberían usarse, por el riesgo de contaminación con sustancias prohibidas.",
+        "Si te preocupan la energía, el deseo sexual o cambios en tu cuerpo, la consulta es con un médico, no con la góndola. Esta página ordena qué tiene evidencia, qué no y cómo armar una semana sostenible."
+      ],
+      "intro_fuentes": [
+        3,
+        5,
+        7,
+        11
+      ],
+      "aviso_profesional": "Esta página es informativa y no reemplaza la consulta médica. Si tenés síntomas que te preocupan, una enfermedad diagnosticada o tomás medicación, consultá con tu médico antes de sumar suplementos.",
+      "prioridades": [
+        {
+          "tipo": "entrenamiento",
+          "titulo": "Fuerza y aeróbico, las dos cosas",
+          "texto": "Fuerza de todos los grandes grupos musculares dos o más días por semana y entre 150 y 300 minutos de actividad aeróbica moderada, según la OMS.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020",
+          "fuentes": [
+            1,
+            2
+          ]
+        },
+        {
+          "tipo": "nutricion",
+          "titulo": "Proteína suficiente",
+          "texto": "Entre 1,4 y 2,0 g por kilo por día para la mayoría de las personas que entrenan, según la ISSN. Un metaanálisis no encontró ganancias adicionales de masa magra por encima de unos 1,6 g por kilo por día.",
+          "nivel_evidencia": "alto",
+          "respaldo": "ISSN 2017; metaanálisis Morton 2018",
+          "fuentes": [
+            3,
+            4
+          ]
+        },
+        {
+          "tipo": "nutricion",
+          "titulo": "Creatina con entrenamiento",
+          "texto": "La ISSN la considera el suplemento nutricional más eficaz para mejorar la capacidad en esfuerzos intensos y la masa magra durante el entrenamiento.",
+          "nivel_evidencia": "alto",
+          "respaldo": "Position stand ISSN 2017; AIS Grupo A",
+          "fuentes": [
+            5,
+            9
+          ]
+        },
+        {
+          "tipo": "habitos",
+          "titulo": "Energía suficiente, también en hombres",
+          "texto": "El consenso del COI sobre baja disponibilidad energética incluye datos en hombres: entrenar mucho comiendo poco afecta la salud y el rendimiento.",
+          "nivel_evidencia": "alto",
+          "respaldo": "Consenso COI 2023",
+          "fuentes": [
+            8
+          ]
+        }
+      ],
+      "nutrientes_a_vigilar": [
+        {
+          "nutriente": "Proteína",
+          "por_que": "Es clave para la adaptación muscular al entrenamiento, pero pasarse del rango no suma más resultados.",
+          "como_cubrirlo": "Repartirla en 3 o 4 comidas; la calculadora del sitio da un rango orientativo.",
+          "enlace": "/herramientas/proteina-diaria",
+          "fuentes": [
+            3,
+            4
+          ]
+        },
+        {
+          "nutriente": "Frutas, verduras y fibra",
+          "por_que": "Las GAPA recomiendan 5 porciones diarias; es fácil dejarlas de lado cuando la dieta gira alrededor de la proteína.",
+          "como_cubrirlo": "Medio plato de verduras en almuerzo y cena, y frutas en el día.",
+          "enlace": null,
+          "fuentes": [
+            13
+          ]
+        },
+        {
+          "nutriente": "Líquidos y sodio",
+          "por_que": "En sesiones largas o con calor las pérdidas por sudor pueden ser altas.",
+          "como_cubrirlo": "Agua durante el día y electrolitos en esfuerzos prolongados.",
+          "enlace": "/categorias/hidratacion-electrolitos",
+          "fuentes": [
+            9,
+            13
+          ]
+        },
+        {
+          "nutriente": "Vitamina D",
+          "por_que": "Puede quedar baja con poca exposición al sol.",
+          "como_cubrirlo": "Medirla y suplementar solo con indicación médica.",
+          "enlace": "/categorias/vitaminas-minerales?sub=vitamina-d",
+          "fuentes": [
+            9,
+            12
+          ]
+        }
+      ],
+      "suplementos": {
+        "con_sentido": [
+          {
+            "nombre": "Proteína en polvo",
+            "nivel_evidencia": "alto",
+            "texto": "Útil para llegar al total diario. Más proteína que la necesaria no suma resultados.",
+            "enlace": "/categorias/proteinas",
+            "fuentes": [
+              3,
+              4,
+              9
+            ]
+          },
+          {
+            "nombre": "Creatina monohidrato",
+            "nivel_evidencia": "alto",
+            "texto": "La opción con más respaldo para fuerza y potencia junto con entrenamiento. No es un anabólico ni una hormona.",
+            "enlace": "/categorias/creatina",
+            "fuentes": [
+              5,
+              6,
+              9
+            ]
+          },
+          {
+            "nombre": "Cafeína",
+            "nivel_evidencia": "alto",
+            "texto": "Mejora el rendimiento en muchas disciplinas; la respuesta y los efectos sobre el sueño o la ansiedad varían entre personas.",
+            "enlace": "/categorias/pre-entrenos?sub=cafeina",
+            "fuentes": [
+              7,
+              9
+            ]
+          }
+        ],
+        "poca_evidencia": [
+          {
+            "nombre": "BCAA",
+            "nivel_evidencia": "bajo",
+            "texto": "En el Grupo C del AIS: si la proteína del día está cubierta, no aportan.",
+            "enlace": "/categorias/aminoacidos?sub=bcaa",
+            "fuentes": [
+              10
+            ]
+          },
+          {
+            "nombre": "ZMA y magnesio",
+            "nivel_evidencia": "bajo",
+            "texto": "El magnesio está en el Grupo C del AIS. El zinc figura como suplemento de uso médico: para déficits diagnosticados.",
+            "enlace": "/categorias/vitaminas-minerales?sub=zinc-zma",
+            "fuentes": [
+              10,
+              9
+            ]
+          },
+          {
+            "nombre": "Ganadores de peso",
+            "nivel_evidencia": "moderado",
+            "texto": "Pueden ser prácticos si te cuesta comer lo suficiente, pero no reemplazan comidas reales.",
+            "enlace": "/categorias/ganadores-de-peso",
+            "fuentes": [
+              9
+            ]
+          }
+        ],
+        "evitar": [
+          {
+            "nombre": "'Boosters' de testosterona (tribulus, maca, DHEA y similares)",
+            "nivel_evidencia": "precaucion",
+            "texto": "El AIS los incluye en el Grupo D: algunos están prohibidos y otros suelen venir en mezclas con riesgo de contaminación con sustancias prohibidas.",
+            "enlace": "/blog/suplementos-sistema-abcd-ais",
+            "fuentes": [
+              11
+            ]
+          },
+          {
+            "nombre": "SARMs, prohormonas y 'péptidos'",
+            "nivel_evidencia": "precaucion",
+            "texto": "No son suplementos dietarios. El AIS los lista en el Grupo D como sustancias prohibidas en el deporte, según la lista de la Agencia Mundial Antidopaje.",
+            "enlace": "/blog/suplementos-sistema-abcd-ais",
+            "fuentes": [
+              11
+            ]
+          },
+          {
+            "nombre": "Quemadores con estimulantes",
+            "nivel_evidencia": "precaucion",
+            "texto": "Varios ingredientes estimulantes figuran en el Grupo D del AIS.",
+            "enlace": "/categorias/quemadores-termogenicos",
+            "fuentes": [
+              11
+            ]
+          }
+        ]
+      },
+      "errores_comunes": [
+        {
+          "titulo": "Comprar 'testo boosters'",
+          "texto": "No tienen respaldo y el AIS los desaconseja por riesgo de contaminación. Si sospechás un problema hormonal, la consulta es médica."
+        },
+        {
+          "titulo": "Más proteína de la necesaria",
+          "texto": "Pasar mucho del rango recomendado no suma músculo; desplaza otros alimentos."
+        },
+        {
+          "titulo": "Entrenar solo pecho y brazos",
+          "texto": "La OMS recomienda trabajar todos los grandes grupos musculares. Piernas y espalda también cuentan."
+        },
+        {
+          "titulo": "Pre-entreno todos los días a cualquier hora",
+          "texto": "La cafeína cerca de la noche puede afectar el sueño, que es parte de la recuperación."
+        },
+        {
+          "titulo": "Comprar sin mirar el rótulo",
+          "texto": "Fijate que tenga RNPA y RNE, y desconfiá de las mezclas con dosis no declaradas."
+        }
+      ],
+      "semana_tipo": {
+        "bajada": "Una semana orientativa con cuatro sesiones de fuerza y aeróbico. No es un plan individual: adaptala a tu nivel y, si tenés una condición de salud, consultala con un profesional.",
+        "dias": [
+          {
+            "dia": "Lunes",
+            "entrenamiento": "Fuerza: tren inferior.",
+            "habitos": "Proteína en las comidas principales."
+          },
+          {
+            "dia": "Martes",
+            "entrenamiento": "Fuerza: tren superior.",
+            "habitos": "Verduras en almuerzo y cena."
+          },
+          {
+            "dia": "Miércoles",
+            "entrenamiento": "Aeróbico moderado 30–45 min.",
+            "habitos": "Cafeína solo en la primera mitad del día."
+          },
+          {
+            "dia": "Jueves",
+            "entrenamiento": "Fuerza: tren inferior, otros ejercicios.",
+            "habitos": "Acostarte a horario."
+          },
+          {
+            "dia": "Viernes",
+            "entrenamiento": "Fuerza: tren superior.",
+            "habitos": "Si tomás creatina, sostenerla también los días de descanso."
+          },
+          {
+            "dia": "Sábado",
+            "entrenamiento": "Deporte o actividad aeróbica larga.",
+            "habitos": "Hidratación acorde al calor y la duración."
+          },
+          {
+            "dia": "Domingo",
+            "entrenamiento": "Descanso.",
+            "habitos": "Planificar comidas de la semana."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "pregunta": "¿Los 'boosters' de testosterona funcionan?",
+          "respuesta": "No hay respaldo para recomendarlos. El AIS los incluye en el Grupo D por el riesgo de contaminación con sustancias prohibidas. Si te preocupa tu nivel hormonal, la consulta es con un médico."
+        },
+        {
+          "pregunta": "¿La creatina es un esteroide?",
+          "respuesta": "No. Es un compuesto que el cuerpo produce y que también está en carnes y pescados. La ISSN la considera segura en personas sanas en las cantidades estudiadas."
+        },
+        {
+          "pregunta": "¿Cuánta proteína necesito para ganar músculo?",
+          "respuesta": "La ISSN plantea entre 1,4 y 2,0 g por kilo por día para la mayoría de quienes entrenan. Un metaanálisis no encontró beneficios adicionales en masa magra por encima de unos 1,6 g por kilo."
+        },
+        {
+          "pregunta": "¿Qué pre-entreno conviene?",
+          "respuesta": "El ingrediente con más evidencia es la cafeína. Antes de elegir un producto, mirá cuánta cafeína tiene por porción y evitá las mezclas con cantidades no declaradas."
+        },
+        {
+          "pregunta": "¿Los BCAA sirven si ya tomo proteína?",
+          "respuesta": "En general no suman. El AIS ubica a los BCAA en el Grupo C: sin beneficio demostrado en deportistas."
+        }
+      ],
+      "enlaces_internos": [
+        {
+          "tipo": "guia",
+          "href": "/blog/suplementos-sistema-abcd-ais",
+          "texto": "Sistema ABCD del AIS: qué está en el Grupo D"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/creatina-para-que-sirve",
+          "texto": "Creatina: para qué sirve y qué dice la evidencia"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/rotulo-suplemento-rnpa-rne",
+          "texto": "Cómo leer el RNPA y el RNE en el rótulo"
+        },
+        {
+          "tipo": "herramienta",
+          "href": "/herramientas/proteina-diaria",
+          "texto": "Calculadora de proteína diaria"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/proteinas",
+          "texto": "Proteínas"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/creatina",
+          "texto": "Creatina"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/pre-entrenos",
+          "texto": "Pre-entrenos"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/marcas-suplementos-argentinas",
+          "texto": "Marcas de suplementos argentinas: historia y fabricación"
+        },
+        {
+          "tipo": "marcas",
+          "href": "/marcas",
+          "texto": "Marcas analizadas, con fuentes"
+        }
+      ],
+      "fuentes_detalle": [
+        {
+          "n": 1,
+          "titulo": "Organización Mundial de la Salud (2020). WHO guidelines on physical activity and sedentary behaviour",
+          "url": "https://www.who.int/publications/i/item/9789240015128"
+        },
+        {
+          "n": 2,
+          "titulo": "Bull FC et al. (2020). World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 54:1451-1462",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/"
+        },
+        {
+          "n": 3,
+          "titulo": "Jäger R et al. (2017). International Society of Sports Nutrition Position Stand: protein and exercise. JISSN 14:20",
+          "url": "https://doi.org/10.1186/s12970-017-0177-8"
+        },
+        {
+          "n": 4,
+          "titulo": "Morton RW et al. (2018). A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. Br J Sports Med 52:376-384",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/"
+        },
+        {
+          "n": 5,
+          "titulo": "Kreider RB et al. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. JISSN 14:18",
+          "url": "https://doi.org/10.1186/s12970-017-0173-z"
+        },
+        {
+          "n": 6,
+          "titulo": "Antonio J et al. (2021). Common questions and misconceptions about creatine supplementation: what does the scientific evidence really show? JISSN 18:13",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7871530/"
+        },
+        {
+          "n": 7,
+          "titulo": "Guest NS et al. (2021). International society of sports nutrition position stand: caffeine and exercise performance. JISSN 18:1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7777221/"
+        },
+        {
+          "n": 8,
+          "titulo": "Mountjoy M et al. (2023). 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). Br J Sports Med 57:1073-1097",
+          "url": "https://doi.org/10.1136/bjsports-2023-106994"
+        },
+        {
+          "n": 9,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group A",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        },
+        {
+          "n": 10,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group C",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_c"
+        },
+        {
+          "n": 11,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group D",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+        },
+        {
+          "n": 12,
+          "titulo": "Maughan RJ et al. (2018). IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med 52:439-455",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/"
+        },
+        {
+          "n": 13,
+          "titulo": "Ministerio de Salud de la Nación. Guías Alimentarias para la Población Argentina como estándar de referencia (Res. 693/2019)",
+          "url": "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
+        }
+      ],
+      "_interno": {
+        "campos_nuevos": [
+          "meta_title",
+          "meta_description",
+          "intro",
+          "intro_fuentes",
+          "aviso_profesional",
+          "prioridades",
+          "nutrientes_a_vigilar",
+          "suplementos",
+          "errores_comunes",
+          "semana_tipo",
+          "faq",
+          "enlaces_internos",
+          "fuentes_detalle"
+        ],
+        "campos_existentes_modificados": [
+          "fuentes (se amplía con todas las URLs citadas; mismo tipo string[])"
+        ],
+        "fuentes_existentes_previas": [
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+          "https://doi.org/10.1186/s12970-017-0173-z"
+        ],
+        "enlaces_sugeridos_pendientes": [
+          {
+            "tema": "'Boosters' de testosterona: qué dice la evidencia",
+            "href_propuesto": "/blog/boosters-testosterona",
+            "motivo": "Búsqueda frecuente con alto riesgo de desinformación."
+          },
+          {
+            "tema": "Cafeína y pre-entrenos",
+            "href_propuesto": "/blog/pre-entrenos-cafeina",
+            "motivo": "Compartido con 30-39."
+          }
+        ]
+      }
     },
     {
       "slug": "sarcopenia",
@@ -779,9 +3329,422 @@
       ],
       "fuentes": [
         "https://doi.org/10.1093/ageing/afy169",
+        "https://doi.org/10.1519/JSC.0000000000003230",
+        "https://www.who.int/publications/i/item/9789240015128",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
         "https://doi.org/10.1016/j.jamda.2013.05.021",
-        "https://doi.org/10.1186/s12970-017-0173-z"
-      ]
+        "https://doi.org/10.1186/s12970-017-0177-8",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5679696/",
+        "https://doi.org/10.1186/s12970-017-0173-z",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+        "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf",
+        "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
+      ],
+      "meta_title": "Masa muscular y sarcopenia: qué hábitos ayudan",
+      "meta_description": "Qué es la sarcopenia según el consenso europeo, por qué la fuerza y la proteína son pilares para conservar músculo, qué dice la evidencia y cuándo consultar.",
+      "intro": [
+        "Con los años, la masa y la fuerza muscular tienden a disminuir de forma gradual. Eso no es lo mismo que la sarcopenia: el consenso europeo EWGSOP2 la define como una enfermedad muscular que se instala a lo largo de la vida, frecuente en personas mayores pero posible también antes, y pone a la baja fuerza muscular como su característica clave. Su diagnóstico lo hace un profesional de la salud con mediciones específicas.",
+        "Esta página no ofrece diagnóstico ni tratamiento. Si notás que perdiste fuerza, que te cuesta levantarte de una silla o que caminás más lento, la consulta es con tu médico. Lo que sí podemos ordenar acá son los hábitos que la evidencia asocia con conservar la masa muscular en cualquier etapa adulta.",
+        "Dos pilares se repiten en todos los consensos: el entrenamiento de fuerza, respaldado por la OMS para todos los adultos y por una declaración de posición de la NSCA para adultos mayores, y una ingesta de proteína suficiente, que según el grupo PROT-AGE es mayor en las personas mayores que en las jóvenes. La creatina tiene evidencia como complemento del entrenamiento, no como reemplazo."
+      ],
+      "intro_fuentes": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "aviso_profesional": "Esta página es informativa y no ofrece diagnóstico ni tratamiento. La sarcopenia se diagnostica y se aborda con un profesional de la salud. Si notás pérdida de fuerza, caídas o dificultad para tareas cotidianas, consultá con tu médico. Si tenés una enfermedad renal u otra condición, la cantidad de proteína y cualquier suplemento los define tu médico.",
+      "prioridades": [
+        {
+          "tipo": "entrenamiento",
+          "titulo": "Entrenamiento de fuerza progresivo",
+          "texto": "Es uno de los pilares con más respaldo para conservar fuerza y masa muscular a lo largo de la vida. La NSCA respalda programas progresivos y adaptados, idealmente supervisados.",
+          "nivel_evidencia": "alto",
+          "respaldo": "Declaración de posición NSCA 2019; OMS 2020",
+          "fuentes": [
+            2,
+            3
+          ]
+        },
+        {
+          "tipo": "entrenamiento",
+          "titulo": "Equilibrio y actividad multicomponente",
+          "texto": "La OMS recomienda a los mayores de 65 combinar equilibrio y fuerza tres o más días por semana.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020 (recomendación fuerte)",
+          "fuentes": [
+            3,
+            4
+          ]
+        },
+        {
+          "tipo": "nutricion",
+          "titulo": "Proteína suficiente y repartida",
+          "texto": "El grupo PROT-AGE plantea que las personas mayores necesitan más proteína que las jóvenes, y más aún si hacen ejercicio. La cantidad concreta conviene definirla con un profesional.",
+          "nivel_evidencia": "alto",
+          "respaldo": "Position paper PROT-AGE 2013",
+          "fuentes": [
+            5
+          ]
+        },
+        {
+          "tipo": "nutricion",
+          "titulo": "Creatina como complemento del entrenamiento",
+          "texto": "Un metaanálisis en adultos de 57 a 70 años de edad promedio encontró más ganancia de masa magra y fuerza con creatina que con placebo, siempre junto con entrenamiento de fuerza.",
+          "nivel_evidencia": "moderado",
+          "respaldo": "Metaanálisis Chilibeck 2017; ISSN 2017. Estudios en personas que entrenan, no en población con diagnóstico",
+          "fuentes": [
+            7,
+            8
+          ]
+        },
+        {
+          "tipo": "habitos",
+          "titulo": "Moverse más durante el día",
+          "texto": "Reemplazar tiempo sentado por actividad de cualquier intensidad, incluso liviana, tiene beneficios según la OMS.",
+          "nivel_evidencia": "alto",
+          "respaldo": "OMS 2020",
+          "fuentes": [
+            4
+          ]
+        }
+      ],
+      "nutrientes_a_vigilar": [
+        {
+          "nutriente": "Proteína",
+          "por_que": "Según PROT-AGE, con la edad cambia el metabolismo de la proteína y disminuye la respuesta anabólica a la que se come.",
+          "como_cubrirlo": "Fuentes proteicas en cada comida. Si tenés una enfermedad renal, la cantidad la define tu médico.",
+          "enlace": "/herramientas/proteina-diaria",
+          "fuentes": [
+            5
+          ]
+        },
+        {
+          "nutriente": "Energía total",
+          "por_que": "Comer poco dificulta sostener el entrenamiento y la masa muscular.",
+          "como_cubrirlo": "Si bajó tu apetito o tu peso sin buscarlo, consultá con tu médico.",
+          "enlace": null,
+          "fuentes": [
+            5
+          ]
+        },
+        {
+          "nutriente": "Vitamina D",
+          "por_que": "Sus niveles dependen del sol y la alimentación; se pueden revisar en los controles médicos.",
+          "como_cubrirlo": "Medirla en los controles y suplementar solo con indicación.",
+          "enlace": "/categorias/vitaminas-minerales?sub=vitamina-d",
+          "fuentes": [
+            9
+          ]
+        }
+      ],
+      "suplementos": {
+        "con_sentido": [
+          {
+            "nombre": "Proteína en polvo",
+            "nivel_evidencia": "alto",
+            "texto": "Una forma práctica de completar comidas con poca proteína. Es un alimento, no un tratamiento.",
+            "enlace": "/categorias/proteinas",
+            "fuentes": [
+              5,
+              6
+            ]
+          },
+          {
+            "nombre": "Creatina monohidrato",
+            "nivel_evidencia": "moderado",
+            "texto": "Con evidencia en adultos mayores que entrenan fuerza. Consultá con tu médico antes de empezar, especialmente si tomás medicación o tenés una enfermedad renal.",
+            "enlace": "/categorias/creatina",
+            "fuentes": [
+              7,
+              8
+            ]
+          },
+          {
+            "nombre": "Vitamina D",
+            "nivel_evidencia": "variable",
+            "texto": "Solo si tu médico lo indica a partir de un análisis.",
+            "enlace": "/categorias/vitaminas-minerales?sub=vitamina-d",
+            "fuentes": [
+              9
+            ]
+          }
+        ],
+        "poca_evidencia": [
+          {
+            "nombre": "HMB",
+            "nivel_evidencia": "bajo",
+            "texto": "El AIS lo reclasificó al Grupo C: la evidencia actual no muestra beneficios claros en deportistas.",
+            "enlace": "/categorias/aminoacidos?sub=hmb",
+            "fuentes": [
+              10
+            ]
+          },
+          {
+            "nombre": "BCAA",
+            "nivel_evidencia": "bajo",
+            "texto": "En el Grupo C del AIS. La proteína completa de los alimentos es mejor punto de partida.",
+            "enlace": "/categorias/aminoacidos?sub=bcaa",
+            "fuentes": [
+              10
+            ]
+          }
+        ],
+        "evitar": [
+          {
+            "nombre": "Productos que prometen 'recuperar el músculo' sin entrenar",
+            "nivel_evidencia": "precaucion",
+            "texto": "Ningún suplemento dietario reemplaza el entrenamiento ni la evaluación médica. En Argentina son alimentos (CAA art. 1381), no medicamentos.",
+            "enlace": "/blog/rotulo-suplemento-rnpa-rne",
+            "fuentes": [
+              12,
+              13
+            ]
+          },
+          {
+            "nombre": "'Boosters' hormonales y prohormonas",
+            "nivel_evidencia": "precaucion",
+            "texto": "En el Grupo D del AIS, por estar prohibidos o por el riesgo de contaminación.",
+            "enlace": "/etapas/hombre",
+            "fuentes": [
+              11
+            ]
+          }
+        ]
+      },
+      "errores_comunes": [
+        {
+          "titulo": "Confundir envejecer con sarcopenia",
+          "texto": "Perder algo de músculo con los años es esperable; la sarcopenia es una enfermedad que diagnostica un profesional."
+        },
+        {
+          "titulo": "Evitar la fuerza por miedo",
+          "texto": "Con cargas adaptadas y supervisión, el entrenamiento de fuerza está respaldado también en adultos mayores."
+        },
+        {
+          "titulo": "Esperar todo del suplemento",
+          "texto": "La proteína y la creatina mostraron efecto junto con entrenamiento, no solas."
+        },
+        {
+          "titulo": "Comer liviano 'para cuidarse'",
+          "texto": "Platos con poca proteína y poca energía hacen más difícil conservar el músculo."
+        },
+        {
+          "titulo": "No consultar ante señales",
+          "texto": "Caídas, pérdida de fuerza o de peso sin buscarlo son motivo de consulta médica."
+        }
+      ],
+      "semana_tipo": {
+        "bajada": "Una semana orientativa de hábitos para conservar masa muscular. No es un tratamiento ni un plan médico: consultala con tu médico antes de empezar, sobre todo si tenés una condición de salud o hace tiempo que no entrenás.",
+        "dias": [
+          {
+            "dia": "Lunes",
+            "entrenamiento": "Fuerza supervisada, cuerpo completo (30–45 min).",
+            "habitos": "Proteína en el desayuno."
+          },
+          {
+            "dia": "Martes",
+            "entrenamiento": "Caminata y ejercicios de equilibrio.",
+            "habitos": "Levantarte y moverte cada hora."
+          },
+          {
+            "dia": "Miércoles",
+            "entrenamiento": "Fuerza supervisada, cuerpo completo.",
+            "habitos": "Fuente proteica en almuerzo y cena."
+          },
+          {
+            "dia": "Jueves",
+            "entrenamiento": "Movilidad o actividad recreativa.",
+            "habitos": "Agua a mano durante el día."
+          },
+          {
+            "dia": "Viernes",
+            "entrenamiento": "Fuerza supervisada y equilibrio.",
+            "habitos": "Lácteos o fuentes de calcio."
+          },
+          {
+            "dia": "Sábado",
+            "entrenamiento": "Caminata o actividad al aire libre.",
+            "habitos": "Tiempo al aire libre."
+          },
+          {
+            "dia": "Domingo",
+            "entrenamiento": "Descanso.",
+            "habitos": "Anotar cambios de fuerza o de peso para el próximo control."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "pregunta": "¿Qué es la sarcopenia?",
+          "respuesta": "Según el consenso europeo EWGSOP2, es una enfermedad muscular que se desarrolla a lo largo de la vida, con la baja fuerza muscular como característica clave. Es frecuente en personas mayores, pero puede aparecer antes. El diagnóstico lo hace un profesional."
+        },
+        {
+          "pregunta": "¿La pérdida de músculo con la edad es inevitable?",
+          "respuesta": "Algo de pérdida gradual acompaña al envejecimiento, pero el entrenamiento de fuerza y una alimentación con proteína suficiente son los hábitos con más respaldo para conservar la masa y la fuerza muscular."
+        },
+        {
+          "pregunta": "¿Qué ejercicios ayudan a conservar la masa muscular?",
+          "respuesta": "Los de fuerza progresiva, que trabajan los grandes grupos musculares, combinados con equilibrio y actividad aeróbica. La NSCA recomienda programas adaptados y supervisados en adultos mayores."
+        },
+        {
+          "pregunta": "¿Hay suplementos para la sarcopenia?",
+          "respuesta": "Los suplementos dietarios no tratan la sarcopenia. La proteína y la creatina mostraron efectos junto con entrenamiento de fuerza en adultos mayores, pero su uso, en tu caso, lo tenés que conversar con tu médico."
+        },
+        {
+          "pregunta": "¿Cuándo consultar al médico?",
+          "respuesta": "Si notás pérdida de fuerza, caídas, dificultad para levantarte de una silla o pérdida de peso sin buscarla, consultá con tu médico."
+        }
+      ],
+      "enlaces_internos": [
+        {
+          "tipo": "etapa",
+          "href": "/etapas/50-60",
+          "texto": "50 a 60 años"
+        },
+        {
+          "tipo": "etapa",
+          "href": "/etapas/menopausia",
+          "texto": "Perimenopausia y menopausia"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/creatina-para-que-sirve#creatina-a-los-30-40-y-50",
+          "texto": "Creatina a los 30, 40 y 50"
+        },
+        {
+          "tipo": "guia",
+          "href": "/blog/suplementos-sistema-abcd-ais",
+          "texto": "Sistema ABCD del AIS"
+        },
+        {
+          "tipo": "herramienta",
+          "href": "/herramientas/proteina-diaria",
+          "texto": "Calculadora de proteína diaria"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/proteinas",
+          "texto": "Proteínas"
+        },
+        {
+          "tipo": "categoria",
+          "href": "/categorias/creatina",
+          "texto": "Creatina"
+        },
+        {
+          "tipo": "pagina",
+          "href": "/como-evaluamos",
+          "texto": "Cómo evaluamos la evidencia"
+        }
+      ],
+      "fuentes_detalle": [
+        {
+          "n": 1,
+          "titulo": "Cruz-Jentoft AJ et al. (2019). Sarcopenia: revised European consensus on definition and diagnosis (EWGSOP2). Age Ageing 48(1):16-31",
+          "url": "https://doi.org/10.1093/ageing/afy169"
+        },
+        {
+          "n": 2,
+          "titulo": "Fragala MS et al. (2019). Resistance Training for Older Adults: Position Statement From the National Strength and Conditioning Association. J Strength Cond Res 33(8):2019-2052",
+          "url": "https://doi.org/10.1519/JSC.0000000000003230"
+        },
+        {
+          "n": 3,
+          "titulo": "Organización Mundial de la Salud (2020). WHO guidelines on physical activity and sedentary behaviour",
+          "url": "https://www.who.int/publications/i/item/9789240015128"
+        },
+        {
+          "n": 4,
+          "titulo": "Bull FC et al. (2020). World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 54:1451-1462",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/"
+        },
+        {
+          "n": 5,
+          "titulo": "Bauer J et al. (2013). Evidence-based recommendations for optimal dietary protein intake in older people: a position paper from the PROT-AGE Study Group. J Am Med Dir Assoc 14(8):542-559",
+          "url": "https://doi.org/10.1016/j.jamda.2013.05.021"
+        },
+        {
+          "n": 6,
+          "titulo": "Jäger R et al. (2017). International Society of Sports Nutrition Position Stand: protein and exercise. JISSN 14:20",
+          "url": "https://doi.org/10.1186/s12970-017-0177-8"
+        },
+        {
+          "n": 7,
+          "titulo": "Chilibeck PD et al. (2017). Effect of creatine supplementation during resistance training on lean tissue mass and muscular strength in older adults: a meta-analysis. Open Access J Sports Med 8:213-226",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5679696/"
+        },
+        {
+          "n": 8,
+          "titulo": "Kreider RB et al. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. JISSN 14:18",
+          "url": "https://doi.org/10.1186/s12970-017-0173-z"
+        },
+        {
+          "n": 9,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group A",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        },
+        {
+          "n": 10,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group C",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_c"
+        },
+        {
+          "n": 11,
+          "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group D",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+        },
+        {
+          "n": 12,
+          "titulo": "Código Alimentario Argentino, Capítulo XVII, artículo 1381 (Suplementos dietarios)",
+          "url": "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf"
+        },
+        {
+          "n": 13,
+          "titulo": "ANMAT. ¿Qué son los suplementos dietarios?",
+          "url": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
+        }
+      ],
+      "_interno": {
+        "campos_nuevos": [
+          "meta_title",
+          "meta_description",
+          "intro",
+          "intro_fuentes",
+          "aviso_profesional",
+          "prioridades",
+          "nutrientes_a_vigilar",
+          "suplementos",
+          "errores_comunes",
+          "semana_tipo",
+          "faq",
+          "enlaces_internos",
+          "fuentes_detalle"
+        ],
+        "campos_existentes_modificados": [
+          "fuentes (se amplía con todas las URLs citadas; mismo tipo string[])"
+        ],
+        "fuentes_existentes_previas": [
+          "https://doi.org/10.1093/ageing/afy169",
+          "https://doi.org/10.1016/j.jamda.2013.05.021",
+          "https://doi.org/10.1186/s12970-017-0173-z"
+        ],
+        "enlaces_sugeridos_pendientes": [
+          {
+            "tema": "Sarcopenia: qué es y qué hábitos ayudan (post de backlog ya previsto)",
+            "href_propuesto": "/blog/sarcopenia-que-es",
+            "motivo": "Tema de backlog; esta página lo cubre en versión breve."
+          },
+          {
+            "tema": "Entrenamiento de fuerza después de los 50",
+            "href_propuesto": "/blog/fuerza-despues-de-los-50",
+            "motivo": "Compartido con 50-60."
+          }
+        ]
+      }
     }
   ],
   "niveles_de_usuario": [
