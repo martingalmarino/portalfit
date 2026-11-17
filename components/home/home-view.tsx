@@ -10,9 +10,8 @@ import { MlGrid } from "@/components/ui/ml-card";
 import { Photo } from "@/components/ui/photo";
 import { getAffiliateProvider } from "@/lib/affiliates";
 import { getCategorias, getEtapas, getFichas, getMarcas, getPublishedPosts, loadHome, loadTaxonomia } from "@/lib/content/load";
-import { EVIDENCE, formatContentDate, initials, pad2, shortOrigin } from "@/lib/format";
-import { CATEGORY_FEATURE_PHOTOS, STAGE_PHOTOS } from "@/lib/photos";
-import { applyPlaceholders } from "@/lib/format";
+import { EVIDENCE, applyPlaceholders, formatContentDate, initials, pad2, shortOrigin } from "@/lib/format";
+import { CATEGORY_FEATURE_PHOTOS, STAGE_PHOTOS, photoByFile } from "@/lib/photos";
 
 const FEATURED_CATEGORIES = ["proteinas", "creatina", "omega-3"];
 const EVIDENCE_SAMPLE = ["proteinas", "creatina", "colageno", "magnesio"];
@@ -22,6 +21,14 @@ const STANDARDS = [
   ["03", "Verificado ≠ declarado", "Distinguimos lo consultado en registros oficiales de lo que declara cada marca."],
   ["04", "Sin claims médicos", "Contenido informativo. Nada reemplaza la consulta profesional."],
 ];
+
+const WORK_LINKS: Record<string, string> = {
+  "Nivel de evidencia": "/como-evaluamos",
+  "Regulación argentina": "/blog/rotulo-suplemento-rnpa-rne",
+};
+
+const HERO = photoByFile("hero-mujer.jpg");
+const HERO_BLANK = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
 
 function splitTitle(title: string): { lead: string; emphasis?: string } {
   const marker = "explicados con evidencia";
@@ -48,7 +55,21 @@ export function HomeView() {
       <h1 className="sr-only">{title}</h1>
       <section className="mhero">
         <div className="wrap">
-          <Photo file="hero-mujer.jpg" className="mh-img" priority quality={60} sizes="(min-width: 601px) 640px, 100vw" position="50% 18%">
+          <link rel="preload" as="image" href="/img/hero-mujer-750.avif" type="image/avif" media="(max-width: 600px)" fetchPriority="high" />
+          <div className="ph ph-lcp mh-img">
+            <picture>
+              <source media="(min-width: 601px)" srcSet="/img/blank.gif" type="image/gif" />
+              <img
+                src="/img/hero-mujer-750.avif"
+                alt={HERO.alt}
+                width={750}
+                height={1126}
+                fetchPriority="high"
+                decoding="sync"
+                sizes="100vw"
+                style={{ objectPosition: "50% 18%" }}
+              />
+            </picture>
             <div className="mh-ov">
               <div className="kicker light">Nº 01 · Guía independiente · Argentina</div>
               <p className="h-display" aria-hidden="true" style={{ color: "#fff", marginTop: 12, marginBottom: 0 }}>
@@ -59,7 +80,7 @@ export function HomeView() {
                 Explorar categorías <IconArrow />
               </Link>
             </div>
-          </Photo>
+          </div>
           <p className="lede" style={{ marginTop: 12, fontSize: 15.5 }}>
             <Editorial text={home.bajada} />
           </p>
@@ -104,14 +125,24 @@ export function HomeView() {
             </div>
           </div>
           <div style={{ position: "relative" }}>
-            <link
-              rel="preload"
-              as="image"
-              media="(min-width: 601px)"
-              href="/_next/image?url=%2Fimg%2Fhero-mujer.jpg&w=640&q=60"
-              fetchPriority="high"
-            />
-            <Photo file="hero-mujer.jpg" className="hero-media" quality={60} sizes="(max-width: 600px) 100vw, 640px" position="50% 22%" credit tag="Etapa 50 a 60" />
+            <link rel="preload" as="image" href="/img/hero-mujer-1280.avif" type="image/avif" media="(min-width: 601px)" fetchPriority="high" />
+            <div className="ph ph-lcp hero-media">
+              <picture>
+                <source media="(min-width: 601px)" srcSet="/img/hero-mujer-1280.avif" type="image/avif" />
+                <img
+                  src={HERO_BLANK}
+                  alt={HERO.alt}
+                  width={1280}
+                  height={1920}
+                  fetchPriority="high"
+                  decoding="async"
+                  sizes="(max-width: 1100px) 90vw, 640px"
+                  style={{ objectPosition: "50% 22%" }}
+                />
+              </picture>
+              <span className="ph-tag" style={{ left: 16, top: 16 }}>Etapa 50 a 60</span>
+              <span className="credit">{HERO.credit}</span>
+            </div>
             <aside className="evcard" aria-label="Evidencia por categoría">
               <div className="kicker" style={{ fontSize: 10.5 }}>Evidencia por categoría</div>
               {EVIDENCE_SAMPLE.map((slug) => {
@@ -176,16 +207,42 @@ export function HomeView() {
                 </div>
               ))}
             </div>
-            <Photo file="capsulas-negro.jpg" className="std-ph" sizes="30vw" position="40% 50%" />
+            <div className="ph std-ph">
+              {/* Recorte estático: el original deja un bloque negro al pie de la columna. */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/capsulas-estandar.jpg"
+                alt={photoByFile("capsulas-estandar.jpg").alt}
+                width={1240}
+                height={800}
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="sec-sm" style={{ paddingTop: 0 }}>
-        <div className="wrap" style={{ maxWidth: 860 }}>
-          <p className="lede">
-            <Editorial text={home.intro} />
+      <section className="sec" aria-labelledby="como-trabajamos">
+        <div className="wrap">
+          <div className="kicker"><span className="num">Nº 03</span></div>
+          <h2 id="como-trabajamos" className="h2" style={{ marginTop: 14 }}>{home.como_trabajamos.titulo}</h2>
+          <p className="lede" style={{ maxWidth: 640, marginTop: 16 }}>
+            <Editorial text={home.como_trabajamos.bajada} />
           </p>
+          <div className="work-grid">
+            {home.como_trabajamos.puntos.map((punto, index) => {
+              const href = WORK_LINKS[punto.titulo];
+              return (
+                <article className="work-point" key={punto.titulo}>
+                  <span className="work-n">{pad2(index + 1)}</span>
+                  <h3>{punto.titulo}</h3>
+                  <p>{punto.texto}</p>
+                  {href ? (
+                    <Link className="work-more" href={href}>Ver más</Link>
+                  ) : null}
+                </article>
+              );
+            })}
+          </div>
         </div>
       </section>
 
@@ -193,7 +250,7 @@ export function HomeView() {
         <div className="wrap">
           <div className="sec-head">
             <div className="lead-col">
-              <div className="kicker"><span className="num">Nº 03</span> Marcas</div>
+              <div className="kicker"><span className="num">Nº 04</span> Marcas</div>
               <h2 className="h2">{home.bloque_marcas.titulo}</h2>
               <p className="lede" style={{ marginTop: 16, fontSize: 18 }}>
                 <Editorial text={home.bloque_marcas.texto} />
@@ -243,7 +300,7 @@ export function HomeView() {
         <div className="wrap">
           <div className="sec-head">
             <div className="lead-col">
-              <div className="kicker"><span className="num">Nº 04</span> Categorías</div>
+              <div className="kicker"><span className="num">Nº 05</span> Categorías</div>
               <h2 className="h2">
                 {categorias.length} categorías, <em>cada una con su nivel de evidencia</em>
               </h2>
@@ -305,7 +362,7 @@ export function HomeView() {
         <div className="wrap">
           <div className="sec-head">
             <div className="lead-col">
-              <div className="kicker"><span className="num">Nº 05</span> Etapas de vida</div>
+              <div className="kicker"><span className="num">Nº 06</span> Etapas de vida</div>
               <h2 className="h2">
                 Suplementación <em>según tu etapa de vida</em>
               </h2>
@@ -359,7 +416,7 @@ export function HomeView() {
         <div className="wrap">
           <div className="sec-head">
             <div className="lead-col">
-              <div className="kicker"><span className="num">Nº 07</span> Guías</div>
+              <div className="kicker"><span className="num">Nº 08</span> Guías</div>
               <h2 className="h2">
                 Lecturas con <em>byline y fuentes</em>
               </h2>
@@ -407,7 +464,7 @@ export function HomeView() {
       <section className="sec" style={{ background: "var(--paper-2)", borderTop: "1px solid var(--line)" }}>
         <div className="wrap faqgrid">
           <div>
-            <div className="kicker"><span className="num">Nº 08</span> Preguntas frecuentes</div>
+            <div className="kicker"><span className="num">Nº 09</span> Preguntas frecuentes</div>
             <h2 className="h2" style={{ marginTop: 18 }}>
               Lo que más <em>nos preguntan</em>
             </h2>
@@ -450,7 +507,7 @@ function EvidenceBand() {
       <div className="wrap evgrid">
         <Photo file="mano-capsula.jpg" className="evph" sizes="(max-width: 600px) 100vw, 46vw" position="55% 50%" credit />
         <div style={{ padding: "72px 0" }}>
-          <div className="kicker"><span className="num" style={{ marginRight: 12 }}>Nº 06</span>Cómo evaluamos</div>
+          <div className="kicker"><span className="num" style={{ marginRight: 12 }}>Nº 07</span>Cómo evaluamos</div>
           <h2 className="h2" style={{ marginTop: 18 }}>
             Cuatro grados, <em>una sola regla:</em> mostrar la fuente
           </h2>

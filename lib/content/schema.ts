@@ -147,7 +147,18 @@ export const homeSchema = z.object({
   }),
   h1: z.string().min(1),
   bajada: z.string().min(1),
-  intro: z.string().min(1),
+  como_trabajamos: z.object({
+    titulo: z.string().min(1),
+    bajada: z.string().min(1),
+    puntos: z
+      .array(
+        z.object({
+          titulo: z.string().min(1),
+          texto: z.string().min(1),
+        }),
+      )
+      .min(4),
+  }),
   bloques_categorias: z
     .array(
       z.object({

@@ -12,7 +12,28 @@
   },
   "h1": "Suplementos y nutrición deportiva en Argentina, explicados con evidencia",
   "bajada": "Qué tiene respaldo, qué no y qué conviene mirar según tu etapa de vida. Guías claras para quienes entrenan entre los 30 y los 60.",
-  "intro": "En [NOMBRE PORTAL] reunimos información sobre suplementos dietarios y nutrición deportiva disponibles en Argentina. A cada categoría le asignamos un nivel de evidencia general según el marco del Instituto Australiano del Deporte (AIS) y las posturas de la International Society of Sports Nutrition (ISSN), y presentamos las marcas con datos verificados y su fuente. En Argentina los suplementos dietarios son alimentos regulados por el Código Alimentario Argentino; desde agosto de 2026 su registro y control están a cargo del SENASA. No son medicamentos y no reemplazan una alimentación variada ni la consulta con profesionales de la salud.",
+  "como_trabajamos": {
+    "titulo": "Cómo trabajamos",
+    "bajada": "Información clara sobre suplementos y nutrición deportiva en Argentina, con evidencia y fuentes a la vista.",
+    "puntos": [
+      {
+        "titulo": "Nivel de evidencia",
+        "texto": "Cada categoría tiene un nivel según el AIS (Instituto Australiano del Deporte) y la ISSN."
+      },
+      {
+        "titulo": "Marcas con fuente",
+        "texto": "Presentamos las marcas con datos verificados y la fuente de cada uno."
+      },
+      {
+        "titulo": "Regulación argentina",
+        "texto": "Son alimentos regulados por el Código Alimentario Argentino; desde agosto de 2026 los registra y controla el SENASA."
+      },
+      {
+        "titulo": "No son medicamentos",
+        "texto": "No reemplazan una alimentación variada ni la consulta con un profesional de la salud."
+      }
+    ]
+  },
   "bloques_categorias": [
     {
       "slug": "proteinas",

@@ -91,6 +91,15 @@ export const PHOTOS: Record<string, Photo> = {
     author: "Odin Mcraig",
     page: "https://www.pexels.com/photo/medicine-capsules-on-the-black-background-13534594/",
   },
+  "capsulas-estandar.jpg": {
+    src: "/img/capsulas-estandar.jpg",
+    width: 1240,
+    height: 800,
+    alt: "Foto ilustrativa de cápsulas sobre fondo oscuro",
+    credit: "Foto: Odin Mcraig / Pexels",
+    author: "Odin Mcraig",
+    page: "https://www.pexels.com/photo/medicine-capsules-on-the-black-background-13534594/",
+  },
   "softgels.jpg": {
     src: "/img/softgels.jpg",
     width: 1600,
