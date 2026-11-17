@@ -10,7 +10,7 @@ Nutremax es una marca rosarina especializada en hidratación y deportes de resis
 Se especializa en hidratación y deportes de resistencia y destaca que acompaña carreras con su hidratación.
 
 ## Historia
-Nació en un garaje de Villa Constitución, fundada por el socio de su titular, María Fernanda Ledesma, a quien la prensa describe como ingeniero químico, y luego se trasladó al noroeste de Rosario, a una planta de 1.000 m². Al principio apuntaba al fisicoculturismo y al fitness; hoy se enfoca en deportes de resistencia (ciclismo, running, triatlón, natación). Su producto insignia es Hydromax. Distribuye en todo el país mediante mayoristas (farmacias, dietéticas, bicicleterías, grupos de entrenamiento) y en 2024 participaba de un programa municipal para empezar a exportar.
+Nació en un garaje de Villa Constitución, fundada por el socio de su titular, María Fernanda Ledesma, a quien la prensa describe como ingeniero químico, y luego se trasladó al noroeste de Rosario, a una planta de 1.000 m². Al principio apuntaba al fisicoculturismo y al fitness; hoy se enfoca en deportes de resistencia (ciclismo, running, triatlón, natación). Su producto insignia es Hydromax. Farmacias, dietéticas, bicicleterías y grupos de entrenamiento de todo el país reciben sus productos a través de mayoristas, según Punto Biz; en 2024, el mismo medio informó que la empresa participaba de un programa municipal para dar sus primeros pasos en la exportación.
 
 - **Empresa:** Vinculada a NX Laboratorios S.A.S. (Santa Fe). Dato surgido de registros públicos; la marca no lo confirma en su web.
 - **Fundación:** En el mercado al menos desde 2003.
@@ -47,14 +47,14 @@ instagram: https://www.instagram.com/nutremax.arg · facebook: https://www.faceb
 
 ## Preguntas frecuentes
 
-### ¿De dónde es Nutremax?
-Nutremax es una marca de Argentina (Rosario, Santa Fe).
+### ¿Dónde tiene su base Nutremax?
+En Rosario, provincia de Santa Fe.
 
-### ¿Desde cuándo existe Nutremax?
-En el mercado al menos desde 2003.
+### ¿En qué año empezó Nutremax?
+No tenemos un año de fundación confirmado: hay registros de la marca en el mercado por lo menos desde 2003.
 
-### ¿Nutremax tiene tienda oficial en Mercado Libre?
-Sin tienda oficial de la marca (no se encontró). Se vende por revendedores, p. ej. las tiendas oficiales de los revendedores ODX y RTN Suplementos.
+### ¿Se puede comprar Nutremax directo a la marca en Mercado Libre?
+No encontramos una tienda propia de Nutremax en Mercado Libre. Se consigue a través de revendedores, como las tiendas oficiales de ODX y de RTN Suplementos.
 
 ### ¿Qué registros o certificaciones tiene Nutremax?
 No se declaran certificaciones en el sitio oficial. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

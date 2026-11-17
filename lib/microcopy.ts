@@ -20,7 +20,7 @@ export const MICROCOPY = {
   guiaKicker: "Guía rápida",
   guiaPregunta: "¿Concentrada o aislada?",
   guiaTexto:
-    "La concentrada que se usa en suplementos deportivos suele tener entre 70 y 80 % de proteína; la aislada pasa del 90 %, con menos lactosa y grasa. Para comparar, mirá en el rótulo los gramos de proteína por porción.",
+    "La concentrada que se usa en suplementos deportivos suele tener entre 70 y 80 % de proteína; la aislada pasa del 90 %, con menos lactosa y grasa. Para comparar, fijate en el rótulo cuánta proteína aporta cada porción.",
   guiaFuente: "Fuente: ISSN (Jäger et al., 2017)",
   guiaFuenteUrl: "https://doi.org/10.1186/s12970-017-0177-8",
   tiendaOficial: "Tienda oficial",

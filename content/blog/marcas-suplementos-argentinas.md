@@ -70,7 +70,7 @@ fuentes:
 
 Las marcas de suplementos con más presencia en Argentina son, en su mayoría, de fabricación nacional: ENA Sport, Gentech, Ultra Tech, Star Nutrition, Mervick Lab, Gold Nutrition, HTN, Body Advance, Xtrenght, One Fit Nutrition, Pulver, Nutremax y Granger, a las que se suma Optimum Nutrition como referente importada. Varias nacieron hace más de 25 años y fabrican en plantas propias; otras son proyectos más recientes o marcas de fabricantes que también producen para terceros.
 
-En esta guía te contamos de dónde viene cada una, en qué se enfoca y cómo se fabrica un suplemento en el país. El orden de la lista es editorial: no es un ranking de calidad ni de ventas, y no reemplaza la lectura del rótulo de cada producto.
+Repasamos de dónde viene cada una, en qué se enfoca y cómo se fabrica un suplemento en el país. Las marcas siguen un orden que eligió la redacción: no mide calidad ni ventas, y no reemplaza la lectura del rótulo de cada producto.
 
 ## Cómo armamos esta guía
 
@@ -94,19 +94,19 @@ En la práctica, conviven tres modelos. Hay **marcas con planta propia**, como E
 
 ### 1. ENA Sport
 
-Nació en 1988 en Bahía Blanca, cuando Pablo Fidani decidió fabricar en el país suplementos que hasta entonces llegaban importados. Con la segunda generación, a cargo de Martín Fidani, la empresa agrupó sus marcas bajo Laboratorio ENA; según El Cronista, su red de distribución llega a Argentina, Chile y Uruguay, y hoy tiene también una tienda online en España. Según Forbes Argentina (2020), tenía más del 30 % del mercado, el único dato público de participación que encontramos. Su catálogo va de la nutrición deportiva al bienestar diario. Más en la [ficha de ENA Sport](/marcas/ena-sport).
+Nació en Bahía Blanca en 1988, cuando Pablo Fidani decidió fabricar en el país suplementos que hasta entonces llegaban importados. Con la segunda generación, a cargo de Martín Fidani, la empresa agrupó sus marcas bajo Laboratorio ENA; según El Cronista, su red de distribución llega a Argentina, Chile y Uruguay, y hoy tiene también una tienda online en España. Según Forbes Argentina (2020), tenía más del 30 % del mercado, el único dato público de participación que encontramos. Su catálogo va de la nutrición deportiva al bienestar diario. Más en la [ficha de ENA Sport](/marcas/ena-sport).
 
 ### 2. Gentech
 
-La marca de G.E.N. Tech Argentina S.A. arrancó en 1998, cuando Martín Menem empezó a importar siete productos de Estados Unidos. Después de la crisis de 2001 decidió producir en el país y en 2003 lanzó sus primeros productos hechos en su planta del barrio porteño de Constitución. Según Forbes (2021), fabrica más de 80 productos propios y para terceros. Se presenta como proveedora oficial de la AFA y entre sus productos están las barras Iron Bar. Más en la [ficha de Gentech](/marcas/gentech).
+La marca de G.E.N. Tech Argentina S.A. arrancó en 1998, cuando Martín Menem empezó a importar siete productos de Estados Unidos. Después de la crisis de 2001 apostó por producir en el país: según le dijo Menem a Forbes Argentina, en 2003 lanzaron «los primeros productos hechos en la Argentina de la marca Gentech», en la planta del barrio porteño de Constitución. Según Forbes (2021), fabrica más de 80 productos propios y para terceros. Se presenta como proveedora oficial de la AFA y entre sus productos están las barras Iron Bar. Más en la [ficha de Gentech](/marcas/gentech).
 
 ### 3. Ultra Tech
 
-Es la marca de Web Supplements S.R.L., que nació en Córdoba en 1991 con la primera importación de suplementos deportivos al país y, según la empresa, obtuvo el primer RNPA para un suplemento dietario en Argentina. En 2002 empezó a fabricar localmente; en 2017 lanzó Protein Factory y en 2024, una línea de geles energéticos. La empresa declara un catálogo de más de 250 productos. Más en la [ficha de Ultra Tech](/marcas/ultra-tech).
+Es la marca de Web Supplements S.R.L., una empresa cordobesa de 1991 que, según su propia historia, fue la primera en traer suplementos deportivos importados al país y obtuvo el primer RNPA otorgado a un suplemento dietario en Argentina. En 2002 empezó a fabricar localmente; en 2017 lanzó Protein Factory y en 2024, una línea de geles energéticos. La empresa declara un catálogo de más de 250 productos. Más en la [ficha de Ultra Tech](/marcas/ultra-tech).
 
 ### 4. Star Nutrition
 
-Pertenece a Nutriciencia S.A., que en la consulta pública de establecimientos tiene un RNE vigente en Los Troncos del Talar, en la provincia de Buenos Aires (consultado el 16/11/2026). La marca dice elaborar con materias primas importadas en laboratorio propio, con el objetivo de igualar la calidad de las marcas internacionales a precios accesibles. Organiza su catálogo por momento del entrenamiento e incluye opciones veganas y sin lactosa. Más en la [ficha de Star Nutrition](/marcas/star-nutrition).
+Es propiedad de Nutriciencia S.A., que en la consulta pública de establecimientos tiene un RNE vigente en Los Troncos del Talar, en la provincia de Buenos Aires (consultado el 16/11/2026). La marca dice elaborar con materias primas importadas en laboratorio propio, con el objetivo de igualar la calidad de las marcas internacionales a precios accesibles. Organiza su catálogo por momento del entrenamiento e incluye opciones veganas y sin lactosa. Más en la [ficha de Star Nutrition](/marcas/star-nutrition).
 
 ### 5. Optimum Nutrition
 
@@ -122,7 +122,7 @@ Gold Nutrition S.A.S., con sede en la Ciudad de Buenos Aires, anunció la marca 
 
 ### 8. HTN (High Tech Nutrition)
 
-Según la propia marca, desarrolla suplementos desde 1999 y fue pionera en el mercado local en algunas categorías, como proteínas con enzimas digestivas y productos aptos para veganos. Organiza su oferta en líneas, como Xplode Series y Pro Series, y por objetivo de entrenamiento. Más en la [ficha de HTN](/marcas/htn).
+Ubica en 1999 el comienzo de su actividad y se presenta como pionera en el mercado local en categorías como las proteínas con enzimas digestivas y los productos aptos para veganos. Organiza su oferta en líneas, como Xplode Series y Pro Series, y por objetivo de entrenamiento. Más en la [ficha de HTN](/marcas/htn).
 
 ### 9. Body Advance
 
@@ -130,7 +130,7 @@ Elabora sus suplementos en una planta propia en el partido de Tres de Febrero, p
 
 ### 10. Xtrenght Nutrition
 
-Se presenta como un laboratorio argentino de suplementos que, según la marca, acompaña a deportistas de elite desde hace 15 años, y publica su domicilio sobre la avenida Los Quilmes, en el sur del conurbano bonaerense. Organiza su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol y ciclismo) y por objetivo. No encontramos una tienda oficial de la marca en Mercado Libre. Más en la [ficha de Xtrenght](/marcas/xtrenght).
+Se define como laboratorio nacional de suplementos que, según la marca, acompaña a deportistas de elite desde hace 15 años, y publica su domicilio sobre la avenida Los Quilmes, en el sur del conurbano bonaerense. Organiza su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol y ciclismo) y por objetivo. No encontramos una tienda oficial de la marca en Mercado Libre. Más en la [ficha de Xtrenght](/marcas/xtrenght).
 
 ### 11. One Fit Nutrition
 
@@ -138,7 +138,7 @@ Es la marca de X-Nutrition S.R.L., una empresa que, según su sitio, viene invir
 
 ### 12. Pulver
 
-Pulver S.R.L. es una empresa alimenticia de la Ciudad de Buenos Aires que desde 1990 fabrica insumos para heladería y que, a partir de su experiencia con productos en polvo, se sumó a los suplementos nutricionales. Combina suplementos con alimentos proteicos, como ovoalbúmina o pancakes proteicos, y pone el foco en los productos libres de gluten: es socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten. Más en la [ficha de Pulver](/marcas/pulver).
+Pulver S.R.L., con sede en la Ciudad de Buenos Aires, cuenta en su presentación institucional que arrancó en 1990 como proveedora de insumos para heladerías y que el manejo de productos en polvo la llevó después a los suplementos nutricionales. Combina suplementos con alimentos proteicos, como ovoalbúmina o pancakes proteicos, y pone el foco en los productos libres de gluten: es socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten. Más en la [ficha de Pulver](/marcas/pulver).
 
 ### 13. Nutremax
 
@@ -146,7 +146,7 @@ Según la prensa local, nació en un garaje de Villa Constitución y luego mudó
 
 ### 14. Granger Nutrición
 
-La empresa más joven de la lista. Tres amigos de Rafaela, en Santa Fe, arrancaron en 2020 produciendo proteína de huevo hidrolizada en la casa de uno de ellos, y en 2022 constituyeron Granger S.A. Hoy combina suplementos con alimentos proteicos para el día a día, como premezclas para pancakes y una línea keto. Más en la [ficha de Granger](/marcas/granger).
+La empresa más joven de la lista. Según Punto Biz, el proyecto empezó en 2020 en una vivienda particular de Rafaela (Santa Fe), donde sus tres fundadores elaboraban proteína de huevo hidrolizada; en 2022 constituyeron Granger S.A. Hoy combina suplementos con alimentos proteicos para el día a día, como premezclas para pancakes y una línea keto. Más en la [ficha de Granger](/marcas/granger).
 
 ## Cómo comparar marcas con criterio
 

@@ -4,7 +4,7 @@
 
 # Xtrenght Nutrition: historia, líneas de producto y dónde comprar
 
-Xtrenght Nutrition es una marca argentina de suplementos deportivos con base en Quilmes que organiza sus productos por disciplina deportiva y por objetivo.
+En Xtrenght Nutrition, el catálogo se recorre por disciplina deportiva, de CrossFit a ciclismo, y por objetivo. Tiene su base en Quilmes, en el sur del conurbano bonaerense.
 
 ## Posicionamiento
 Segmenta su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol, ciclismo) y por objetivo.
@@ -47,14 +47,14 @@ instagram: https://www.instagram.com/xtrenghtoficial · facebook: https://www.fa
 
 ## Preguntas frecuentes
 
-### ¿De dónde es Xtrenght Nutrition?
-Xtrenght Nutrition es una marca de Argentina (Bernal, Buenos Aires).
+### ¿Dónde tiene su base Xtrenght Nutrition?
+En Bernal, provincia de Buenos Aires.
 
-### ¿Desde cuándo existe Xtrenght Nutrition?
-En el mercado al menos desde 2007.
+### ¿En qué año empezó Xtrenght Nutrition?
+No tenemos un año de fundación confirmado: hay registros de la marca en el mercado por lo menos desde 2007.
 
-### ¿Xtrenght Nutrition tiene tienda oficial en Mercado Libre?
-Sin tienda oficial de la marca confirmada: /tienda/xtrenght y sus variantes no existen. Hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y también reventa, p. ej. la tienda oficial del revendedor RTN Suplementos.
+### ¿Se puede comprar Xtrenght Nutrition directo a la marca en Mercado Libre?
+No pudimos confirmar una tienda propia: la dirección /tienda/xtrenght y sus variantes no existen. Sí hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y otras de revendedores, como la tienda oficial de RTN Suplementos.
 
 ### ¿Qué registros o certificaciones tiene Xtrenght Nutrition?
 Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido). Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Wilde (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). No se declaran certificaciones en el sitio oficial. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

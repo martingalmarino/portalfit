@@ -4,13 +4,13 @@
 
 # Gentech: historia, líneas de producto y dónde comprar
 
-Gentech es una marca argentina que empezó importando suplementos en 1998 y fabrica en el país desde 2003. Se presenta como proveedora oficial de la AFA y es conocida por sus barras Iron Bar.
+Las barras Iron Bar y su rol de proveedora oficial de la AFA, según su propia presentación, son lo más reconocible de Gentech. La empresa arrancó en 1998 importando suplementos y desde 2003 fabrica en el país.
 
 ## Posicionamiento
 Se enfoca en el fútbol y el alto rendimiento: se presenta como Proveedor Oficial de la AFA y declara abastecer a cerca del 80% de los clubes de primera división. Su producto más conocido son las barras Iron Bar.
 
 ## Historia
-Martín Menem inició la marca importando siete productos de EE.UU. en 1998. Tras la crisis de 2001 decidió producir en el país y en 2003 lanzó los primeros productos hechos en Argentina en su planta de Constitución. Según Forbes (2021) fabrica más de 80 productos propios y para terceros.
+Martín Menem inició la marca importando siete productos de EE.UU. en 1998. Tras la crisis de 2001 decidió producir en el país. «En 2003, hacíamos todo muy a pulmón y lanzamos los primeros productos hechos en la Argentina de la marca Gentech», le contó Menem a Forbes Argentina; la producción quedó en su planta de Constitución. Según Forbes (2021) fabrica más de 80 productos propios y para terceros.
 
 - **Empresa:** Elaborada por G.E.N. Tech Argentina S.A., en la Ciudad de Buenos Aires.
 - **Fundación:** 1998, como importadora; fabrica en el país desde 2003.
@@ -47,14 +47,14 @@ instagram: https://www.instagram.com/gentecharg · facebook: https://www.faceboo
 
 ## Preguntas frecuentes
 
-### ¿De dónde es Gentech?
-Gentech es una marca de Argentina (Ciudad de Buenos Aires).
+### ¿Dónde tiene su base Gentech?
+En la Ciudad de Buenos Aires.
 
-### ¿Desde cuándo existe Gentech?
-1998, como importadora; fabrica en el país desde 2003.
+### ¿En qué año empezó Gentech?
+Arrancó en 1998 como importadora; la fabricación en el país llegó en 2003.
 
-### ¿Gentech tiene tienda oficial en Mercado Libre?
-Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/gentech.
+### ¿Se puede comprar Gentech directo a la marca en Mercado Libre?
+Sí. Gentech vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/gentech). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.
 
 ### ¿Qué registros o certificaciones tiene Gentech?
 Declarado por la marca: Certificados ANMAT, certificación sin gluten y GMP. Declarado por la marca: Línea 'libre de doping'. RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

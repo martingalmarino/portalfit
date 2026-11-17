@@ -10,7 +10,7 @@ Granger Nutrición es una empresa de Rafaela fundada en 2020 que empezó con pro
 Se orienta a alimentos proteicos y premezclas para el día a día (pancakes, cookies, línea keto), además de suplementos, y apunta a llegar a los supermercados.
 
 ## Historia
-Tres amigos rafaelinos arrancaron en 2020 produciendo proteína de huevo hidrolizada en la casa de uno de ellos. Ampliaron a premezclas y alimentos proteicos (pancakes, keto); en enero de 2026 informaron un crecimiento de producción del 300% y pasaron de 9 a 49 empleados en 18 meses.
+Su primer producto fue proteína de huevo hidrolizada, que sus tres fundadores, todos de Rafaela, empezaron a elaborar en 2020 en una vivienda particular, según Punto Biz. Con el tiempo sumó premezclas y alimentos proteicos (pancakes, línea keto). En enero de 2026, la empresa le informó al mismo medio que su producción había crecido un 300 % y que su plantilla había pasado de 9 a 49 personas en un año y medio.
 
 - **Empresa:** Elaborada por Granger S.A., en Rafaela (Santa Fe).
 - **Fundación:** 2020.
@@ -45,14 +45,14 @@ instagram: https://instagram.com/grangernutricion · facebook: https://www.faceb
 
 ## Preguntas frecuentes
 
-### ¿De dónde es Granger Nutrición?
-Granger Nutrición es una marca de Argentina (Rafaela, Santa Fe).
+### ¿Dónde tiene su base Granger Nutrición?
+En Rafaela, provincia de Santa Fe.
 
-### ¿Desde cuándo existe Granger Nutrición?
-2020.
+### ¿En qué año empezó Granger Nutrición?
+Arrancó en 2020.
 
-### ¿Granger Nutrición tiene tienda oficial en Mercado Libre?
-Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/granger.
+### ¿Se puede comprar Granger Nutrición directo a la marca en Mercado Libre?
+Sí. Granger Nutrición vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/granger). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.
 
 ### ¿Qué registros o certificaciones tiene Granger Nutrición?
 No se declaran certificaciones en el sitio oficial revisado. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

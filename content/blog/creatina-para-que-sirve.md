@@ -22,7 +22,7 @@ fuentes:
 
 La creatina es uno de los suplementos con más respaldo científico para el ejercicio de alta intensidad: la Sociedad Internacional de Nutrición Deportiva (ISSN) la considera el suplemento ergogénico nutricional más eficaz para mejorar la capacidad en esfuerzos intensos y la masa magra durante el entrenamiento, y el Instituto Australiano del Deporte (AIS) la ubica en su Grupo A. No es un medicamento ni un atajo: su efecto aparece cuando se combina con entrenamiento, y la forma más estudiada es la creatina monohidrato.
 
-En esta guía repasamos qué es, qué dice la evidencia, cómo se usó en los estudios, qué mitos no se sostienen y qué tenés que mirar en el rótulo de una creatina que se vende en Argentina. Es información general: no reemplaza la consulta con un médico o un nutricionista.
+Repasamos qué es, cuál es la evidencia disponible, cómo se usó en los estudios, qué mitos no se sostienen y qué conviene mirar en el rótulo de las creatinas del mercado argentino. Es información general: no reemplaza la consulta con un médico o un nutricionista.
 
 ## Qué es la creatina
 
@@ -142,7 +142,7 @@ Con fase de carga, las reservas se llenan en 5 a 7 días. Sin carga, en unas 3 o
 
 ### ¿Qué pasa si la dejo?
 
-Según la ISSN, una vez que se suspende, las reservas musculares tardan entre 4 y 6 semanas en volver a los valores iniciales. No hay evidencia de que el cuerpo deje de fabricar su propia creatina.
+Según la ISSN, una vez que se suspende, las reservas musculares tardan entre 4 y 6 semanas en volver a los valores iniciales. Los estudios no muestran que el cuerpo deje de fabricar su propia creatina.
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "actualizado": "2026-11-16",
-  "criterio_ranking": "Ranking cualitativo de relevancia para el portal (no es participación de mercado). Se ponderó, en este orden: (1) evidencia pública de liderazgo o escala (cuota de mercado, puntos de venta, empleados, cobertura de prensa económica); (2) trayectoria verificable; (3) presencia comercial oficial (sitio propio + tienda oficial en Mercado Libre); (4) amplitud de catálogo y cobertura de categorías del portal; (5) transparencia de calidad verificable (BPM/RNE/RNPA publicados). El único dato de participación de mercado encontrado es el de ENA (>30%, Forbes Argentina, 2020); el resto del orden es editorial y lo revisamos cuando aparecen datos públicos nuevos.",
+  "criterio_ranking": "Ranking cualitativo de relevancia para el portal (no es participación de mercado). Se ponderó, en este orden: (1) evidencia pública de liderazgo o escala (cuota de mercado, puntos de venta, empleados, cobertura de prensa económica); (2) trayectoria verificable; (3) presencia comercial oficial (sitio propio + tienda oficial dentro de Mercado Libre); (4) amplitud de catálogo y cobertura de categorías del portal; (5) transparencia de calidad verificable (BPM/RNE/RNPA publicados). El único dato de participación de mercado encontrado es el de ENA (>30%, Forbes Argentina, 2020); el resto del orden es editorial y lo revisamos cuando aparecen datos públicos nuevos.",
   "convencion_rotulos_certificaciones": {
     "Registro consultado en la base oficial SIFeGA el 16/11/2026": "consultado en la consulta pública de establecimientos (RNE) de SIFeGA",
     "Documento oficial publicado por la marca": "documento emitido por la autoridad sanitaria (INAL/ANMAT antes del Decreto 697/2026) disponible en el sitio de la marca",
@@ -15,7 +15,7 @@
       "nombre": "ENA Sport",
       "ranking_relevancia": 1,
       "justificacion_ranking": "Único actor con dato público de participación de mercado (>30%, Forbes 2020), 35+ años de trayectoria, fabricación propia, red de 5.000 puntos de venta y tienda oficial en ML.",
-      "resumen": "ENA Sport es una marca argentina de nutrición deportiva nacida en Bahía Blanca en 1988. Según Forbes Argentina (2020), único dato público de participación disponible, era la marca líder del mercado; su catálogo va del deporte al bienestar diario.",
+      "resumen": "Forbes Argentina la señaló en 2020 como líder del mercado local, y es el único dato público de participación que encontramos. ENA Sport nació en Bahía Blanca en 1988 y hoy tiene un catálogo que va del rendimiento deportivo al bienestar diario.",
       "nota_productos": "“Más vendido” es la etiqueta que usa el sitio oficial de la marca, no una evaluación de Portal FIT.",
       "sitio_oficial": {
         "valor": "https://www.enasport.com/",
@@ -47,7 +47,7 @@
         ]
       },
       "historia": {
-        "valor": "Nació en 1988 en Bahía Blanca, cuando Pablo Fidani decidió fabricar en el país suplementos que hasta entonces se veían importados. Con la llegada de la segunda generación (Martín Fidani) pasó de pyme a empresa regional de nutrición, agrupando sus marcas bajo Laboratorio ENA, con distribución en Argentina, Chile y Uruguay y desembarco en España.",
+        "valor": "Nació en Bahía Blanca en 1988, cuando Pablo Fidani decidió fabricar en el país suplementos que hasta entonces se veían importados. Con la llegada de la segunda generación (Martín Fidani) pasó de pyme a empresa regional de nutrición, agrupando sus marcas bajo Laboratorio ENA, con distribución en Argentina, Chile y Uruguay y desembarco en España.",
         "fuentes": [
           "https://www.cronista.com/pyme/negocios-pyme/la-decision-de-ser-una-empresa-internacional/",
           "https://www.endeavor.org.ar/emprendedores/martin-fidani/",
@@ -90,7 +90,7 @@
       },
       "certificaciones": {
         "valor": [
-          "Declarado por la marca: Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad",
+          "Declarado por la marca: Cumple la normativa de ANMAT y cuenta con laboratorio propio y controles de calidad",
           "Informado por terceros: Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial: PENDIENTE",
           "RNE de la planta de Bahía Blanca: PENDIENTE (la consulta en la base oficial SIFeGA no devolvió resultados para las razones sociales probadas)",
           "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
@@ -151,7 +151,7 @@
         {
           "estado": "declarado",
           "etiqueta": "Declarado por la marca",
-          "texto": "Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad"
+          "texto": "Cumple la normativa de ANMAT y cuenta con laboratorio propio y controles de calidad"
         },
         {
           "estado": "terceros",
@@ -176,7 +176,7 @@
       "nombre": "Gentech",
       "ranking_relevancia": 2,
       "justificacion_ranking": "Pionera (1998), fabricación propia desde 2003, cobertura de prensa nacional, sponsoreo AFA y liderazgo declarado en barras. Sin dato independiente de share.",
-      "resumen": "Gentech es una marca argentina que empezó importando suplementos en 1998 y fabrica en el país desde 2003. Se presenta como proveedora oficial de la AFA y es conocida por sus barras Iron Bar.",
+      "resumen": "Las barras Iron Bar y su rol de proveedora oficial de la AFA, según su propia presentación, son lo más reconocible de Gentech. La empresa arrancó en 1998 importando suplementos y desde 2003 fabrica en el país.",
       "sitio_oficial": {
         "valor": "https://www.gentech.com.ar/",
         "fuentes": [
@@ -206,7 +206,7 @@
         ]
       },
       "historia": {
-        "valor": "Martín Menem inició la marca importando siete productos de EE.UU. en 1998. Tras la crisis de 2001 decidió producir en el país y en 2003 lanzó los primeros productos hechos en Argentina en su planta de Constitución. Según Forbes (2021) fabrica más de 80 productos propios y para terceros.",
+        "valor": "Martín Menem inició la marca importando siete productos de EE.UU. en 1998. Tras la crisis de 2001 decidió producir en el país. «En 2003, hacíamos todo muy a pulmón y lanzamos los primeros productos hechos en la Argentina de la marca Gentech», le contó Menem a Forbes Argentina; la producción quedó en su planta de Constitución. Según Forbes (2021) fabrica más de 80 productos propios y para terceros.",
         "fuentes": [
           "https://www.forbesargentina.com/negocios/como-gentech-compania-pionera-suplementos-dietarios-factura-116-millones-n8299"
         ]
@@ -350,7 +350,7 @@
         ]
       },
       "historia": {
-        "valor": "Web Supplements nació en Córdoba en 1991 con la primera importación de suplementos deportivos al país bajo la marca Ultra Tech y, según la empresa, obtuvo el primer RNPA para suplementos dietarios en Argentina. En 2002 pasó a fabricar localmente y lanzó Vitatech; en 2016 incorporó una extrusora para barras; en 2017 lanzó Protein Factory y en 2024 una línea de geles energéticos.",
+        "valor": "La historia que publica Web Supplements arranca en Córdoba en 1991: ese año, según la empresa, fue la primera en traer al país suplementos deportivos importados, con la marca Ultra Tech, y obtuvo el primer RNPA otorgado a un suplemento dietario en Argentina. La fabricación local llegó en 2002, junto con Vitatech; después sumó una extrusora para barras (2016), Protein Factory (2017) y una línea de geles energéticos (2024).",
         "fuentes": [
           "https://websupplements.com.ar/empresa/historia/",
           "https://ultratechnutrition.com/quienes-somos-web-supplements/"
@@ -472,7 +472,7 @@
       "nombre": "Star Nutrition",
       "ranking_relevancia": 4,
       "justificacion_ranking": "Catálogo amplio, tienda oficial ML y fuerte presencia en comparativas del sector; faltan datos de historia y share verificables.",
-      "resumen": "Star Nutrition es una marca argentina de Nutriciencia S.A. que apuesta a la relación calidad-precio frente a las marcas internacionales, con un catálogo organizado por momento del entrenamiento.",
+      "resumen": "Competir con las marcas internacionales por calidad, pero a precios del mercado local: esa es la apuesta que declara Star Nutrition, marca de Nutriciencia S.A. Su catálogo está ordenado según el momento del entrenamiento.",
       "nota_productos": "El sitio no marca 'más vendidos': se listan productos representativos del catálogo, no un ranking de ventas.",
       "sitio_oficial": {
         "valor": "https://starnutrition.com.ar/",
@@ -503,7 +503,7 @@
         ]
       },
       "historia": {
-        "valor": "La marca se describe como 'una empresa joven' que elabora con materias primas importadas en laboratorio propio, con el objetivo de igualar la calidad de las marcas internacionales a precios accesibles para el consumidor argentino. Fundadores e hitos: PENDIENTE.",
+        "valor": "Según su propia presentación, Star Nutrition elabora en laboratorio propio, a partir de insumos importados, y busca estar a la altura de las marcas internacionales en calidad con precios accesibles para el público argentino. La empresa se define a sí misma como joven. Fundadores e hitos: PENDIENTE.",
         "fuentes": [
           "https://starnutrition.com.ar/pages/nosotros"
         ]
@@ -647,7 +647,7 @@
         ]
       },
       "posicionamiento": {
-        "valor": "Es una de las marcas internacionales de referencia del sector y llega a Argentina como producto importado. Su franquicia más conocida es Gold Standard.",
+        "valor": "Figura entre las referencias internacionales del sector y en Argentina se consigue importada. Gold Standard es su franquicia más conocida.",
         "fuentes": [
           "https://www.optimumnutrition.com/en-us/pages/about-us"
         ]
@@ -745,7 +745,7 @@
       "nombre": "Mervick Lab",
       "ranking_relevancia": 6,
       "justificacion_ranking": "Especialista en endurance con tienda oficial ML; poca información institucional pública.",
-      "resumen": "Mervick Lab es una marca argentina de la provincia de Buenos Aires orientada a los deportes de resistencia, con geles, carbohidratos e hidratación junto a proteínas y creatina.",
+      "resumen": "Los deportes de resistencia son el foco de Mervick Lab: geles, carbohidratos e hidratación, a los que suma proteínas y creatina. La marca tiene base en la provincia de Buenos Aires.",
       "sitio_oficial": {
         "valor": "https://tiendamervick.com.ar/",
         "fuentes": [
@@ -773,7 +773,7 @@
         ]
       },
       "historia": {
-        "valor": "PENDIENTE (no se encontró relato oficial de historia). Datos registrales: sociedad anónima con domicilio en Panamericana km 40,5, Del Viso.",
+        "valor": "PENDIENTE (no se encontró relato oficial de historia). Datos registrales: sociedad anónima con sede en Del Viso (Buenos Aires).",
         "fuentes": [
           "https://constata.ar/empresa/33708334109"
         ]
@@ -1014,8 +1014,8 @@
       "slug": "htn",
       "nombre": "HTN (High Tech Nutrition)",
       "ranking_relevancia": 8,
-      "justificacion_ranking": "Entra al relevamiento: trayectoria declarada desde 1999, sitio y tienda oficial propios, tienda oficial en Mercado Libre y catálogo amplio. Queda debajo de las marcas con más información verificable porque no publica razón social ni registros.",
-      "resumen": "HTN (High Tech Nutrition) es una marca argentina de nutrición deportiva que declara desarrollar suplementos desde 1999 y organiza su oferta en las líneas Xplode Series y Pro Series.",
+      "justificacion_ranking": "Entra al relevamiento: trayectoria declarada desde 1999, sitio y tienda oficial propios, tienda oficial dentro de Mercado Libre y catálogo amplio. Queda debajo de las marcas con más información verificable porque no publica razón social ni registros.",
+      "resumen": "Xplode Series y Pro Series son las dos líneas que ordenan el catálogo de HTN (sigla de High Tech Nutrition), una marca argentina que, de acuerdo con la información que publica, trabaja en suplementos desde 1999.",
       "nota_productos": "“Más vendido” es la etiqueta que usa el sitio oficial de la marca, no una evaluación de Portal FIT.",
       "sitio_oficial": {
         "valor": "https://htn.com.ar/",
@@ -1044,7 +1044,7 @@
         ]
       },
       "historia": {
-        "valor": "Según la propia marca, desarrolla suplementos desde 1999 y fue pionera en el mercado local en varias categorías: proteínas con enzimas digestivas, proteínas de liberación progresiva, productos aptos para veganos y la línea PRO con Beta-BCAA 8.0. Fundadores e hitos con fecha: PENDIENTE.",
+        "valor": "La marca se presenta como pionera en el mercado local en varias categorías (proteínas con enzimas digestivas, proteínas de liberación progresiva, productos aptos para veganos y la línea PRO con Beta-BCAA 8.0) y ubica en 1999 el comienzo de su actividad. Fundadores e hitos con fecha: PENDIENTE.",
         "fuentes": [
           "https://htn.com.ar/somos-high-tech-nutrition/"
         ]
@@ -1236,7 +1236,7 @@
         ]
       },
       "mercado_libre": {
-        "valor": "Sin tienda oficial de la marca (no se encontró). Se vende en Mercado Libre por revendedores, p. ej. la tienda oficial del revendedor ODX",
+        "valor": "No encontramos una tienda oficial de la marca. La ofrecen revendedores, como la tienda oficial de ODX",
         "fuentes": [
           "https://www.mercadolibre.com.ar/tienda/odx",
           "https://www.mercadolibre.com.ar/body-advance-whey-protein-3-kg-gold-line-con-creatina-y-vit-c-sabor-chocolate/p/MLA50291911"
@@ -1302,7 +1302,7 @@
       "nombre": "Xtrenght Nutrition",
       "ranking_relevancia": 10,
       "justificacion_ranking": "Marca reconocida en el nicho deportivo; faltan datos institucionales y tienda oficial ML.",
-      "resumen": "Xtrenght Nutrition es una marca argentina de suplementos deportivos con base en Quilmes que organiza sus productos por disciplina deportiva y por objetivo.",
+      "resumen": "En Xtrenght Nutrition, el catálogo se recorre por disciplina deportiva, de CrossFit a ciclismo, y por objetivo. Tiene su base en Quilmes, en el sur del conurbano bonaerense.",
       "sitio_oficial": {
         "valor": "https://xtrenght-nutrition.com/",
         "fuentes": [
@@ -1441,7 +1441,7 @@
       "nombre": "One Fit Nutrition",
       "ranking_relevancia": 11,
       "justificacion_ranking": "Fabricante en crecimiento con tienda oficial ML; marca joven (2019).",
-      "resumen": "One Fit Nutrition es una marca de X-Nutrition, fabricante santafesino fundado en 2019 que también produce para otras marcas.",
+      "resumen": "Detrás de One Fit Nutrition está X-Nutrition, un fabricante santafesino fundado en 2019 que además produce para otras marcas.",
       "sitio_oficial": {
         "valor": "https://tiendaxnutrition.com/ (onefitnutrition.com.ar redirige aquí)",
         "fuentes": [
@@ -1595,7 +1595,7 @@
         ]
       },
       "historia": {
-        "valor": "Empresa alimenticia que desde 1990 fabrica esencias, estabilizantes y mousses para heladería; a partir de su experiencia en polvos incursionó en suplementos nutricionales. Es socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten.",
+        "valor": "Según su presentación institucional, Pulver empezó en 1990 elaborando esencias, estabilizantes y mousses para la industria heladera, y fue ese oficio con productos en polvo lo que más tarde la llevó a los suplementos nutricionales. Es socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten.",
         "fuentes": [
           "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37",
           "https://ingredientespulver.com.ar/empresa/"
@@ -1743,7 +1743,7 @@
         ]
       },
       "historia": {
-        "valor": "Nació en un garaje de Villa Constitución, fundada por el socio de su titular, María Fernanda Ledesma, a quien la prensa describe como ingeniero químico, y luego se trasladó al noroeste de Rosario, a una planta de 1.000 m². Al principio apuntaba al fisicoculturismo y al fitness; hoy se enfoca en deportes de resistencia (ciclismo, running, triatlón, natación). Su producto insignia es Hydromax. Distribuye en todo el país mediante mayoristas (farmacias, dietéticas, bicicleterías, grupos de entrenamiento) y en 2024 participaba de un programa municipal para empezar a exportar.",
+        "valor": "Nació en un garaje de Villa Constitución, fundada por el socio de su titular, María Fernanda Ledesma, a quien la prensa describe como ingeniero químico, y luego se trasladó al noroeste de Rosario, a una planta de 1.000 m². Al principio apuntaba al fisicoculturismo y al fitness; hoy se enfoca en deportes de resistencia (ciclismo, running, triatlón, natación). Su producto insignia es Hydromax. Farmacias, dietéticas, bicicleterías y grupos de entrenamiento de todo el país reciben sus productos a través de mayoristas, según Punto Biz; en 2024, el mismo medio informó que la empresa participaba de un programa municipal para dar sus primeros pasos en la exportación.",
         "fuentes": [
           "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600",
           "https://puntobiz.com.ar/negocios/-se-fortalecen-con-nuevo-producto-y-le-ponen-fichas-al-mercado-externo--2024710550",
@@ -1881,7 +1881,7 @@
         ]
       },
       "historia": {
-        "valor": "Tres amigos rafaelinos arrancaron en 2020 produciendo proteína de huevo hidrolizada en la casa de uno de ellos. Ampliaron a premezclas y alimentos proteicos (pancakes, keto); en enero de 2026 informaron un crecimiento de producción del 300% y pasaron de 9 a 49 empleados en 18 meses.",
+        "valor": "Su primer producto fue proteína de huevo hidrolizada, que sus tres fundadores, todos de Rafaela, empezaron a elaborar en 2020 en una vivienda particular, según Punto Biz. Con el tiempo sumó premezclas y alimentos proteicos (pancakes, línea keto). En enero de 2026, la empresa le informó al mismo medio que su producción había crecido un 300 % y que su plantilla había pasado de 9 a 49 personas en un año y medio.",
         "fuentes": [
           "https://puntobiz.com.ar/negocios/pasaron-de-producir-en-casa-a-duplicar-planta-y-van-por-los-supermercados-2024810600",
           "https://puntobiz.com.ar/negocios/encontraron-la-veta-en-la-dieta-keto-crecen-al-300-anual-y-estrenan-planta-2026119600"

@@ -10,7 +10,7 @@ Pulver es una empresa alimenticia porteña fundada en 1990 que sumó suplementos
 Combina suplementos con alimentos proteicos (ovoalbúmina, Prolac, sopas, pancakes y pizzas proteicas) y pone el foco en productos libres de gluten.
 
 ## Historia
-Empresa alimenticia que desde 1990 fabrica esencias, estabilizantes y mousses para heladería; a partir de su experiencia en polvos incursionó en suplementos nutricionales. Es socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten.
+Según su presentación institucional, Pulver empezó en 1990 elaborando esencias, estabilizantes y mousses para la industria heladera, y fue ese oficio con productos en polvo lo que más tarde la llevó a los suplementos nutricionales. Es socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten.
 
 - **Empresa:** Marca de Pulver S.R.L. (Ciudad de Buenos Aires).
 - **Fundación:** 1990 como empresa; con suplementos deportivos al menos desde 2005.
@@ -51,14 +51,14 @@ instagram: https://www.instagram.com/pulversuplementos · facebook: https://www.
 
 ## Preguntas frecuentes
 
-### ¿De dónde es Pulver?
-Pulver es una marca de Argentina (Ciudad de Buenos Aires).
+### ¿Dónde tiene su base Pulver?
+En la Ciudad de Buenos Aires.
 
-### ¿Desde cuándo existe Pulver?
-1990 como empresa; con suplementos deportivos al menos desde 2005.
+### ¿En qué año empezó Pulver?
+La empresa arrancó en 1990; con suplementos deportivos hay registros por lo menos desde 2005.
 
-### ¿Pulver tiene tienda oficial en Mercado Libre?
-Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/pulver.
+### ¿Se puede comprar Pulver directo a la marca en Mercado Libre?
+Sí. Pulver vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/pulver). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.
 
 ### ¿Qué registros o certificaciones tiene Pulver?
 Declarado por la empresa: Productos libres de gluten con aprobación de la Dirección General de Higiene y Seguridad Alimentaria de CABA (texto de la línea de ingredientes). Socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten (CAPALIGLU). RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
