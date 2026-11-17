@@ -1,0 +1,12 @@
+{
+  "slug": "contacto",
+  "meta_title": "Contacto: consultas y correcciones del sitio",
+  "meta_description": "Escribinos para consultas, correcciones de datos o comentarios sobre el contenido del sitio. Respondemos por correo.",
+  "h1": "Contacto",
+  "parrafos": [
+    "¿Encontraste un dato que no coincide, querés sugerir una marca o tenés una consulta sobre el contenido? Escribinos a {CONTACT_EMAIL}.",
+    "Revisamos cada mensaje y, si corresponde, actualizamos el contenido citando la fuente.",
+    "No damos asesoramiento médico ni nutricional personalizado. Si tenés una condición de salud o tomás medicación, consultá con un profesional antes de usar cualquier suplemento.",
+    "Las marcas que quieran acercar información pueden hacerlo por el mismo correo. Aparecer en el sitio no tiene costo, y ninguna marca paga por su posición."
+  ]
+}

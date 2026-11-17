@@ -1,0 +1,367 @@
+{
+  "placeholders": {
+    "nombre_portal": "[NOMBRE PORTAL]",
+    "dominio": "[dominio]",
+    "nota": "Nombre y dominio a definir por Martín; reemplazar en todos los archivos."
+  },
+  "meta": {
+    "title": "Suplementos en Argentina: guía con evidencia | [NOMBRE PORTAL]",
+    "description": "Qué dice la evidencia sobre proteínas, creatina, hidratación y más. Marcas de suplementos en Argentina y cómo elegir según tu edad y nivel.",
+    "canonical": "https://[dominio]/",
+    "og_site_name": "[NOMBRE PORTAL]"
+  },
+  "h1": "Suplementos y nutrición deportiva en Argentina, explicados con evidencia",
+  "bajada": "Qué tiene respaldo, qué no y qué conviene mirar según tu etapa de vida. Guías claras para quienes entrenan entre los 30 y los 60.",
+  "intro": "En [NOMBRE PORTAL] reunimos información sobre suplementos dietarios y nutrición deportiva disponibles en Argentina. A cada categoría le asignamos un nivel de evidencia general según el marco del Instituto Australiano del Deporte (AIS) y las posturas de la International Society of Sports Nutrition (ISSN), y presentamos las marcas con datos verificados y su fuente. En Argentina los suplementos dietarios son alimentos regulados por el Código Alimentario Argentino; desde agosto de 2026 su registro y control están a cargo del SENASA. No son medicamentos y no reemplazan una alimentación variada ni la consulta con profesionales de la salud.",
+  "bloques_categorias": [
+    {
+      "slug": "proteinas",
+      "titulo": "Proteínas",
+      "texto": "Polvos proteicos para completar la ingesta diaria de proteína cuando la comida no alcanza: suero, caseína, huevo y vegetales.",
+      "nivel_evidencia": "alto",
+      "url": "/categorias/proteinas"
+    },
+    {
+      "slug": "creatina",
+      "titulo": "Creatina",
+      "texto": "Creatina monohidrato y formatos combinados. Uno de los suplementos más estudiados para fuerza y potencia.",
+      "nivel_evidencia": "alto",
+      "url": "/categorias/creatina"
+    },
+    {
+      "slug": "pre-entrenos",
+      "titulo": "Pre-entrenos y cafeína",
+      "texto": "Fórmulas para antes de entrenar: cafeína, beta-alanina, citrulina y combinaciones. Se evalúa ingrediente por ingrediente.",
+      "nivel_evidencia": "variable",
+      "url": "/categorias/pre-entrenos"
+    },
+    {
+      "slug": "aminoacidos",
+      "titulo": "Aminoácidos (BCAA, EAA, glutamina)",
+      "texto": "Aminoácidos esenciales, de cadena ramificada y glutamina en polvo o cápsulas.",
+      "nivel_evidencia": "bajo",
+      "url": "/categorias/aminoacidos"
+    },
+    {
+      "slug": "colageno",
+      "titulo": "Colágeno",
+      "texto": "Colágeno hidrolizado y péptidos de colágeno, solos o con vitamina C.",
+      "nivel_evidencia": "moderado",
+      "url": "/categorias/colageno"
+    },
+    {
+      "slug": "vitaminas-minerales",
+      "titulo": "Vitaminas y minerales",
+      "texto": "Multivitamínicos y micronutrientes puntuales (vitamina D, hierro, calcio, zinc, vitamina C, K2).",
+      "nivel_evidencia": "variable",
+      "url": "/categorias/vitaminas-minerales"
+    },
+    {
+      "slug": "omega-3",
+      "titulo": "Omega 3",
+      "texto": "Aceites de pescado y concentrados EPA/DHA.",
+      "nivel_evidencia": "moderado",
+      "url": "/categorias/omega-3"
+    },
+    {
+      "slug": "magnesio",
+      "titulo": "Magnesio",
+      "texto": "Citrato, bisglicinato y otras sales de magnesio, en polvo o cápsulas.",
+      "nivel_evidencia": "bajo",
+      "url": "/categorias/magnesio"
+    },
+    {
+      "slug": "longevidad-bienestar",
+      "titulo": "Longevidad y bienestar",
+      "texto": "Productos que se comercializan con foco en el envejecimiento saludable (resveratrol, cúrcuma, hongos, adaptógenos, probióticos). Los analizamos con mirada crítica y sin promesas.",
+      "nivel_evidencia": "bajo",
+      "url": "/categorias/longevidad-bienestar"
+    },
+    {
+      "slug": "quemadores-termogenicos",
+      "titulo": "Quemadores y termogénicos",
+      "texto": "Productos que se comercializan para el 'control de peso' (L-carnitina, CLA, estimulantes, té verde). Los presentamos con advertencias.",
+      "nivel_evidencia": "precaucion",
+      "url": "/categorias/quemadores-termogenicos"
+    },
+    {
+      "slug": "ganadores-de-peso",
+      "titulo": "Ganadores de peso",
+      "texto": "Mezclas de carbohidratos y proteínas de alta densidad calórica para quienes no llegan a cubrir su requerimiento energético.",
+      "nivel_evidencia": "moderado",
+      "url": "/categorias/ganadores-de-peso"
+    },
+    {
+      "slug": "barras-snacks",
+      "titulo": "Barras y snacks proteicos",
+      "texto": "Barras proteicas o energéticas, galletitas, pancakes y snacks altos en proteína.",
+      "nivel_evidencia": "moderado",
+      "url": "/categorias/barras-snacks"
+    },
+    {
+      "slug": "hidratacion-electrolitos",
+      "titulo": "Hidratación y electrolitos",
+      "texto": "Bebidas deportivas, sales y electrolitos en polvo o tabletas.",
+      "nivel_evidencia": "alto",
+      "url": "/categorias/hidratacion-electrolitos"
+    },
+    {
+      "slug": "geles-carbohidratos",
+      "titulo": "Geles y carbohidratos",
+      "texto": "Geles, gomitas y carbohidratos en polvo (maltodextrina, mezclas) para esfuerzos de resistencia.",
+      "nivel_evidencia": "alto",
+      "url": "/categorias/geles-carbohidratos"
+    }
+  ],
+  "bloque_etapas": {
+    "titulo": "Suplementación según tu etapa de vida",
+    "texto": "Las necesidades cambian con la edad, el sexo y el nivel de entrenamiento. Elegí tu etapa para ver qué categorías tienen más respaldo y qué conviene charlar con un profesional.",
+    "items": [
+      {
+        "slug": "30-39",
+        "titulo": "30 a 39 años",
+        "texto": "Etapa de consolidación: armar hábitos sostenibles, ganar o sostener masa muscular y rendimiento, y compatibilizar el entrenamiento con el trabajo y la familia.",
+        "url": "/etapas/30-39"
+      },
+      {
+        "slug": "40-49",
+        "titulo": "40 a 49 años",
+        "texto": "Etapa de mantenimiento: conservar masa muscular y fuerza, cuidar la recuperación y prestar atención a los micronutrientes.",
+        "url": "/etapas/40-49"
+      },
+      {
+        "slug": "50-60",
+        "titulo": "50 a 60 años",
+        "texto": "Etapa en la que conservar la fuerza y la masa muscular pasa a ser prioridad para sostener la autonomía.",
+        "url": "/etapas/50-60"
+      },
+      {
+        "slug": "mujer",
+        "titulo": "Mujer",
+        "texto": "Temas propios de la mujer que entrena: ciclo menstrual, hierro, calcio, vitamina D y disponibilidad energética.",
+        "url": "/etapas/mujer"
+      },
+      {
+        "slug": "menopausia",
+        "titulo": "Perimenopausia y menopausia",
+        "texto": "Cambios hormonales que influyen en la composición corporal y en la masa ósea y muscular. Lo abordamos desde el entrenamiento de fuerza, la proteína y los micronutrientes, siempre con acompañamiento médico.",
+        "url": "/etapas/menopausia"
+      },
+      {
+        "slug": "hombre",
+        "titulo": "Hombre",
+        "texto": "Rendimiento, composición corporal y hábitos de largo plazo, con cautela frente a los llamados 'boosters' de testosterona.",
+        "url": "/etapas/hombre"
+      },
+      {
+        "slug": "sarcopenia",
+        "titulo": "Masa muscular y sarcopenia",
+        "texto": "La sarcopenia es una enfermedad muscular progresiva (consenso EWGSOP2) y su diagnóstico es médico. Acá explicamos el concepto y los hábitos asociados a conservar la masa muscular; no ofrecemos diagnóstico ni tratamiento.",
+        "url": "/etapas/sarcopenia"
+      }
+    ]
+  },
+  "bloque_marcas": {
+    "titulo": "Marcas de suplementos en Argentina",
+    "texto": "Fichas con origen, historia, líneas de producto, registros y dónde comprar en canales oficiales. El orden responde a un criterio editorial explícito (trayectoria, escala, presencia oficial e información verificable), no a un ranking de calidad.",
+    "items": [
+      {
+        "slug": "ena-sport",
+        "nombre": "ENA Sport",
+        "resumen": "ENA Sport es una marca argentina de nutrición deportiva nacida en Bahía Blanca en 1988. Según Forbes Argentina (2020), único dato público de participación disponible, era la marca líder del mercado; su catálogo va del deporte al bienestar diario.",
+        "url": "/marcas/ena-sport"
+      },
+      {
+        "slug": "gentech",
+        "nombre": "Gentech",
+        "resumen": "Gentech es una marca argentina que empezó importando suplementos en 1998 y fabrica en el país desde 2003. Se presenta como proveedora oficial de la AFA y es conocida por sus barras Iron Bar.",
+        "url": "/marcas/gentech"
+      },
+      {
+        "slug": "ultra-tech",
+        "nombre": "Ultra Tech",
+        "resumen": "Ultra Tech es la marca principal de Web Supplements, empresa cordobesa fundada en 1991. Declara más de 250 productos, entre ellos una línea amplia de geles energéticos y barras.",
+        "url": "/marcas/ultra-tech"
+      },
+      {
+        "slug": "star-nutrition",
+        "nombre": "Star Nutrition",
+        "resumen": "Star Nutrition es una marca argentina de Nutriciencia S.A. que apuesta a la relación calidad-precio frente a las marcas internacionales, con un catálogo organizado por momento del entrenamiento.",
+        "url": "/marcas/star-nutrition"
+      },
+      {
+        "slug": "optimum-nutrition",
+        "nombre": "Optimum Nutrition",
+        "resumen": "Optimum Nutrition es una marca estadounidense fundada en 1986 y hoy propiedad de Glanbia. En Argentina se consigue importada; su línea más reconocida es Gold Standard.",
+        "url": "/marcas/optimum-nutrition"
+      },
+      {
+        "slug": "mervick-lab",
+        "nombre": "Mervick Lab",
+        "resumen": "Mervick Lab es una marca argentina de la provincia de Buenos Aires orientada a los deportes de resistencia, con geles, carbohidratos e hidratación junto a proteínas y creatina.",
+        "url": "/marcas/mervick-lab"
+      },
+      {
+        "slug": "gold-nutrition",
+        "nombre": "Gold Nutrition",
+        "resumen": "Gold Nutrition es una marca que se posiciona en el segmento premium nacional a partir de materias primas con marca registrada, como Creapure®, Peptan® o Arla Foods.",
+        "url": "/marcas/gold-nutrition"
+      },
+      {
+        "slug": "htn",
+        "nombre": "HTN (High Tech Nutrition)",
+        "resumen": "HTN (High Tech Nutrition) es una marca argentina de nutrición deportiva que declara desarrollar suplementos desde 1999 y organiza su oferta en las líneas Xplode Series y Pro Series.",
+        "url": "/marcas/htn"
+      },
+      {
+        "slug": "body-advance",
+        "nombre": "Body Advance",
+        "resumen": "Body Advance es una marca argentina que elabora suplementos dietarios en su planta de la provincia de Buenos Aires, con proteínas, creatina, magnesio, colágenos y multivitamínicos.",
+        "url": "/marcas/body-advance"
+      },
+      {
+        "slug": "xtrenght",
+        "nombre": "Xtrenght Nutrition",
+        "resumen": "Xtrenght Nutrition es una marca argentina de suplementos deportivos con base en Quilmes que organiza sus productos por disciplina deportiva y por objetivo.",
+        "url": "/marcas/xtrenght"
+      },
+      {
+        "slug": "one-fit-nutrition",
+        "nombre": "One Fit Nutrition",
+        "resumen": "One Fit Nutrition es una marca de X-Nutrition, fabricante santafesino fundado en 2019 que también produce para otras marcas.",
+        "url": "/marcas/one-fit-nutrition"
+      },
+      {
+        "slug": "pulver",
+        "nombre": "Pulver",
+        "resumen": "Pulver es una empresa alimenticia porteña fundada en 1990 que sumó suplementos y alimentos proteicos a partir de su experiencia en productos en polvo.",
+        "url": "/marcas/pulver"
+      },
+      {
+        "slug": "nutremax",
+        "nombre": "Nutremax",
+        "resumen": "Nutremax es una marca rosarina especializada en hidratación y deportes de resistencia, conocida por su bebida Hydromax.",
+        "url": "/marcas/nutremax"
+      },
+      {
+        "slug": "granger",
+        "nombre": "Granger Nutrición",
+        "resumen": "Granger Nutrición es una empresa de Rafaela fundada en 2020 que empezó con proteína de huevo hidrolizada y hoy elabora alimentos proteicos y premezclas.",
+        "url": "/marcas/granger"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es un suplemento dietario en Argentina?",
+      "a": "Según el artículo 1381 del Código Alimentario Argentino (texto actualizado por la Resolución Conjunta 33/2025), es un producto de administración oral destinado a incrementar la ingesta dietaria habitual de personas sanas con necesidades no satisfechas o mayores a las habituales. Legalmente es un alimento, no un medicamento.",
+      "fuentes": [
+        "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/327521/20250626",
+        "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
+      ]
+    },
+    {
+      "q": "¿Cómo sé si un suplemento está registrado?",
+      "a": "El rótulo tiene que decir que es un suplemento dietario e incluir el RNPA del producto y el RNE del elaborador o importador. Los dos se pueden consultar en los buscadores públicos de SIFeGA. Desde el Decreto 697/2026 el registro está a cargo del SENASA, y los registros anteriores siguen vigentes.",
+      "fuentes": [
+        "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos"
+      ]
+    },
+    {
+      "q": "¿Qué suplementos tienen más evidencia?",
+      "a": "El AIS ubica en su Grupo A, entre otros, a la creatina, la cafeína, la beta-alanina, los nitratos, el bicarbonato y alimentos deportivos como la proteína aislada, los geles y las bebidas deportivas. Siempre para usos y protocolos específicos, no como recomendación general.",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+      ]
+    },
+    {
+      "q": "¿La creatina es solo para jóvenes o fisicoculturistas?",
+      "a": "No. La postura de la ISSN revisa su uso en distintas poblaciones, incluidas personas mayores, y concluye que su uso es seguro en personas sanas dentro de los protocolos estudiados. Si tenés alguna condición de salud, consultalo antes con un profesional.",
+      "fuentes": [
+        "https://doi.org/10.1186/s12970-017-0173-z",
+        "https://doi.org/10.1186/s12970-021-00412-w"
+      ]
+    },
+    {
+      "q": "¿Los 'quemadores' sirven para bajar de peso?",
+      "a": "No hay evidencia sólida que los respalde como solución, y varios estimulantes que suelen incluir figuran en el Grupo D del AIS por el riesgo de contener sustancias prohibidas o contaminantes. En el portal los tratamos con advertencias.",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+      ]
+    }
+  ],
+  "fuentes_portada": [
+    {
+      "nombre": "Código Alimentario Argentino, art. 1381 (Res. Conjunta 33/2025)",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/327521/20250626"
+    },
+    {
+      "nombre": "Decreto 697/2026: el SENASA asume el registro y control de alimentos",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803"
+    },
+    {
+      "nombre": "ANMAT: qué son los suplementos dietarios",
+      "url": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
+    },
+    {
+      "nombre": "SIFeGA: buscador de productos autorizados (RNPA)",
+      "url": "https://inal.sifega.anmat.gob.ar/consultadealimentos/"
+    },
+    {
+      "nombre": "SIFeGA: consulta de establecimientos (RNE)",
+      "url": "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
+    },
+    {
+      "nombre": "AIS: marco de suplementos, Grupo A",
+      "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+    },
+    {
+      "nombre": "AIS: marco de suplementos, Grupo D",
+      "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+    },
+    {
+      "nombre": "ISSN: postura sobre creatina (Kreider et al., 2017)",
+      "url": "https://doi.org/10.1186/s12970-017-0173-z"
+    },
+    {
+      "nombre": "ISSN: preguntas comunes sobre creatina (Antonio et al., 2021)",
+      "url": "https://doi.org/10.1186/s12970-021-00412-w"
+    }
+  ],
+  "disclaimer": "Contenido informativo. No reemplaza la consulta con médicos, nutricionistas u otros profesionales de la salud. Los suplementos dietarios no están destinados a diagnosticar, tratar, curar ni prevenir enfermedades.",
+  "schema_sugerido": {
+    "WebSite": {
+      "name": "[NOMBRE PORTAL]",
+      "url": "https://[dominio]/"
+    },
+    "Organization": {
+      "name": "[NOMBRE PORTAL]",
+      "url": "https://[dominio]/"
+    },
+    "FAQPage": "usar home.faq"
+  },
+  "criterios_seo_aeo_geo": {
+    "seo": [
+      "Keyword principal: 'suplementos deportivos Argentina'; secundarias: 'creatina', 'proteína whey', 'suplementos por edad' y nombres de marca",
+      "Un solo H1; un H2 por bloque; URLs con slugs en español, sin tildes",
+      "Meta title de 60 caracteres o menos sin contar el sufijo de marca; description de 155 o menos",
+      "Enlazado interno: home → categorías → subcategorías → fichas de marca y etapas",
+      "Schema.org: WebSite/Organization en la home, FAQPage en las FAQ, Brand en las fichas, BreadcrumbList en todo el sitio"
+    ],
+    "aeo": [
+      "Respuestas directas de 2–3 oraciones al inicio de cada FAQ",
+      "Preguntas formuladas como las busca la gente",
+      "Cada respuesta con su fuente enlazada"
+    ],
+    "geo": [
+      "Afirmaciones atribuidas a entidades citables (SENASA, CAA, AIS, ISSN)",
+      "Fecha de actualización visible",
+      "Datos estructurados en JSON reutilizable",
+      "Lo no verificado no se publica como dato firme: se registra aparte, de uso interno, para no propagar errores"
+    ]
+  }
+}

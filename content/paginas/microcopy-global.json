@@ -1,0 +1,58 @@
+{
+  "slug": "microcopy-global",
+  "hallazgo": "QA-A04 (relacionado) / decisión: links de afiliado de Mercado Libre",
+  "barra_superior": {
+    "antes": "Enlaces de afiliado de Mercado Libre: podemos recibir una comisión · Cómo nos financiamos",
+    "despues": "Algunos links a Mercado Libre son de afiliado: podemos recibir una comisión · Cómo funciona"
+  },
+  "pie_bloque_afiliados": {
+    "antes": "Afiliados. Algunos enlaces a Mercado Libre son de afiliado: si comprás, Portal FIT puede recibir una comisión, sin costo extra para vos. No cambia el orden ni la evaluación.",
+    "despues": "Afiliados. Algunos links a Mercado Libre pueden ser de afiliado: si comprás desde ellos, podemos recibir una comisión. No cambia tu precio. Ninguna marca paga por aparecer ni por su posición."
+  },
+  "pie_enlace": {
+    "antes": "Política de afiliados",
+    "despues": "Links de afiliado"
+  },
+  "pie_copyright": {
+    "antes": "© 2026 Portal FIT · [dominio] · Términos · Privacidad · Mapa del sitio",
+    "despues": "© 2026 Portal FIT · Términos · Privacidad · Mapa del sitio"
+  },
+  "tarjeta_producto": {
+    "cta": "Ver precio en Mercado Libre",
+    "aviso_afiliado": "Link de afiliado: podemos recibir una comisión.",
+    "nota_precio": "Sin precio: lo ves en la publicación.",
+    "badge_tienda_oficial": "Tienda oficial (mostrar solo si tienda_oficial es true)"
+  },
+  "boton_ml_aria_label": "Ver precio en Mercado Libre: {titulo} (se abre en otra pestaña)",
+  "tooltip_aviso_afiliado": "Si comprás desde este link, Mercado Libre puede pagarnos una comisión. Tu precio no cambia.",
+  "bloque_productos_listado": {
+    "antes": "Enlaces de afiliado: si comprás, podemos recibir una comisión sin costo extra para vos. El orden “Relevancia editorial” no depende de comisiones. Fotos ilustrativas.",
+    "despues": "Algunos links pueden ser de afiliado: si comprás desde ellos, podemos recibir una comisión. No cambia tu precio ni el orden, que es editorial. Precios en Mercado Libre."
+  },
+  "ficha_marca_productos": {
+    "antes": "Enlaces de afiliado: podemos recibir una comisión.",
+    "despues": "Algunos links pueden ser de afiliado: podemos recibir una comisión. No cambia tu precio."
+  },
+  "articulo_blog_productos": {
+    "antes": "Mencionarlos no es una recomendación individual. Enlaces de afiliado: podemos recibir una comisión.",
+    "despues": "Mencionarlos no es una recomendación individual. Algunos links pueden ser de afiliado: podemos recibir una comisión. No cambia tu precio."
+  },
+  "categoria_sin_productos": "Todavía no sumamos productos de esta categoría.",
+  "aviso_legal_pie": {
+    "antes": "Aviso. Contenido informativo. No reemplaza la consulta con médicos, nutricionistas u otros profesionales de la salud. Los suplementos dietarios no están destinados a diagnosticar, tratar, curar ni prevenir enfermedades. En Argentina los suplementos dietarios son alimentos regulados por el Código Alimentario Argentino y la ANMAT.",
+    "despues": "Aviso. Contenido informativo. No reemplaza la consulta con médicos, nutricionistas u otros profesionales de la salud. Los suplementos dietarios no están destinados a diagnosticar, tratar, curar ni prevenir enfermedades. En Argentina son alimentos regulados por el Código Alimentario Argentino; su registro y control están a cargo del SENASA."
+  },
+  "card_guia_proteinas_M14": {
+    "ubicacion": "/categorias/proteinas · components/categoria/category-browser.tsx GuideCard()",
+    "kicker": "Guía rápida",
+    "pregunta": "¿Concentrada o aislada?",
+    "antes": "La aislada tiene menos grasa y lactosa por porción; la concentrada suele costar menos. Para la mayoría, la diferencia práctica está en la tolerancia y el precio. [badge: Texto de ejemplo]",
+    "despues": "La concentrada que se usa en suplementos deportivos suele tener entre 70 y 80 % de proteína; la aislada pasa del 90 %, con menos lactosa y grasa. Para comparar, mirá en el rótulo los gramos de proteína por porción.",
+    "enlace": {
+      "texto": "Fuente: ISSN (Jäger et al., 2017)",
+      "url": "https://doi.org/10.1186/s12970-017-0177-8"
+    },
+    "nota": "Quitar el badge 'Texto de ejemplo'. El enlace actual va a /blog/proteina-despues-de-los-40 (pieza de ejemplo que se reemplaza): cambiarlo por la fuente, porque las subcategorías dan 404 (QA-B02)."
+  },
+  "actualizado": "2026-11-16"
+}

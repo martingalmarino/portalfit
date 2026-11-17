@@ -1,0 +1,820 @@
+{
+  "actualizado": "2026-11-16",
+  "niveles_de_evidencia": {
+    "alto": "Evidencia sólida y consistente para usos concretos (p. ej. AIS Grupo A / posición favorable ISSN).",
+    "moderado": "Evidencia emergente o mixta; útil en situaciones o poblaciones específicas (p. ej. AIS Grupo B).",
+    "bajo": "Evidencia insuficiente o no favorable en personas que entrenan (p. ej. AIS Grupo C).",
+    "precaucion": "Alto riesgo de ingredientes prohibidos/contaminación o claims no sustentados (p. ej. AIS Grupo D); se presenta con advertencias.",
+    "variable": "Depende del ingrediente concreto; se evalúa por subcategoría."
+  },
+  "nota_evidencia": "Nivel general orientativo por categoría basado en AIS Sports Supplement Framework (grupos A–D) y position stands ISSN; no es una recomendación individual.",
+  "categorias": [
+    {
+      "slug": "proteinas",
+      "nombre": "Proteínas",
+      "url": "/categorias/proteinas",
+      "descripcion": "Polvos proteicos para completar la ingesta diaria de proteína cuando la comida no alcanza: suero, caseína, huevo y vegetales.",
+      "subcategorias": [
+        {
+          "slug": "whey-concentrada",
+          "nombre": "Whey concentrada",
+          "url": "/categorias/proteinas/whey-concentrada"
+        },
+        {
+          "slug": "whey-aislada",
+          "nombre": "Whey aislada e hidrolizada",
+          "url": "/categorias/proteinas/whey-aislada"
+        },
+        {
+          "slug": "caseina",
+          "nombre": "Caseína",
+          "url": "/categorias/proteinas/caseina"
+        },
+        {
+          "slug": "proteina-de-huevo",
+          "nombre": "Proteína de huevo / ovoalbúmina",
+          "url": "/categorias/proteinas/proteina-de-huevo"
+        },
+        {
+          "slug": "proteinas-vegetales",
+          "nombre": "Proteínas vegetales (arveja, soja, blends)",
+          "url": "/categorias/proteinas/proteinas-vegetales"
+        },
+        {
+          "slug": "proteina-con-colageno",
+          "nombre": "Blends con colágeno o creatina",
+          "url": "/categorias/proteinas/proteina-con-colageno"
+        }
+      ],
+      "nivel_evidencia": "alto",
+      "nota_evidencia": "La ISSN considera que una ingesta de 1,4–2,0 g/kg/día es adecuada para la mayoría de las personas que entrenan, y que los suplementos son una forma práctica de alcanzarla. AIS: 'Isolated Protein Supplement' en Grupo A (alimento deportivo).",
+      "fuentes": [
+        "https://doi.org/10.1186/s12970-017-0177-8",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+      ],
+      "marcas": [
+        "ena-sport",
+        "gentech",
+        "ultra-tech",
+        "star-nutrition",
+        "optimum-nutrition",
+        "mervick-lab",
+        "gold-nutrition",
+        "htn",
+        "body-advance",
+        "xtrenght",
+        "one-fit-nutrition",
+        "pulver",
+        "nutremax",
+        "granger"
+      ]
+    },
+    {
+      "slug": "creatina",
+      "nombre": "Creatina",
+      "url": "/categorias/creatina",
+      "descripcion": "Creatina monohidrato y formatos combinados. Uno de los suplementos más estudiados para fuerza y potencia.",
+      "subcategorias": [
+        {
+          "slug": "creatina-monohidrato",
+          "nombre": "Creatina monohidrato",
+          "url": "/categorias/creatina/creatina-monohidrato"
+        },
+        {
+          "slug": "creatina-creapure",
+          "nombre": "Creatina con materia prima certificada (p. ej. Creapure®)",
+          "url": "/categorias/creatina/creatina-creapure"
+        },
+        {
+          "slug": "creatina-combinada",
+          "nombre": "Creatina combinada (magnesio, electrolitos, colágeno)",
+          "url": "/categorias/creatina/creatina-combinada"
+        },
+        {
+          "slug": "creatina-masticable",
+          "nombre": "Creatina en gomitas o masticable",
+          "url": "/categorias/creatina/creatina-masticable"
+        }
+      ],
+      "nivel_evidencia": "alto",
+      "nota_evidencia": "Posición ISSN: el suplemento nutricional ergogénico más eficaz disponible para mejorar la capacidad de ejercicio de alta intensidad y la masa magra, con buen perfil de seguridad en personas sanas. AIS Grupo A.",
+      "fuentes": [
+        "https://doi.org/10.1186/s12970-017-0173-z",
+        "https://doi.org/10.1186/s12970-021-00412-w",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+      ],
+      "marcas": [
+        "ena-sport",
+        "gentech",
+        "ultra-tech",
+        "star-nutrition",
+        "optimum-nutrition",
+        "mervick-lab",
+        "gold-nutrition",
+        "htn",
+        "body-advance",
+        "xtrenght",
+        "one-fit-nutrition",
+        "pulver",
+        "nutremax"
+      ]
+    },
+    {
+      "slug": "pre-entrenos",
+      "nombre": "Pre-entrenos y cafeína",
+      "url": "/categorias/pre-entrenos",
+      "descripcion": "Fórmulas para antes de entrenar: cafeína, beta-alanina, citrulina y combinaciones. Se evalúa ingrediente por ingrediente.",
+      "subcategorias": [
+        {
+          "slug": "cafeina",
+          "nombre": "Cafeína",
+          "url": "/categorias/pre-entrenos/cafeina"
+        },
+        {
+          "slug": "beta-alanina",
+          "nombre": "Beta-alanina",
+          "url": "/categorias/pre-entrenos/beta-alanina"
+        },
+        {
+          "slug": "citrulina-oxido-nitrico",
+          "nombre": "Citrulina y precursores de óxido nítrico",
+          "url": "/categorias/pre-entrenos/citrulina-oxido-nitrico"
+        },
+        {
+          "slug": "nitratos-remolacha",
+          "nombre": "Nitratos / jugo de remolacha",
+          "url": "/categorias/pre-entrenos/nitratos-remolacha"
+        },
+        {
+          "slug": "pre-entreno-multi",
+          "nombre": "Fórmulas multi-ingrediente",
+          "url": "/categorias/pre-entrenos/pre-entreno-multi"
+        }
+      ],
+      "nivel_evidencia": "variable",
+      "nota_evidencia": "Cafeína, beta-alanina y nitratos están en AIS Grupo A y tienen position stands ISSN favorables para usos específicos. Las fórmulas multi-ingrediente requieren revisar cada componente y dosis; algunos estimulantes figuran en AIS Grupo D.",
+      "fuentes": [
+        "https://doi.org/10.1186/s12970-020-00383-4",
+        "https://doi.org/10.1186/s12970-015-0090-y",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+      ],
+      "marcas": [
+        "ena-sport",
+        "gentech",
+        "ultra-tech",
+        "star-nutrition",
+        "optimum-nutrition",
+        "gold-nutrition",
+        "htn",
+        "xtrenght",
+        "one-fit-nutrition",
+        "pulver"
+      ]
+    },
+    {
+      "slug": "aminoacidos",
+      "nombre": "Aminoácidos (BCAA, EAA, glutamina)",
+      "url": "/categorias/aminoacidos",
+      "descripcion": "Aminoácidos esenciales, de cadena ramificada y glutamina en polvo o cápsulas.",
+      "subcategorias": [
+        {
+          "slug": "eaa",
+          "nombre": "Aminoácidos esenciales (EAA)",
+          "url": "/categorias/aminoacidos/eaa"
+        },
+        {
+          "slug": "bcaa",
+          "nombre": "BCAA",
+          "url": "/categorias/aminoacidos/bcaa"
+        },
+        {
+          "slug": "glutamina",
+          "nombre": "Glutamina",
+          "url": "/categorias/aminoacidos/glutamina"
+        },
+        {
+          "slug": "hmb",
+          "nombre": "HMB",
+          "url": "/categorias/aminoacidos/hmb"
+        }
+      ],
+      "nivel_evidencia": "bajo",
+      "nota_evidencia": "AIS clasifica BCAA y HMB en Grupo C (evidencia no favorable en atletas). Si la ingesta proteica total es suficiente, su aporte adicional es limitado.",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+        "https://doi.org/10.1186/s12970-017-0177-8"
+      ],
+      "marcas": [
+        "ena-sport",
+        "gentech",
+        "ultra-tech",
+        "star-nutrition",
+        "optimum-nutrition",
+        "mervick-lab",
+        "gold-nutrition",
+        "htn",
+        "xtrenght",
+        "one-fit-nutrition",
+        "pulver",
+        "nutremax"
+      ]
+    },
+    {
+      "slug": "colageno",
+      "nombre": "Colágeno",
+      "url": "/categorias/colageno",
+      "descripcion": "Colágeno hidrolizado y péptidos de colágeno, solos o con vitamina C.",
+      "subcategorias": [
+        {
+          "slug": "colageno-hidrolizado",
+          "nombre": "Colágeno hidrolizado",
+          "url": "/categorias/colageno/colageno-hidrolizado"
+        },
+        {
+          "slug": "peptidos-colageno",
+          "nombre": "Péptidos bioactivos",
+          "url": "/categorias/colageno/peptidos-colageno"
+        },
+        {
+          "slug": "colageno-con-vitamina-c",
+          "nombre": "Con vitamina C u otros nutrientes",
+          "url": "/categorias/colageno/colageno-con-vitamina-c"
+        }
+      ],
+      "nivel_evidencia": "moderado",
+      "nota_evidencia": "AIS Grupo B (evidencia emergente para tejido conectivo). No reemplaza a la proteína completa para el músculo.",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
+      ],
+      "marcas": [
+        "ena-sport",
+        "gentech",
+        "ultra-tech",
+        "star-nutrition",
+        "gold-nutrition",
+        "htn",
+        "body-advance",
+        "one-fit-nutrition",
+        "pulver",
+        "nutremax",
+        "granger"
+      ]
+    },
+    {
+      "slug": "vitaminas-minerales",
+      "nombre": "Vitaminas y minerales",
+      "url": "/categorias/vitaminas-minerales",
+      "descripcion": "Multivitamínicos y micronutrientes puntuales (vitamina D, hierro, calcio, zinc, vitamina C, K2).",
+      "subcategorias": [
+        {
+          "slug": "multivitaminicos",
+          "nombre": "Multivitamínicos",
+          "url": "/categorias/vitaminas-minerales/multivitaminicos"
+        },
+        {
+          "slug": "vitamina-d",
+          "nombre": "Vitamina D (y D3+K2)",
+          "url": "/categorias/vitaminas-minerales/vitamina-d"
+        },
+        {
+          "slug": "hierro",
+          "nombre": "Hierro",
+          "url": "/categorias/vitaminas-minerales/hierro"
+        },
+        {
+          "slug": "calcio",
+          "nombre": "Calcio",
+          "url": "/categorias/vitaminas-minerales/calcio"
+        },
+        {
+          "slug": "zinc-zma",
+          "nombre": "Zinc / ZMA",
+          "url": "/categorias/vitaminas-minerales/zinc-zma"
+        },
+        {
+          "slug": "vitamina-c",
+          "nombre": "Vitamina C",
+          "url": "/categorias/vitaminas-minerales/vitamina-c"
+        }
+      ],
+      "nivel_evidencia": "variable",
+      "nota_evidencia": "AIS ubica calcio, hierro, vitamina D, zinc y folato en Grupo A como 'suplementos médicos', para usar ante déficits de nutrientes identificados por un profesional; multivitamínico y vitamina C en Grupo B. Se recomienda evaluación profesional antes de suplementar.",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
+      ],
+      "marcas": [
+        "ena-sport",
+        "gentech",
+        "ultra-tech",
+        "star-nutrition",
+        "gold-nutrition",
+        "htn",
+        "body-advance",
+        "pulver"
+      ]
+    },
+    {
+      "slug": "omega-3",
+      "nombre": "Omega 3",
+      "url": "/categorias/omega-3",
+      "descripcion": "Aceites de pescado y concentrados EPA/DHA.",
+      "subcategorias": [
+        {
+          "slug": "aceite-de-pescado",
+          "nombre": "Aceite de pescado",
+          "url": "/categorias/omega-3/aceite-de-pescado"
+        },
+        {
+          "slug": "omega-3-concentrado",
+          "nombre": "Concentrados EPA/DHA",
+          "url": "/categorias/omega-3/omega-3-concentrado"
+        },
+        {
+          "slug": "omega-3-vegetal",
+          "nombre": "Fuentes vegetales / algas",
+          "url": "/categorias/omega-3/omega-3-vegetal"
+        }
+      ],
+      "nivel_evidencia": "moderado",
+      "nota_evidencia": "AIS incluye aceites de pescado en Grupo B. Para rendimiento la evidencia es mixta.",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
+      ],
+      "marcas": [
+        "ena-sport",
+        "gentech",
+        "star-nutrition",
+        "gold-nutrition"
+      ]
+    },
+    {
+      "slug": "magnesio",
+      "nombre": "Magnesio",
+      "url": "/categorias/magnesio",
+      "descripcion": "Citrato, bisglicinato y otras sales de magnesio, en polvo o cápsulas.",
+      "subcategorias": [
+        {
+          "slug": "citrato-de-magnesio",
+          "nombre": "Citrato de magnesio",
+          "url": "/categorias/magnesio/citrato-de-magnesio"
+        },
+        {
+          "slug": "bisglicinato-de-magnesio",
+          "nombre": "Bisglicinato de magnesio",
+          "url": "/categorias/magnesio/bisglicinato-de-magnesio"
+        },
+        {
+          "slug": "magnesio-combinado",
+          "nombre": "Combinados (con creatina, ZMA)",
+          "url": "/categorias/magnesio/magnesio-combinado"
+        }
+      ],
+      "nivel_evidencia": "bajo",
+      "nota_evidencia": "AIS clasifica magnesio (como óxido) en Grupo C para atletas: útil solo para corregir déficit. Sin evidencia de mejora del rendimiento en personas con ingesta adecuada.",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_c"
+      ],
+      "marcas": [
+        "ena-sport",
+        "gentech",
+        "ultra-tech",
+        "star-nutrition",
+        "mervick-lab",
+        "htn",
+        "body-advance",
+        "pulver"
+      ]
+    },
+    {
+      "slug": "longevidad-bienestar",
+      "nombre": "Longevidad y bienestar",
+      "url": "/categorias/longevidad-bienestar",
+      "descripcion": "Productos que se comercializan con foco en el envejecimiento saludable (resveratrol, cúrcuma, hongos, adaptógenos, probióticos). Los analizamos con mirada crítica y sin promesas.",
+      "subcategorias": [
+        {
+          "slug": "polifenoles",
+          "nombre": "Polifenoles (resveratrol, frutos rojos)",
+          "url": "/categorias/longevidad-bienestar/polifenoles"
+        },
+        {
+          "slug": "curcuma",
+          "nombre": "Cúrcuma",
+          "url": "/categorias/longevidad-bienestar/curcuma"
+        },
+        {
+          "slug": "hongos-adaptogenos",
+          "nombre": "Hongos y adaptógenos",
+          "url": "/categorias/longevidad-bienestar/hongos-adaptogenos"
+        },
+        {
+          "slug": "probioticos-prebioticos",
+          "nombre": "Probióticos y prebióticos",
+          "url": "/categorias/longevidad-bienestar/probioticos-prebioticos"
+        },
+        {
+          "slug": "nad-y-otros",
+          "nombre": "NAD+ y otros compuestos emergentes",
+          "url": "/categorias/longevidad-bienestar/nad-y-otros"
+        }
+      ],
+      "nivel_evidencia": "bajo",
+      "nota_evidencia": "No hay posición ISSN/AIS que respalde efectos sobre la longevidad en humanos. AIS ubica polifenoles, cúrcuma y probióticos en Grupo B solo para usos deportivos específicos. En el portal, la 'longevidad' se aborda desde hábitos (entrenamiento de fuerza, proteína suficiente, sueño) y suplementos con evidencia sólida.",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+        "https://doi.org/10.1136/bjsports-2018-099027"
+      ],
+      "marcas": [
+        "ena-sport",
+        "star-nutrition"
+      ]
+    },
+    {
+      "slug": "quemadores-termogenicos",
+      "nombre": "Quemadores y termogénicos",
+      "url": "/categorias/quemadores-termogenicos",
+      "descripcion": "Productos que se comercializan para el 'control de peso' (L-carnitina, CLA, estimulantes, té verde). Los presentamos con advertencias.",
+      "subcategorias": [
+        {
+          "slug": "l-carnitina",
+          "nombre": "L-carnitina",
+          "url": "/categorias/quemadores-termogenicos/l-carnitina"
+        },
+        {
+          "slug": "termogenicos-con-cafeina",
+          "nombre": "Termogénicos con cafeína",
+          "url": "/categorias/quemadores-termogenicos/termogenicos-con-cafeina"
+        },
+        {
+          "slug": "cla",
+          "nombre": "CLA",
+          "url": "/categorias/quemadores-termogenicos/cla"
+        },
+        {
+          "slug": "saciadores",
+          "nombre": "Saciadores / fibra",
+          "url": "/categorias/quemadores-termogenicos/saciadores"
+        }
+      ],
+      "nivel_evidencia": "precaucion",
+      "nota_evidencia": "AIS lista estimulantes como sinefrina/naranja amarga y otros en Grupo D por riesgo de ingredientes prohibidos o contaminación; L-carnitina figura en Grupo B (otros). El Código Alimentario Argentino prohíbe atribuir a los suplementos indicaciones terapéuticas en el rótulo y la publicidad.",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+        "https://www.boletinoficial.gob.ar/detalleAviso/primera/327521/20250626"
+      ],
+      "marcas": [
+        "ena-sport",
+        "gentech",
+        "ultra-tech",
+        "star-nutrition",
+        "mervick-lab",
+        "gold-nutrition",
+        "htn",
+        "body-advance",
+        "xtrenght",
+        "pulver"
+      ]
+    },
+    {
+      "slug": "ganadores-de-peso",
+      "nombre": "Ganadores de peso",
+      "url": "/categorias/ganadores-de-peso",
+      "descripcion": "Mezclas de carbohidratos y proteínas de alta densidad calórica para quienes no llegan a cubrir su requerimiento energético.",
+      "subcategorias": [
+        {
+          "slug": "gainers",
+          "nombre": "Gainers",
+          "url": "/categorias/ganadores-de-peso/gainers"
+        },
+        {
+          "slug": "carbohidrato-proteina",
+          "nombre": "Mezclas carbohidrato + proteína",
+          "url": "/categorias/ganadores-de-peso/carbohidrato-proteina"
+        }
+      ],
+      "nivel_evidencia": "moderado",
+      "nota_evidencia": "AIS incluye 'Mixed Macronutrient Supplement' en Grupo A como alimento deportivo práctico; su utilidad depende del balance energético total, no de un efecto propio.",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+      ],
+      "marcas": [
+        "ena-sport",
+        "gentech",
+        "ultra-tech",
+        "star-nutrition",
+        "optimum-nutrition",
+        "mervick-lab",
+        "gold-nutrition",
+        "htn",
+        "body-advance",
+        "pulver"
+      ]
+    },
+    {
+      "slug": "barras-snacks",
+      "nombre": "Barras y snacks proteicos",
+      "url": "/categorias/barras-snacks",
+      "descripcion": "Barras proteicas o energéticas, galletitas, pancakes y snacks altos en proteína.",
+      "subcategorias": [
+        {
+          "slug": "barras-proteicas",
+          "nombre": "Barras proteicas",
+          "url": "/categorias/barras-snacks/barras-proteicas"
+        },
+        {
+          "slug": "barras-energeticas",
+          "nombre": "Barras energéticas",
+          "url": "/categorias/barras-snacks/barras-energeticas"
+        },
+        {
+          "slug": "alimentos-proteicos",
+          "nombre": "Alimentos proteicos (pancakes, cookies, snacks)",
+          "url": "/categorias/barras-snacks/alimentos-proteicos"
+        }
+      ],
+      "nivel_evidencia": "moderado",
+      "nota_evidencia": "AIS ubica 'Sports Bar' en Grupo A como alimento deportivo práctico. Valor nutricional según formulación.",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+      ],
+      "marcas": [
+        "ena-sport",
+        "gentech",
+        "ultra-tech",
+        "mervick-lab",
+        "one-fit-nutrition",
+        "pulver",
+        "granger"
+      ]
+    },
+    {
+      "slug": "hidratacion-electrolitos",
+      "nombre": "Hidratación y electrolitos",
+      "url": "/categorias/hidratacion-electrolitos",
+      "descripcion": "Bebidas deportivas, sales y electrolitos en polvo o tabletas.",
+      "subcategorias": [
+        {
+          "slug": "bebidas-isotonicas",
+          "nombre": "Bebidas isotónicas",
+          "url": "/categorias/hidratacion-electrolitos/bebidas-isotonicas"
+        },
+        {
+          "slug": "electrolitos",
+          "nombre": "Electrolitos / sales",
+          "url": "/categorias/hidratacion-electrolitos/electrolitos"
+        },
+        {
+          "slug": "sodio-alta-concentracion",
+          "nombre": "Altas concentraciones de sodio (endurance)",
+          "url": "/categorias/hidratacion-electrolitos/sodio-alta-concentracion"
+        }
+      ],
+      "nivel_evidencia": "alto",
+      "nota_evidencia": "AIS ubica 'Sports Drink' y 'Electrolyte Supplement' en Grupo A para situaciones específicas (sesiones largas, calor, alta sudoración).",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+      ],
+      "marcas": [
+        "ena-sport",
+        "ultra-tech",
+        "star-nutrition",
+        "optimum-nutrition",
+        "mervick-lab",
+        "gold-nutrition",
+        "pulver",
+        "nutremax"
+      ]
+    },
+    {
+      "slug": "geles-carbohidratos",
+      "nombre": "Geles y carbohidratos",
+      "url": "/categorias/geles-carbohidratos",
+      "descripcion": "Geles, gomitas y carbohidratos en polvo (maltodextrina, mezclas) para esfuerzos de resistencia.",
+      "subcategorias": [
+        {
+          "slug": "geles-energeticos",
+          "nombre": "Geles energéticos",
+          "url": "/categorias/geles-carbohidratos/geles-energeticos"
+        },
+        {
+          "slug": "gomitas-deportivas",
+          "nombre": "Gomitas deportivas",
+          "url": "/categorias/geles-carbohidratos/gomitas-deportivas"
+        },
+        {
+          "slug": "carbohidratos-en-polvo",
+          "nombre": "Carbohidratos en polvo",
+          "url": "/categorias/geles-carbohidratos/carbohidratos-en-polvo"
+        }
+      ],
+      "nivel_evidencia": "alto",
+      "nota_evidencia": "AIS Grupo A ('Sports Gel', 'Sports Confectionery') para aportar carbohidratos durante el ejercicio prolongado. La ISSN revisa el timing de carbohidratos.",
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+        "https://doi.org/10.1186/s12970-017-0189-4"
+      ],
+      "marcas": [
+        "ena-sport",
+        "gentech",
+        "ultra-tech",
+        "mervick-lab",
+        "pulver",
+        "nutremax"
+      ]
+    }
+  ],
+  "etapas_de_vida": [
+    {
+      "slug": "30-39",
+      "nombre": "30 a 39 años",
+      "url": "/etapas/30-39",
+      "descripcion": "Etapa de consolidación: armar hábitos sostenibles, ganar o sostener masa muscular y rendimiento, y compatibilizar el entrenamiento con el trabajo y la familia.",
+      "enfoque_editorial": [
+        "Cubrir proteína diaria con comida y, si hace falta, suplementos",
+        "Creatina como opción con buena evidencia para fuerza",
+        "Hidratación y carbohidratos según deporte"
+      ],
+      "categorias_relacionadas": [
+        "proteinas",
+        "creatina",
+        "pre-entrenos",
+        "hidratacion-electrolitos",
+        "geles-carbohidratos",
+        "barras-snacks"
+      ],
+      "fuentes": [
+        "https://doi.org/10.1186/s12970-017-0177-8",
+        "https://doi.org/10.1186/s12970-017-0173-z",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+      ]
+    },
+    {
+      "slug": "40-49",
+      "nombre": "40 a 49 años",
+      "url": "/etapas/40-49",
+      "descripcion": "Etapa de mantenimiento: conservar masa muscular y fuerza, cuidar la recuperación y prestar atención a los micronutrientes.",
+      "enfoque_editorial": [
+        "Entrenamiento de fuerza como base",
+        "Distribuir la proteína en varias comidas",
+        "Revisar vitamina D/hierro con profesional antes de suplementar"
+      ],
+      "categorias_relacionadas": [
+        "proteinas",
+        "creatina",
+        "vitaminas-minerales",
+        "omega-3",
+        "colageno",
+        "magnesio"
+      ],
+      "fuentes": [
+        "https://doi.org/10.1186/s12970-017-0177-8",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
+      ]
+    },
+    {
+      "slug": "50-60",
+      "nombre": "50 a 60 años",
+      "url": "/etapas/50-60",
+      "descripcion": "Etapa en la que conservar la fuerza y la masa muscular pasa a ser prioridad para sostener la autonomía.",
+      "enfoque_editorial": [
+        "Proteína suficiente (PROT-AGE sugiere 1,0–1,2 g/kg/día en mayores de 65 sanos; más con ejercicio)",
+        "Creatina + entrenamiento de fuerza (evidencia en adultos mayores revisada por ISSN)",
+        "Vitamina D y calcio según evaluación médica"
+      ],
+      "categorias_relacionadas": [
+        "proteinas",
+        "creatina",
+        "vitaminas-minerales",
+        "omega-3",
+        "longevidad-bienestar"
+      ],
+      "fuentes": [
+        "https://doi.org/10.1016/j.jamda.2013.05.021",
+        "https://doi.org/10.1186/s12970-017-0173-z",
+        "https://doi.org/10.1093/ageing/afy169",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+      ]
+    },
+    {
+      "slug": "mujer",
+      "nombre": "Mujer",
+      "url": "/etapas/mujer",
+      "descripcion": "Temas propios de la mujer que entrena: ciclo menstrual, hierro, calcio, vitamina D y disponibilidad energética.",
+      "enfoque_editorial": [
+        "Disponibilidad energética suficiente",
+        "Hierro y vitamina D: medir antes de suplementar",
+        "La creatina y la proteína también aplican a mujeres"
+      ],
+      "categorias_relacionadas": [
+        "proteinas",
+        "creatina",
+        "vitaminas-minerales",
+        "colageno",
+        "hidratacion-electrolitos"
+      ],
+      "fuentes": [
+        "https://doi.org/10.1080/15502783.2023.2204066",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+      ]
+    },
+    {
+      "slug": "menopausia",
+      "nombre": "Perimenopausia y menopausia",
+      "url": "/etapas/menopausia",
+      "descripcion": "Cambios hormonales que influyen en la composición corporal y en la masa ósea y muscular. Lo abordamos desde el entrenamiento de fuerza, la proteína y los micronutrientes, siempre con acompañamiento médico.",
+      "enfoque_editorial": [
+        "Entrenamiento de fuerza e impacto",
+        "Proteína suficiente",
+        "Calcio y vitamina D según indicación profesional",
+        "Sin promesas sobre síntomas: los suplementos no tratan la menopausia"
+      ],
+      "categorias_relacionadas": [
+        "proteinas",
+        "creatina",
+        "vitaminas-minerales",
+        "omega-3"
+      ],
+      "fuentes": [
+        "https://doi.org/10.1080/15502783.2023.2204066",
+        "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
+      ]
+    },
+    {
+      "slug": "hombre",
+      "nombre": "Hombre",
+      "url": "/etapas/hombre",
+      "descripcion": "Rendimiento, composición corporal y hábitos de largo plazo, con cautela frente a los llamados 'boosters' de testosterona.",
+      "enfoque_editorial": [
+        "Proteína y creatina como base con evidencia",
+        "Evitar 'testo boosters': AIS los lista en Grupo D por riesgo de contaminación"
+      ],
+      "categorias_relacionadas": [
+        "proteinas",
+        "creatina",
+        "pre-entrenos",
+        "vitaminas-minerales"
+      ],
+      "fuentes": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+        "https://doi.org/10.1186/s12970-017-0173-z"
+      ]
+    },
+    {
+      "slug": "sarcopenia",
+      "nombre": "Masa muscular y sarcopenia",
+      "url": "/etapas/sarcopenia",
+      "descripcion": "La sarcopenia es una enfermedad muscular progresiva (consenso EWGSOP2) y su diagnóstico es médico. Acá explicamos el concepto y los hábitos asociados a conservar la masa muscular; no ofrecemos diagnóstico ni tratamiento.",
+      "enfoque_editorial": [
+        "Explicar el concepto y derivar a profesionales",
+        "Fuerza + proteína como pilares",
+        "Creatina: evidencia en combinación con entrenamiento"
+      ],
+      "categorias_relacionadas": [
+        "proteinas",
+        "creatina",
+        "vitaminas-minerales"
+      ],
+      "fuentes": [
+        "https://doi.org/10.1093/ageing/afy169",
+        "https://doi.org/10.1016/j.jamda.2013.05.021",
+        "https://doi.org/10.1186/s12970-017-0173-z"
+      ]
+    }
+  ],
+  "niveles_de_usuario": [
+    {
+      "slug": "principiante",
+      "nombre": "Principiante"
+    },
+    {
+      "slug": "intermedio",
+      "nombre": "Intermedio"
+    },
+    {
+      "slug": "avanzado",
+      "nombre": "Avanzado"
+    }
+  ],
+  "marco_regulatorio_argentino": {
+    "resumen": "En Argentina los suplementos dietarios son alimentos, no medicamentos. Están definidos en el artículo 1381 del Código Alimentario Argentino (Capítulo XVII, Alimentos de régimen o dietéticos), cuyo texto vigente fue actualizado por la Resolución Conjunta 33/2025: productos destinados a incrementar la ingesta dietaria habitual de personas sanas con necesidades no satisfechas o mayores a las habituales, de administración oral, elaborados bajo buenas prácticas de manufactura; la autorización de comercialización dura 5 años. Para venderse deben contar con RNPA (Registro Nacional de Producto Alimenticio) y el elaborador/importador con RNE; el rótulo debe decir 'suplemento dietario' e incluir leyendas obligatorias ('Consulte a su médico y/o nutricionista', no utilizar en embarazo, lactancia ni niños salvo productos específicos, etc.). Ni el rótulo, ni la marca, ni la publicidad pueden atribuirles indicaciones terapéuticas; solo se admiten las declaraciones de propiedades saludables autorizadas por la autoridad sanitaria nacional. Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de alimentos y suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes siguen vigentes sin reinscripción y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los productos autorizados (RNPA) y los establecimientos (RNE) se pueden consultar en los buscadores públicos de SIFeGA.",
+    "implicancias_editoriales": [
+      "No usar verbos como curar, tratar, prevenir, aliviar o mitigar enfermedades",
+      "No presentar suplementos como reemplazo de comidas",
+      "Mostrar RNPA/RNE solo cuando esté verificado; si no, omitir el campo",
+      "Incluir siempre la recomendación de consultar a un profesional"
+    ],
+    "fuentes": [
+      "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf",
+      "https://www.boletinoficial.gob.ar/detalleAviso/primera/327521/20250626",
+      "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803",
+      "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
+      "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+      "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+      "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+      "https://www.argentina.gob.ar/anmat/codigoalimentario"
+    ]
+  }
+}
