@@ -208,7 +208,6 @@ export function HomeView() {
               ))}
             </div>
             <div className="ph std-ph">
-              {/* Recorte estático: el original deja un bloque negro al pie de la columna. */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/capsulas-estandar.jpg"
@@ -221,7 +220,7 @@ export function HomeView() {
         </div>
       </section>
 
-      <section className="sec sec-work" aria-labelledby="como-trabajamos">
+      <section className="sec" aria-labelledby="como-trabajamos">
         <div className="wrap">
           <div className="kicker"><span className="num">Nº 03</span></div>
           <h2 id="como-trabajamos" className="h2" style={{ marginTop: 14 }}>{home.como_trabajamos.titulo}</h2>

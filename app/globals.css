@@ -99,7 +99,6 @@ a { color: inherit; }
 .small { font-size: 14px; line-height: 1.45; color: var(--ink-2); }
 .xs { font-size: 12.5px; line-height: 1.4; color: var(--ink-3); }
 .sec { padding: 112px 0; }
-.sec-work { padding-bottom: 0; }
 .sec-sm { padding: 72px 0; }
 .sec-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-bottom: 44px; }
 .sec-head .lead-col { max-width: 720px; }
@@ -283,7 +282,7 @@ a { color: inherit; }
 .std-it p { color: #bdb7a9; font-size: 15px; margin: 8px 0 0; }
 .std-n { font: 300 italic 40px/1 var(--serif); color: var(--brass); display: block; margin-bottom: 16px; }
 .std-ph { align-self: stretch; width: calc(100% + var(--pad)); margin: 0 calc(var(--pad) * -1) 0 0; min-height: 100%; height: 100%; background: var(--forest); }
-.std-ph img { top: 0; right: 0; bottom: auto; left: 0; width: 100%; height: min(420px, 68%); object-fit: cover; object-position: 68% 38%; }
+.std-ph img { inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 68% 38%; }
 .bgrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
 .sec-head { min-width: 0; }
 .sec-head .lead-col { min-width: 0; max-width: min(720px, 100%); }
@@ -547,7 +546,6 @@ blockquote.pullq cite { display: block; margin-top: 10px; font: 600 12px/1 var(-
   .h3 { font-size: 22px; }
   .lede { font-size: 17px; }
   .sec { padding: 64px 0; }
-  .sec-work { padding-bottom: 0; }
   .sec-sm { padding: 48px 0; }
   .sec-head { flex-direction: column; align-items: flex-start; gap: 16px; margin-bottom: 28px; }
   .util .wrap { height: auto; min-height: 34px; padding-top: 8px; padding-bottom: 8px; font-size: 12px; justify-content: center; text-align: center; }
