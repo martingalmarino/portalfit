@@ -12,8 +12,8 @@ Hace de la transparencia en calidad su diferencial: publica en su web el certifi
 ## Historia
 Empresa argentina que elabora suplementos dietarios en planta propia, en Caseros (Tres de Febrero), con materia prima importada. Su dueño, César Servan, protagonizó en Olé un reality de 8 semanas de entrenamiento y suplementación para difundir la marca. En diciembre de 2020 la firma titular del establecimiento hizo un retiro voluntario de cuatro sabores de Whey Protein, porque sus rótulos usaban el símbolo 'sin TACC' sin tener esa autorización (los productos sí tenían RNPA vigente), y en enero de 2021 ANMAT prohibió la comercialización de esos lotes rotulados así. En febrero de 2026 la planta obtuvo un certificado de Buenas Prácticas de Manufactura otorgado por INAL, antes del traspaso de esas funciones al SENASA.
 
-- **Empresa:** Víctor Hernán Kuschniroff (persona humana), titular del RNE 02-035075 según ANMAT (2020-2021); el certificado BPM de 2026 figura a nombre de la firma 'BODY ADVANCE' sin razón social completa. Responsable y dueño de la marca: César Servan, según Olé. No hay una sociedad comercial identificada
-- **Fundación:** Año exacto no publicado. Primer registro documentado: en 2020 ANMAT ya registraba productos de la marca (RNPA 02-600324 a 02-600330) elaborados en el RNE 02-035075
+- **Empresa:** Elaborada en planta propia en Caseros (Buenos Aires). La marca no publica una razón social.
+- **Fundación:** Con productos registrados al menos desde 2020.
 - **Origen:** Argentina (planta en San Roque 4576, Ciudadela/Caseros, provincia de Buenos Aires)
 
 ## Líneas de producto
@@ -55,7 +55,7 @@ instagram: https://www.instagram.com/bodyadvanceoficial · tiktok: https://www.t
 Body Advance es una marca de Argentina (planta en San Roque 4576, Ciudadela/Caseros, provincia de Buenos Aires).
 
 ### ¿Desde cuándo existe Body Advance?
-Año exacto no publicado. Primer registro documentado: en 2020 ANMAT ya registraba productos de la marca (RNPA 02-600324 a 02-600330) elaborados en el RNE 02-035075.
+Con productos registrados al menos desde 2020.
 
 ### ¿Body Advance tiene tienda oficial en Mercado Libre?
 Sin tienda oficial de la marca (no se encontró). Se vende en Mercado Libre por revendedores, p. ej. la tienda oficial del revendedor ODX.

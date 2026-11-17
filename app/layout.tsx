@@ -11,20 +11,21 @@ import "./globals.css";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
-  display: "swap",
+  display: "optional",
   weight: ["300", "400", "500", "600"],
   style: ["normal", "italic"],
   variable: "--font-fraunces",
   adjustFontFallback: true,
-  preload: false,
+  preload: true,
 });
 
 const sourceSans = Source_Sans_3({
   subsets: ["latin"],
-  display: "swap",
+  display: "optional",
   style: ["normal", "italic"],
   variable: "--font-source",
-  preload: false,
+  adjustFontFallback: true,
+  preload: true,
 });
 
 export const metadata: Metadata = {

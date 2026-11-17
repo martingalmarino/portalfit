@@ -12,8 +12,8 @@ Se propone igualar la calidad de las marcas internacionales a precios pensados p
 ## Historia
 La marca se describe como 'una empresa joven' que elabora con materias primas importadas en laboratorio propio, con el objetivo de igualar la calidad de las marcas internacionales a precios accesibles para el consumidor argentino.
 
-- **Empresa:** Nutriciencia S.A.
-- **Fundación:** Año exacto no publicado. Primer registro documentado: la marca ya figuraba en enero de 2011 entre las marcas de una tienda de terceros y su sitio propio con catálogo está archivado desde julio de 2012. Alta societaria de Nutriciencia S.A.: 06/10/2003
+- **Empresa:** Marca de Nutriciencia S.A. (provincia de Buenos Aires).
+- **Fundación:** Presente en el mercado al menos desde 2011.
 - **Origen:** Argentina (Nutriciencia S.A.; domicilios en Tigre y Mar del Plata, Buenos Aires)
 
 ## Líneas de producto
@@ -52,7 +52,7 @@ instagram: https://www.instagram.com/starnutrition.oficial · facebook: https://
 Star Nutrition es una marca de Argentina (Nutriciencia S.A.; domicilios en Tigre y Mar del Plata, Buenos Aires).
 
 ### ¿Desde cuándo existe Star Nutrition?
-Año exacto no publicado. Primer registro documentado: la marca ya figuraba en enero de 2011 entre las marcas de una tienda de terceros y su sitio propio con catálogo está archivado desde julio de 2012. Alta societaria de Nutriciencia S.A.: 06/10/2003.
+Presente en el mercado al menos desde 2011.
 
 ### ¿Star Nutrition tiene tienda oficial en Mercado Libre?
 Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/star-nutrition.

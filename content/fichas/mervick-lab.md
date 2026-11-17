@@ -12,8 +12,8 @@ Se orienta a los deportes de resistencia (running, trail y ciclismo) además del
 ## Historia
 Datos registrales: sociedad anónima con domicilio en Panamericana km 40,5, Del Viso.
 
-- **Empresa:** Mervick-Lab S.A.
-- **Fundación:** Año exacto no publicado. Primer registro documentado: la marca Mervick ya figuraba en enero de 2011 entre las marcas de una tienda de terceros; el sitio mervicklab.com.ar con catálogo propio está archivado desde octubre de 2015. Alta societaria de Mervick-Lab S.A.: 17/12/2002
+- **Empresa:** Elaborada por Mervick-Lab S.A., en Del Viso (Buenos Aires).
+- **Fundación:** Presente en el mercado al menos desde 2011.
 - **Origen:** Argentina (Del Viso, Buenos Aires)
 
 ## Líneas de producto
@@ -49,7 +49,7 @@ instagram: https://www.instagram.com/mervicklab · facebook: https://www.faceboo
 Mervick Lab es una marca de Argentina (Del Viso, Buenos Aires).
 
 ### ¿Desde cuándo existe Mervick Lab?
-Año exacto no publicado. Primer registro documentado: la marca Mervick ya figuraba en enero de 2011 entre las marcas de una tienda de terceros; el sitio mervicklab.com.ar con catálogo propio está archivado desde octubre de 2015. Alta societaria de Mervick-Lab S.A.: 17/12/2002.
+Presente en el mercado al menos desde 2011.
 
 ### ¿Mervick Lab tiene tienda oficial en Mercado Libre?
 Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/mervick-lab.

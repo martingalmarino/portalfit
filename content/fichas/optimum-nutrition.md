@@ -12,7 +12,7 @@ Es una de las marcas internacionales de referencia del sector y llega a Argentin
 ## Historia
 Fundada en 1986 por los hermanos Tony y Mike Costello; su línea de tiempo oficial registra el pasaje a proteína instantánea, el lanzamiento de su primera proteína de caseína y la compra por Glanbia PLC. Declara distribución en más de 90/100 países.
 
-- **Empresa:** Glanbia PLC (adquirida en 2008 según la línea de tiempo oficial); fundadores Tony y Mike Costello. Distribución en Argentina: Trust Distributions S.A. (que la lista entre sus marcas)
+- **Empresa:** Marca de Glanbia PLC. En Argentina la distribuye Trust Distributions S.A.
 - **Fundación:** 1986
 - **Origen:** Estados Unidos (importada)
 

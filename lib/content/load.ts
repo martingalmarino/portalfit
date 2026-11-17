@@ -26,13 +26,24 @@ import {
 
 const contentDir = path.join(process.cwd(), "content");
 
+function stripInternalFields(value: unknown): unknown {
+  if (Array.isArray(value)) return value.map(stripInternalFields);
+  if (!value || typeof value !== "object") return value;
+  const out: Record<string, unknown> = {};
+  for (const [key, child] of Object.entries(value as Record<string, unknown>)) {
+    if (key.endsWith("_detalle_interno")) continue;
+    out[key] = stripInternalFields(child);
+  }
+  return out;
+}
+
 function readJson(relativePath: string): unknown {
   const file = path.join(contentDir, relativePath);
   if (!fs.existsSync(file)) {
     throw new Error(`Falta el archivo de contenido obligatorio: content/${relativePath}`);
   }
   try {
-    return JSON.parse(fs.readFileSync(file, "utf8")) as unknown;
+    return stripInternalFields(JSON.parse(fs.readFileSync(file, "utf8")) as unknown);
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     throw new Error(`content/${relativePath} no es JSON válido: ${message}`);

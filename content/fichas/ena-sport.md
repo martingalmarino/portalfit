@@ -12,7 +12,7 @@ Apunta al público masivo, con distribución amplia en farmacias, dietéticas, g
 ## Historia
 Nació en 1988 en Bahía Blanca, cuando Pablo Fidani decidió fabricar en el país suplementos que hasta entonces se veían importados. Con la llegada de la segunda generación (Martín Fidani) pasó de pyme a empresa regional de nutrición, agrupando sus marcas bajo Laboratorio ENA, con distribución en Argentina, Chile y Uruguay y desembarco en España.
 
-- **Empresa:** Laboratorio ENA (ENA Nutritionals); fundador Pablo Fidani; CEO Martín Fidani (según El Cronista, 2020)
+- **Empresa:** Elaborada por Laboratorio ENA, en Bahía Blanca (Buenos Aires).
 - **Fundación:** 1988
 - **Origen:** Argentina (Bahía Blanca, Buenos Aires)
 

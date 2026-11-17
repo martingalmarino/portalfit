@@ -12,8 +12,8 @@ Combina suplementos con alimentos proteicos (ovoalbúmina, Prolac, sopas, pancak
 ## Historia
 Empresa alimenticia que desde 1990 fabrica esencias, estabilizantes y mousses para heladería; a partir de su experiencia en polvos incursionó en suplementos nutricionales. Es socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten.
 
-- **Empresa:** Pulver S.R.L.
-- **Fundación:** 1990, como empresa elaboradora de insumos para heladería (Pulver S.R.L.). Suplementos: al menos desde abril de 2005 [primer registro documentado: el sitio archivado ya ofrecía 'productos para nutrición deportiva'; en noviembre de 2002 todavía figuraba solo como Aditivos Pulver].
+- **Empresa:** Marca de Pulver S.R.L. (Ciudad de Buenos Aires).
+- **Fundación:** 1990 como empresa; con suplementos deportivos al menos desde 2005.
 - **Origen:** Argentina (Parque Patricios, CABA)
 
 ## Líneas de producto
@@ -55,7 +55,7 @@ instagram: https://www.instagram.com/pulversuplementos · facebook: https://www.
 Pulver es una marca de Argentina (Parque Patricios, CABA).
 
 ### ¿Desde cuándo existe Pulver?
-1990, como empresa elaboradora de insumos para heladería (Pulver S.R.L.). Suplementos: al menos desde abril de 2005 [primer registro documentado: el sitio archivado ya ofrecía 'productos para nutrición deportiva'; en noviembre de 2002 todavía figuraba solo como Aditivos Pulver].
+1990 como empresa; con suplementos deportivos al menos desde 2005.
 
 ### ¿Pulver tiene tienda oficial en Mercado Libre?
 Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/pulver.

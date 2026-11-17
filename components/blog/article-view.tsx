@@ -11,6 +11,7 @@ import { blockHasAffiliate, getAffiliateProduct } from "@/lib/affiliates";
 import { AffiliateNotice } from "@/components/ui/affiliate-notice";
 import { MICROCOPY } from "@/lib/microcopy";
 import { getCategorias, getPublishedPosts, headingId, type Post } from "@/lib/content/load";
+import { GuideToc } from "@/components/blog/guide-toc";
 import { EVIDENCE, formatContentDate, initials, pad2, publishedCopy } from "@/lib/format";
 import { absoluteUrl, getSiteName } from "@/lib/site";
 
@@ -137,17 +138,7 @@ export function ArticleView({ post }: { post: Post }) {
       <section className="abody">
         <div className={post.rail.length > 0 ? "wrap ab-grid" : "wrap ab-grid no-rail"}>
           <aside className="toc">
-            <div className="kicker" style={{ fontSize: 10.5 }}>En esta guía</div>
-            <ol>
-              {post.toc.map((item, index) => (
-                <li key={item.id}>
-                  <a href={`#${item.id}`}>
-                    <span className="num">{pad2(index + 1)}</span>
-                    {item.label}
-                  </a>
-                </li>
-              ))}
-            </ol>
+            <GuideToc items={post.toc} />
             <div className="share">
               <span className="xs">Compartir</span>
               <a className="sb" href={`https://wa.me/?text=${shareText}%20${encodedUrl}`} target="_blank" rel="noreferrer">WA</a>

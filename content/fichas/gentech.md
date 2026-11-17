@@ -12,8 +12,8 @@ Se enfoca en el fútbol y el alto rendimiento: se presenta como Proveedor Oficia
 ## Historia
 Martín Menem inició la marca importando siete productos de EE.UU. en 1998. Tras la crisis de 2001 decidió producir en el país y en 2003 lanzó los primeros productos hechos en Argentina en su planta de Constitución. Según Forbes (2021) fabrica más de 80 productos propios y para terceros.
 
-- **Empresa:** G.E.N. Tech Argentina S.A.; fundador Martín Menem
-- **Fundación:** 1998 (inicio de importación de 7 productos); sociedad G.E.N. Tech Argentina S.A. constituida el 24/08/1997; fabricación local desde 2003
+- **Empresa:** Elaborada por G.E.N. Tech Argentina S.A., en la Ciudad de Buenos Aires.
+- **Fundación:** 1998, como importadora; fabrica en el país desde 2003.
 - **Origen:** Argentina (planta en Constitución, CABA)
 
 ## Líneas de producto
@@ -51,7 +51,7 @@ instagram: https://www.instagram.com/gentecharg · facebook: https://www.faceboo
 Gentech es una marca de Argentina (planta en Constitución, CABA).
 
 ### ¿Desde cuándo existe Gentech?
-1998 (inicio de importación de 7 productos); sociedad G.E.N. Tech Argentina S.A. constituida el 24/08/1997; fabricación local desde 2003.
+1998, como importadora; fabrica en el país desde 2003.
 
 ### ¿Gentech tiene tienda oficial en Mercado Libre?
 Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/gentech.

@@ -24,7 +24,7 @@ Si encontrás un error, escribinos a {CONTACT_EMAIL} y lo revisamos.
 
 Algunas páginas muestran productos con un enlace a su publicación en Mercado Libre. No mostramos precios: el precio, el stock, el envío y las condiciones de venta los fija cada vendedor en Mercado Libre y pueden cambiar en cualquier momento.
 
-Esos enlaces son links de afiliado: si comprás desde ellos, el sitio puede recibir una comisión de Mercado Libre. No cambia el precio que pagás ni las condiciones de la compra, y ninguna marca paga por aparecer. El detalle está en la página de links de afiliado.
+Algunos de esos enlaces pueden ser links de afiliado: si comprás desde ellos, el sitio puede recibir una comisión de Mercado Libre. No cambia el precio que pagás ni las condiciones de la compra, y ninguna marca paga por aparecer. El detalle está en la página de links de afiliado.
 
 La compra se hace en Mercado Libre y entre vos y el vendedor. El titular del sitio no participa de esa operación ni responde por ella. Mostrar un producto no es una recomendación personal.
 

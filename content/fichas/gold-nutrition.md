@@ -12,8 +12,8 @@ Se posiciona como marca premium nacional y destaca el uso de materias primas con
 ## Historia
 Gold Nutrition S.A.S., con sede en la Ciudad de Buenos Aires, anunció la marca en enero de 2018 con dos líneas, Gold Line y Black Label, que describía como 'desarrolladas en EE.UU.' (página archivada). Hacia 2021 su sitio ya listaba proteínas, aminoácidos, creatina, ganadores y preentreno. Hoy se presenta como un intento de 'elevar los estándares de la industria nacional' y usa materias primas de marca (Creapure®, Pronovapure®, Peptan®, dsm-firmenich, Arla Foods).
 
-- **Empresa:** Gold Nutrition S.A.S.
-- **Fundación:** 2018 Inferencia propia: en enero de 2018 el sitio goldnutrition.com.ar mostraba una página de prelanzamiento ('Muy pronto') de Gold Nutrition Sports Supplements, y la S.A.S. inició actividades el 01/03/2018. Antes de eso, hasta al menos 2014, el dominio lo usaba una tienda de terceros. El vínculo con la marca uruguaya homónima (2012) no está verificado
+- **Empresa:** Marca de Gold Nutrition S.A.S. (Ciudad de Buenos Aires).
+- **Fundación:** Presente al menos desde 2018.
 - **Origen:** Argentina (CABA)
 
 ## Líneas de producto
@@ -49,7 +49,7 @@ instagram: https://instagram.com/goldnutritionar · facebook: https://facebook.c
 Gold Nutrition es una marca de Argentina (CABA).
 
 ### ¿Desde cuándo existe Gold Nutrition?
-2018 Inferencia propia: en enero de 2018 el sitio goldnutrition.com.ar mostraba una página de prelanzamiento ('Muy pronto') de Gold Nutrition Sports Supplements, y la S.A.S. inició actividades el 01/03/2018. Antes de eso, hasta al menos 2014, el dominio lo usaba una tienda de terceros. El vínculo con la marca uruguaya homónima (2012) no está verificado.
+Presente al menos desde 2018.
 
 ### ¿Gold Nutrition tiene tienda oficial en Mercado Libre?
 Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/gold-nutrition.

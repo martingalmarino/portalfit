@@ -2,11 +2,11 @@ _Transparencia_
 
 # Links de afiliado y cómo elegimos los productos
 
-Los botones que llevan a Mercado Libre son links de afiliado. Te contamos qué significa, qué no cambia y con qué criterio elegimos lo que mostramos.
+Algunos botones que llevan a Mercado Libre pueden ser links de afiliado. Te contamos qué significa, qué no cambia y con qué criterio elegimos lo que mostramos.
 
 ## Qué es un link de afiliado
 
-Cuando entrás a Mercado Libre desde un botón de este sitio y comprás, Mercado Libre puede pagarle al sitio una comisión por esa venta.
+Cuando entrás a Mercado Libre desde un link de afiliado de este sitio y comprás, Mercado Libre puede pagarle al sitio una comisión por esa venta.
 
 Esa comisión la paga Mercado Libre: no cambia el precio que pagás vos ni las condiciones de la compra.
 
@@ -34,7 +34,7 @@ Mirá quién vende: una tienda oficial de la marca no es lo mismo que un revende
 
 ## Cómo identificar los links
 
-Los botones y tarjetas que llevan a Mercado Libre muestran el aviso “Link de afiliado”. Los enlaces a los sitios oficiales y redes de cada marca no son de afiliado.
+Algunos botones que llevan a Mercado Libre pueden ser links de afiliado: si comprás a través de ellos, el sitio puede recibir una comisión, sin costo extra para vos. Cuando un botón es de afiliado, la tarjeta lo indica con el aviso “Link de afiliado”. Los enlaces a los sitios oficiales y redes de cada marca no son de afiliado.
 
 ## Contacto
 

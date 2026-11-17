@@ -1,9 +1,9 @@
 /** Textos de interfaz tomados de content/paginas/microcopy-global.json. */
 export const MICROCOPY = {
-  barra: "Links de afiliado de Mercado Libre: podemos recibir una comisión",
+  barra: "Algunos links a Mercado Libre son de afiliado: podemos recibir una comisión",
   barraLink: "Cómo funciona",
   pieBloque:
-    "Afiliados. Los links a Mercado Libre son de afiliado: si comprás desde ellos, podemos recibir una comisión. No cambia tu precio. Ninguna marca paga por aparecer ni por su posición.",
+    "Afiliados. Algunos links a Mercado Libre pueden ser de afiliado: si comprás desde ellos, podemos recibir una comisión. No cambia tu precio. Ninguna marca paga por aparecer ni por su posición.",
   pieEnlace: "Links de afiliado",
   avisoLegal:
     "Aviso. Contenido informativo. No reemplaza la consulta con médicos, nutricionistas u otros profesionales de la salud. Los suplementos dietarios no están destinados a diagnosticar, tratar, curar ni prevenir enfermedades. En Argentina son alimentos regulados por el Código Alimentario Argentino; su registro y control están a cargo del SENASA.",
@@ -12,10 +12,10 @@ export const MICROCOPY = {
   notaPrecio: "Sin precio: lo ves en la publicación.",
   tooltip: "Si comprás desde este link, Mercado Libre puede pagarnos una comisión. Tu precio no cambia.",
   bloqueListado:
-    "Links de afiliado: si comprás, podemos recibir una comisión. No cambia tu precio ni el orden, que es editorial. Precios en Mercado Libre.",
-  fichaProductos: "Links de afiliado: podemos recibir una comisión. No cambia tu precio.",
+    "Algunos links pueden ser de afiliado: si comprás desde ellos, podemos recibir una comisión. No cambia tu precio ni el orden, que es editorial. Precios en Mercado Libre.",
+  fichaProductos: "Algunos links pueden ser de afiliado: podemos recibir una comisión. No cambia tu precio.",
   articuloProductos:
-    "Mencionarlos no es una recomendación individual. Links de afiliado: podemos recibir una comisión. No cambia tu precio.",
+    "Mencionarlos no es una recomendación individual. Algunos links pueden ser de afiliado: podemos recibir una comisión. No cambia tu precio.",
   categoriaVacia: "Todavía no sumamos productos de esta categoría.",
   guiaKicker: "Guía rápida",
   guiaPregunta: "¿Concentrada o aislada?",

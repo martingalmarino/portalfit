@@ -98,6 +98,9 @@ export function SiteFooter({ nav }: { nav: NavData }) {
               <h2>{name}</h2>
               <ul>
                 <li>
+                  <Link href="/como-evaluamos">Sobre nosotros</Link>
+                </li>
+                <li>
                   <Link href="/como-evaluamos">Cómo evaluamos la evidencia</Link>
                 </li>
                 <li>

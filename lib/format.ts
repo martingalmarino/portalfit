@@ -53,9 +53,10 @@ export function publishedCopy(text: string): string | null {
   return joined;
 }
 
+/** Año de fundación usable en JSON-LD. Solo si el dato es un número, no una frase. */
 export function publicYear(raw: string | number): string | null {
-  const text = publicCopy(String(raw));
-  return text?.match(/^(\d{4})\b/)?.[1] ?? null;
+  if (typeof raw !== "number" || !Number.isInteger(raw) || raw < 1000 || raw > 2100) return null;
+  return String(raw);
 }
 
 export function formatContentDate(iso: string): string {

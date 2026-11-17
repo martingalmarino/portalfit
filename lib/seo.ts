@@ -16,7 +16,9 @@ const FALLBACK_DESCRIPTION =
 export function categoryTitle(nombre: string): string {
   if (nombre.length <= 16) return `${nombre} en Argentina: tipos, marcas y guía`;
   const mid = `${nombre}: marcas y guía en Argentina`;
-  return mid.length <= 47 ? mid : `${nombre} en Argentina`;
+  if (mid.length <= 47) return mid;
+  const withGuide = `${nombre} en Argentina: guía`;
+  return withGuide.length <= 47 ? withGuide : `${nombre} en Argentina`;
 }
 
 export function stageTitle(nombre: string): string {
@@ -24,14 +26,45 @@ export function stageTitle(nombre: string): string {
   return titled.length <= 48 ? titled : nombre;
 }
 
+/** Deja el <title> completo entre 50 y 60 caracteres, usando palabras que ya están en el título o la bajada. */
+export function balanceTitle(title: string, absolute = false, description?: string): string {
+  const suffix = ` | ${getSiteName()}`;
+  const escaped = suffix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const alreadyFull = absolute || title.endsWith(suffix);
+  let base = (alreadyFull ? title.replace(new RegExp(`${escaped}$`), "") : title).replace(/\s+/g, " ").trim();
+  let full = `${base}${suffix}`;
+  if (full.length > 60) {
+    const words = base.split(" ");
+    while (words.length > 1 && `${words.join(" ")}${suffix}`.length > 60) words.pop();
+    base = words.join(" ");
+    full = `${base}${suffix}`;
+  }
+  if (full.length < 50 && description) {
+    const words = description
+      .replace(/[|]+/g, " ")
+      .split(/\s+/)
+      .map((word) => word.replace(/^[^A-Za-zÁÉÍÓÚÜÑáéíóúüñ0-9]+|[^A-Za-zÁÉÍÓÚÜÑáéíóúüñ0-9]+$/g, ""))
+      .filter(Boolean);
+    const extra: string[] = [];
+    for (const word of words) {
+      const nextBase = `${base}: ${[...extra, word].join(" ")}`;
+      if (`${nextBase}${suffix}`.length > 60) break;
+      extra.push(word);
+      full = `${nextBase}${suffix}`;
+      if (full.length >= 50) break;
+    }
+  }
+  return full;
+}
+
 export function pageMetadata({ title, description, path, absoluteTitle, ogType = "website" }: MetaInput): Metadata {
   const canonical = absoluteUrl(path);
   const indexing = allowsIndexing();
-  const safeTitle = publicCopy(title) ?? getSiteName();
+  const safeTitle = balanceTitle(publicCopy(title) ?? getSiteName(), absoluteTitle, publicCopy(description) ?? undefined);
   const safeDescription = publicCopy(description) ?? FALLBACK_DESCRIPTION;
   const image = { url: "/opengraph-image", width: 1200, height: 630, alt: getSiteName() };
   return {
-    title: absoluteTitle ? { absolute: safeTitle } : safeTitle,
+    title: { absolute: safeTitle },
     description: safeDescription,
     alternates: { canonical },
     robots: indexing

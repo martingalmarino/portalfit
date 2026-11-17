@@ -12,7 +12,7 @@ Se apoya en su trayectoria y en un catálogo muy amplio (la empresa declara más
 ## Historia
 Web Supplements nació en Córdoba en 1991 con la primera importación de suplementos deportivos al país bajo la marca Ultra Tech y, según la empresa, obtuvo el primer RNPA para suplementos dietarios en Argentina. En 2002 pasó a fabricar localmente y lanzó Vitatech; en 2016 incorporó una extrusora para barras; en 2017 lanzó Protein Factory y en 2024 una línea de geles energéticos.
 
-- **Empresa:** Web Supplements S.R.L.
+- **Empresa:** Elaborada por Web Supplements S.R.L., en Córdoba.
 - **Fundación:** 1991
 - **Origen:** Argentina (Córdoba)
 

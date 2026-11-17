@@ -12,8 +12,8 @@ Se orienta a alimentos proteicos y premezclas para el día a día (pancakes, coo
 ## Historia
 Tres amigos rafaelinos arrancaron en 2020 produciendo proteína de huevo hidrolizada en la casa de uno de ellos. Ampliaron a premezclas y alimentos proteicos (pancakes, keto); en enero de 2026 informaron un crecimiento de producción del 300% y pasaron de 9 a 49 empleados en 18 meses.
 
-- **Empresa:** Granger S.A. (estatuto publicado en el Boletín Oficial de Santa Fe el 15/09/2022, instrumento del 10/08/2022, domicilio en Rafaela; objeto: elaboración y comercialización de alimentos, especialmente suplementos dietarios y proteicos). Socios: Pablo Andrés Rucci, Mariano Javier Pfaffen y Tomás Alejandro Giuliani, los mismos fundadores que nombra la prensa. CUIT 30-71779148-3 según un registro de terceros
-- **Fundación:** 2020 (inicio del emprendimiento según la prensa); la sociedad anónima actual se constituyó en 2022
+- **Empresa:** Elaborada por Granger S.A., en Rafaela (Santa Fe).
+- **Fundación:** 2020.
 - **Origen:** Argentina (Rafaela, Santa Fe)
 
 ## Líneas de producto
@@ -49,7 +49,7 @@ instagram: https://instagram.com/grangernutricion · facebook: https://www.faceb
 Granger Nutrición es una marca de Argentina (Rafaela, Santa Fe).
 
 ### ¿Desde cuándo existe Granger Nutrición?
-2020 (inicio del emprendimiento según la prensa); la sociedad anónima actual se constituyó en 2022.
+2020.
 
 ### ¿Granger Nutrición tiene tienda oficial en Mercado Libre?
 Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/granger.

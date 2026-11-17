@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { BrandView } from "@/components/marca/brand-view";
 import { JsonLd } from "@/components/ui/json-ld";
 import { getFicha, getMarcas } from "@/lib/content/load";
-import { applyPlaceholders, isHttpUrl, publicCopy } from "@/lib/format";
+import { applyPlaceholders, isHttpUrl, publicCopy, publicYear } from "@/lib/format";
 import { faqJsonLd, pageMetadata } from "@/lib/seo";
 import { absoluteUrl } from "@/lib/site";
 
@@ -37,6 +37,8 @@ export default async function MarcaPage({ params }: { params: Promise<{ slug: st
     description: publicCopy(ficha.intro) ?? ficha.schema_sugerido.name,
   };
   if (typeof logo === "string" && isHttpUrl(logo)) brand.logo = logo;
+  const foundingDate = publicYear(ficha.anio_fundacion);
+  if (foundingDate) brand.foundingDate = foundingDate;
   const faq = faqJsonLd(ficha.faq);
   return (
     <>

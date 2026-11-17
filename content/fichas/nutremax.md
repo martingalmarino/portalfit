@@ -12,8 +12,8 @@ Se especializa en hidratación y deportes de resistencia y destaca que acompaña
 ## Historia
 Nació en un garaje de Villa Constitución, fundada por el socio de su titular, María Fernanda Ledesma, a quien la prensa describe como ingeniero químico, y luego se trasladó al noroeste de Rosario, a una planta de 1.000 m². Al principio apuntaba al fisicoculturismo y al fitness; hoy se enfoca en deportes de resistencia (ciclismo, running, triatlón, natación). Su producto insignia es Hydromax. Distribuye en todo el país mediante mayoristas (farmacias, dietéticas, bicicleterías, grupos de entrenamiento) y en 2024 participaba de un programa municipal para empezar a exportar.
 
-- **Empresa:** NX Laboratorios S.A.S. (constituida el 01/12/2020; accionistas fundadores: David Schneider, técnico químico, y María Fernanda Ledesma). El vínculo con la marca se infiere porque coinciden los titulares que nombra la prensa y el prefijo 'NX' que usan sus productos; sin confirmación oficial
-- **Fundación:** Año exacto no publicado. Primer registro documentado: el dominio nutremax.com.ar ya mostraba 'Nutre-Max Nutrición Deportiva' en abril de 2003 (página en construcción). Punto Biz (2022) le atribuye '15 años de trayectoria' (≈2007, estimado). La sociedad actual, NX Laboratorios S.A.S., se constituyó el 01/12/2020
+- **Empresa:** Vinculada a NX Laboratorios S.A.S. (Santa Fe). Dato surgido de registros públicos; la marca no lo confirma en su web.
+- **Fundación:** En el mercado al menos desde 2003.
 - **Origen:** Argentina (Rosario, Santa Fe; orígenes en Villa Constitución)
 
 ## Líneas de producto
@@ -51,7 +51,7 @@ instagram: https://www.instagram.com/nutremax.arg · facebook: https://www.faceb
 Nutremax es una marca de Argentina (Rosario, Santa Fe; orígenes en Villa Constitución).
 
 ### ¿Desde cuándo existe Nutremax?
-Año exacto no publicado. Primer registro documentado: el dominio nutremax.com.ar ya mostraba 'Nutre-Max Nutrición Deportiva' en abril de 2003 (página en construcción). Punto Biz (2022) le atribuye '15 años de trayectoria' (≈2007, estimado). La sociedad actual, NX Laboratorios S.A.S., se constituyó el 01/12/2020.
+En el mercado al menos desde 2003.
 
 ### ¿Nutremax tiene tienda oficial en Mercado Libre?
 Sin tienda oficial de la marca (no se encontró). Se vende por revendedores, p. ej. las tiendas oficiales de los revendedores ODX y RTN Suplementos.

@@ -192,27 +192,39 @@ export function SiteHeader({ nav }: { nav: NavData }) {
           </div>
           <div className="menu-frame">
             <div className="menu-scroll">
-              <p className="kicker">Marcas</p>
-              <Link href="/marcas" onClick={() => menuRef.current?.close()}>Todas las marcas</Link>
-              {nav.brands.map((item) => (
-                <Link key={item.href} href={item.href} onClick={() => menuRef.current?.close()}>
-                  {item.label}
-                </Link>
-              ))}
-              <p className="kicker">Categorías</p>
-              <Link href="/categorias" onClick={() => menuRef.current?.close()}>Todas las categorías</Link>
-              {nav.categories.map((item) => (
-                <Link key={item.href} href={item.href} onClick={() => menuRef.current?.close()}>
-                  {item.label}
-                </Link>
-              ))}
-              <p className="kicker">Etapas</p>
-              <Link href="/etapas" onClick={() => menuRef.current?.close()}>Todas las etapas</Link>
-              {nav.stages.map((item) => (
-                <Link key={item.href} href={item.href} onClick={() => menuRef.current?.close()}>
-                  {item.label}
-                </Link>
-              ))}
+              <details className="menu-sec">
+                <summary>Marcas</summary>
+                <div className="menu-grid">
+                  <Link href="/marcas" onClick={() => menuRef.current?.close()}>Todas las marcas</Link>
+                  {nav.brands.map((item) => (
+                    <Link key={item.href} href={item.href} onClick={() => menuRef.current?.close()}>
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </details>
+              <details className="menu-sec">
+                <summary>Categorías</summary>
+                <div className="menu-grid">
+                  <Link href="/categorias" onClick={() => menuRef.current?.close()}>Todas las categorías</Link>
+                  {nav.categories.map((item) => (
+                    <Link key={item.href} href={item.href} onClick={() => menuRef.current?.close()}>
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </details>
+              <details className="menu-sec">
+                <summary>Etapas</summary>
+                <div className="menu-grid">
+                  <Link href="/etapas" onClick={() => menuRef.current?.close()}>Todas las etapas</Link>
+                  {nav.stages.map((item) => (
+                    <Link key={item.href} href={item.href} onClick={() => menuRef.current?.close()}>
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </details>
               <p className="kicker">Guías</p>
               <Link href="/blog" onClick={() => menuRef.current?.close()}>Guías</Link>
               <Link href="/como-evaluamos" onClick={() => menuRef.current?.close()}>Cómo evaluamos</Link>
