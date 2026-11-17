@@ -37,6 +37,7 @@ export const metadata: Metadata = {
   description:
     "Guía independiente sobre suplementos, nutrición deportiva, longevidad y rendimiento en Argentina. Contenido informativo, no médico.",
   robots: robotsMetadata(),
+  verification: { google: "D80zgQOqPj2d33OWwVlyPdtVJjKp6ww6kGnr8S6dmyg" },
   openGraph: {
     type: "website",
     locale: "es_AR",
