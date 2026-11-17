@@ -101,10 +101,10 @@ export default async function CategoriaPage({ params }: { params: Promise<{ slug
           <div className="rgrid" style={{ marginTop: 56 }}>
             <div>
               <div className="kicker">Subcategorías</div>
-              <ul style={{ listStyle: "none", padding: 0, margin: "16px 0 0", display: "grid", gap: 8 }}>
+              <ul className="subcat-list">
                 {categoria.subcategorias.map((item) => (
                   <li key={item.slug}>
-                    <Link className="serif" href={`/categorias/${slug}?sub=${item.slug}`} style={{ fontSize: 20 }}>
+                    <Link className="serif" href={`/categorias/${slug}?sub=${item.slug}`}>
                       {item.nombre}
                     </Link>
                   </li>

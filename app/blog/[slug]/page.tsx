@@ -4,7 +4,7 @@ import { JsonLd } from "@/components/ui/json-ld";
 import { getPost, getPublishedPosts } from "@/lib/content/load";
 import { applyPlaceholders } from "@/lib/format";
 import { photoByFile } from "@/lib/photos";
-import { faqJsonLd, pageMetadata } from "@/lib/seo";
+import { faqJsonLd, pageMetadata, pickCompleteTitle } from "@/lib/seo";
 import { absoluteUrl, getSiteName } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -13,10 +13,14 @@ export function generateStaticParams() {
 
 export const dynamicParams = false;
 
-function documentTitle(metaTitle: string): string {
-  const name = getSiteName();
+const POST_TITLES: Record<string, string> = {
+  "suplementos-sistema-abcd-ais": "Sistema ABCD del AIS: evidencia de suplementos",
+  "marcas-suplementos-argentinas": "Marcas argentinas: historia y fabricación",
+};
+
+function documentTitle(slug: string, metaTitle: string): string {
   const replaced = applyPlaceholders(metaTitle).replace(/\s+/g, " ").trim();
-  return replaced.toLowerCase().includes(name.toLowerCase()) ? replaced : `${replaced} | ${name}`;
+  return pickCompleteTitle([replaced, POST_TITLES[slug] ?? replaced]);
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
@@ -25,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!post) return {};
   return {
     ...pageMetadata({
-      title: documentTitle(post.metaTitle),
+      title: documentTitle(slug, post.metaTitle),
       description: post.description,
       path: `/blog/${slug}`,
       absoluteTitle: true,

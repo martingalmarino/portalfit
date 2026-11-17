@@ -13,54 +13,60 @@ type MetaInput = {
 const FALLBACK_DESCRIPTION =
   "Contenido informativo sobre suplementos y nutrición deportiva en Argentina.";
 
+function siteSuffix(): string {
+  return ` | ${getSiteName()}`;
+}
+
+/** Arma el <title> completo, sin recortar palabras. */
+export function withSiteTitle(title: string): string {
+  const suffix = siteSuffix();
+  const escaped = suffix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const base = title.replace(new RegExp(`${escaped}$`), "").replace(/\s+/g, " ").trim();
+  return `${base}${suffix}`;
+}
+
+/** Elige la primera frase completa que entra entre 45 y 65 caracteres. */
+export function pickCompleteTitle(candidates: string[]): string {
+  const fulls = candidates.map((item) => withSiteTitle(item));
+  return (
+    fulls.find((item) => item.length >= 45 && item.length <= 65) ??
+    fulls.find((item) => item.length <= 65) ??
+    fulls[fulls.length - 1]
+  );
+}
+
 export function categoryTitle(nombre: string): string {
-  if (nombre.length <= 16) return `${nombre} en Argentina: tipos, marcas y guía`;
-  const mid = `${nombre}: marcas y guía en Argentina`;
-  if (mid.length <= 47) return mid;
-  const withGuide = `${nombre} en Argentina: guía`;
-  return withGuide.length <= 47 ? withGuide : `${nombre} en Argentina`;
+  return pickCompleteTitle([
+    `${nombre} en Argentina: tipos, marcas y guía`,
+    `${nombre}: marcas y guía en Argentina`,
+    `${nombre} en Argentina: guía`,
+    `${nombre} en Argentina`,
+    nombre,
+  ]);
 }
 
 export function stageTitle(nombre: string): string {
-  const titled = `${nombre}: suplementos según la edad`;
-  return titled.length <= 48 ? titled : nombre;
+  return pickCompleteTitle([
+    `${nombre}: suplementos según la edad`,
+    `${nombre}: suplementos`,
+    nombre,
+  ]);
 }
 
-/** Deja el <title> completo entre 50 y 60 caracteres, usando palabras que ya están en el título o la bajada. */
-export function balanceTitle(title: string, absolute = false, description?: string): string {
-  const suffix = ` | ${getSiteName()}`;
-  const escaped = suffix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const alreadyFull = absolute || title.endsWith(suffix);
-  let base = (alreadyFull ? title.replace(new RegExp(`${escaped}$`), "") : title).replace(/\s+/g, " ").trim();
-  let full = `${base}${suffix}`;
-  if (full.length > 60) {
-    const words = base.split(" ");
-    while (words.length > 1 && `${words.join(" ")}${suffix}`.length > 60) words.pop();
-    base = words.join(" ");
-    full = `${base}${suffix}`;
-  }
-  if (full.length < 50 && description) {
-    const words = description
-      .replace(/[|]+/g, " ")
-      .split(/\s+/)
-      .map((word) => word.replace(/^[^A-Za-zÁÉÍÓÚÜÑáéíóúüñ0-9]+|[^A-Za-zÁÉÍÓÚÜÑáéíóúüñ0-9]+$/g, ""))
-      .filter(Boolean);
-    const extra: string[] = [];
-    for (const word of words) {
-      const nextBase = `${base}: ${[...extra, word].join(" ")}`;
-      if (`${nextBase}${suffix}`.length > 60) break;
-      extra.push(word);
-      full = `${nextBase}${suffix}`;
-      if (full.length >= 50) break;
-    }
-  }
-  return full;
+export function brandTitle(name: string, metaTitle: string): string {
+  return pickCompleteTitle([
+    metaTitle,
+    `${name}: historia, productos y dónde comprar`,
+    `${name}: historia y dónde comprar`,
+    `${name}: productos y dónde comprar`,
+    `${name}: dónde comprar`,
+  ]);
 }
 
-export function pageMetadata({ title, description, path, absoluteTitle, ogType = "website" }: MetaInput): Metadata {
+export function pageMetadata({ title, description, path, ogType = "website" }: MetaInput): Metadata {
   const canonical = absoluteUrl(path);
   const indexing = allowsIndexing();
-  const safeTitle = balanceTitle(publicCopy(title) ?? getSiteName(), absoluteTitle, publicCopy(description) ?? undefined);
+  const safeTitle = withSiteTitle(publicCopy(title) ?? getSiteName());
   const safeDescription = publicCopy(description) ?? FALLBACK_DESCRIPTION;
   const image = { url: "/opengraph-image", width: 1200, height: 630, alt: getSiteName() };
   return {

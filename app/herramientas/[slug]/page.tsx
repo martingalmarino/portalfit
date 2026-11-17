@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!file) return {};
   const page = loadTextPage(file);
   return pageMetadata({
-    title: page.title,
+    title: "Calculadora de proteína diaria del sitio",
     description: page.description,
     path: `/herramientas/${slug}`,
     absoluteTitle: page.absoluteTitle,

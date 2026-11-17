@@ -5,7 +5,7 @@ import { pageMetadata } from "@/lib/seo";
 const page = loadTextPage("creditos");
 
 export const metadata = pageMetadata({
-  title: page.title,
+  title: "Créditos fotográficos de las imágenes",
   description: page.description,
   path: "/creditos",
   absoluteTitle: page.absoluteTitle,
