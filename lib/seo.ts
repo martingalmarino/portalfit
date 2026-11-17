@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { publicCopy } from "@/lib/format";
-import { allowsIndexing, absoluteUrl, getSiteName, getSiteUrl } from "@/lib/site";
+import { absoluteUrl, getSiteName, getSiteUrl, robotsMetadata } from "@/lib/site";
 
 type MetaInput = {
   title: string;
@@ -65,17 +65,14 @@ export function brandTitle(name: string, metaTitle: string): string {
 
 export function pageMetadata({ title, description, path, ogType = "website" }: MetaInput): Metadata {
   const canonical = absoluteUrl(path);
-  const indexing = allowsIndexing();
   const safeTitle = withSiteTitle(publicCopy(title) ?? getSiteName());
   const safeDescription = publicCopy(description) ?? FALLBACK_DESCRIPTION;
-  const image = { url: "/opengraph-image", width: 1200, height: 630, alt: getSiteName() };
+  const image = { url: absoluteUrl("/opengraph-image"), width: 1200, height: 630, alt: getSiteName() };
   return {
     title: { absolute: safeTitle },
     description: safeDescription,
     alternates: { canonical },
-    robots: indexing
-      ? { index: true, follow: true }
-      : { index: false, follow: false, nocache: true },
+    robots: robotsMetadata(),
     openGraph: {
       type: ogType,
       locale: "es_AR",
