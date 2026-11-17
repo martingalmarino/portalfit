@@ -99,6 +99,7 @@ a { color: inherit; }
 .small { font-size: 14px; line-height: 1.45; color: var(--ink-2); }
 .xs { font-size: 12.5px; line-height: 1.4; color: var(--ink-3); }
 .sec { padding: 112px 0; }
+.sec-work { padding-bottom: 0; }
 .sec-sm { padding: 72px 0; }
 .sec-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-bottom: 44px; }
 .sec-head .lead-col { max-width: 720px; }
@@ -546,6 +547,7 @@ blockquote.pullq cite { display: block; margin-top: 10px; font: 600 12px/1 var(-
   .h3 { font-size: 22px; }
   .lede { font-size: 17px; }
   .sec { padding: 64px 0; }
+  .sec-work { padding-bottom: 0; }
   .sec-sm { padding: 48px 0; }
   .sec-head { flex-direction: column; align-items: flex-start; gap: 16px; margin-bottom: 28px; }
   .util .wrap { height: auto; min-height: 34px; padding-top: 8px; padding-bottom: 8px; font-size: 12px; justify-content: center; text-align: center; }

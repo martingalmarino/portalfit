@@ -221,7 +221,7 @@ export function HomeView() {
         </div>
       </section>
 
-      <section className="sec" aria-labelledby="como-trabajamos">
+      <section className="sec sec-work" aria-labelledby="como-trabajamos">
         <div className="wrap">
           <div className="kicker"><span className="num">Nº 03</span></div>
           <h2 id="como-trabajamos" className="h2" style={{ marginTop: 14 }}>{home.como_trabajamos.titulo}</h2>
