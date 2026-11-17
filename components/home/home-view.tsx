@@ -15,17 +15,17 @@ import { CATEGORY_FEATURE_PHOTOS, STAGE_PHOTOS, photoByFile } from "@/lib/photos
 
 const FEATURED_CATEGORIES = ["proteinas", "creatina", "omega-3"];
 const EVIDENCE_SAMPLE = ["proteinas", "creatina", "colageno", "magnesio"];
-const STANDARDS = [
-  ["01", "Nivel de evidencia", "Cada categoría lleva un nivel general según AIS (Grupos A–D) y las posturas de la ISSN."],
-  ["02", "Registros con fuente", "RNE consultado en la base oficial SIFeGA cuando fue posible, con fecha de consulta."],
-  ["03", "Verificado ≠ declarado", "Distinguimos lo consultado en registros oficiales de lo que declara cada marca."],
-  ["04", "Sin claims médicos", "Contenido informativo. Nada reemplaza la consulta profesional."],
+const STANDARDS: Array<{ n: string; title: string; text: string; href?: string }> = [
+  { n: "01", title: "Nivel de evidencia", text: "Cada categoría lleva un nivel general según AIS (Grupos A–D) y las posturas de la ISSN." },
+  { n: "02", title: "Registros con fuente", text: "RNE consultado en la base oficial SIFeGA cuando fue posible, con fecha de consulta." },
+  { n: "03", title: "Verificado ≠ declarado", text: "Distinguimos lo consultado en registros oficiales de lo que declara cada marca." },
+  {
+    n: "04",
+    title: "Regulación y sin claims médicos",
+    text: "Son alimentos regulados por el Código Alimentario Argentino; desde agosto de 2026 los registra y controla el SENASA. Contenido informativo: no reemplaza la consulta profesional.",
+    href: "/blog/rotulo-suplemento-rnpa-rne",
+  },
 ];
-
-const WORK_LINKS: Record<string, string> = {
-  "Nivel de evidencia": "/como-evaluamos",
-  "Regulación argentina": "/blog/rotulo-suplemento-rnpa-rne",
-};
 
 const HERO = photoByFile("hero-mujer.jpg");
 const HERO_BLANK = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
@@ -183,7 +183,7 @@ export function HomeView() {
         </div>
       </section>
 
-      <section className="std">
+      <section className="std surface">
         <div className="wrap">
           <div className="std-grid">
             <div className="std-intro">
@@ -199,16 +199,18 @@ export function HomeView() {
               </Link>
             </div>
             <div className="std-items">
-              {STANDARDS.map(([n, titleItem, text]) => (
-                <div className="std-it" key={n}>
-                  <span className="std-n">{n}</span>
-                  <h3 className="h4" style={{ color: "var(--paper)", margin: 0 }}>{titleItem}</h3>
-                  <p>{text}</p>
+              {STANDARDS.map((item) => (
+                <div className="std-it" key={item.n}>
+                  <span className="std-n">{item.n}</span>
+                  <h3 className="h4" style={{ color: "var(--paper)", margin: 0 }}>{item.title}</h3>
+                  <p>{item.text}</p>
+                  {item.href ? (
+                    <Link className="std-more" href={item.href}>Cómo leer el rótulo</Link>
+                  ) : null}
                 </div>
               ))}
             </div>
             <div className="ph std-ph">
-              {/* Recorte estático: el original deja un bloque negro al pie de la columna. */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/capsulas-estandar.jpg"
@@ -221,36 +223,11 @@ export function HomeView() {
         </div>
       </section>
 
-      <section className="sec sec-work" aria-labelledby="como-trabajamos">
-        <div className="wrap">
-          <div className="kicker"><span className="num">Nº 03</span></div>
-          <h2 id="como-trabajamos" className="h2" style={{ marginTop: 14 }}>{home.como_trabajamos.titulo}</h2>
-          <p className="lede" style={{ maxWidth: 640, marginTop: 16 }}>
-            <Editorial text={home.como_trabajamos.bajada} />
-          </p>
-          <div className="work-grid">
-            {home.como_trabajamos.puntos.map((punto, index) => {
-              const href = WORK_LINKS[punto.titulo];
-              return (
-                <article className="work-point" key={punto.titulo}>
-                  <span className="work-n">{pad2(index + 1)}</span>
-                  <h3>{punto.titulo}</h3>
-                  <p>{punto.texto}</p>
-                  {href ? (
-                    <Link className="work-more" href={href}>Ver más</Link>
-                  ) : null}
-                </article>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       <section className="sec" id="marcas">
         <div className="wrap">
           <div className="sec-head">
             <div className="lead-col">
-              <div className="kicker"><span className="num">Nº 04</span> Marcas</div>
+              <div className="kicker"><span className="num">Nº 03</span> Marcas</div>
               <h2 className="h2">{home.bloque_marcas.titulo}</h2>
               <p className="lede" style={{ marginTop: 16, fontSize: 18 }}>
                 <Editorial text={home.bloque_marcas.texto} />
@@ -296,11 +273,11 @@ export function HomeView() {
         </div>
       </section>
 
-      <section className="sec" style={{ background: "var(--paper-2)", borderTop: "1px solid var(--line)" }}>
+      <section className="sec surface" style={{ background: "var(--paper-2)", borderTop: "1px solid var(--line)" }}>
         <div className="wrap">
           <div className="sec-head">
             <div className="lead-col">
-              <div className="kicker"><span className="num">Nº 05</span> Categorías</div>
+              <div className="kicker"><span className="num">Nº 04</span> Categorías</div>
               <h2 className="h2">
                 {categorias.length} categorías, <em>cada una con su nivel de evidencia</em>
               </h2>
@@ -362,7 +339,7 @@ export function HomeView() {
         <div className="wrap">
           <div className="sec-head">
             <div className="lead-col">
-              <div className="kicker"><span className="num">Nº 06</span> Etapas de vida</div>
+              <div className="kicker"><span className="num">Nº 05</span> Etapas de vida</div>
               <h2 className="h2">
                 Suplementación <em>según tu etapa de vida</em>
               </h2>
@@ -416,7 +393,7 @@ export function HomeView() {
         <div className="wrap">
           <div className="sec-head">
             <div className="lead-col">
-              <div className="kicker"><span className="num">Nº 08</span> Guías</div>
+              <div className="kicker"><span className="num">Nº 07</span> Guías</div>
               <h2 className="h2">
                 Lecturas con <em>byline y fuentes</em>
               </h2>
@@ -461,10 +438,10 @@ export function HomeView() {
         </div>
       </section>
 
-      <section className="sec" style={{ background: "var(--paper-2)", borderTop: "1px solid var(--line)" }}>
+      <section className="sec surface" style={{ background: "var(--paper-2)", borderTop: "1px solid var(--line)" }}>
         <div className="wrap faqgrid">
           <div>
-            <div className="kicker"><span className="num">Nº 09</span> Preguntas frecuentes</div>
+            <div className="kicker"><span className="num">Nº 08</span> Preguntas frecuentes</div>
             <h2 className="h2" style={{ marginTop: 18 }}>
               Lo que más <em>nos preguntan</em>
             </h2>
@@ -503,11 +480,11 @@ function EvidenceBand() {
     ["D", "g-D", "Precaución", tax.niveles_de_evidencia.precaucion],
   ] as const;
   return (
-    <section className="evband">
+    <section className="evband surface">
       <div className="wrap evgrid">
         <Photo file="mano-capsula.jpg" className="evph" sizes="(max-width: 600px) 100vw, 46vw" position="55% 50%" credit />
         <div style={{ padding: "72px 0" }}>
-          <div className="kicker"><span className="num" style={{ marginRight: 12 }}>Nº 07</span>Cómo evaluamos</div>
+          <div className="kicker"><span className="num" style={{ marginRight: 12 }}>Nº 06</span>Cómo evaluamos</div>
           <h2 className="h2" style={{ marginTop: 18 }}>
             Cuatro grados, <em>una sola regla:</em> mostrar la fuente
           </h2>
