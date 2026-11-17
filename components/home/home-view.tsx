@@ -183,7 +183,7 @@ export function HomeView() {
         </div>
       </section>
 
-      <section className="std">
+      <section className="std surface">
         <div className="wrap">
           <div className="std-grid">
             <div className="std-intro">
@@ -273,7 +273,7 @@ export function HomeView() {
         </div>
       </section>
 
-      <section className="sec" style={{ background: "var(--paper-2)", borderTop: "1px solid var(--line)" }}>
+      <section className="sec surface" style={{ background: "var(--paper-2)", borderTop: "1px solid var(--line)" }}>
         <div className="wrap">
           <div className="sec-head">
             <div className="lead-col">
@@ -438,7 +438,7 @@ export function HomeView() {
         </div>
       </section>
 
-      <section className="sec" style={{ background: "var(--paper-2)", borderTop: "1px solid var(--line)" }}>
+      <section className="sec surface" style={{ background: "var(--paper-2)", borderTop: "1px solid var(--line)" }}>
         <div className="wrap faqgrid">
           <div>
             <div className="kicker"><span className="num">Nº 08</span> Preguntas frecuentes</div>
@@ -480,7 +480,7 @@ function EvidenceBand() {
     ["D", "g-D", "Precaución", tax.niveles_de_evidencia.precaucion],
   ] as const;
   return (
-    <section className="evband">
+    <section className="evband surface">
       <div className="wrap evgrid">
         <Photo file="mano-capsula.jpg" className="evph" sizes="(max-width: 600px) 100vw, 46vw" position="55% 50%" credit />
         <div style={{ padding: "72px 0" }}>

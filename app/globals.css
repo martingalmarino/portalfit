@@ -99,6 +99,7 @@ a { color: inherit; }
 .small { font-size: 14px; line-height: 1.45; color: var(--ink-2); }
 .xs { font-size: 12.5px; line-height: 1.4; color: var(--ink-3); }
 .sec { padding: 112px 0; }
+.surface + .sec { padding-top: 112px; }
 .sec-sm { padding: 72px 0; }
 .sec-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-bottom: 44px; }
 .sec-head .lead-col { max-width: 720px; }
@@ -284,7 +285,6 @@ a { color: inherit; }
 .std-ph { align-self: stretch; width: calc(100% + var(--pad)); margin: 0 calc(var(--pad) * -1) 0 0; min-height: 100%; height: 100%; background: var(--forest); }
 .std-ph img { inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 68% 38%; }
 .std-more { display: inline-flex; align-items: center; min-height: 44px; margin-top: 6px; font: 600 13.5px/1 var(--sans); color: #f0e8d8; text-decoration: none; border-bottom: 1px solid var(--brass); }
-.std + .sec { padding-top: 224px; }
 .bgrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
 .sec-head { min-width: 0; }
 .sec-head .lead-col { min-width: 0; max-width: min(720px, 100%); }
@@ -519,8 +519,8 @@ blockquote.pullq cite { display: block; margin-top: 10px; font: 600 12px/1 var(-
 @media (max-width: 900px) {
   .std-grid, .cat-grid, .pgrid, .mpg { grid-template-columns: 1fr; gap: 28px; }
   .std-grid > *, .cat-grid > *, .pgrid > *, .mpg > * { min-width: 0; }
-  .std-ph { width: 100%; margin-right: 0; min-height: 280px; height: 280px; }
-  .std-ph img { height: 100%; bottom: 0; }
+  .std-ph { width: auto; max-width: none; margin-left: calc(var(--pad) * -1); margin-right: calc(var(--pad) * -1); justify-self: stretch; min-height: 280px; height: 280px; }
+  .std-ph img { inset: 0; width: 100%; height: 100%; object-fit: cover; }
   .cindex li a { grid-template-columns: 34px minmax(0, 1fr); }
 }
 
@@ -536,7 +536,7 @@ blockquote.pullq cite { display: block; margin-top: 10px; font: 600 12px/1 var(-
   .h3 { font-size: 22px; }
   .lede { font-size: 17px; }
   .sec { padding: 64px 0; }
-  .std + .sec { padding-top: 128px; }
+  .surface + .sec { padding-top: 64px; }
   .sec-sm { padding: 48px 0; }
   .sec-head { flex-direction: column; align-items: flex-start; gap: 16px; margin-bottom: 28px; }
   .util .wrap { height: auto; min-height: 34px; padding-top: 8px; padding-bottom: 8px; font-size: 12px; justify-content: center; text-align: center; }
@@ -571,7 +571,8 @@ blockquote.pullq cite { display: block; margin-top: 10px; font: 600 12px/1 var(-
   .ecard { aspect-ratio: 4 / 3.4; }
   .h-et { font-size: 28px; }
   .bh-media { display: none; }
-  .evph, .std-ph { display: block; min-height: 200px; height: 220px; margin: 0 -20px; }
+  .evph, .std-ph { display: block; min-height: 200px; height: 220px; }
+  .evph { margin: 0 -20px; }
   .std-items { grid-template-columns: 1fr; border-left: 0; margin: 8px 0 0; }
   .std-intro { padding: 48px 0 12px; }
   .foot .top, .foot .legal, .facts { grid-template-columns: 1fr; }
