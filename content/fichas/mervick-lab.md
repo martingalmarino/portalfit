@@ -4,13 +4,13 @@
 
 # Mervick Lab: historia, líneas de producto y dónde comprar
 
-Mervick Lab es una marca argentina de la provincia de Buenos Aires orientada a los deportes de resistencia, con geles, carbohidratos e hidratación junto a proteínas y creatina.
+Los deportes de resistencia son el foco de Mervick Lab: geles, carbohidratos e hidratación, a los que suma proteínas y creatina. La marca tiene base en la provincia de Buenos Aires.
 
 ## Posicionamiento
 Se orienta a los deportes de resistencia (running, trail y ciclismo) además del fitness: ofrece geles, carbohidratos e hidratación junto a proteínas y creatina.
 
 ## Historia
-Datos registrales: sociedad anónima con domicilio en Panamericana km 40,5, Del Viso.
+Datos registrales: sociedad anónima con sede en Del Viso (Buenos Aires).
 
 - **Empresa:** Elaborada por Mervick-Lab S.A., en Del Viso (Buenos Aires).
 - **Fundación:** Presente en el mercado al menos desde 2011.
@@ -45,14 +45,14 @@ instagram: https://www.instagram.com/mervicklab · facebook: https://www.faceboo
 
 ## Preguntas frecuentes
 
-### ¿De dónde es Mervick Lab?
-Mervick Lab es una marca de Argentina (Del Viso, Buenos Aires).
+### ¿Dónde tiene su base Mervick Lab?
+En Del Viso, provincia de Buenos Aires.
 
-### ¿Desde cuándo existe Mervick Lab?
-Presente en el mercado al menos desde 2011.
+### ¿En qué año empezó Mervick Lab?
+No tenemos un año de fundación confirmado: hay registros de la marca en el mercado por lo menos desde 2011.
 
-### ¿Mervick Lab tiene tienda oficial en Mercado Libre?
-Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/mervick-lab.
+### ¿Se puede comprar Mervick Lab directo a la marca en Mercado Libre?
+Sí. Mervick Lab vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/mervick-lab). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.
 
 ### ¿Qué registros o certificaciones tiene Mervick Lab?
 Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02033878, Pilar (Bs. As.): Vigente. Registro consultado en la base oficial SIFeGA el 16/11/2026: Mervick Lab S.A., RNE 02042398, Parada Robles–Pavón (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

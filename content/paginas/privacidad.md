@@ -24,7 +24,7 @@ No usamos cookies propias de analítica ni de publicidad. Si en algún momento s
 
 ## Enlaces a otros sitios
 
-Los enlaces a Mercado Libre, a las tiendas de las marcas y a las fuentes que citamos te llevan a sitios de terceros. Desde ese momento rigen sus propias políticas de privacidad, no esta.
+Si seguís un enlace a Mercado Libre, a la tienda de una marca o a una fuente citada, pasás a un sitio de terceros. Desde ese momento rigen sus propias políticas de privacidad, no esta.
 
 Algunos links a Mercado Libre pueden ser links de afiliado: esos links incluyen un identificador del sitio para que Mercado Libre pueda atribuirle la compra. Desde este sitio no le enviamos tus datos personales a Mercado Libre; lo que pase dentro de Mercado Libre se rige por su política.
 

@@ -4,13 +4,13 @@
 
 # Star Nutrition: historia, líneas de producto y dónde comprar
 
-Star Nutrition es una marca argentina de Nutriciencia S.A. que apuesta a la relación calidad-precio frente a las marcas internacionales, con un catálogo organizado por momento del entrenamiento.
+Competir con las marcas internacionales por calidad, pero a precios del mercado local: esa es la apuesta que declara Star Nutrition, marca de Nutriciencia S.A. Su catálogo está ordenado según el momento del entrenamiento.
 
 ## Posicionamiento
 Se propone igualar la calidad de las marcas internacionales a precios pensados para el consumidor argentino (según la propia marca). Organiza el catálogo por momento del entrenamiento (pre, intra y post) e incluye opciones veganas y sin lactosa.
 
 ## Historia
-La marca se describe como 'una empresa joven' que elabora con materias primas importadas en laboratorio propio, con el objetivo de igualar la calidad de las marcas internacionales a precios accesibles para el consumidor argentino.
+Según su propia presentación, Star Nutrition elabora en laboratorio propio, a partir de insumos importados, y busca estar a la altura de las marcas internacionales en calidad con precios accesibles para el público argentino. La empresa se define a sí misma como joven.
 
 - **Empresa:** Marca de Nutriciencia S.A. (provincia de Buenos Aires).
 - **Fundación:** Presente en el mercado al menos desde 2011.
@@ -48,14 +48,14 @@ instagram: https://www.instagram.com/starnutrition.oficial · facebook: https://
 
 ## Preguntas frecuentes
 
-### ¿De dónde es Star Nutrition?
-Star Nutrition es una marca de Argentina (provincia de Buenos Aires).
+### ¿Dónde tiene su base Star Nutrition?
+En la provincia de Buenos Aires.
 
-### ¿Desde cuándo existe Star Nutrition?
-Presente en el mercado al menos desde 2011.
+### ¿En qué año empezó Star Nutrition?
+No tenemos un año de fundación confirmado: hay registros de la marca en el mercado por lo menos desde 2011.
 
-### ¿Star Nutrition tiene tienda oficial en Mercado Libre?
-Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/star-nutrition.
+### ¿Se puede comprar Star Nutrition directo a la marca en Mercado Libre?
+Sí. Star Nutrition vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/star-nutrition). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.
 
 ### ¿Qué registros o certificaciones tiene Star Nutrition?
 Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02040050, Los Troncos del Talar (Bs. As.): Vigente. Registro consultado en la base oficial SIFeGA el 16/11/2026: Nutriciencia S.A., RNE 02034280, Mar del Plata: Vencido. Declarado por la marca: Calidad 'garantizada a nivel nacional por ANMAT' y cumplimiento de normas GMP. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

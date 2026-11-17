@@ -60,7 +60,7 @@ Entre lo que piden el artículo 1381 del CAA y la guía de la ANMAT, el rótulo 
 - **La información nutricional** por porción o por ingesta diaria recomendada y, cuando corresponda, el porcentaje de la ingesta diaria de referencia (IDR) que cubre cada nutriente.
 - **El nombre y domicilio del elaborador o importador**, con su número de **RNE**.
 - **El número de RNPA** del producto.
-- **La fecha de vencimiento y el número de lote.**
+- **El número de lote y la fecha de vencimiento.**
 - **El modo de uso**: cantidad, frecuencia y condiciones particulares.
 - **Las leyendas obligatorias**, en mayúscula y negrita, bien visibles.
 
@@ -103,7 +103,7 @@ En el buscador oficial, los números tienen la forma **XX-XXXXXX**: los dos prim
 2. **Entrá al [buscador de productos autorizados](https://inal.sifega.anmat.gob.ar/consultadealimentos/)** del sistema SIFeGA.
 3. **Cargá el número.** Elegí el código jurisdiccional (los dos primeros dígitos) y escribí los seis dígitos restantes en el campo RNPA. También podés buscar por marca, denominación o razón social del titular.
 4. **Revisá la vigencia.** El buscador muestra si el registro está vigente, no vigente o dado de baja.
-5. **Compará con el envase.** La denominación, la marca y el RNE del titular que aparecen en el resultado tienen que coincidir con lo que dice el rótulo.
+5. **Poné el resultado al lado del producto.** Si el registro es de ese suplemento, el envase va a repetir la misma marca, la misma denominación y el mismo RNE del titular que muestra el buscador. Cualquier diferencia es motivo para consultar a la marca antes de comprar.
 
 Para el establecimiento, la [consulta pública de RNE](https://inal.sifega.anmat.gob.ar/consultadeRegistro/) funciona de forma parecida: buscás por número o por razón social y ves el domicilio y el estado del registro.
 
@@ -112,7 +112,7 @@ Para el establecimiento, la [consulta pública de RNE](https://inal.sifega.anmat
 Que un número no aparezca no significa, por sí solo, que el producto sea ilegal. El buscador tiene limitaciones conocidas:
 
 - La propia página aclara que algunos parámetros de búsqueda no están disponibles para los registros que otorga la autoridad de Santa Fe (ASSAL).
-- La Ciudad de Buenos Aires no figura entre las jurisdicciones que se pueden elegir en el buscador.
+- En el selector de jurisdicciones del buscador falta la opción correspondiente a la Ciudad de Buenos Aires.
 
 En esos casos, el camino es consultar a la autoridad sanitaria de la jurisdicción que otorgó el registro, o pedirle a la marca la constancia. Algunas marcas publican sus certificados en su sitio, como contamos en la ficha de [Body Advance](/marcas/body-advance). En nuestras fichas también indicamos, cuando pudimos verificarlo, el RNE vigente de la planta, como en los casos de [Star Nutrition](/marcas/star-nutrition) y [Mervick Lab](/marcas/mervick-lab).
 
@@ -132,7 +132,7 @@ Otras señales: un envase sin RNPA ni RNE, un rótulo importado sin la informaci
 
 Leer el rótulo no te dice si un suplemento te conviene. Eso depende de tu alimentación, tu salud y tus objetivos. Lo que sí te dice es si el producto está registrado, quién responde por él y cómo está pensado su uso. Con eso, podés comparar con más criterio.
 
-- Si buscás proteína en polvo, mirá los gramos de proteína **por porción**, no solo cada 100 g. Más sobre esta categoría en [Proteínas](/categorias/proteinas).
+- Si buscás proteína en polvo, fijate cuánta proteína aporta **cada porción**, no solo cada 100 g. Más sobre esta categoría en [Proteínas](/categorias/proteinas).
 - Si comparás creatinas, fijate que la porción diaria indicada respete el máximo del CAA (5 g por día) y que diga qué forma de creatina contiene. Lo desarrollamos en [creatina: para qué sirve y qué dice la evidencia](/blog/creatina-para-que-sirve).
 - Si tomás medicación o tenés alguna condición de salud, algo más frecuente a partir de [los 50 años](/etapas/50-60), consultá antes de sumar un suplemento.
 - Para ver qué tan respaldado está cada ingrediente, podés usar la clasificación que explicamos en [el sistema ABCD del AIS](/blog/suplementos-sistema-abcd-ais).
@@ -145,7 +145,7 @@ Es el Registro Nacional de Producto Alimenticio: el número que identifica a ese
 
 ### ¿Y el RNE?
 
-Es el Registro Nacional de Establecimientos: identifica a la planta que elabora o fracciona el producto, o al importador. El RNE habilita al lugar, no a cada producto.
+Es el Registro Nacional de Establecimientos, y su número corresponde a la planta que elabora o fracciona el producto, o al importador. Dicho de otro modo: el RNE autoriza a una empresa a operar en un domicilio, mientras que cada producto necesita su propio RNPA.
 
 ### ¿Un suplemento con RNPA es seguro o eficaz?
 

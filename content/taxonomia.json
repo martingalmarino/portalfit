@@ -47,7 +47,7 @@
         }
       ],
       "nivel_evidencia": "alto",
-      "nota_evidencia": "La ISSN considera que una ingesta de 1,4–2,0 g/kg/día es adecuada para la mayoría de las personas que entrenan, y que los suplementos son una forma práctica de alcanzarla. AIS: 'Isolated Protein Supplement' en Grupo A (alimento deportivo).",
+      "nota_evidencia": "La ISSN considera que una ingesta de 1,4–2,0 g/kg/día es adecuada para la mayoría de quienes entrenan, y que los suplementos son una forma práctica de alcanzarla. AIS: 'Isolated Protein Supplement' en Grupo A (alimento deportivo).",
       "fuentes": [
         "https://doi.org/10.1186/s12970-017-0177-8",
         "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
@@ -695,7 +695,7 @@
         {
           "tipo": "nutricion",
           "titulo": "Proteína suficiente y repartida",
-          "texto": "Para la mayoría de las personas que entrenan, la ISSN ubica la ingesta diaria entre 1,4 y 2,0 g de proteína por kilo de peso, repartida en tomas de 20 a 40 g cada 3 a 4 horas. Primero con comida; el suplemento, si hace falta.",
+          "texto": "Para la mayoría de quienes entrenan, la ISSN ubica la ingesta diaria entre 1,4 y 2,0 g de proteína por kilo corporal, repartida en tomas de 20 a 40 g cada 3 a 4 horas. Primero con comida; el suplemento, si hace falta.",
           "nivel_evidencia": "alto",
           "respaldo": "Position stand ISSN 2017; AIS Grupo A (proteína aislada)",
           "fuentes": [
@@ -728,8 +728,8 @@
         {
           "nutriente": "Proteína",
           "por_que": "Con agendas cargadas es común saltear comidas y quedar lejos del rango que plantea la ISSN para quienes entrenan.",
-          "como_cubrirlo": "Sumar una fuente proteica en cada comida (carnes, huevo, lácteos, legumbres). La calculadora de proteína diaria del sitio te da un rango orientativo.",
-          "enlace": "/herramientas/proteina-diaria",
+          "como_cubrirlo": "Sumar una fuente proteica en cada comida (carnes, huevo, lácteos, legumbres). Si querés un número de referencia para tu peso y tu entrenamiento, un nutricionista puede calcularlo con vos.",
+          "enlace": "/categorias/proteinas",
           "fuentes": [
             3
           ]
@@ -918,7 +918,7 @@
         },
         {
           "pregunta": "¿Cuánta proteína necesito si entreno?",
-          "respuesta": "La ISSN plantea entre 1,4 y 2,0 g por kilo de peso por día para la mayoría de las personas que entrenan, repartida en varias comidas. Es un rango orientativo: un nutricionista puede ajustarlo a tu caso."
+          "respuesta": "La ISSN plantea entre 1,4 y 2,0 g por kilo de peso por día para la mayoría de quienes entrenan, repartida en varias comidas. Es un rango orientativo: un nutricionista puede ajustarlo a tu caso."
         },
         {
           "pregunta": "¿Necesito un pre-entreno para rendir?",
@@ -948,11 +948,6 @@
           "tipo": "guia",
           "href": "/blog/rotulo-suplemento-rnpa-rne",
           "texto": "Cómo leer el RNPA y el RNE en el rótulo"
-        },
-        {
-          "tipo": "herramienta",
-          "href": "/herramientas/proteina-diaria",
-          "texto": "Calculadora de proteína diaria"
         },
         {
           "tipo": "categoria",
@@ -1057,15 +1052,23 @@
           "fuentes (se amplía con todas las URLs citadas; mismo tipo string[])"
         ],
         "fuentes_existentes_previas": [
+          "https://www.who.int/publications/i/item/9789240015128",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
           "https://doi.org/10.1186/s12970-017-0177-8",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/",
           "https://doi.org/10.1186/s12970-017-0173-z",
-          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7777221/",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/",
+          "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
         ],
         "enlaces_sugeridos_pendientes": [
           {
             "tema": "Guía de proteína: cuánta, cuándo y de qué fuentes",
             "href_propuesto": "/blog/proteina-cuanta-necesitas",
-            "motivo": "Varias etapas remiten a la ingesta de proteína; hoy solo existe la calculadora."
+            "motivo": "Varias etapas remiten a la ingesta de proteína y todavía no hay una guía propia."
           },
           {
             "tema": "Cafeína y pre-entrenos: qué tienen y qué mirar",
@@ -1104,7 +1107,8 @@
         "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
         "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/",
-        "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
+        "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4442216/"
       ],
       "meta_title": "Suplementos de 40 a 49 años: qué priorizar",
       "meta_description": "Entre los 40 y 49: fuerza, proteína repartida, recuperación y micronutrientes. Qué suplementos tienen evidencia, cuáles no, errores comunes y una semana tipo.",
@@ -1159,16 +1163,18 @@
           "respaldo": "Position stand ISSN 2017; AIS Grupo A",
           "fuentes": [
             5,
-            6
+            7
           ]
         },
         {
           "tipo": "habitos",
           "titulo": "Recuperación y descanso",
-          "texto": "Dormir lo suficiente y dejar días más livianos entre sesiones exigentes ayuda a sostener la regularidad, que es lo que más pesa en esta etapa.",
+          "texto": "La Academia Estadounidense de Medicina del Sueño y la Sleep Research Society recomiendan que los adultos de 18 a 60 años duerman 7 horas o más por noche de forma habitual. Sumado a días más livianos entre sesiones exigentes, ayuda a sostener la regularidad, que es lo que más pesa en esta etapa.",
           "nivel_evidencia": "moderado",
-          "respaldo": "Criterio editorial [PENDIENTE: sumar una fuente específica sobre sueño y recuperación]",
-          "fuentes": []
+          "respaldo": "Consenso AASM y SRS 2015 (horas de sueño en adultos)",
+          "fuentes": [
+            6
+          ]
         }
       ],
       "nutrientes_a_vigilar": [
@@ -1176,7 +1182,7 @@
           "nutriente": "Proteína",
           "por_que": "Un metaanálisis encontró que el efecto adicional de la proteína sobre la masa muscular se achica con la edad; por eso conviene no quedarse corto y repartirla.",
           "como_cubrirlo": "Una fuente proteica en cada comida, incluido el desayuno.",
-          "enlace": "/herramientas/proteina-diaria",
+          "enlace": "/categorias/proteinas",
           "fuentes": [
             3,
             4
@@ -1188,8 +1194,8 @@
           "como_cubrirlo": "Medirla con un análisis y suplementar solo si tu médico lo indica.",
           "enlace": "/categorias/vitaminas-minerales?sub=vitamina-d",
           "fuentes": [
-            6,
-            10
+            7,
+            11
           ]
         },
         {
@@ -1198,8 +1204,8 @@
           "como_cubrirlo": "Medir antes: el exceso de hierro también es un problema. La suplementación se decide con un profesional.",
           "enlace": "/categorias/vitaminas-minerales?sub=hierro",
           "fuentes": [
-            6,
-            10
+            7,
+            11
           ]
         },
         {
@@ -1208,8 +1214,8 @@
           "como_cubrirlo": "Lácteos a diario, como proponen las GAPA, u otras fuentes. El suplemento, con indicación profesional.",
           "enlace": "/categorias/vitaminas-minerales?sub=calcio",
           "fuentes": [
-            11,
-            6
+            12,
+            7
           ]
         },
         {
@@ -1218,8 +1224,8 @@
           "como_cubrirlo": "Pescado dos veces por semana cuando sea posible. El suplemento tiene evidencia moderada (AIS Grupo B).",
           "enlace": "/categorias/omega-3",
           "fuentes": [
-            11,
-            7
+            12,
+            8
           ]
         }
       ],
@@ -1232,7 +1238,7 @@
             "enlace": "/categorias/proteinas",
             "fuentes": [
               3,
-              6
+              7
             ]
           },
           {
@@ -1242,7 +1248,7 @@
             "enlace": "/categorias/creatina",
             "fuentes": [
               5,
-              6
+              7
             ]
           },
           {
@@ -1251,7 +1257,7 @@
             "texto": "El AIS los agrupa como suplementos de uso médico: tienen sentido cuando un análisis muestra que hacen falta y con indicación profesional.",
             "enlace": "/categorias/vitaminas-minerales",
             "fuentes": [
-              6
+              7
             ]
           }
         ],
@@ -1262,7 +1268,7 @@
             "texto": "Evidencia emergente o mixta en deportistas (AIS Grupo B). Antes que el suplemento, pescado en la dieta.",
             "enlace": "/categorias/omega-3",
             "fuentes": [
-              7
+              8
             ]
           },
           {
@@ -1271,7 +1277,7 @@
             "texto": "El AIS lo ubica en el Grupo B: hay investigación en curso, sin resultados concluyentes para todos los usos que se promocionan.",
             "enlace": "/categorias/colageno",
             "fuentes": [
-              7
+              8
             ]
           },
           {
@@ -1280,7 +1286,7 @@
             "texto": "El AIS lo pasó al Grupo C: sin beneficio demostrado en deportistas si no hay un déficit.",
             "enlace": "/categorias/magnesio",
             "fuentes": [
-              8
+              9
             ]
           }
         ],
@@ -1291,7 +1297,7 @@
             "texto": "Varios de sus ingredientes figuran en el Grupo D del AIS por el riesgo de contaminación con sustancias prohibidas.",
             "enlace": "/categorias/quemadores-termogenicos",
             "fuentes": [
-              9
+              10
             ]
           }
         ]
@@ -1392,11 +1398,6 @@
           "texto": "Sistema ABCD del AIS: qué suplementos tienen evidencia"
         },
         {
-          "tipo": "herramienta",
-          "href": "/herramientas/proteina-diaria",
-          "texto": "Calculadora de proteína diaria"
-        },
-        {
           "tipo": "categoria",
           "href": "/categorias/proteinas",
           "texto": "Proteínas"
@@ -1455,31 +1456,36 @@
         },
         {
           "n": 6,
+          "titulo": "Watson NF et al. (2015). Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society. J Clin Sleep Med 11(6):591-592",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4442216/"
+        },
+        {
+          "n": 7,
           "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group A",
           "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
         },
         {
-          "n": 7,
+          "n": 8,
           "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group B",
           "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
         },
         {
-          "n": 8,
+          "n": 9,
           "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group C",
           "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_c"
         },
         {
-          "n": 9,
+          "n": 10,
           "titulo": "Australian Institute of Sport. Sports Supplement Framework: Group D",
           "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
         },
         {
-          "n": 10,
+          "n": 11,
           "titulo": "Maughan RJ et al. (2018). IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med 52:439-455",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/"
         },
         {
-          "n": 11,
+          "n": 12,
           "titulo": "Ministerio de Salud de la Nación. Guías Alimentarias para la Población Argentina como estándar de referencia (Res. 693/2019)",
           "url": "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
         }
@@ -1504,9 +1510,17 @@
           "fuentes (se amplía con todas las URLs citadas; mismo tipo string[])"
         ],
         "fuentes_existentes_previas": [
+          "https://www.who.int/publications/i/item/9789240015128",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
           "https://doi.org/10.1186/s12970-017-0177-8",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/",
+          "https://doi.org/10.1186/s12970-017-0173-z",
           "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
-          "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/",
+          "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
         ],
         "enlaces_sugeridos_pendientes": [
           {
@@ -1629,7 +1643,7 @@
           "nutriente": "Proteína",
           "por_que": "Según PROT-AGE, con los años cambia el metabolismo de la proteína y baja la respuesta anabólica a lo que se come.",
           "como_cubrirlo": "Fuentes proteicas en todas las comidas. Si tenés una enfermedad renal, la cantidad la define tu médico.",
-          "enlace": "/herramientas/proteina-diaria",
+          "enlace": "/categorias/proteinas",
           "fuentes": [
             4
           ]
@@ -1840,11 +1854,6 @@
           "texto": "Cómo leer el RNPA y el RNE en el rótulo"
         },
         {
-          "tipo": "herramienta",
-          "href": "/herramientas/proteina-diaria",
-          "texto": "Calculadora de proteína diaria"
-        },
-        {
           "tipo": "categoria",
           "href": "/categorias/proteinas",
           "texto": "Proteínas"
@@ -1962,10 +1971,19 @@
           "fuentes (se amplía con todas las URLs citadas; mismo tipo string[])"
         ],
         "fuentes_existentes_previas": [
+          "https://www.who.int/publications/i/item/9789240015128",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+          "https://doi.org/10.1519/JSC.0000000000003230",
           "https://doi.org/10.1016/j.jamda.2013.05.021",
+          "https://doi.org/10.1186/s12970-017-0177-8",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5679696/",
           "https://doi.org/10.1186/s12970-017-0173-z",
-          "https://doi.org/10.1093/ageing/afy169",
-          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/",
+          "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
         ],
         "enlaces_sugeridos_pendientes": [
           {
@@ -2100,8 +2118,8 @@
         {
           "nutriente": "Proteína",
           "por_que": "Es frecuente quedar por debajo del rango de la ISSN, sobre todo con dietas restrictivas.",
-          "como_cubrirlo": "Una fuente proteica por comida; la calculadora del sitio da un rango orientativo.",
-          "enlace": "/herramientas/proteina-diaria",
+          "como_cubrirlo": "Una fuente proteica en cada comida; si te cuesta llegar, un nutricionista puede ayudarte a ajustar las porciones.",
+          "enlace": "/categorias/proteinas",
           "fuentes": [
             1
           ]
@@ -2132,7 +2150,7 @@
           {
             "nombre": "Cafeína",
             "nivel_evidencia": "alto",
-            "texto": "Con respaldo para rendimiento; la respuesta y la tolerancia son individuales. En embarazo, consultá con tu médico.",
+            "texto": "Con respaldo para rendimiento; la respuesta y la tolerancia son individuales. Si estás embarazada, hablalo antes con tu médico.",
             "enlace": "/categorias/pre-entrenos?sub=cafeina",
             "fuentes": [
               1,
@@ -2251,7 +2269,7 @@
           "respuesta": "Sí. La ISSN incluye a la creatina entre los suplementos con más evidencia en mujeres. Si estás embarazada, en lactancia o tenés una enfermedad renal, consultá antes con tu médico."
         },
         {
-          "pregunta": "¿Cuánta proteína necesita una mujer que entrena?",
+          "pregunta": "Si entreno, ¿qué cantidad de proteína se recomienda?",
           "respuesta": "La ISSN plantea entre 1,4 y 2,2 g por kilo de peso por día, repartida cada 3 a 4 horas, para mujeres en todas las etapas. Un nutricionista puede ajustar el número a tu caso."
         },
         {
@@ -2263,7 +2281,7 @@
           "respuesta": "La evidencia muestra efectos muy individuales. La ISSN sugiere registrar tu propio patrón y ajustar a partir de eso, más que seguir reglas generales."
         },
         {
-          "pregunta": "¿El colágeno sirve para la piel o el pelo?",
+          "pregunta": "¿Tomar colágeno mejora la piel o el pelo?",
           "respuesta": "Nuestro análisis se centra en la evidencia para el entrenamiento: ahí el AIS lo ubica en el Grupo B, con evidencia emergente. No hacemos afirmaciones sobre efectos estéticos."
         }
       ],
@@ -2277,11 +2295,6 @@
           "tipo": "guia",
           "href": "/blog/suplementos-sistema-abcd-ais",
           "texto": "Sistema ABCD del AIS"
-        },
-        {
-          "tipo": "herramienta",
-          "href": "/herramientas/proteina-diaria",
-          "texto": "Calculadora de proteína diaria"
         },
         {
           "tipo": "categoria",
@@ -2387,7 +2400,15 @@
         ],
         "fuentes_existentes_previas": [
           "https://doi.org/10.1080/15502783.2023.2204066",
-          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+          "https://doi.org/10.1136/bjsports-2023-106994",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7998865/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7777221/",
+          "https://www.who.int/publications/i/item/9789240015128",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+          "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
         ],
         "enlaces_sugeridos_pendientes": [
           {
@@ -2444,7 +2465,7 @@
       "meta_title": "Perimenopausia y menopausia: entrenar y comer",
       "meta_description": "Perimenopausia y menopausia desde los hábitos: fuerza, proteína y micronutrientes con evidencia, qué suplementos no tienen respaldo y cuándo consultar.",
       "intro": [
-        "La menopausia es una etapa natural de la vida. Según la Organización Mundial de la Salud, la mayoría de las mujeres la atraviesa entre los 45 y los 55 años. La transición previa, la perimenopausia, empieza con los primeros cambios en el ciclo menstrual, puede durar varios años y termina un año después de la última menstruación. Los cambios hormonales de esta etapa se viven de forma muy distinta: algunas mujeres casi no notan síntomas y otras sí, con impacto en el día a día.",
+        "La menopausia es una etapa natural de la vida. Según la Organización Mundial de la Salud, la mayoría de las mujeres la atraviesa entre los 45 y los 55 años. Antes llega la perimenopausia, que la OMS ubica entre las primeras alteraciones del ciclo y el momento en que se cumple un año sin menstruar; ese tramo puede extenderse varios años. Los cambios hormonales de esta etapa se viven de forma muy distinta: algunas mujeres casi no notan síntomas y otras sí, con impacto en el día a día.",
         "Esta página no aborda el diagnóstico ni el tratamiento de los síntomas. Eso corresponde a tu médico o ginecólogo, que es quien puede evaluar tu caso y las opciones disponibles. Acá nos ocupamos de lo que está a tu alcance en el día a día: el entrenamiento, la alimentación y qué dice la evidencia sobre algunos suplementos.",
         "La ISSN, en su declaración de 2023 sobre la mujer que entrena, dedica un apartado a la peri y la posmenopausia: sugiere registrar cómo responde cada una al entrenamiento y la recuperación, y apuntar a la parte alta de los rangos de proteína. El entrenamiento de fuerza sigue siendo, como en cualquier etapa adulta, la base recomendada por la OMS."
       ],
@@ -2501,8 +2522,8 @@
         {
           "nutriente": "Proteína",
           "por_que": "La ISSN la señala como prioridad en esta etapa para quienes entrenan.",
-          "como_cubrirlo": "Fuentes proteicas en todas las comidas; la calculadora del sitio da un rango orientativo.",
-          "enlace": "/herramientas/proteina-diaria",
+          "como_cubrirlo": "Fuentes proteicas en todas las comidas, con la parte alta del rango de la ISSN como referencia.",
+          "enlace": "/categorias/proteinas",
           "fuentes": [
             2
           ]
@@ -2687,7 +2708,7 @@
       "faq": [
         {
           "pregunta": "¿Qué es la perimenopausia?",
-          "respuesta": "Según la OMS, es el período que empieza con los primeros cambios en el ciclo menstrual y termina un año después de la última menstruación. Puede durar varios años y se vive de forma muy distinta en cada mujer."
+          "respuesta": "Es la transición hacia la menopausia. La OMS la sitúa entre las primeras alteraciones del ciclo menstrual y el momento en que se cumple un año sin menstruar: un tramo que puede abarcar varios años y que cada mujer atraviesa de manera distinta."
         },
         {
           "pregunta": "¿Hay suplementos para la menopausia?",
@@ -2726,11 +2747,6 @@
           "tipo": "guia",
           "href": "/blog/creatina-para-que-sirve",
           "texto": "Creatina: para qué sirve y qué dice la evidencia"
-        },
-        {
-          "tipo": "herramienta",
-          "href": "/herramientas/proteina-diaria",
-          "texto": "Calculadora de proteína diaria"
         },
         {
           "tipo": "categoria",
@@ -2840,7 +2856,19 @@
           "fuentes (se amplía con todas las URLs citadas; mismo tipo string[])"
         ],
         "fuentes_existentes_previas": [
+          "https://www.who.int/news-room/fact-sheets/detail/menopause",
           "https://doi.org/10.1080/15502783.2023.2204066",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7998865/",
+          "https://doi.org/10.1186/s12970-017-0173-z",
+          "https://www.who.int/publications/i/item/9789240015128",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/",
+          "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares",
+          "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf",
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
         ],
         "enlaces_sugeridos_pendientes": [
@@ -2911,7 +2939,7 @@
         {
           "tipo": "nutricion",
           "titulo": "Proteína suficiente",
-          "texto": "Entre 1,4 y 2,0 g por kilo por día para la mayoría de las personas que entrenan, según la ISSN. Un metaanálisis no encontró ganancias adicionales de masa magra por encima de unos 1,6 g por kilo por día.",
+          "texto": "Entre 1,4 y 2,0 g por kilo por día para la mayoría de quienes entrenan, según la ISSN. Un metaanálisis no encontró ganancias adicionales de masa magra por encima de unos 1,6 g por kilo por día.",
           "nivel_evidencia": "alto",
           "respaldo": "ISSN 2017; metaanálisis Morton 2018",
           "fuentes": [
@@ -2945,8 +2973,8 @@
         {
           "nutriente": "Proteína",
           "por_que": "Es clave para la adaptación muscular al entrenamiento, pero pasarse del rango no suma más resultados.",
-          "como_cubrirlo": "Repartirla en 3 o 4 comidas; la calculadora del sitio da un rango orientativo.",
-          "enlace": "/herramientas/proteina-diaria",
+          "como_cubrirlo": "Repartirla en 3 o 4 comidas a lo largo del día, como sugiere la ISSN.",
+          "enlace": "/categorias/proteinas",
           "fuentes": [
             3,
             4
@@ -3178,11 +3206,6 @@
           "texto": "Cómo leer el RNPA y el RNE en el rótulo"
         },
         {
-          "tipo": "herramienta",
-          "href": "/herramientas/proteina-diaria",
-          "texto": "Calculadora de proteína diaria"
-        },
-        {
           "tipo": "categoria",
           "href": "/categorias/proteinas",
           "texto": "Proteínas"
@@ -3295,8 +3318,19 @@
           "fuentes (se amplía con todas las URLs citadas; mismo tipo string[])"
         ],
         "fuentes_existentes_previas": [
+          "https://www.who.int/publications/i/item/9789240015128",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+          "https://doi.org/10.1186/s12970-017-0177-8",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/",
+          "https://doi.org/10.1186/s12970-017-0173-z",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7871530/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7777221/",
+          "https://doi.org/10.1136/bjsports-2023-106994",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
           "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
-          "https://doi.org/10.1186/s12970-017-0173-z"
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/",
+          "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
         ],
         "enlaces_sugeridos_pendientes": [
           {
@@ -3345,7 +3379,7 @@
       "meta_title": "Masa muscular y sarcopenia: qué hábitos ayudan",
       "meta_description": "Qué es la sarcopenia según el consenso europeo, por qué la fuerza y la proteína son pilares para conservar músculo, qué dice la evidencia y cuándo consultar.",
       "intro": [
-        "Con los años, la masa y la fuerza muscular tienden a disminuir de forma gradual. Eso no es lo mismo que la sarcopenia: el consenso europeo EWGSOP2 la define como una enfermedad muscular que se instala a lo largo de la vida, frecuente en personas mayores pero posible también antes, y pone a la baja fuerza muscular como su característica clave. Su diagnóstico lo hace un profesional de la salud con mediciones específicas.",
+        "Con los años, la masa y la fuerza muscular tienden a disminuir de forma gradual. Eso no es lo mismo que la sarcopenia: el consenso europeo EWGSOP2 la define como una enfermedad muscular que se instala a lo largo de la vida, frecuente en personas mayores pero posible también antes, y pone a la baja fuerza muscular como su característica clave. Su diagnóstico lo hace el equipo médico, con mediciones específicas.",
         "Esta página no ofrece diagnóstico ni tratamiento. Si notás que perdiste fuerza, que te cuesta levantarte de una silla o que caminás más lento, la consulta es con tu médico. Lo que sí podemos ordenar acá son los hábitos que la evidencia asocia con conservar la masa muscular en cualquier etapa adulta.",
         "Dos pilares se repiten en todos los consensos: el entrenamiento de fuerza, respaldado por la OMS para todos los adultos y por una declaración de posición de la NSCA para adultos mayores, y una ingesta de proteína suficiente, que según el grupo PROT-AGE es mayor en las personas mayores que en las jóvenes. La creatina tiene evidencia como complemento del entrenamiento, no como reemplazo."
       ],
@@ -3356,7 +3390,7 @@
         5,
         7
       ],
-      "aviso_profesional": "Esta página es informativa y no ofrece diagnóstico ni tratamiento. La sarcopenia se diagnostica y se aborda con un profesional de la salud. Si notás pérdida de fuerza, caídas o dificultad para tareas cotidianas, consultá con tu médico. Si tenés una enfermedad renal u otra condición, la cantidad de proteína y cualquier suplemento los define tu médico.",
+      "aviso_profesional": "Esta página es informativa y no ofrece diagnóstico ni tratamiento. El diagnóstico y el abordaje de la sarcopenia quedan en manos de tu médico. Si notás pérdida de fuerza, caídas o dificultad para tareas cotidianas, consultá con tu médico. Si tenés una enfermedad renal u otra condición, la cantidad de proteína y cualquier suplemento los define tu médico.",
       "prioridades": [
         {
           "tipo": "entrenamiento",
@@ -3417,7 +3451,7 @@
           "nutriente": "Proteína",
           "por_que": "Según PROT-AGE, con la edad cambia el metabolismo de la proteína y disminuye la respuesta anabólica a la que se come.",
           "como_cubrirlo": "Fuentes proteicas en cada comida. Si tenés una enfermedad renal, la cantidad la define tu médico.",
-          "enlace": "/herramientas/proteina-diaria",
+          "enlace": "/categorias/proteinas",
           "fuentes": [
             5
           ]
@@ -3621,11 +3655,6 @@
           "texto": "Sistema ABCD del AIS"
         },
         {
-          "tipo": "herramienta",
-          "href": "/herramientas/proteina-diaria",
-          "texto": "Calculadora de proteína diaria"
-        },
-        {
           "tipo": "categoria",
           "href": "/categorias/proteinas",
           "texto": "Proteínas"
@@ -3729,8 +3758,18 @@
         ],
         "fuentes_existentes_previas": [
           "https://doi.org/10.1093/ageing/afy169",
+          "https://doi.org/10.1519/JSC.0000000000003230",
+          "https://www.who.int/publications/i/item/9789240015128",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
           "https://doi.org/10.1016/j.jamda.2013.05.021",
-          "https://doi.org/10.1186/s12970-017-0173-z"
+          "https://doi.org/10.1186/s12970-017-0177-8",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5679696/",
+          "https://doi.org/10.1186/s12970-017-0173-z",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
+          "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf",
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
         ],
         "enlaces_sugeridos_pendientes": [
           {

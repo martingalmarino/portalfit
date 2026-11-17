@@ -10,7 +10,7 @@ Ultra Tech es la marca principal de Web Supplements, empresa cordobesa fundada e
 Se apoya en su trayectoria y en un catálogo muy amplio (la empresa declara más de 250 productos y presencia en todas las provincias), con fuerte apuesta por geles energéticos, barras y alimentos funcionales.
 
 ## Historia
-Web Supplements nació en Córdoba en 1991 con la primera importación de suplementos deportivos al país bajo la marca Ultra Tech y, según la empresa, obtuvo el primer RNPA para suplementos dietarios en Argentina. En 2002 pasó a fabricar localmente y lanzó Vitatech; en 2016 incorporó una extrusora para barras; en 2017 lanzó Protein Factory y en 2024 una línea de geles energéticos.
+La historia que publica Web Supplements arranca en Córdoba en 1991: ese año, según la empresa, fue la primera en traer al país suplementos deportivos importados, con la marca Ultra Tech, y obtuvo el primer RNPA otorgado a un suplemento dietario en Argentina. La fabricación local llegó en 2002, junto con Vitatech; después sumó una extrusora para barras (2016), Protein Factory (2017) y una línea de geles energéticos (2024).
 
 - **Empresa:** Elaborada por Web Supplements S.R.L., en Córdoba.
 - **Fundación:** 1991
@@ -53,14 +53,14 @@ instagram: https://www.instagram.com/ultratech.nutrition · facebook: https://ww
 
 ## Preguntas frecuentes
 
-### ¿De dónde es Ultra Tech?
-Ultra Tech es una marca de Argentina (Córdoba).
+### ¿Dónde tiene su base Ultra Tech?
+En Córdoba.
 
-### ¿Desde cuándo existe Ultra Tech?
-Desde 1991.
+### ¿En qué año empezó Ultra Tech?
+Arrancó en 1991.
 
-### ¿Ultra Tech tiene tienda oficial en Mercado Libre?
-Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/ultra-tech.
+### ¿Se puede comprar Ultra Tech directo a la marca en Mercado Libre?
+Sí. Ultra Tech vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/ultra-tech). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.
 
 ### ¿Qué registros o certificaciones tiene Ultra Tech?
 Declarado por la marca: Primer RNPA para suplementos dietarios del país (1991). Declarado por la marca: Planta en Córdoba con registro de establecimiento ante la FDA de EE.UU. RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción Córdoba no disponible en el buscador). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

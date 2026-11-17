@@ -43,7 +43,7 @@ _Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el contr
 
 ## Dónde comprar
 - Sitio oficial: https://bodyadvancenutrition.com/
-- Mercado Libre: Sin tienda oficial de la marca (no se encontró). Se vende en Mercado Libre por revendedores, p. ej. la tienda oficial del revendedor ODX
+- Mercado Libre: No encontramos una tienda oficial de la marca. La ofrecen revendedores, como la tienda oficial de ODX
 - Tienda online oficial: https://bodyadvancenutrition.com/
 
 ## Redes
@@ -51,14 +51,14 @@ instagram: https://www.instagram.com/bodyadvanceoficial · tiktok: https://www.t
 
 ## Preguntas frecuentes
 
-### ¿De dónde es Body Advance?
-Body Advance es una marca de Argentina (Caseros, Buenos Aires).
+### ¿Dónde tiene su base Body Advance?
+En Caseros, provincia de Buenos Aires.
 
-### ¿Desde cuándo existe Body Advance?
-Con productos registrados al menos desde 2020.
+### ¿En qué año empezó Body Advance?
+No tenemos un año de fundación confirmado: tiene productos registrados por lo menos desde 2020.
 
-### ¿Body Advance tiene tienda oficial en Mercado Libre?
-Sin tienda oficial de la marca (no se encontró). Se vende en Mercado Libre por revendedores, p. ej. la tienda oficial del revendedor ODX.
+### ¿Se puede comprar Body Advance directo a la marca en Mercado Libre?
+No encontramos una tienda propia de Body Advance en Mercado Libre. Sus productos aparecen en publicaciones de revendedores, como la tienda oficial de ODX.
 
 ### ¿Qué registros o certificaciones tiene Body Advance?
 Documento oficial publicado por la marca: certificado de Buenas Prácticas de Manufactura emitido por INAL/ANMAT antes del traspaso a SENASA, CE-2026-16932725-APN-DFYC#ANMAT, del 18/02/2026, con validez de un año (rubro Alimentos de Régimen o Dietéticos). Registro consultado en la base oficial SIFeGA el 16/11/2026: RNE 02035075, Caseros (Bs. As.): Vigente. Declarado por la marca: RNPA de sus productos y permisos de importación/exportación. Declarado por la marca: Análisis de laboratorio de terceros publicados (p. ej. Melacrom). Según la ANMAT (2020), los RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein) estaban vigentes a esa fecha. Antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

@@ -26,7 +26,7 @@ fuentes:
 
 El sistema ABCD es la clasificación que usa el Instituto Australiano del Deporte (AIS) para ordenar suplementos y alimentos deportivos según tres preguntas: si son seguros, si están permitidos en el deporte y si hay evidencia de que funcionan. El **Grupo A** reúne lo que tiene evidencia sólida para usos concretos (como creatina, cafeína o proteína); el **B**, lo que tiene evidencia emergente o mixta; el **C**, lo que no muestra beneficio en atletas o no fue estudiado lo suficiente; y el **D**, lo prohibido o con alto riesgo de contaminación.
 
-Es una de las referencias más usadas para separar lo que tiene respaldo de lo que es pura promesa. En esta guía te contamos qué incluye cada grupo, cómo leerlo sin sacar conclusiones equivocadas y cómo lo usamos en este sitio.
+Es una de las referencias más usadas para separar lo que tiene respaldo de lo que es pura promesa. Acá repasamos qué incluye cada grupo, cómo leerlo sin sacar conclusiones equivocadas y cómo lo usamos en este sitio.
 
 ## Qué es el AIS y por qué su clasificación sirve
 
@@ -44,10 +44,10 @@ Con esas respuestas, ubica a cada ingrediente en uno de los cuatro grupos. La cl
 
 | Grupo | Nivel de evidencia según el AIS | Uso que propone el AIS | Algunos ejemplos |
 |---|---|---|---|
-| A | Evidencia científica sólida para usos específicos en el deporte, con protocolos basados en evidencia | Permitido para atletas identificados, según protocolos de buenas prácticas | Proteína aislada, bebidas deportivas, geles, creatina, cafeína, beta-alanina, vitamina D o hierro ante un déficit |
-| B | Evidencia emergente o mixta; merece consideración en poblaciones o situaciones específicas | Para atletas puntuales, en contextos de investigación o con seguimiento clínico | Colágeno, aceite de pescado (omega 3), multivitamínico, vitamina C, probióticos, curcumina |
-| C | La evidencia no respalda un beneficio en atletas, o no hay investigación suficiente | No recomendado dentro de los programas de suplementos | Magnesio (como óxido), BCAA, HMB, ácido alfa lipoico, tirosina, vitamina E |
-| D | Prohibido o con alto riesgo de contaminación con sustancias que pueden dar un doping positivo | No debe ser usado por atletas | Estimulantes como efedrina o DMAA, prohormonas, "potenciadores de testosterona", SARMs |
+| A | Respaldo científico firme, siempre que se use en situaciones concretas del deporte y con protocolos probados | Se puede usar en atletas seleccionados, siguiendo las buenas prácticas | Proteína aislada, bebidas deportivas, geles, creatina, cafeína, beta-alanina, vitamina D o hierro ante un déficit |
+| B | Resultados todavía incipientes o contradictorios; puede tener sentido en algunos grupos o momentos puntuales | Solo en casos individuales, dentro de un estudio o con control clínico | Colágeno, aceite de pescado (omega 3), multivitamínico, vitamina C, probióticos, curcumina |
+| C | Los estudios no muestran beneficio en deportistas, o directamente faltan datos para opinar | El AIS no lo aconseja dentro de sus programas de suplementos | Magnesio (como óxido), BCAA, HMB, ácido alfa lipoico, tirosina, vitamina E |
+| D | Sustancias prohibidas, o productos con muchas chances de venir contaminados con algo que dé positivo en un control antidopaje | Fuera de uso para atletas | Estimulantes como efedrina o DMAA, prohormonas, "potenciadores de testosterona", SARMs |
 
 ## Grupo A: evidencia sólida, para usos concretos
 
@@ -79,7 +79,7 @@ El AIS ubica en el Grupo C lo que no tiene evidencia favorable en atletas o lo q
 
 En su página del Grupo C, el AIS lista ingredientes que antes estaban en el B y que su comité acordó pasar al C porque la investigación más reciente es menos convincente: el **magnesio** (como óxido de magnesio), el **ácido alfa lipoico**, el **HMB**, los **aminoácidos de cadena ramificada (BCAA)**, el **fosfato**, la **SAMe**, la **tirosina** y la **vitamina E**.
 
-Esto no quiere decir que sean peligrosos. Quiere decir que, para quien ya come bien, no hay evidencia de que sumen rendimiento. Si te preocupa no llegar a cubrir algún nutriente, como el magnesio, eso es algo que tiene que evaluar un profesional. Lo explicamos en [Magnesio](/categorias/magnesio) y en [Aminoácidos](/categorias/aminoacidos).
+Esto no quiere decir que sean peligrosos. Quiere decir que, para quien ya come bien, la evidencia no muestra que sumen rendimiento. Si te preocupa no llegar a cubrir algún nutriente, como el magnesio, eso es algo que tiene que evaluar un profesional. Lo explicamos en [Magnesio](/categorias/magnesio) y en [Aminoácidos](/categorias/aminoacidos).
 
 ## Grupo D: lo que no debería usar un deportista
 
@@ -88,12 +88,12 @@ El Grupo D incluye sustancias **prohibidas** o con **alto riesgo de contaminaci�
 Algunos ejemplos que lista el AIS:
 
 - **Estimulantes:** efedrina, estricnina, sibutramina, metilhexanamina (DMAA), DMBA y otros estimulantes de hierbas.
-- **Naranja amarga y sinefrina.** El AIS aclara que la sinefrina no está prohibida, pero está en el programa de seguimiento de la Agencia Mundial Antidopaje, y que el extracto de naranja amarga puede contener octopamina, que sí está prohibida en competencia.
+- **Naranja amarga y sinefrina.** Según el AIS, la sinefrina no está en la lista de prohibidas, aunque la Agencia Mundial Antidopaje la sigue en su programa de monitoreo. El problema es que el extracto de naranja amarga puede traer también octopamina, una sustancia vedada en competencia.
 - **Prohormonas y "potenciadores hormonales":** DHEA, androstenediona, *Tribulus terrestris* y otros potenciadores de testosterona, y polvo de raíz de maca.
 - **Liberadores de hormona de crecimiento y "péptidos"**, **higenamina**, **SARMs** y **moduladores metabólicos**.
 - **Calostro**, que la Agencia Mundial Antidopaje no recomienda por los factores de crecimiento que contiene.
 
-El AIS aclara que algunos de estos ingredientes no figuran en la lista de sustancias prohibidas, pero suelen aparecer en productos de varios ingredientes que sí las contienen o tienen alto riesgo de contaminación. Varios de estos estimulantes son típicos de los productos que se venden como "quemadores": por eso esa categoría figura en este sitio con nivel de precaución, en [Quemadores y termogénicos](/categorias/quemadores-termogenicos).
+Hay otra advertencia del AIS que alcanza a varios de estos ingredientes: aunque por sí mismos no estén prohibidos, es habitual encontrarlos en fórmulas con muchos componentes que incluyen sustancias prohibidas o que tienen más chances de estar contaminadas. Varios de estos estimulantes son típicos de los productos que se venden como "quemadores": por eso esa categoría figura en este sitio con nivel de precaución, en [Quemadores y termogénicos](/categorias/quemadores-termogenicos).
 
 ## Cómo leer el ABCD sin malinterpretarlo
 

@@ -4,13 +4,13 @@
 
 # HTN (High Tech Nutrition): historia, líneas de producto y dónde comprar
 
-HTN (High Tech Nutrition) es una marca argentina de nutrición deportiva que declara desarrollar suplementos desde 1999 y organiza su oferta en las líneas Xplode Series y Pro Series.
+Xplode Series y Pro Series son las dos líneas que ordenan el catálogo de HTN (sigla de High Tech Nutrition), una marca argentina que, de acuerdo con la información que publica, trabaja en suplementos desde 1999.
 
 ## Posicionamiento
 Destaca su trayectoria y organiza la oferta en líneas (Xplode Series, Pro Series) y por objetivo de entrenamiento. Declara trabajar con materias primas importadas y certificadas.
 
 ## Historia
-Según la propia marca, desarrolla suplementos desde 1999 y fue pionera en el mercado local en varias categorías: proteínas con enzimas digestivas, proteínas de liberación progresiva, productos aptos para veganos y la línea PRO con Beta-BCAA 8.0.
+La marca se presenta como pionera en el mercado local en varias categorías (proteínas con enzimas digestivas, proteínas de liberación progresiva, productos aptos para veganos y la línea PRO con Beta-BCAA 8.0) y ubica en 1999 el comienzo de su actividad.
 
 - **Fundación:** 1999
 - **Origen:** Argentina
@@ -46,14 +46,14 @@ instagram: https://www.instagram.com/hightechnutrition · facebook: https://www.
 
 ## Preguntas frecuentes
 
-### ¿De dónde es HTN (High Tech Nutrition)?
-HTN (High Tech Nutrition) es una marca de Argentina.
+### ¿Dónde tiene su base HTN (High Tech Nutrition)?
+En Argentina.
 
-### ¿Desde cuándo existe HTN (High Tech Nutrition)?
-Desde 1999.
+### ¿En qué año empezó HTN (High Tech Nutrition)?
+Según la propia marca, arrancó en 1999.
 
-### ¿HTN (High Tech Nutrition) tiene tienda oficial en Mercado Libre?
-Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/htn.
+### ¿Se puede comprar HTN (High Tech Nutrition) directo a la marca en Mercado Libre?
+Sí. HTN vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/htn). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.
 
 ### ¿Qué registros o certificaciones tiene HTN (High Tech Nutrition)?
 Declarado por la marca: Productos fabricados en 'instalaciones certificadas' (no se indica cuáles). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

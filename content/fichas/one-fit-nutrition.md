@@ -4,7 +4,7 @@
 
 # One Fit Nutrition: historia, líneas de producto y dónde comprar
 
-One Fit Nutrition es una marca de X-Nutrition, fabricante santafesino fundado en 2019 que también produce para otras marcas.
+Detrás de One Fit Nutrition está X-Nutrition, un fabricante santafesino fundado en 2019 que además produce para otras marcas.
 
 ## Posicionamiento
 Es la marca de un fabricante que vende directo desde fábrica, con combos de producto. La empresa también se ofrece como fabricante para marcas de terceros.
@@ -44,14 +44,14 @@ instagram: https://www.instagram.com/onefit.nutrition
 
 ## Preguntas frecuentes
 
-### ¿De dónde es One Fit Nutrition?
-One Fit Nutrition es una marca de Argentina (Alvear, Santa Fe).
+### ¿Dónde tiene su base One Fit Nutrition?
+En Alvear, provincia de Santa Fe.
 
-### ¿Desde cuándo existe One Fit Nutrition?
-2019.
+### ¿En qué año empezó One Fit Nutrition?
+Arrancó en 2019, cuando se fundó X-Nutrition, la empresa que la elabora.
 
-### ¿One Fit Nutrition tiene tienda oficial en Mercado Libre?
-Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/one-fit-nutrition.
+### ¿Se puede comprar One Fit Nutrition directo a la marca en Mercado Libre?
+Sí. One Fit Nutrition vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/one-fit-nutrition). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.
 
 ### ¿Qué registros o certificaciones tiene One Fit Nutrition?
 Declarado por la marca: 'RNA habilitado nacional' (probablemente se refiere al registro de establecimiento). RNE: no verificado (la consulta en la base oficial SIFeGA por X-Nutrition no devolvió resultados; jurisdicción Santa Fe/ASSAL). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

@@ -47,14 +47,14 @@ instagram: https://instagram.com/goldnutritionar · facebook: https://facebook.c
 
 ## Preguntas frecuentes
 
-### ¿De dónde es Gold Nutrition?
-Gold Nutrition es una marca de Argentina (CABA).
+### ¿Dónde tiene su base Gold Nutrition?
+En la Ciudad de Buenos Aires.
 
-### ¿Desde cuándo existe Gold Nutrition?
-Presente al menos desde 2018.
+### ¿En qué año empezó Gold Nutrition?
+No tenemos un año de fundación confirmado: hay registros de la marca por lo menos desde 2018.
 
-### ¿Gold Nutrition tiene tienda oficial en Mercado Libre?
-Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/gold-nutrition.
+### ¿Se puede comprar Gold Nutrition directo a la marca en Mercado Libre?
+Sí. Gold Nutrition vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/gold-nutrition). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.
 
 ### ¿Qué registros o certificaciones tiene Gold Nutrition?
 Declarado por la marca: Uso de materias primas de proveedores con marca registrada (Creapure®, Pronovapure®, Peptan®, dsm-firmenich, Arla Foods). RNE: no verificable en la consulta pública de establecimientos de SIFeGA (jurisdicción CABA no disponible en el buscador). RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

@@ -7,7 +7,7 @@
 Optimum Nutrition es una marca estadounidense fundada en 1986 y hoy propiedad de Glanbia. En Argentina se consigue importada; su línea más reconocida es Gold Standard.
 
 ## Posicionamiento
-Es una de las marcas internacionales de referencia del sector y llega a Argentina como producto importado. Su franquicia más conocida es Gold Standard.
+Figura entre las referencias internacionales del sector y en Argentina se consigue importada. Gold Standard es su franquicia más conocida.
 
 ## Historia
 Fundada en 1986 por los hermanos Tony y Mike Costello; su línea de tiempo oficial registra el pasaje a proteína instantánea, el lanzamiento de su primera proteína de caseína y la compra por Glanbia PLC. Declara distribución en más de 90/100 países.
@@ -45,14 +45,14 @@ instagram: https://www.instagram.com/optimumnutrition/ · facebook: https://www.
 
 ## Preguntas frecuentes
 
-### ¿De dónde es Optimum Nutrition?
-Optimum Nutrition es una marca de Estados Unidos (importada).
+### ¿Dónde tiene su base Optimum Nutrition?
+En Estados Unidos. A Argentina llega como producto importado.
 
-### ¿Desde cuándo existe Optimum Nutrition?
-Desde 1986.
+### ¿En qué año empezó Optimum Nutrition?
+Arrancó en 1986.
 
-### ¿Optimum Nutrition tiene tienda oficial en Mercado Libre?
-Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/optimum-nutrition.
+### ¿Se puede comprar Optimum Nutrition directo a la marca en Mercado Libre?
+Sí. Optimum Nutrition vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/optimum-nutrition). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.
 
 ### ¿Qué registros o certificaciones tiene Optimum Nutrition?
 RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

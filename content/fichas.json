@@ -14,9 +14,9 @@
         "description": "ENA Sport: origen, empresa, líneas de producto, registros y tiendas oficiales en Argentina. Datos verificados, con fuente y fecha."
       },
       "h1": "ENA Sport: historia, líneas de producto y dónde comprar",
-      "intro": "ENA Sport es una marca argentina de nutrición deportiva nacida en Bahía Blanca en 1988. Según Forbes Argentina (2020), único dato público de participación disponible, era la marca líder del mercado; su catálogo va del deporte al bienestar diario.",
+      "intro": "Forbes Argentina la señaló en 2020 como líder del mercado local, y es el único dato público de participación que encontramos. ENA Sport nació en Bahía Blanca en 1988 y hoy tiene un catálogo que va del rendimiento deportivo al bienestar diario.",
       "posicionamiento": "Apunta al público masivo, con distribución amplia en farmacias, dietéticas, gimnasios y canal online. Su catálogo va de la nutrición deportiva al bienestar diario (magnesio, colágeno, vitaminas, resveratrol). Según Forbes Argentina (2020), tenía más del 30% del mercado.",
-      "historia": "Nació en 1988 en Bahía Blanca, cuando Pablo Fidani decidió fabricar en el país suplementos que hasta entonces se veían importados. Con la llegada de la segunda generación (Martín Fidani) pasó de pyme a empresa regional de nutrición, agrupando sus marcas bajo Laboratorio ENA, con distribución en Argentina, Chile y Uruguay y desembarco en España.",
+      "historia": "Nació en Bahía Blanca en 1988, cuando Pablo Fidani decidió fabricar en el país suplementos que hasta entonces se veían importados. Con la llegada de la segunda generación (Martín Fidani) pasó de pyme a empresa regional de nutrición, agrupando sus marcas bajo Laboratorio ENA, con distribución en Argentina, Chile y Uruguay y desembarco en España.",
       "empresa": "Elaborada por Laboratorio ENA, en Bahía Blanca (Buenos Aires).",
       "anio_fundacion": 1988,
       "origen": "Argentina (Bahía Blanca, Buenos Aires)",
@@ -108,7 +108,7 @@
         }
       ],
       "certificaciones": [
-        "Declarado por la marca: Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad",
+        "Declarado por la marca: Cumple la normativa de ANMAT y cuenta con laboratorio propio y controles de calidad",
         "Informado por terceros: Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial",
         "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
       ],
@@ -116,7 +116,7 @@
         {
           "estado": "declarado",
           "etiqueta": "Declarado por la marca",
-          "texto": "Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad"
+          "texto": "Cumple la normativa de ANMAT y cuenta con laboratorio propio y controles de calidad"
         },
         {
           "estado": "terceros",
@@ -147,16 +147,16 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es ENA Sport?",
-          "a": "ENA Sport es una marca de Argentina (Bahía Blanca, Buenos Aires).",
+          "q": "¿Dónde tiene su base ENA Sport?",
+          "a": "En Bahía Blanca, provincia de Buenos Aires.",
           "fuentes": [
             "https://www.cronista.com/pyme/negocios-pyme/la-decision-de-ser-una-empresa-internacional/",
             "https://www.endeavor.org.ar/emprendedores/martin-fidani/"
           ]
         },
         {
-          "q": "¿Desde cuándo existe ENA Sport?",
-          "a": "Desde 1988.",
+          "q": "¿En qué año empezó ENA Sport?",
+          "a": "Arrancó en 1988.",
           "fuentes": [
             "https://www.cronista.com/pyme/negocios-pyme/la-decision-de-ser-una-empresa-internacional/",
             "https://www.endeavor.org.ar/emprendedores/martin-fidani/",
@@ -164,15 +164,15 @@
           ]
         },
         {
-          "q": "¿ENA Sport tiene tienda oficial en Mercado Libre?",
-          "a": "Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/ena.",
+          "q": "¿Se puede comprar ENA Sport directo a la marca en Mercado Libre?",
+          "a": "Sí. ENA Sport vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/ena). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/ena"
           ]
         },
         {
           "q": "¿Qué registros o certificaciones tiene ENA Sport?",
-          "a": "Declarado por la marca: Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad. Informado por terceros: Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
+          "a": "Declarado por la marca: Cumple la normativa de ANMAT y cuenta con laboratorio propio y controles de calidad. Informado por terceros: Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.",
           "fuentes": [
             "https://www.enasport.com/pages/nosotros",
             "https://alaola.com.ar/marcas/ena-sport",
@@ -213,9 +213,9 @@
         "description": "Gentech: origen, empresa, líneas de producto, registros y tiendas oficiales en Argentina. Datos verificados, con fuente y fecha."
       },
       "h1": "Gentech: historia, líneas de producto y dónde comprar",
-      "intro": "Gentech es una marca argentina que empezó importando suplementos en 1998 y fabrica en el país desde 2003. Se presenta como proveedora oficial de la AFA y es conocida por sus barras Iron Bar.",
+      "intro": "Las barras Iron Bar y su rol de proveedora oficial de la AFA, según su propia presentación, son lo más reconocible de Gentech. La empresa arrancó en 1998 importando suplementos y desde 2003 fabrica en el país.",
       "posicionamiento": "Se enfoca en el fútbol y el alto rendimiento: se presenta como Proveedor Oficial de la AFA y declara abastecer a cerca del 80% de los clubes de primera división. Su producto más conocido son las barras Iron Bar.",
-      "historia": "Martín Menem inició la marca importando siete productos de EE.UU. en 1998. Tras la crisis de 2001 decidió producir en el país y en 2003 lanzó los primeros productos hechos en Argentina en su planta de Constitución. Según Forbes (2021) fabrica más de 80 productos propios y para terceros.",
+      "historia": "Martín Menem inició la marca importando siete productos de EE.UU. en 1998. Tras la crisis de 2001 decidió producir en el país. «En 2003, hacíamos todo muy a pulmón y lanzamos los primeros productos hechos en la Argentina de la marca Gentech», le contó Menem a Forbes Argentina; la producción quedó en su planta de Constitución. Según Forbes (2021) fabrica más de 80 productos propios y para terceros.",
       "empresa": "Elaborada por G.E.N. Tech Argentina S.A., en la Ciudad de Buenos Aires.",
       "anio_fundacion": "1998, como importadora; fabrica en el país desde 2003.",
       "origen": "Argentina (Ciudad de Buenos Aires)",
@@ -335,15 +335,15 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es Gentech?",
-          "a": "Gentech es una marca de Argentina (Ciudad de Buenos Aires).",
+          "q": "¿Dónde tiene su base Gentech?",
+          "a": "En la Ciudad de Buenos Aires.",
           "fuentes": [
             "https://www.forbesargentina.com/negocios/como-gentech-compania-pionera-suplementos-dietarios-factura-116-millones-n8299"
           ]
         },
         {
-          "q": "¿Desde cuándo existe Gentech?",
-          "a": "1998, como importadora; fabrica en el país desde 2003.",
+          "q": "¿En qué año empezó Gentech?",
+          "a": "Arrancó en 1998 como importadora; la fabricación en el país llegó en 2003.",
           "fuentes": [
             "https://www.forbesargentina.com/negocios/como-gentech-compania-pionera-suplementos-dietarios-factura-116-millones-n8299",
             "https://indicadores.ar/empresa/30694765382",
@@ -351,8 +351,8 @@
           ]
         },
         {
-          "q": "¿Gentech tiene tienda oficial en Mercado Libre?",
-          "a": "Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/gentech.",
+          "q": "¿Se puede comprar Gentech directo a la marca en Mercado Libre?",
+          "a": "Sí. Gentech vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/gentech). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/gentech"
           ]
@@ -398,7 +398,7 @@
       "h1": "Ultra Tech: historia, líneas de producto y dónde comprar",
       "intro": "Ultra Tech es la marca principal de Web Supplements, empresa cordobesa fundada en 1991. Declara más de 250 productos, entre ellos una línea amplia de geles energéticos y barras.",
       "posicionamiento": "Se apoya en su trayectoria y en un catálogo muy amplio (la empresa declara más de 250 productos y presencia en todas las provincias), con fuerte apuesta por geles energéticos, barras y alimentos funcionales.",
-      "historia": "Web Supplements nació en Córdoba en 1991 con la primera importación de suplementos deportivos al país bajo la marca Ultra Tech y, según la empresa, obtuvo el primer RNPA para suplementos dietarios en Argentina. En 2002 pasó a fabricar localmente y lanzó Vitatech; en 2016 incorporó una extrusora para barras; en 2017 lanzó Protein Factory y en 2024 una línea de geles energéticos.",
+      "historia": "La historia que publica Web Supplements arranca en Córdoba en 1991: ese año, según la empresa, fue la primera en traer al país suplementos deportivos importados, con la marca Ultra Tech, y obtuvo el primer RNPA otorgado a un suplemento dietario en Argentina. La fabricación local llegó en 2002, junto con Vitatech; después sumó una extrusora para barras (2016), Protein Factory (2017) y una línea de geles energéticos (2024).",
       "empresa": "Elaborada por Web Supplements S.R.L., en Córdoba.",
       "anio_fundacion": 1991,
       "origen": "Argentina (Córdoba)",
@@ -524,24 +524,24 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es Ultra Tech?",
-          "a": "Ultra Tech es una marca de Argentina (Córdoba).",
+          "q": "¿Dónde tiene su base Ultra Tech?",
+          "a": "En Córdoba.",
           "fuentes": [
             "https://websupplements.com.ar/empresa/historia/",
             "https://ultratechnutrition.com/quienes-somos-web-supplements/"
           ]
         },
         {
-          "q": "¿Desde cuándo existe Ultra Tech?",
-          "a": "Desde 1991.",
+          "q": "¿En qué año empezó Ultra Tech?",
+          "a": "Arrancó en 1991.",
           "fuentes": [
             "https://websupplements.com.ar/empresa/historia/",
             "https://ultratechnutrition.com/quienes-somos-web-supplements/"
           ]
         },
         {
-          "q": "¿Ultra Tech tiene tienda oficial en Mercado Libre?",
-          "a": "Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/ultra-tech.",
+          "q": "¿Se puede comprar Ultra Tech directo a la marca en Mercado Libre?",
+          "a": "Sí. Ultra Tech vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/ultra-tech). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/ultra-tech"
           ]
@@ -583,9 +583,9 @@
         "description": "Star Nutrition: origen, empresa, líneas de producto, registros y tiendas oficiales en Argentina. Datos verificados, con fuente y fecha."
       },
       "h1": "Star Nutrition: historia, líneas de producto y dónde comprar",
-      "intro": "Star Nutrition es una marca argentina de Nutriciencia S.A. que apuesta a la relación calidad-precio frente a las marcas internacionales, con un catálogo organizado por momento del entrenamiento.",
+      "intro": "Competir con las marcas internacionales por calidad, pero a precios del mercado local: esa es la apuesta que declara Star Nutrition, marca de Nutriciencia S.A. Su catálogo está ordenado según el momento del entrenamiento.",
       "posicionamiento": "Se propone igualar la calidad de las marcas internacionales a precios pensados para el consumidor argentino (según la propia marca). Organiza el catálogo por momento del entrenamiento (pre, intra y post) e incluye opciones veganas y sin lactosa.",
-      "historia": "La marca se describe como 'una empresa joven' que elabora con materias primas importadas en laboratorio propio, con el objetivo de igualar la calidad de las marcas internacionales a precios accesibles para el consumidor argentino.",
+      "historia": "Según su propia presentación, Star Nutrition elabora en laboratorio propio, a partir de insumos importados, y busca estar a la altura de las marcas internacionales en calidad con precios accesibles para el público argentino. La empresa se define a sí misma como joven.",
       "empresa": "Marca de Nutriciencia S.A. (provincia de Buenos Aires).",
       "anio_fundacion": "Presente en el mercado al menos desde 2011.",
       "origen": "Argentina (provincia de Buenos Aires)",
@@ -704,16 +704,16 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es Star Nutrition?",
-          "a": "Star Nutrition es una marca de Argentina (provincia de Buenos Aires).",
+          "q": "¿Dónde tiene su base Star Nutrition?",
+          "a": "En la provincia de Buenos Aires.",
           "fuentes": [
             "https://w20argentina.com/empresa/nutriciencia-sociedad-anonima-30708530863",
             "https://appsb.mardelplata.gob.ar/Consultas/nOfertasProduccion/OfertaExportable/Empresa.aspx?id=2288"
           ]
         },
         {
-          "q": "¿Desde cuándo existe Star Nutrition?",
-          "a": "Presente en el mercado al menos desde 2011.",
+          "q": "¿En qué año empezó Star Nutrition?",
+          "a": "No tenemos un año de fundación confirmado: hay registros de la marca en el mercado por lo menos desde 2011.",
           "fuentes": [
             "https://web.archive.org/web/20110102163845/http://www.goldnutrition.com.ar/",
             "https://web.archive.org/web/20120720021152/http://www.starnutrition.com.ar/",
@@ -721,8 +721,8 @@
           ]
         },
         {
-          "q": "¿Star Nutrition tiene tienda oficial en Mercado Libre?",
-          "a": "Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/star-nutrition.",
+          "q": "¿Se puede comprar Star Nutrition directo a la marca en Mercado Libre?",
+          "a": "Sí. Star Nutrition vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/star-nutrition). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/star-nutrition"
           ]
@@ -767,7 +767,7 @@
       },
       "h1": "Optimum Nutrition: historia, líneas de producto y dónde comprar",
       "intro": "Optimum Nutrition es una marca estadounidense fundada en 1986 y hoy propiedad de Glanbia. En Argentina se consigue importada; su línea más reconocida es Gold Standard.",
-      "posicionamiento": "Es una de las marcas internacionales de referencia del sector y llega a Argentina como producto importado. Su franquicia más conocida es Gold Standard.",
+      "posicionamiento": "Figura entre las referencias internacionales del sector y en Argentina se consigue importada. Gold Standard es su franquicia más conocida.",
       "historia": "Fundada en 1986 por los hermanos Tony y Mike Costello; su línea de tiempo oficial registra el pasaje a proteína instantánea, el lanzamiento de su primera proteína de caseína y la compra por Glanbia PLC. Declara distribución en más de 90/100 países.",
       "empresa": "Marca de Glanbia PLC. En Argentina la distribuye Trust Distributions S.A.",
       "anio_fundacion": 1986,
@@ -842,22 +842,22 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es Optimum Nutrition?",
-          "a": "Optimum Nutrition es una marca de Estados Unidos (importada).",
+          "q": "¿Dónde tiene su base Optimum Nutrition?",
+          "a": "En Estados Unidos. A Argentina llega como producto importado.",
           "fuentes": [
             "https://www.optimumnutrition.com/en-us/pages/about-us"
           ]
         },
         {
-          "q": "¿Desde cuándo existe Optimum Nutrition?",
-          "a": "Desde 1986.",
+          "q": "¿En qué año empezó Optimum Nutrition?",
+          "a": "Arrancó en 1986.",
           "fuentes": [
             "https://www.optimumnutrition.com/en-us/pages/about-us"
           ]
         },
         {
-          "q": "¿Optimum Nutrition tiene tienda oficial en Mercado Libre?",
-          "a": "Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/optimum-nutrition.",
+          "q": "¿Se puede comprar Optimum Nutrition directo a la marca en Mercado Libre?",
+          "a": "Sí. Optimum Nutrition vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/optimum-nutrition). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/optimum-nutrition"
           ]
@@ -899,9 +899,9 @@
         "description": "Mervick Lab: origen, empresa, líneas de producto, registros y tiendas oficiales en Argentina. Datos verificados, con fuente y fecha."
       },
       "h1": "Mervick Lab: historia, líneas de producto y dónde comprar",
-      "intro": "Mervick Lab es una marca argentina de la provincia de Buenos Aires orientada a los deportes de resistencia, con geles, carbohidratos e hidratación junto a proteínas y creatina.",
+      "intro": "Los deportes de resistencia son el foco de Mervick Lab: geles, carbohidratos e hidratación, a los que suma proteínas y creatina. La marca tiene base en la provincia de Buenos Aires.",
       "posicionamiento": "Se orienta a los deportes de resistencia (running, trail y ciclismo) además del fitness: ofrece geles, carbohidratos e hidratación junto a proteínas y creatina.",
-      "historia": "Datos registrales: sociedad anónima con domicilio en Panamericana km 40,5, Del Viso.",
+      "historia": "Datos registrales: sociedad anónima con sede en Del Viso (Buenos Aires).",
       "empresa": "Elaborada por Mervick-Lab S.A., en Del Viso (Buenos Aires).",
       "anio_fundacion": "Presente en el mercado al menos desde 2011.",
       "origen": "Argentina (Del Viso, Buenos Aires)",
@@ -998,15 +998,15 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es Mervick Lab?",
-          "a": "Mervick Lab es una marca de Argentina (Del Viso, Buenos Aires).",
+          "q": "¿Dónde tiene su base Mervick Lab?",
+          "a": "En Del Viso, provincia de Buenos Aires.",
           "fuentes": [
             "https://constata.ar/empresa/33708334109"
           ]
         },
         {
-          "q": "¿Desde cuándo existe Mervick Lab?",
-          "a": "Presente en el mercado al menos desde 2011.",
+          "q": "¿En qué año empezó Mervick Lab?",
+          "a": "No tenemos un año de fundación confirmado: hay registros de la marca en el mercado por lo menos desde 2011.",
           "fuentes": [
             "https://web.archive.org/web/20110102163845/http://www.goldnutrition.com.ar/",
             "https://web.archive.org/web/20151011234302/http://www.mervicklab.com.ar/",
@@ -1014,8 +1014,8 @@
           ]
         },
         {
-          "q": "¿Mervick Lab tiene tienda oficial en Mercado Libre?",
-          "a": "Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/mervick-lab.",
+          "q": "¿Se puede comprar Mervick Lab directo a la marca en Mercado Libre?",
+          "a": "Sí. Mervick Lab vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/mervick-lab). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/mervick-lab"
           ]
@@ -1161,16 +1161,16 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es Gold Nutrition?",
-          "a": "Gold Nutrition es una marca de Argentina (CABA).",
+          "q": "¿Dónde tiene su base Gold Nutrition?",
+          "a": "En la Ciudad de Buenos Aires.",
           "fuentes": [
             "https://w20argentina.com/empresa/gold-nutrition-sas-30715938584",
             "https://goldnutrition.com.ar/"
           ]
         },
         {
-          "q": "¿Desde cuándo existe Gold Nutrition?",
-          "a": "Presente al menos desde 2018.",
+          "q": "¿En qué año empezó Gold Nutrition?",
+          "a": "No tenemos un año de fundación confirmado: hay registros de la marca por lo menos desde 2018.",
           "fuentes": [
             "https://web.archive.org/web/20180104140843/http://www.goldnutrition.com.ar/",
             "https://w20argentina.com/empresa/gold-nutrition-sas-30715938584",
@@ -1178,8 +1178,8 @@
           ]
         },
         {
-          "q": "¿Gold Nutrition tiene tienda oficial en Mercado Libre?",
-          "a": "Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/gold-nutrition.",
+          "q": "¿Se puede comprar Gold Nutrition directo a la marca en Mercado Libre?",
+          "a": "Sí. Gold Nutrition vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/gold-nutrition). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/gold-nutrition",
             "https://goldnutrition.com.ar/"
@@ -1224,9 +1224,9 @@
         "description": "HTN (High Tech Nutrition): origen, empresa, líneas de producto, registros y tiendas oficiales en Argentina. Datos verificados, con fuente y fecha."
       },
       "h1": "HTN (High Tech Nutrition): historia, líneas de producto y dónde comprar",
-      "intro": "HTN (High Tech Nutrition) es una marca argentina de nutrición deportiva que declara desarrollar suplementos desde 1999 y organiza su oferta en las líneas Xplode Series y Pro Series.",
+      "intro": "Xplode Series y Pro Series son las dos líneas que ordenan el catálogo de HTN (sigla de High Tech Nutrition), una marca argentina que, de acuerdo con la información que publica, trabaja en suplementos desde 1999.",
       "posicionamiento": "Destaca su trayectoria y organiza la oferta en líneas (Xplode Series, Pro Series) y por objetivo de entrenamiento. Declara trabajar con materias primas importadas y certificadas.",
-      "historia": "Según la propia marca, desarrolla suplementos desde 1999 y fue pionera en el mercado local en varias categorías: proteínas con enzimas digestivas, proteínas de liberación progresiva, productos aptos para veganos y la línea PRO con Beta-BCAA 8.0.",
+      "historia": "La marca se presenta como pionera en el mercado local en varias categorías (proteínas con enzimas digestivas, proteínas de liberación progresiva, productos aptos para veganos y la línea PRO con Beta-BCAA 8.0) y ubica en 1999 el comienzo de su actividad.",
       "anio_fundacion": 1999,
       "origen": "Argentina",
       "lineas": [
@@ -1318,23 +1318,23 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es HTN (High Tech Nutrition)?",
-          "a": "HTN (High Tech Nutrition) es una marca de Argentina.",
+          "q": "¿Dónde tiene su base HTN (High Tech Nutrition)?",
+          "a": "En Argentina.",
           "fuentes": [
             "https://htn.com.ar/"
           ]
         },
         {
-          "q": "¿Desde cuándo existe HTN (High Tech Nutrition)?",
-          "a": "Desde 1999.",
+          "q": "¿En qué año empezó HTN (High Tech Nutrition)?",
+          "a": "Según la propia marca, arrancó en 1999.",
           "fuentes": [
             "https://htn.com.ar/",
             "https://htn.com.ar/somos-high-tech-nutrition/"
           ]
         },
         {
-          "q": "¿HTN (High Tech Nutrition) tiene tienda oficial en Mercado Libre?",
-          "a": "Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/htn.",
+          "q": "¿Se puede comprar HTN (High Tech Nutrition) directo a la marca en Mercado Libre?",
+          "a": "Sí. HTN vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/htn). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/htn"
           ]
@@ -1468,7 +1468,7 @@
       "nota_registros": "Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; para el resto de las marcas la consulta no arrojó resultados con los nombres de sus empresas, así que su registro no figura como consultado. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA.",
       "donde_comprar": {
         "sitio_oficial": "https://bodyadvancenutrition.com/",
-        "mercado_libre": "Sin tienda oficial de la marca (no se encontró). Se vende en Mercado Libre por revendedores, p. ej. la tienda oficial del revendedor ODX",
+        "mercado_libre": "No encontramos una tienda oficial de la marca. La ofrecen revendedores, como la tienda oficial de ODX",
         "otras": [
           "Tienda online oficial: https://bodyadvancenutrition.com/"
         ]
@@ -1479,24 +1479,24 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es Body Advance?",
-          "a": "Body Advance es una marca de Argentina (Caseros, Buenos Aires).",
+          "q": "¿Dónde tiene su base Body Advance?",
+          "a": "En Caseros, provincia de Buenos Aires.",
           "fuentes": [
             "https://bodyadvancenutrition.com/wp-content/uploads/2026/06/certificado-buenas-practicas-anmat-body-advance.pdf",
             "https://inal.sifega.anmat.gob.ar/consultadeRegistro/"
           ]
         },
         {
-          "q": "¿Desde cuándo existe Body Advance?",
-          "a": "Con productos registrados al menos desde 2020.",
+          "q": "¿En qué año empezó Body Advance?",
+          "a": "No tenemos un año de fundación confirmado: tiene productos registrados por lo menos desde 2020.",
           "fuentes": [
             "https://www.argentina.gob.ar/noticias/retiro-del-mercado-de-suplementos-dietarios-whey-protein-de-body-advance",
             "https://boletin.anmat.gob.ar/enero_2021/Dispo_0772-21.pdf"
           ]
         },
         {
-          "q": "¿Body Advance tiene tienda oficial en Mercado Libre?",
-          "a": "Sin tienda oficial de la marca (no se encontró). Se vende en Mercado Libre por revendedores, p. ej. la tienda oficial del revendedor ODX.",
+          "q": "¿Se puede comprar Body Advance directo a la marca en Mercado Libre?",
+          "a": "No encontramos una tienda propia de Body Advance en Mercado Libre. Sus productos aparecen en publicaciones de revendedores, como la tienda oficial de ODX.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/odx",
             "https://www.mercadolibre.com.ar/body-advance-whey-protein-3-kg-gold-line-con-creatina-y-vit-c-sabor-chocolate/p/MLA50291911"
@@ -1548,7 +1548,7 @@
         "description": "Xtrenght Nutrition: origen, empresa, líneas de producto, registros y tiendas oficiales en Argentina. Datos verificados, con fuente y fecha."
       },
       "h1": "Xtrenght Nutrition: historia, líneas de producto y dónde comprar",
-      "intro": "Xtrenght Nutrition es una marca argentina de suplementos deportivos con base en Quilmes que organiza sus productos por disciplina deportiva y por objetivo.",
+      "intro": "En Xtrenght Nutrition, el catálogo se recorre por disciplina deportiva, de CrossFit a ciclismo, y por objetivo. Tiene su base en Quilmes, en el sur del conurbano bonaerense.",
       "posicionamiento": "Segmenta su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol, ciclismo) y por objetivo.",
       "historia": "Se presenta como laboratorio argentino de suplementos que acompaña a deportistas de élite desde hace 15 años. En 2007 la marca ya vendía su proteína Xtrenght Protein desde un sitio propio con domicilio en la Ciudad de Buenos Aires (captura archivada). Hoy publica domicilio en Bernal, donde está habilitado el establecimiento de Xience Group S.A. Organiza su oferta por disciplina (CrossFit, fisicoculturismo, rugby, MMA, running, fútbol y ciclismo) y por objetivo.",
       "empresa": "Elaborada por Xience Group S.A. (Bernal, Buenos Aires). Dato surgido de registros públicos; la marca no lo publica en su web.",
@@ -1634,15 +1634,15 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es Xtrenght Nutrition?",
-          "a": "Xtrenght Nutrition es una marca de Argentina (Bernal, Buenos Aires).",
+          "q": "¿Dónde tiene su base Xtrenght Nutrition?",
+          "a": "En Bernal, provincia de Buenos Aires.",
           "fuentes": [
             "https://xtrenght-nutrition.com/about-us"
           ]
         },
         {
-          "q": "¿Desde cuándo existe Xtrenght Nutrition?",
-          "a": "En el mercado al menos desde 2007.",
+          "q": "¿En qué año empezó Xtrenght Nutrition?",
+          "a": "No tenemos un año de fundación confirmado: hay registros de la marca en el mercado por lo menos desde 2007.",
           "fuentes": [
             "https://web.archive.org/web/20070513233226/http://www.xtrenght-nutrition.com/",
             "https://www.cuitonline.com/detalle/30715634828/xience-group-s.a.html",
@@ -1650,8 +1650,8 @@
           ]
         },
         {
-          "q": "¿Xtrenght Nutrition tiene tienda oficial en Mercado Libre?",
-          "a": "Sin tienda oficial de la marca confirmada: /tienda/xtrenght y sus variantes no existen. Hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y también reventa, p. ej. la tienda oficial del revendedor RTN Suplementos.",
+          "q": "¿Se puede comprar Xtrenght Nutrition directo a la marca en Mercado Libre?",
+          "a": "No pudimos confirmar una tienda propia: la dirección /tienda/xtrenght y sus variantes no existen. Sí hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y otras de revendedores, como la tienda oficial de RTN Suplementos.",
           "fuentes": [
             "https://listado.mercadolibre.com.ar/proteina-xtrenght-protein-x-mayor",
             "https://www.mercadolibre.com.ar/tienda/rtn-suplementos"
@@ -1697,7 +1697,7 @@
         "description": "One Fit Nutrition: origen, empresa, líneas de producto, registros y tiendas oficiales en Argentina. Datos verificados, con fuente y fecha."
       },
       "h1": "One Fit Nutrition: historia, líneas de producto y dónde comprar",
-      "intro": "One Fit Nutrition es una marca de X-Nutrition, fabricante santafesino fundado en 2019 que también produce para otras marcas.",
+      "intro": "Detrás de One Fit Nutrition está X-Nutrition, un fabricante santafesino fundado en 2019 que además produce para otras marcas.",
       "posicionamiento": "Es la marca de un fabricante que vende directo desde fábrica, con combos de producto. La empresa también se ofrece como fabricante para marcas de terceros.",
       "historia": "X-Nutrition nació en 2019 para integrar desarrollo y fabricación de productos nutricionales; en 2025 trasladó su operación al Parque Industrial de Alvear. Declara 80+ colaboradores y producción para más de 15 marcas de terceros.",
       "empresa": "Elaborada por X-Nutrition S.R.L., en Alvear (Santa Fe), que también fabrica otras marcas.",
@@ -1779,22 +1779,22 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es One Fit Nutrition?",
-          "a": "One Fit Nutrition es una marca de Argentina (Alvear, Santa Fe).",
+          "q": "¿Dónde tiene su base One Fit Nutrition?",
+          "a": "En Alvear, provincia de Santa Fe.",
           "fuentes": [
             "https://tiendaxnutrition.com/pages/nosotros"
           ]
         },
         {
-          "q": "¿Desde cuándo existe One Fit Nutrition?",
-          "a": "2019.",
+          "q": "¿En qué año empezó One Fit Nutrition?",
+          "a": "Arrancó en 2019, cuando se fundó X-Nutrition, la empresa que la elabora.",
           "fuentes": [
             "https://tiendaxnutrition.com/pages/nosotros"
           ]
         },
         {
-          "q": "¿One Fit Nutrition tiene tienda oficial en Mercado Libre?",
-          "a": "Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/one-fit-nutrition.",
+          "q": "¿Se puede comprar One Fit Nutrition directo a la marca en Mercado Libre?",
+          "a": "Sí. One Fit Nutrition vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/one-fit-nutrition). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/one-fit-nutrition"
           ]
@@ -1836,7 +1836,7 @@
       "h1": "Pulver: historia, líneas de producto y dónde comprar",
       "intro": "Pulver es una empresa alimenticia porteña fundada en 1990 que sumó suplementos y alimentos proteicos a partir de su experiencia en productos en polvo.",
       "posicionamiento": "Combina suplementos con alimentos proteicos (ovoalbúmina, Prolac, sopas, pancakes y pizzas proteicas) y pone el foco en productos libres de gluten.",
-      "historia": "Empresa alimenticia que desde 1990 fabrica esencias, estabilizantes y mousses para heladería; a partir de su experiencia en polvos incursionó en suplementos nutricionales. Es socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten.",
+      "historia": "Según su presentación institucional, Pulver empezó en 1990 elaborando esencias, estabilizantes y mousses para la industria heladera, y fue ese oficio con productos en polvo lo que más tarde la llevó a los suplementos nutricionales. Es socia de la Cámara Argentina de Productores de Alimentos Libres de Gluten.",
       "empresa": "Marca de Pulver S.R.L. (Ciudad de Buenos Aires).",
       "anio_fundacion": "1990 como empresa; con suplementos deportivos al menos desde 2005.",
       "origen": "Argentina (Ciudad de Buenos Aires)",
@@ -1958,16 +1958,16 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es Pulver?",
-          "a": "Pulver es una marca de Argentina (Ciudad de Buenos Aires).",
+          "q": "¿Dónde tiene su base Pulver?",
+          "a": "En la Ciudad de Buenos Aires.",
           "fuentes": [
             "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37",
             "https://ingredientespulver.com.ar/empresa/"
           ]
         },
         {
-          "q": "¿Desde cuándo existe Pulver?",
-          "a": "1990 como empresa; con suplementos deportivos al menos desde 2005.",
+          "q": "¿En qué año empezó Pulver?",
+          "a": "La empresa arrancó en 1990; con suplementos deportivos hay registros por lo menos desde 2005.",
           "fuentes": [
             "https://www.capaliglu.org.ar/fichaSocio.php?idSocio=37",
             "https://web.archive.org/web/20050407060429/http://www.pulver.com.ar/",
@@ -1975,8 +1975,8 @@
           ]
         },
         {
-          "q": "¿Pulver tiene tienda oficial en Mercado Libre?",
-          "a": "Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/pulver.",
+          "q": "¿Se puede comprar Pulver directo a la marca en Mercado Libre?",
+          "a": "Sí. Pulver vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/pulver). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/pulver"
           ]
@@ -2022,7 +2022,7 @@
       "h1": "Nutremax: historia, líneas de producto y dónde comprar",
       "intro": "Nutremax es una marca rosarina especializada en hidratación y deportes de resistencia, conocida por su bebida Hydromax.",
       "posicionamiento": "Se especializa en hidratación y deportes de resistencia y destaca que acompaña carreras con su hidratación.",
-      "historia": "Nació en un garaje de Villa Constitución, fundada por el socio de su titular, María Fernanda Ledesma, a quien la prensa describe como ingeniero químico, y luego se trasladó al noroeste de Rosario, a una planta de 1.000 m². Al principio apuntaba al fisicoculturismo y al fitness; hoy se enfoca en deportes de resistencia (ciclismo, running, triatlón, natación). Su producto insignia es Hydromax. Distribuye en todo el país mediante mayoristas (farmacias, dietéticas, bicicleterías, grupos de entrenamiento) y en 2024 participaba de un programa municipal para empezar a exportar.",
+      "historia": "Nació en un garaje de Villa Constitución, fundada por el socio de su titular, María Fernanda Ledesma, a quien la prensa describe como ingeniero químico, y luego se trasladó al noroeste de Rosario, a una planta de 1.000 m². Al principio apuntaba al fisicoculturismo y al fitness; hoy se enfoca en deportes de resistencia (ciclismo, running, triatlón, natación). Su producto insignia es Hydromax. Farmacias, dietéticas, bicicleterías y grupos de entrenamiento de todo el país reciben sus productos a través de mayoristas, según Punto Biz; en 2024, el mismo medio informó que la empresa participaba de un programa municipal para dar sus primeros pasos en la exportación.",
       "empresa": "Vinculada a NX Laboratorios S.A.S. (Santa Fe). Dato surgido de registros públicos; la marca no lo confirma en su web.",
       "anio_fundacion": "En el mercado al menos desde 2003.",
       "origen": "Argentina (Rosario, Santa Fe)",
@@ -2101,8 +2101,8 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es Nutremax?",
-          "a": "Nutremax es una marca de Argentina (Rosario, Santa Fe).",
+          "q": "¿Dónde tiene su base Nutremax?",
+          "a": "En Rosario, provincia de Santa Fe.",
           "fuentes": [
             "https://nutremax.com.ar/",
             "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600",
@@ -2110,8 +2110,8 @@
           ]
         },
         {
-          "q": "¿Desde cuándo existe Nutremax?",
-          "a": "En el mercado al menos desde 2003.",
+          "q": "¿En qué año empezó Nutremax?",
+          "a": "No tenemos un año de fundación confirmado: hay registros de la marca en el mercado por lo menos desde 2003.",
           "fuentes": [
             "https://web.archive.org/web/20030421095002/http://www.nutremax.com.ar/",
             "https://puntobiz.com.ar/economia/hacen-suplementos-deportivos-y-este-ano-se-mudan-para-triplicar-superficie-202253600",
@@ -2119,8 +2119,8 @@
           ]
         },
         {
-          "q": "¿Nutremax tiene tienda oficial en Mercado Libre?",
-          "a": "Sin tienda oficial de la marca (no se encontró). Se vende por revendedores, p. ej. las tiendas oficiales de los revendedores ODX y RTN Suplementos.",
+          "q": "¿Se puede comprar Nutremax directo a la marca en Mercado Libre?",
+          "a": "No encontramos una tienda propia de Nutremax en Mercado Libre. Se consigue a través de revendedores, como las tiendas oficiales de ODX y de RTN Suplementos.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/odx",
             "https://www.mercadolibre.com.ar/tienda/rtn-suplementos",
@@ -2169,7 +2169,7 @@
       "h1": "Granger Nutrición: historia, líneas de producto y dónde comprar",
       "intro": "Granger Nutrición es una empresa de Rafaela fundada en 2020 que empezó con proteína de huevo hidrolizada y hoy elabora alimentos proteicos y premezclas.",
       "posicionamiento": "Se orienta a alimentos proteicos y premezclas para el día a día (pancakes, cookies, línea keto), además de suplementos, y apunta a llegar a los supermercados.",
-      "historia": "Tres amigos rafaelinos arrancaron en 2020 produciendo proteína de huevo hidrolizada en la casa de uno de ellos. Ampliaron a premezclas y alimentos proteicos (pancakes, keto); en enero de 2026 informaron un crecimiento de producción del 300% y pasaron de 9 a 49 empleados en 18 meses.",
+      "historia": "Su primer producto fue proteína de huevo hidrolizada, que sus tres fundadores, todos de Rafaela, empezaron a elaborar en 2020 en una vivienda particular, según Punto Biz. Con el tiempo sumó premezclas y alimentos proteicos (pancakes, línea keto). En enero de 2026, la empresa le informó al mismo medio que su producción había crecido un 300 % y que su plantilla había pasado de 9 a 49 personas en un año y medio.",
       "empresa": "Elaborada por Granger S.A., en Rafaela (Santa Fe).",
       "anio_fundacion": "2020.",
       "origen": "Argentina (Rafaela, Santa Fe)",
@@ -2231,15 +2231,15 @@
       },
       "faq": [
         {
-          "q": "¿De dónde es Granger Nutrición?",
-          "a": "Granger Nutrición es una marca de Argentina (Rafaela, Santa Fe).",
+          "q": "¿Dónde tiene su base Granger Nutrición?",
+          "a": "En Rafaela, provincia de Santa Fe.",
           "fuentes": [
             "https://puntobiz.com.ar/negocios/pasaron-de-producir-en-casa-a-duplicar-planta-y-van-por-los-supermercados-2024810600"
           ]
         },
         {
-          "q": "¿Desde cuándo existe Granger Nutrición?",
-          "a": "2020.",
+          "q": "¿En qué año empezó Granger Nutrición?",
+          "a": "Arrancó en 2020.",
           "fuentes": [
             "https://puntobiz.com.ar/negocios/pasaron-de-producir-en-casa-a-duplicar-planta-y-van-por-los-supermercados-2024810600",
             "https://puntobiz.com.ar/negocios/encontraron-la-veta-en-la-dieta-keto-crecen-al-300-anual-y-estrenan-planta-2026119600",
@@ -2248,8 +2248,8 @@
           ]
         },
         {
-          "q": "¿Granger Nutrición tiene tienda oficial en Mercado Libre?",
-          "a": "Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/granger.",
+          "q": "¿Se puede comprar Granger Nutrición directo a la marca en Mercado Libre?",
+          "a": "Sí. Granger Nutrición vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/granger). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.",
           "fuentes": [
             "https://www.mercadolibre.com.ar/tienda/granger"
           ]

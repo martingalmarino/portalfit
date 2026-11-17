@@ -4,13 +4,13 @@
 
 # ENA Sport: historia, líneas de producto y dónde comprar
 
-ENA Sport es una marca argentina de nutrición deportiva nacida en Bahía Blanca en 1988. Según Forbes Argentina (2020), único dato público de participación disponible, era la marca líder del mercado; su catálogo va del deporte al bienestar diario.
+Forbes Argentina la señaló en 2020 como líder del mercado local, y es el único dato público de participación que encontramos. ENA Sport nació en Bahía Blanca en 1988 y hoy tiene un catálogo que va del rendimiento deportivo al bienestar diario.
 
 ## Posicionamiento
 Apunta al público masivo, con distribución amplia en farmacias, dietéticas, gimnasios y canal online. Su catálogo va de la nutrición deportiva al bienestar diario (magnesio, colágeno, vitaminas, resveratrol). Según Forbes Argentina (2020), tenía más del 30% del mercado.
 
 ## Historia
-Nació en 1988 en Bahía Blanca, cuando Pablo Fidani decidió fabricar en el país suplementos que hasta entonces se veían importados. Con la llegada de la segunda generación (Martín Fidani) pasó de pyme a empresa regional de nutrición, agrupando sus marcas bajo Laboratorio ENA, con distribución en Argentina, Chile y Uruguay y desembarco en España.
+Nació en Bahía Blanca en 1988, cuando Pablo Fidani decidió fabricar en el país suplementos que hasta entonces se veían importados. Con la llegada de la segunda generación (Martín Fidani) pasó de pyme a empresa regional de nutrición, agrupando sus marcas bajo Laboratorio ENA, con distribución en Argentina, Chile y Uruguay y desembarco en España.
 
 - **Empresa:** Elaborada por Laboratorio ENA, en Bahía Blanca (Buenos Aires).
 - **Fundación:** 1988
@@ -36,7 +36,7 @@ _“Más vendido” es la etiqueta que usa el sitio oficial de la marca, no una 
 [Proteínas](/categorias/proteinas), [Creatina](/categorias/creatina), [Aminoácidos (BCAA, EAA, glutamina)](/categorias/aminoacidos), [Colágeno](/categorias/colageno), [Vitaminas y minerales](/categorias/vitaminas-minerales), [Omega 3](/categorias/omega-3), [Magnesio](/categorias/magnesio), [Longevidad y bienestar](/categorias/longevidad-bienestar), [Quemadores y termogénicos](/categorias/quemadores-termogenicos), [Ganadores de peso](/categorias/ganadores-de-peso), [Barras y snacks proteicos](/categorias/barras-snacks), [Hidratación y electrolitos](/categorias/hidratacion-electrolitos), [Geles y carbohidratos](/categorias/geles-carbohidratos), [Pre-entrenos y cafeína](/categorias/pre-entrenos)
 
 ## Registros y certificaciones
-- Declarado por la marca: Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad
+- Declarado por la marca: Cumple la normativa de ANMAT y cuenta con laboratorio propio y controles de calidad
 - Informado por terceros: Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial
 - RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)
 
@@ -54,17 +54,17 @@ instagram: https://www.instagram.com/enanutritionals · facebook: https://www.fa
 
 ## Preguntas frecuentes
 
-### ¿De dónde es ENA Sport?
-ENA Sport es una marca de Argentina (Bahía Blanca, Buenos Aires).
+### ¿Dónde tiene su base ENA Sport?
+En Bahía Blanca, provincia de Buenos Aires.
 
-### ¿Desde cuándo existe ENA Sport?
-Desde 1988.
+### ¿En qué año empezó ENA Sport?
+Arrancó en 1988.
 
-### ¿ENA Sport tiene tienda oficial en Mercado Libre?
-Sí, tiene tienda oficial: https://www.mercadolibre.com.ar/tienda/ena.
+### ¿Se puede comprar ENA Sport directo a la marca en Mercado Libre?
+Sí. ENA Sport vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/ena). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.
 
 ### ¿Qué registros o certificaciones tiene ENA Sport?
-Declarado por la marca: Trabaja bajo las regulaciones de ANMAT, con laboratorio propio y controles de calidad. Informado por terceros: Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
+Declarado por la marca: Cumple la normativa de ANMAT y cuenta con laboratorio propio y controles de calidad. Informado por terceros: Buenas prácticas de manufactura según norma IRAM NM 324:2010 (Ola!); sin confirmación oficial. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
 
 ## Fuentes
 - ENA Sport – sitio oficial (catálogo): https://www.enasport.com/

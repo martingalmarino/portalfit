@@ -30,7 +30,7 @@
       },
       {
         "titulo": "No son medicamentos",
-        "texto": "No reemplazan una alimentación variada ni la consulta con un profesional de la salud."
+        "texto": "No reemplazan una alimentación variada ni la consulta con tu médico o nutricionista."
       }
     ]
   },
@@ -189,13 +189,13 @@
       {
         "slug": "ena-sport",
         "nombre": "ENA Sport",
-        "resumen": "ENA Sport es una marca argentina de nutrición deportiva nacida en Bahía Blanca en 1988. Según Forbes Argentina (2020), único dato público de participación disponible, era la marca líder del mercado; su catálogo va del deporte al bienestar diario.",
+        "resumen": "Forbes Argentina la señaló en 2020 como líder del mercado local, y es el único dato público de participación que encontramos. ENA Sport nació en Bahía Blanca en 1988 y hoy tiene un catálogo que va del rendimiento deportivo al bienestar diario.",
         "url": "/marcas/ena-sport"
       },
       {
         "slug": "gentech",
         "nombre": "Gentech",
-        "resumen": "Gentech es una marca argentina que empezó importando suplementos en 1998 y fabrica en el país desde 2003. Se presenta como proveedora oficial de la AFA y es conocida por sus barras Iron Bar.",
+        "resumen": "Las barras Iron Bar y su rol de proveedora oficial de la AFA, según su propia presentación, son lo más reconocible de Gentech. La empresa arrancó en 1998 importando suplementos y desde 2003 fabrica en el país.",
         "url": "/marcas/gentech"
       },
       {
@@ -207,7 +207,7 @@
       {
         "slug": "star-nutrition",
         "nombre": "Star Nutrition",
-        "resumen": "Star Nutrition es una marca argentina de Nutriciencia S.A. que apuesta a la relación calidad-precio frente a las marcas internacionales, con un catálogo organizado por momento del entrenamiento.",
+        "resumen": "Competir con las marcas internacionales por calidad, pero a precios del mercado local: esa es la apuesta que declara Star Nutrition, marca de Nutriciencia S.A. Su catálogo está ordenado según el momento del entrenamiento.",
         "url": "/marcas/star-nutrition"
       },
       {
@@ -219,7 +219,7 @@
       {
         "slug": "mervick-lab",
         "nombre": "Mervick Lab",
-        "resumen": "Mervick Lab es una marca argentina de la provincia de Buenos Aires orientada a los deportes de resistencia, con geles, carbohidratos e hidratación junto a proteínas y creatina.",
+        "resumen": "Los deportes de resistencia son el foco de Mervick Lab: geles, carbohidratos e hidratación, a los que suma proteínas y creatina. La marca tiene base en la provincia de Buenos Aires.",
         "url": "/marcas/mervick-lab"
       },
       {
@@ -231,7 +231,7 @@
       {
         "slug": "htn",
         "nombre": "HTN (High Tech Nutrition)",
-        "resumen": "HTN (High Tech Nutrition) es una marca argentina de nutrición deportiva que declara desarrollar suplementos desde 1999 y organiza su oferta en las líneas Xplode Series y Pro Series.",
+        "resumen": "Xplode Series y Pro Series son las dos líneas que ordenan el catálogo de HTN (sigla de High Tech Nutrition), una marca argentina que, de acuerdo con la información que publica, trabaja en suplementos desde 1999.",
         "url": "/marcas/htn"
       },
       {
@@ -243,13 +243,13 @@
       {
         "slug": "xtrenght",
         "nombre": "Xtrenght Nutrition",
-        "resumen": "Xtrenght Nutrition es una marca argentina de suplementos deportivos con base en Quilmes que organiza sus productos por disciplina deportiva y por objetivo.",
+        "resumen": "En Xtrenght Nutrition, el catálogo se recorre por disciplina deportiva, de CrossFit a ciclismo, y por objetivo. Tiene su base en Quilmes, en el sur del conurbano bonaerense.",
         "url": "/marcas/xtrenght"
       },
       {
         "slug": "one-fit-nutrition",
         "nombre": "One Fit Nutrition",
-        "resumen": "One Fit Nutrition es una marca de X-Nutrition, fabricante santafesino fundado en 2019 que también produce para otras marcas.",
+        "resumen": "Detrás de One Fit Nutrition está X-Nutrition, un fabricante santafesino fundado en 2019 que además produce para otras marcas.",
         "url": "/marcas/one-fit-nutrition"
       },
       {

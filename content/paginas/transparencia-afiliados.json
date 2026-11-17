@@ -4,11 +4,11 @@
   "hallazgo": "QA-A04",
   "meta": {
     "title": "Links de afiliado y cómo elegimos los productos",
-    "description": "El sitio puede recibir una comisión de Mercado Libre por compras hechas desde algunos de sus links. No cambia tu precio y ninguna marca paga por aparecer."
+    "description": "Cómo funcionan los links de afiliado a Mercado Libre: quién paga la comisión, por qué tu precio no cambia y por qué ninguna marca paga por figurar acá."
   },
   "kicker": "Transparencia",
   "h1": "Links de afiliado y cómo elegimos los productos",
-  "bajada": "Algunos botones que llevan a Mercado Libre pueden ser links de afiliado. Te contamos qué significa, qué no cambia y con qué criterio elegimos lo que mostramos.",
+  "bajada": "Así se financia una parte del sitio: con ciertos enlaces a Mercado Libre. Acá explicamos cómo funciona, qué cosas deja intactas y con qué criterio armamos los listados de productos.",
   "secciones": [
     {
       "h2": "Qué es un link de afiliado",
@@ -47,7 +47,7 @@
     {
       "h2": "Cómo identificar los links",
       "parrafos": [
-        "Algunos botones que llevan a Mercado Libre pueden ser links de afiliado: si comprás a través de ellos, el sitio puede recibir una comisión, sin costo extra para vos. Cuando un botón es de afiliado, la tarjeta lo indica con el aviso “Link de afiliado”. Los enlaces a los sitios oficiales y redes de cada marca no son de afiliado."
+        "Fijate en la tarjeta del producto: cuando el botón es de afiliado, aparece el aviso “Link de afiliado”. Solo esos botones pueden generarle al sitio una comisión, que paga Mercado Libre si la compra se concreta. Tu precio es exactamente el mismo que si entraras a la publicación por tu cuenta. Los enlaces a sitios oficiales y redes de las marcas nunca son de afiliado."
       ]
     },
     {
