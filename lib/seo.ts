@@ -96,7 +96,7 @@ export function pageMetadata({ title, description, path, ogType = "website", ima
       card: "summary_large_image",
       title: safeTitle,
       description: safeDescription,
-      images: [image.url],
+      images: customImage ? [{ url: image.url, alt: image.alt }] : [image.url],
     },
   };
 }
