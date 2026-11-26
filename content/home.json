@@ -5,8 +5,8 @@
     "nota": "Nombre y dominio a definir por Martín; reemplazar en todos los archivos."
   },
   "meta": {
-    "title": "Suplementos en Argentina: guía con evidencia | [NOMBRE PORTAL]",
-    "description": "Qué dice la evidencia sobre proteínas, creatina, hidratación y más. Marcas de suplementos en Argentina y cómo elegir según tu edad y nivel.",
+    "title": "Suplementos deportivos en Argentina: guía | [NOMBRE PORTAL]",
+    "description": "Suplementos deportivos y nutrición deportiva en Argentina: qué dice la evidencia sobre cada tipo, qué marcas se venden y qué priorizar según tu edad.",
     "canonical": "https://[dominio]/",
     "og_site_name": "[NOMBRE PORTAL]"
   },
@@ -38,7 +38,7 @@
     {
       "slug": "proteinas",
       "titulo": "Proteínas",
-      "texto": "Polvos proteicos para completar la ingesta diaria de proteína cuando la comida no alcanza: suero, caseína, huevo y vegetales.",
+      "texto": "Polvos proteicos para completar la ingesta diaria de proteína cuando la comida no alcanza: suero (whey protein), caseína, huevo y vegetales.",
       "nivel_evidencia": "alto",
       "url": "/categorias/proteinas"
     },
@@ -135,7 +135,7 @@
     }
   ],
   "bloque_etapas": {
-    "titulo": "Suplementación según tu etapa de vida",
+    "titulo": "Suplementos según tu edad y etapa",
     "texto": "Las necesidades cambian con la edad, el sexo y el nivel de entrenamiento. Elegí tu etapa para ver qué categorías tienen más respaldo y qué conviene charlar con un profesional.",
     "items": [
       {
@@ -313,6 +313,20 @@
       "fuentes": [
         "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
       ]
+    },
+    {
+      "q": "¿Qué suplementos conviene priorizar según la edad?",
+      "a": "Depende más de los hábitos que de la edad: fuerza, proteína suficiente y descanso son la base en todas las etapas. En Suplementos según la edad explicamos qué cambia después de los 30, los 40 y los 50, y qué conviene charlar con un profesional.",
+      "fuentes": [
+        "/etapas"
+      ]
+    },
+    {
+      "q": "¿Qué marcas de suplementos deportivos hay en Argentina?",
+      "a": "Seguimos 14 marcas: 13 argentinas, como ENA Sport, Gentech o Ultra Tech, y una importada, Optimum Nutrition. Cada una tiene su ficha con origen, trayectoria, registros y canales oficiales.",
+      "fuentes": [
+        "/marcas"
+      ]
     }
   ],
   "fuentes_portada": [
@@ -384,5 +398,6 @@
       "Datos estructurados en JSON reutilizable",
       "Lo no verificado no se publica como dato firme: se registra aparte, de uso interno, para no propagar errores"
     ]
-  }
+  },
+  "intro": "Portal FIT es una guía independiente sobre suplementos y nutrición deportiva pensada para quienes entrenan entre los 30 y los 60 años en Argentina. Para cada tipo de suplemento te contamos qué tan firme es la evidencia, según el Instituto Australiano del Deporte y la ISSN; para cada marca, de dónde viene, qué registros publica y dónde se compra por canales oficiales. También ordenamos qué priorizar según tu edad. Los suplementos son alimentos, no medicamentos: no reemplazan una alimentación variada ni la consulta con tu médico o nutricionista."
 }

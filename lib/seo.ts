@@ -7,6 +7,10 @@ type MetaInput = {
   description: string;
   path: string;
   absoluteTitle?: boolean;
+  /** Title ya medido: no suma «| Portal FIT» (solo si con el sufijo supera 60). */
+  omitSiteSuffix?: boolean;
+  /** Fuerza noindex aunque el sitio esté habilitado para indexar. */
+  noindex?: boolean;
   ogType?: "website" | "article";
   /** Si no viene, queda el aviso genérico /opengraph-image. */
   image?: { path: string; width: number; height: number; alt: string };
@@ -65,10 +69,20 @@ export function brandTitle(name: string, metaTitle: string): string {
   ]);
 }
 
-export function pageMetadata({ title, description, path, ogType = "website", image: customImage }: MetaInput): Metadata {
+export function pageMetadata({
+  title,
+  description,
+  path,
+  omitSiteSuffix = false,
+  noindex = false,
+  ogType = "website",
+  image: customImage,
+}: MetaInput): Metadata {
   const canonical = absoluteUrl(path);
-  const safeTitle = withSiteTitle(publicCopy(title) ?? getSiteName());
+  const baseTitle = publicCopy(title) ?? getSiteName();
+  const safeTitle = omitSiteSuffix ? baseTitle : withSiteTitle(baseTitle);
   const safeDescription = publicCopy(description) ?? FALLBACK_DESCRIPTION;
+  const robots = noindex ? { ...robotsMetadata(), index: false } : robotsMetadata();
   const image = customImage
     ? {
         url: absoluteUrl(customImage.path),
@@ -82,7 +96,7 @@ export function pageMetadata({ title, description, path, ogType = "website", ima
     title: { absolute: safeTitle },
     description: safeDescription,
     alternates: { canonical },
-    robots: robotsMetadata(),
+    robots,
     openGraph: {
       type: ogType,
       locale: "es_AR",
@@ -171,17 +185,54 @@ export function breadcrumbJsonLd(items: Array<{ name: string; path: string }>) {
   };
 }
 
-export function itemListJsonLd(name: string, path: string, items: Array<{ name: string; path: string }>) {
+export function itemListJsonLd(name: string, path: string, items: Array<{ name: string; path: string; type?: string }>) {
   return {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name,
     url: absoluteUrl(path),
-    itemListElement: items.map((item, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      name: item.name,
-      url: absoluteUrl(item.path),
-    })),
+    itemListElement: items.map((item, index) => {
+      const url = absoluteUrl(item.path);
+      if (!item.type) {
+        return {
+          "@type": "ListItem",
+          position: index + 1,
+          name: item.name,
+          url,
+        };
+      }
+      return {
+        "@type": "ListItem",
+        position: index + 1,
+        item: { "@type": item.type, name: item.name, url },
+      };
+    }),
+  };
+}
+
+export function collectionPageJsonLd({
+  name,
+  description,
+  path,
+  listName,
+  items,
+}: {
+  name: string;
+  description: string;
+  path: string;
+  listName: string;
+  items: Array<{ name: string; path: string; type?: string }>;
+}) {
+  const list = itemListJsonLd(listName, path, items);
+  const mainEntity = Object.fromEntries(Object.entries(list).filter(([key]) => key !== "@context"));
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name,
+    description,
+    url: absoluteUrl(path),
+    inLanguage: "es-AR",
+    isPartOf: { "@type": "WebSite", name: getSiteName(), url: absoluteUrl("/") },
+    mainEntity,
   };
 }

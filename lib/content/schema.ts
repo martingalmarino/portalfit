@@ -16,6 +16,8 @@ const etapaVidaSchema = z.object({
   nombre: z.string().min(1),
   url: z.string().min(1),
   descripcion: z.string().min(1),
+  resumen_card: z.string().min(1).optional(),
+  linea_enfoque: z.string().min(1).optional(),
   enfoque_editorial: z.array(z.string().min(1)).min(1),
   categorias_relacionadas: z.array(z.string().min(1)).min(1),
   fuentes: z.array(z.string().min(1)).min(1),
@@ -107,6 +109,7 @@ export const marcasSchema = z.object({
         ranking_relevancia: z.number().int().positive(),
         justificacion_ranking: z.string().min(1),
         resumen: z.string().min(1),
+        resumen_card: z.string().min(1).optional(),
         sitio_oficial: sourcedString,
         origen: sourcedString,
         anio_fundacion: sourcedString,
@@ -201,6 +204,7 @@ export const homeSchema = z.object({
   }),
   h1: z.string().min(1),
   bajada: z.string().min(1),
+  intro: z.string().min(1).optional(),
   como_trabajamos: z
     .object({
       titulo: z.string().min(1),

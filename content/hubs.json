@@ -1,0 +1,424 @@
+{
+  "marcas": {
+    "title": "Marcas de suplementos en Argentina, una por una",
+    "description": "Fichas de 14 marcas de suplementos que se venden en Argentina, de Star Nutrition y ENA Sport a Gentech: origen, trayectoria, registros y canales oficiales.",
+    "kicker": "Orden editorial",
+    "h1": "Marcas de suplementos en Argentina",
+    "intro": "Estas son las 14 marcas de suplementos que seguimos en Portal FIT: 13 nacionales y una importada. En cada ficha vas a encontrar de dónde viene la marca, desde cuándo está en el mercado, qué líneas tiene, qué registros publica y en qué canales oficiales vende, con la fuente de cada dato. El número que acompaña a cada una marca su lugar en nuestro criterio editorial: escala, trayectoria, canales oficiales, amplitud del catálogo y registros que se pueden chequear. No mide calidad ni depende de quién paga. Antes de comprar, mirá en el rótulo el RNPA del producto y el RNE de quien lo elabora.",
+    "vistazo_h2": "Las 14 marcas de un vistazo",
+    "fichas_h2": "Ficha por ficha",
+    "criterio_h2": "Cómo ordenamos las marcas",
+    "criterio": "Miramos cinco cosas, de mayor a menor peso: el tamaño de la marca según datos públicos, los años de trayectoria que se pueden comprobar, si vende por canales oficiales, la amplitud del catálogo y si publica registros y certificaciones verificables. Cuando aparece un dato nuevo, revisamos el orden. El detalle está en Cómo evaluamos.",
+    "criterio_frase": {
+      "phrase": "Cómo evaluamos",
+      "href": "/como-evaluamos"
+    },
+    "mirar_h2": "Qué mirar antes de comprar una marca",
+    "mirar": [
+      {
+        "h3": "El rótulo: RNPA y RNE",
+        "texto": "Un suplemento dietario legal muestra el número de registro del producto (RNPA) y el del establecimiento que lo elabora o importa (RNE). Los dos se pueden buscar en SIFeGA.",
+        "enlaces": [
+          {
+            "texto": "cómo leer el RNPA y el RNE",
+            "url": "/blog/rotulo-suplemento-rnpa-rne"
+          }
+        ]
+      },
+      {
+        "h3": "El canal de venta",
+        "texto": "Si comprás en el sitio de la marca o en su tienda oficial de Mercado Libre, sabés quién te vende y a quién reclamar. Cuando una marca no tiene tienda oficial, la ficha lo dice.",
+        "enlaces": []
+      },
+      {
+        "h3": "La evidencia de la categoría",
+        "texto": "La marca importa menos que el tipo de suplemento. Antes de elegir entre dos proteínas o dos creatinas, fijate qué nivel de evidencia tiene esa categoría.",
+        "enlaces": [
+          {
+            "texto": "qué tan firme es la evidencia de cada suplemento",
+            "url": "/blog/suplementos-sistema-abcd-ais"
+          },
+          {
+            "texto": "tipos de suplementos deportivos",
+            "url": "/categorias"
+          }
+        ]
+      },
+      {
+        "h3": "La composición, no el envase",
+        "texto": "Compará la cantidad de proteína o de principio activo por porción y la lista de ingredientes. Los nombres comerciales y las promesas del frente del envase no son un dato.",
+        "enlaces": [
+          {
+            "texto": "proteínas en polvo",
+            "url": "/categorias/proteinas"
+          },
+          {
+            "texto": "creatina",
+            "url": "/categorias/creatina"
+          }
+        ]
+      }
+    ],
+    "faq_h2": "Preguntas frecuentes sobre marcas de suplementos",
+    "faq": [
+      {
+        "q": "¿Cuál es la mejor marca de suplementos en Argentina?",
+        "a": "No hay una marca que sea la mejor para todo el mundo. Conviene comparar producto por producto: qué tiene adentro, si el rótulo muestra RNPA y RNE, dónde se vende y qué dice la evidencia sobre esa categoría. Nuestro orden de marcas no es un ranking de calidad.",
+        "fuentes": [
+          "/como-evaluamos"
+        ]
+      },
+      {
+        "q": "¿Qué marcas de suplementos son nacionales?",
+        "a": "De las 14 marcas que seguimos, 13 son argentinas: ENA Sport, Gentech, Ultra Tech, Star Nutrition, Mervick Lab, Gold Nutrition, HTN, Body Advance, Xtrenght, One Fit, Pulver, Nutremax y Granger. Optimum Nutrition es estadounidense y se consigue importada.",
+        "fuentes": [
+          "content/marcas.json (origen de cada ficha, con sus fuentes)"
+        ]
+      },
+      {
+        "q": "¿Dónde se compran estas marcas por un canal oficial?",
+        "a": "En el sitio de cada marca o en su tienda oficial de Mercado Libre: 11 de las 14 tienen una. Body Advance, Xtrenght y Nutremax no la tienen y se venden a través de revendedores; cada ficha lo aclara. Parte de los enlaces que ponemos hacia Mercado Libre funcionan como links de afiliado.",
+        "fuentes": [
+          "content/marcas.json › mercado_libre (enlaces a cada tienda)",
+          "/transparencia-afiliados"
+        ],
+        "enlaces": [
+          {
+            "frase": "links de afiliado",
+            "url": "/transparencia-afiliados"
+          }
+        ]
+      },
+      {
+        "q": "¿Qué registros tiene que mostrar el envase de un suplemento?",
+        "a": "El rótulo tiene que identificarlo como suplemento dietario y llevar el RNPA del producto y el RNE de quien lo elabora o importa. Los dos se pueden consultar en los buscadores públicos de SIFeGA. Desde el Decreto 697/2026, el registro está a cargo del SENASA.",
+        "fuentes": [
+          "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+          "https://inal.sifega.anmat.gob.ar/consultadeRegistro/",
+          "https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803"
+        ]
+      },
+      {
+        "q": "¿Qué indica el número de cada marca?",
+        "a": "Su lugar en nuestro criterio editorial, que pondera cinco cosas: el tamaño según datos públicos, los años de trayectoria comprobables, la venta por canales oficiales, la amplitud del catálogo y los registros que se pueden verificar. No mide calidad ni ventas.",
+        "fuentes": [
+          "content/marcas.json › criterio_ranking"
+        ]
+      }
+    ],
+    "seguir_h2": "Para seguir leyendo",
+    "seguir": [
+      {
+        "texto": "historia y fabricación de las marcas argentinas",
+        "url": "/blog/marcas-suplementos-argentinas"
+      },
+      {
+        "texto": "cómo leer el RNPA y el RNE",
+        "url": "/blog/rotulo-suplemento-rnpa-rne"
+      },
+      {
+        "texto": "tipos de suplementos deportivos",
+        "url": "/categorias"
+      }
+    ]
+  },
+  "categorias": {
+    "title": "Tipos de suplementos deportivos y su evidencia",
+    "description": "Proteínas, creatina, hidratación, omega 3 y diez categorías más: para qué se usa cada tipo de suplemento y qué tan firme es su evidencia según el AIS y la ISSN.",
+    "kicker": "Evidencia por categoría",
+    "h1": "Tipos de suplementos deportivos y qué dice la evidencia",
+    "intro": "Agrupamos los suplementos deportivos que se venden en Argentina en 14 categorías, de las proteínas en polvo a los geles para fondo. En cada una vas a ver para qué se usa, qué variantes existen, qué marcas la ofrecen y un nivel general de evidencia: alto, moderado, bajo, variable o con advertencias. Ese nivel se apoya en el sistema ABCD del Instituto Australiano del Deporte (AIS) y en las posturas oficiales de la ISSN. Sirve para entender el mercado, no como indicación para tu caso: si tenés una condición de salud o tomás medicación, consultá con un profesional.",
+    "intro_frase": {
+      "phrase": "marcas",
+      "href": "/marcas"
+    },
+    "grupos": [
+      {
+        "nivel": "alto",
+        "h2": "Evidencia alta",
+        "orden": [
+          "proteinas",
+          "creatina",
+          "hidratacion-electrolitos",
+          "geles-carbohidratos"
+        ]
+      },
+      {
+        "nivel": "moderado",
+        "h2": "Evidencia moderada",
+        "orden": [
+          "colageno",
+          "omega-3",
+          "ganadores-de-peso",
+          "barras-snacks"
+        ]
+      },
+      {
+        "nivel": "variable",
+        "h2": "Depende del ingrediente",
+        "orden": [
+          "pre-entrenos",
+          "vitaminas-minerales"
+        ]
+      },
+      {
+        "nivel": "bajo",
+        "h2": "Evidencia baja",
+        "orden": [
+          "aminoacidos",
+          "magnesio",
+          "longevidad-bienestar"
+        ]
+      },
+      {
+        "nivel": "precaucion",
+        "h2": "Con advertencias",
+        "orden": [
+          "quemadores-termogenicos"
+        ]
+      }
+    ],
+    "nivel_h2": "Cómo leer el nivel de evidencia",
+    "nivel_texto": "Cada categoría lleva un nivel general que resume qué tan sólida es la investigación para sus usos más comunes en personas que entrenan. Cuando la respuesta cambia según el ingrediente, como en los pre-entrenos, la marcamos como variable y la evaluamos por subcategoría. Es una referencia para orientarte, no una indicación personal.",
+    "nivel_enlaces": [
+      {
+        "texto": "cómo se lee el sistema ABCD del AIS",
+        "url": "/blog/suplementos-sistema-abcd-ais"
+      },
+      {
+        "texto": "cómo asignamos el nivel",
+        "url": "/como-evaluamos"
+      }
+    ],
+    "creatina_enlace": {
+      "texto": "para qué sirve la creatina",
+      "url": "/blog/creatina-para-que-sirve"
+    },
+    "faq_h2": "Preguntas frecuentes sobre tipos de suplementos",
+    "faq": [
+      {
+        "q": "¿Qué tipos de suplementos deportivos existen?",
+        "a": "El consenso del Comité Olímpico Internacional (2018) distingue cuatro formas: alimentos enriquecidos con nutrientes; alimentos deportivos, como bebidas, geles y barras; nutrientes o compuestos aislados, como la creatina, la cafeína o una vitamina, y productos que combinan varios ingredientes.",
+        "fuentes": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867441/"
+        ]
+      },
+      {
+        "q": "¿Qué significa que un suplemento esté en el Grupo A del AIS?",
+        "a": "Que tiene evidencia fuerte para usos concretos en el deporte, con protocolos definidos. En ese grupo están, entre otros, la creatina, la cafeína, la beta-alanina, el bicarbonato, los nitratos y alimentos deportivos como geles, bebidas y proteína. No quiere decir que le sirva a cualquier persona.",
+        "fuentes": [
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        ],
+        "enlaces": [
+          {
+            "texto": "cómo se lee el sistema ABCD del AIS",
+            "url": "/blog/suplementos-sistema-abcd-ais"
+          }
+        ]
+      },
+      {
+        "q": "Si una categoría tiene evidencia alta, ¿me conviene tomarla?",
+        "a": "No necesariamente. El nivel dice qué tan estudiado está un suplemento para ciertos usos, no si lo necesitás vos. Eso depende de tu alimentación, tu entrenamiento y tu salud, y conviene charlarlo con un médico o nutricionista.",
+        "fuentes": []
+      },
+      {
+        "q": "¿Los suplementos dietarios son medicamentos?",
+        "a": "No. En Argentina, el artículo 1381 del Código Alimentario los define como productos para completar la alimentación de personas sanas. Son alimentos y no pueden presentarse como si curaran enfermedades.",
+        "fuentes": [
+          "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf",
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
+        ]
+      },
+      {
+        "q": "¿Por qué los quemadores aparecen con advertencias?",
+        "a": "Porque varios estimulantes que suelen llevar están en el Grupo D del AIS, el de las sustancias prohibidas en el deporte o con alto riesgo de contaminación, y porque no hay evidencia sólida que respalde su uso para bajar de peso.",
+        "fuentes": [
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_d"
+        ]
+      }
+    ],
+    "cierre": {
+      "texto": "qué priorizar según tu edad",
+      "url": "/etapas"
+    }
+  },
+  "etapas": {
+    "title": "Pérdida de masa muscular y edad: qué priorizar",
+    "description": "Cómo cuidar la masa muscular de los 30 a los 60 y qué cambia en la mujer, el hombre y la menopausia: entrenamiento, alimentación y suplementos con evidencia.",
+    "kicker": "Etapas de vida",
+    "h1": "Pérdida de masa muscular con la edad: qué priorizar en cada etapa",
+    "intro": "La pérdida de masa muscular con la edad es gradual, y el entrenamiento de fuerza y la alimentación son los hábitos con más respaldo para cuidarla. Por eso las prioridades cambian: pasados los 30 importa armar rutinas que se sostengan; pasados los 40, cuidar la fuerza y la recuperación; pasados los 50, conservar el músculo para sostener la autonomía. Acá vas a encontrar tres páginas por edad y cuatro por tema (mujer, hombre, perimenopausia y menopausia, y sarcopenia), con qué priorizar en el entrenamiento y la comida y qué suplementos tienen respaldo y cuáles no. Es información general: para decidir qué tomar, hablalo con tu médico o nutricionista.",
+    "intro_frase": {
+      "phrase": "qué suplementos tienen respaldo",
+      "href": "/blog/suplementos-sistema-abcd-ais"
+    },
+    "grupos": [
+      {
+        "h2": "Por edad",
+        "slugs": [
+          "30-39",
+          "40-49",
+          "50-60"
+        ]
+      },
+      {
+        "h2": "Por tema",
+        "slugs": [
+          "mujer",
+          "menopausia",
+          "hombre",
+          "sarcopenia"
+        ]
+      }
+    ],
+    "repetido_h2": "Lo que se repite en todas las etapas",
+    "repetido": [
+      {
+        "h3": "La fuerza, todo el año",
+        "texto": "Es el hábito que más se repite en todas las etapas. La OMS recomienda a los adultos ejercicios de fortalecimiento muscular dos o más días por semana.",
+        "enlaces": []
+      },
+      {
+        "h3": "Proteína repartida en las comidas",
+        "texto": "Más que un número exacto, importa que haya una fuente de proteína en cada comida principal. Si con la comida no llegás, un batido de proteína resuelve el faltante de forma práctica.",
+        "enlaces": [
+          {
+            "frase": "proteína",
+            "url": "/categorias/proteinas"
+          }
+        ]
+      },
+      {
+        "h3": "Análisis antes que suplementos",
+        "texto": "Hierro, vitamina D o calcio se suplementan cuando un profesional detecta que faltan, no por la edad. Llevá a la consulta lo que ya tomás.",
+        "enlaces": [
+          {
+            "texto": "vitaminas y minerales",
+            "url": "/categorias/vitaminas-minerales"
+          }
+        ]
+      },
+      {
+        "h3": "Dormir también es entrenar",
+        "texto": "La recuperación depende del descanso. Antes de buscar un suplemento para rendir más, revisá cuántas horas dormís.",
+        "enlaces": []
+      }
+    ],
+    "faq_h2": "Preguntas frecuentes sobre suplementos y edad",
+    "faq": [
+      {
+        "q": "¿Qué es la pérdida de masa muscular y cuándo conviene consultar?",
+        "a": "Con los años, la masa y la fuerza muscular tienden a bajar. Cuando esa pérdida es marcada y afecta la función, se habla de sarcopenia, que según el consenso europeo EWGSOP2 es una enfermedad y la diagnostica un médico. Si notás cambios en tu fuerza, consultalo.",
+        "fuentes": [
+          "https://doi.org/10.1093/ageing/afy169"
+        ]
+      },
+      {
+        "q": "¿Qué suplementos conviene tomar después de los 40?",
+        "a": "No hay una lista que sirva para todos. Lo que más respaldo tiene es la base: entrenar fuerza, comer proteína suficiente y dormir bien. Entre los suplementos, la proteína en polvo y la creatina son de los más estudiados en personas que entrenan; vitaminas o minerales, solo si un análisis muestra que faltan.",
+        "fuentes": [
+          "https://doi.org/10.1186/s12970-017-0177-8",
+          "https://doi.org/10.1186/s12970-017-0173-z"
+        ],
+        "enlaces": [
+          {
+            "frase": "creatina",
+            "url": "/categorias/creatina"
+          }
+        ]
+      },
+      {
+        "q": "¿La creatina sirve también después de los 50?",
+        "a": "La postura oficial de la ISSN sobre creatina incluye estudios en adultos mayores que la combinaron con entrenamiento de fuerza, y la considera segura en personas sanas dentro de los protocolos estudiados. Si tenés alguna condición de salud o tomás medicación, consultalo antes.",
+        "fuentes": [
+          "https://doi.org/10.1186/s12970-017-0173-z"
+        ],
+        "enlaces": [
+          {
+            "texto": "qué dice la evidencia sobre la creatina",
+            "url": "/blog/creatina-para-que-sirve"
+          }
+        ]
+      },
+      {
+        "q": "¿Cuántos días por semana conviene entrenar fuerza?",
+        "a": "Las pautas de actividad física de la OMS (2020) indican para los adultos actividades de fortalecimiento muscular dos o más días por semana, que trabajen los grupos musculares principales.",
+        "fuentes": [
+          "https://www.who.int/publications/i/item/9789240015128"
+        ]
+      },
+      {
+        "q": "¿Hace falta hacerse un análisis antes de tomar vitaminas?",
+        "a": "Para nutrientes como el hierro o la vitamina D, lo más seguro es que un profesional mire tu caso y, si hace falta, pida un análisis. Tomarlos sin saber si te faltan puede no servir o generar excesos.",
+        "fuentes": []
+      },
+      {
+        "q": "¿Qué cambia en la menopausia con respecto a la alimentación y el entrenamiento?",
+        "a": "Los cambios hormonales influyen en la composición corporal y en la masa ósea y muscular, por eso el entrenamiento de fuerza, la proteína suficiente y los micronutrientes ganan peso. Cualquier decisión sobre síntomas o tratamientos es médica: en la página de menopausia hablamos solo de hábitos.",
+        "fuentes": [
+          "/etapas/menopausia (fuentes de la página)"
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "title": "Guías de suplementos: para qué sirve cada uno",
+    "description": "Para qué sirve la creatina, cómo leer el sistema ABCD del AIS, qué dice el RNPA y el RNE del rótulo y de dónde vienen las marcas argentinas, con fuentes.",
+    "kicker": "Guías",
+    "h1": "Guías de suplementos: para qué sirve cada uno y qué dice la evidencia",
+    "intro": "Cada guía responde una duda concreta antes de comprar o empezar un suplemento: qué hace la creatina, cómo se lee el sistema ABCD del Instituto Australiano del Deporte, qué registros tiene que mostrar un rótulo en Argentina y de dónde vienen las marcas nacionales. Te decimos qué tan firme es la evidencia en cada caso y enlazamos los estudios y los documentos oficiales para que puedas revisarlos. Son textos informativos: no reemplazan la consulta con tu médico o nutricionista.",
+    "destacada_h2": "Empezá por acá",
+    "destacada_slug": "suplementos-sistema-abcd-ais",
+    "lista_h2": "Todas las guías",
+    "seguir_h2": "Para seguir explorando",
+    "seguir": [
+      {
+        "texto": "tipos de suplementos deportivos",
+        "url": "/categorias"
+      },
+      {
+        "texto": "suplementos según la edad",
+        "url": "/etapas"
+      },
+      {
+        "texto": "marcas de suplementos deportivos en Argentina",
+        "url": "/marcas"
+      }
+    ],
+    "faq_h2": "Preguntas frecuentes sobre las guías",
+    "faq": [
+      {
+        "q": "¿Quién escribe las guías?",
+        "a": "El equipo editorial de Portal FIT. Cada guía muestra la fecha de publicación y, al final, las fuentes que usamos.",
+        "fuentes": []
+      },
+      {
+        "q": "¿De dónde salen los datos?",
+        "a": "De organismos y documentos públicos: el Instituto Australiano del Deporte (AIS), las posturas oficiales de la ISSN, el Código Alimentario Argentino y los registros de SIFeGA, entre otros. Cada dato lleva su enlace.",
+        "fuentes": [
+          "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+          "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf",
+          "https://inal.sifega.anmat.gob.ar/consultadealimentos/"
+        ]
+      },
+      {
+        "q": "¿Las guías me dicen qué suplemento tomar?",
+        "a": "No. Explican qué dice la evidencia en general. Qué te conviene a vos depende de tu salud, tu alimentación y tu entrenamiento, y eso lo define un profesional.",
+        "fuentes": []
+      },
+      {
+        "q": "¿Por qué hay links a Mercado Libre?",
+        "a": "Para que puedas ver productos de las marcas que relevamos y su precio del momento. Algunos son links de afiliado: si comprás desde ahí, Mercado Libre puede pagarnos una comisión, y tu precio no cambia.",
+        "fuentes": [
+          "/transparencia-afiliados"
+        ],
+        "enlaces": [
+          {
+            "frase": "links de afiliado",
+            "url": "/transparencia-afiliados"
+          }
+        ]
+      }
+    ]
+  }
+}

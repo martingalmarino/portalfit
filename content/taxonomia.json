@@ -13,7 +13,7 @@
       "slug": "proteinas",
       "nombre": "Proteínas",
       "url": "/categorias/proteinas",
-      "descripcion": "Polvos proteicos para completar la ingesta diaria de proteína cuando la comida no alcanza: suero, caseína, huevo y vegetales.",
+      "descripcion": "Polvos proteicos para completar la ingesta diaria de proteína cuando la comida no alcanza: suero (whey protein), caseína, huevo y vegetales.",
       "subcategorias": [
         {
           "slug": "whey-concentrada",
@@ -1076,7 +1076,9 @@
             "motivo": "Responde a una duda frecuente de esta edad."
           }
         ]
-      }
+      },
+      "resumen_card": "Hábitos que se sostienen entre el trabajo y la familia: fuerza, proteína en cada comida y pocos suplementos, bien elegidos.",
+      "linea_enfoque": "Qué conviene priorizar después de los 30 para armar hábitos de entrenamiento y alimentación que duren."
     },
     {
       "slug": "40-49",
@@ -1534,7 +1536,9 @@
             "motivo": "Consulta frecuente en esta franja."
           }
         ]
-      }
+      },
+      "resumen_card": "Conservar fuerza y masa muscular, cuidar la recuperación y el sueño, y revisar micronutrientes con tu médico.",
+      "linea_enfoque": "Después de los 40, la prioridad es conservar fuerza y músculo y cuidar la recuperación."
     },
     {
       "slug": "50-60",
@@ -1997,7 +2001,9 @@
             "motivo": "Riesgo de interacciones mencionado en 50-60, Perimenopausia y Sarcopenia."
           }
         ]
-      }
+      },
+      "resumen_card": "La fuerza y la proteína pasan al centro para sostener la autonomía. Qué tiene respaldo y qué conviene consultar.",
+      "linea_enfoque": "Pasados los 50, la fuerza y la proteína son la base para sostener la autonomía."
     },
     {
       "slug": "mujer",
@@ -2028,7 +2034,7 @@
         "https://www.ausport.gov.au/ais/nutrition/supplements/group_d",
         "https://www.argentina.gob.ar/noticias/se-establecio-que-las-guias-alimentarias-para-la-poblacion-argentina-sean-los-estandares"
       ],
-      "meta_title": "Suplementos para mujeres que entrenan: guía",
+      "meta_title": "Masa muscular en mujeres: suplementos y hábitos",
       "meta_description": "Energía suficiente, hierro, vitamina D, calcio, proteína y creatina en mujeres que entrenan: qué dice la evidencia, qué suplementos tienen sentido y qué evitar.",
       "intro": [
         "Durante años, buena parte de la investigación en nutrición deportiva se hizo con hombres y sus conclusiones se trasladaron a las mujeres sin más. Eso empezó a cambiar: en 2023 la Sociedad Internacional de Nutrición Deportiva (ISSN) publicó una declaración de posición específica sobre las necesidades nutricionales de las mujeres que entrenan.",
@@ -2427,7 +2433,9 @@
             "motivo": "Prioridad número uno según ISSN 2023."
           }
         ]
-      }
+      },
+      "resumen_card": "Energía suficiente, hierro, calcio y vitamina D en mujeres que entrenan, y qué suplementos tienen evidencia.",
+      "linea_enfoque": "Lo propio de la mujer que entrena: energía suficiente, hierro, calcio y vitamina D."
     },
     {
       "slug": "menopausia",
@@ -2462,7 +2470,7 @@
         "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf",
         "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios"
       ],
-      "meta_title": "Perimenopausia y menopausia: entrenar y comer",
+      "meta_title": "Menopausia: alimentación, fuerza y suplementos",
       "meta_description": "Perimenopausia y menopausia desde los hábitos: fuerza, proteína y micronutrientes con evidencia, qué suplementos no tienen respaldo y cuándo consultar.",
       "intro": [
         "La menopausia es una etapa natural de la vida. Según la Organización Mundial de la Salud, la mayoría de las mujeres la atraviesa entre los 45 y los 55 años. Antes llega la perimenopausia, que la OMS ubica entre las primeras alteraciones del ciclo y el momento en que se cumple un año sin menstruar; ese tramo puede extenderse varios años. Los cambios hormonales de esta etapa se viven de forma muy distinta: algunas mujeres casi no notan síntomas y otras sí, con impacto en el día a día.",
@@ -2878,7 +2886,9 @@
             "motivo": "Tema de backlog; esta página lo cubre en versión breve."
           }
         ]
-      }
+      },
+      "resumen_card": "Hábitos con respaldo en la perimenopausia y la menopausia: fuerza, proteína y micronutrientes, siempre con seguimiento médico.",
+      "linea_enfoque": "Hábitos con evidencia para la perimenopausia y la menopausia, siempre con seguimiento médico."
     },
     {
       "slug": "hombre",
@@ -3344,7 +3354,9 @@
             "motivo": "Compartido con 30-39."
           }
         ]
-      }
+      },
+      "resumen_card": "Rendimiento y composición corporal con evidencia, y por qué conviene desconfiar de los «boosters» de testosterona.",
+      "linea_enfoque": "Qué tiene respaldo para el hombre que entrena y qué conviene evitar."
     },
     {
       "slug": "sarcopenia",
@@ -3783,7 +3795,9 @@
             "motivo": "Compartido con 50-60."
           }
         ]
-      }
+      },
+      "resumen_card": "Qué es la sarcopenia y qué hábitos se asocian a conservar la masa muscular. El diagnóstico siempre es médico.",
+      "linea_enfoque": "Qué hábitos se asocian a conservar la masa muscular con los años; el diagnóstico es médico."
     }
   ],
   "niveles_de_usuario": [

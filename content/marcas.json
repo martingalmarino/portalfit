@@ -169,7 +169,8 @@
           "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
         }
       ],
-      "rne_consultado_sifega": false
+      "rne_consultado_sifega": false,
+      "resumen_card": "Nació en Bahía Blanca en 1988. Su catálogo cruza el rendimiento deportivo con el bienestar diario, y Forbes Argentina (2020) le atribuyó más del 30 % del mercado local."
     },
     {
       "slug": "gentech",
@@ -315,7 +316,8 @@
           "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
         }
       ],
-      "rne_consultado_sifega": false
+      "rne_consultado_sifega": false,
+      "resumen_card": "Arrancó en 1998 importando y fabrica en el país desde 2003. Se presenta como proveedora oficial de la AFA; sus barras Iron Bar son lo más reconocido."
     },
     {
       "slug": "ultra-tech",
@@ -465,7 +467,8 @@
           "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
         }
       ],
-      "rne_consultado_sifega": false
+      "rne_consultado_sifega": false,
+      "resumen_card": "Es la marca principal de Web Supplements, empresa cordobesa nacida en 1991. Declara más de 250 productos, con mucho peso de geles y barras."
     },
     {
       "slug": "star-nutrition",
@@ -607,7 +610,8 @@
           "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
         }
       ],
-      "rne_consultado_sifega": true
+      "rne_consultado_sifega": true,
+      "resumen_card": "Su titular es Nutriciencia S.A. Agrupa sus productos según el momento del entrenamiento (antes, durante y después) y suma opciones veganas y sin lactosa."
     },
     {
       "slug": "optimum-nutrition",
@@ -738,7 +742,8 @@
           "texto": "Programas de testeo de terceros (Informed Choice/Informed Sport): PENDIENTE"
         }
       ],
-      "rne_consultado_sifega": false
+      "rne_consultado_sifega": false,
+      "resumen_card": "Estadounidense, fundada en 1986 y hoy en manos de Glanbia. Llega al país importada; Gold Standard es su línea más conocida."
     },
     {
       "slug": "mervick-lab",
@@ -872,7 +877,8 @@
           "texto": "BPM/GMP u otras certificaciones: PENDIENTE (no declaradas en el sitio)"
         }
       ],
-      "rne_consultado_sifega": true
+      "rne_consultado_sifega": true,
+      "resumen_card": "Mira sobre todo a quienes corren, hacen trail o pedalean: geles, carbohidratos e hidratación, además de proteínas y creatina."
     },
     {
       "slug": "gold-nutrition",
@@ -1008,7 +1014,8 @@
           "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
         }
       ],
-      "rne_consultado_sifega": false
+      "rne_consultado_sifega": false,
+      "resumen_card": "Se posiciona como marca premium nacional y destaca materias primas con marca registrada, como Creapure® en creatina o Peptan® en colágeno."
     },
     {
       "slug": "htn",
@@ -1140,7 +1147,8 @@
           "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
         }
       ],
-      "rne_consultado_sifega": false
+      "rne_consultado_sifega": false,
+      "resumen_card": "Según la propia marca, trabaja en suplementos desde 1999. Divide su catálogo en dos líneas: Xplode Series y Pro Series."
     },
     {
       "slug": "body-advance",
@@ -1295,7 +1303,8 @@
           "texto": "Según la ANMAT (2020), los RNPA 02-600324, 02-600325, 02-600327 y 02-600330 (Whey Protein) estaban vigentes a esa fecha. Antecedente: retiro voluntario (Clase IIc) por uso no autorizado del símbolo 'sin TACC', Disposición ANMAT 772/2021"
         }
       ],
-      "rne_consultado_sifega": true
+      "rne_consultado_sifega": true,
+      "resumen_card": "Elabora en planta propia en Caseros y publica en su web el certificado de Buenas Prácticas de Manufactura y análisis de laboratorio de producto."
     },
     {
       "slug": "xtrenght",
@@ -1434,7 +1443,8 @@
           "texto": "No se declaran certificaciones en el sitio oficial"
         }
       ],
-      "rne_consultado_sifega": true
+      "rne_consultado_sifega": true,
+      "resumen_card": "Con base en Bernal y en el mercado al menos desde 2007. Arma su oferta por disciplina: CrossFit, rugby, running, ciclismo y otras."
     },
     {
       "slug": "one-fit-nutrition",
@@ -1558,7 +1568,8 @@
           "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
         }
       ],
-      "rne_consultado_sifega": false
+      "rne_consultado_sifega": false,
+      "resumen_card": "Es la marca de X-Nutrition, fabricante de Alvear (Santa Fe) creado en 2019 que también produce para terceros."
     },
     {
       "slug": "pulver",
@@ -1704,7 +1715,8 @@
           "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
         }
       ],
-      "rne_consultado_sifega": false
+      "rne_consultado_sifega": false,
+      "resumen_card": "Empresa alimenticia porteña de 1990. Junto con los suplementos vende alimentos proteicos y pone el acento en productos libres de gluten."
     },
     {
       "slug": "nutremax",
@@ -1843,7 +1855,8 @@
           "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
         }
       ],
-      "rne_consultado_sifega": false
+      "rne_consultado_sifega": false,
+      "resumen_card": "Marca rosarina centrada en hidratación y deportes de resistencia; la bebida Hydromax es su producto más conocido."
     },
     {
       "slug": "granger",
@@ -1973,7 +1986,8 @@
           "texto": "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
         }
       ],
-      "rne_consultado_sifega": false
+      "rne_consultado_sifega": false,
+      "resumen_card": "Nació en Rafaela en 2020 con proteína de huevo hidrolizada y hoy hace alimentos proteicos y premezclas."
     }
   ],
   "excluidas_o_a_revisar": [
