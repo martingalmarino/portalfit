@@ -1,8 +1,8 @@
 import Link from "next/link";
+import { GuideCardMedia, GuideCover } from "@/components/blog/guide-media";
 import { Crumbs } from "@/components/ui/crumbs";
 import { JsonLd } from "@/components/ui/json-ld";
-import { Photo } from "@/components/ui/photo";
-import { getPublishedPosts } from "@/lib/content/load";
+import { getBlogHero, getPublishedPosts } from "@/lib/content/load";
 import { EVIDENCE, formatContentDate, publishedCopy } from "@/lib/format";
 import { itemListJsonLd, pageMetadata } from "@/lib/seo";
 
@@ -14,6 +14,7 @@ export const metadata = pageMetadata({
 
 export default function BlogPage() {
   const posts = getPublishedPosts();
+  const hero = getBlogHero();
   return (
     <section className="sec" style={{ paddingTop: 28 }}>
       <div className="wrap">
@@ -31,19 +32,24 @@ export default function BlogPage() {
           <p className="lede" style={{ marginTop: 16, maxWidth: 680 }}>
             Cada guía lleva autor, fecha y fuentes.
           </p>
+          {hero ? (
+            <GuideCover
+              cover={hero}
+              className="page-hero-photo"
+              priority
+              sizes="(max-width: 600px) 100vw, 1280px"
+            />
+          ) : null}
         </div>
         <div className="pgrid">
-          {posts.map((post) => {
+          {posts.map((post, index) => {
             const bajada = publishedCopy(post.bajada);
             return (
               <Link className="pcard" href={`/blog/${post.slug}`} key={post.slug} style={{ textDecoration: "none" }}>
-                {post.image ? (
-                  <Photo file={post.image} className="guide-ph" sizes="(max-width: 600px) 100vw, 40vw" />
-                ) : (
-                  <div className="guide-fallback" aria-hidden>
-                    <span className="kicker">Guía</span>
-                  </div>
-                )}
+                <GuideCardMedia
+                  post={post}
+                  sizes={index === 0 ? "(max-width: 900px) 100vw, 640px" : "(max-width: 900px) 100vw, 400px"}
+                />
                 <div style={{ paddingTop: 14, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
                   <span className="xs">
                     {formatContentDate(post.date)}

@@ -11,6 +11,7 @@ import { blockHasAffiliate, getAffiliateProduct } from "@/lib/affiliates";
 import { AffiliateNotice } from "@/components/ui/affiliate-notice";
 import { MICROCOPY } from "@/lib/microcopy";
 import { getCategorias, getPublishedPosts, headingId, type Post } from "@/lib/content/load";
+import { GuideCardMedia, GuideCover } from "@/components/blog/guide-media";
 import { GuideToc } from "@/components/blog/guide-toc";
 import { EVIDENCE, formatContentDate, initials, pad2, publishedCopy } from "@/lib/format";
 import { absoluteUrl, getSiteName } from "@/lib/site";
@@ -123,9 +124,18 @@ export function ArticleView({ post }: { post: Post }) {
               </div>
             ) : null}
           </div>
+          {post.cover ? (
+            <figure className="guide-hero">
+              <GuideCover
+                cover={post.cover}
+                priority
+                sizes="(max-width: 600px) 100vw, 1280px"
+              />
+            </figure>
+          ) : null}
         </div>
       </header>
-      {post.image ? (
+      {!post.cover && post.image ? (
         <div className="wrap">
           <Photo file={post.image} className="afig" priority sizes="(max-width: 600px) 100vw, 1200px" credit />
           {post.imageCredit ? (
@@ -264,13 +274,7 @@ export function ArticleView({ post }: { post: Post }) {
             <div className="mpg">
               {others.map((item) => (
                 <Link href={`/blog/${item.slug}`} key={item.slug} style={{ textDecoration: "none" }}>
-                  {item.image ? (
-                    <Photo file={item.image} className="guide-ph" sizes="30vw" />
-                  ) : (
-                    <div className="guide-fallback">
-                      <span className="kicker">Guía</span>
-                    </div>
-                  )}
+                  <GuideCardMedia post={item} sizes="(max-width: 900px) 100vw, 400px" />
                   <h3 className="h3" style={{ marginTop: 10, fontSize: 22 }}>{item.h1}</h3>
                 </Link>
               ))}

@@ -372,9 +372,29 @@ export const postFrontmatterSchema = z.object({
   rail: z.array(z.string().min(1)).optional(),
 });
 
+const blogAssetPath = z
+  .string()
+  .regex(/^\/images\/blog\/[a-z0-9-]+\.webp$/, "La imagen tiene que vivir en /images/blog y ser WebP");
+
+/** Still 16:10 de una guía o del listado. El alt es el texto publicado, no un nombre de archivo. */
+export const guideStillSchema = z.object({
+  src: blogAssetPath,
+  alt: z.string().min(1),
+  width: z.number().int().positive(),
+  height: z.number().int().positive(),
+});
+
+/** Portada, hero y pieza de Open Graph de una guía. */
+export const guideImageSchema = guideStillSchema.extend({
+  og: blogAssetPath,
+  ogWidth: z.number().int().positive(),
+  ogHeight: z.number().int().positive(),
+});
+
 export const postsIndexSchema = z.object({
   actualizado: z.string().optional(),
   nota: z.string().optional(),
+  hero_listado: guideStillSchema.optional(),
   posts: z.array(
     z
       .object({
@@ -387,6 +407,7 @@ export const postsIndexSchema = z.object({
         minutos_lectura: z.number().int().positive().optional(),
         faq: z.array(z.object({ q: z.string().min(1), a: z.string().min(1) })).default([]),
         enlaces_internos: z.record(z.string(), z.array(z.string())).optional(),
+        imagen: guideImageSchema.optional(),
       })
       .passthrough(),
   ),
@@ -465,4 +486,6 @@ export type HomeFile = z.infer<typeof homeSchema>;
 export type FichasFile = z.infer<typeof fichasSchema>;
 export type Ficha = FichasFile["fichas"][number];
 export type PostFrontmatter = z.infer<typeof postFrontmatterSchema>;
+export type GuideStill = z.infer<typeof guideStillSchema>;
+export type GuideImage = z.infer<typeof guideImageSchema>;
 export type AffiliateCatalogFile = z.infer<typeof affiliateCatalogSchema>;

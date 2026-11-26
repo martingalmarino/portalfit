@@ -19,6 +19,8 @@ import {
   type Etapa,
   type Ficha,
   type FichasFile,
+  type GuideImage,
+  type GuideStill,
   type HomeFile,
   type Marca,
   type MarcasFile,
@@ -68,6 +70,7 @@ let taxCache: Taxonomia | undefined;
 let homeCache: HomeFile | undefined;
 let fichasCache: FichasFile | undefined;
 let postsCache: Post[] | undefined;
+let blogHeroCache: GuideStill | undefined;
 let graphChecked = false;
 
 export function loadMarcas(): MarcasFile {
@@ -108,6 +111,9 @@ export type Post = {
   headings: string[];
   toc: Array<{ id: string; label: string }>;
   readingMinutes?: number;
+  /** Portada 16:10, hero y Open Graph propios. Si falta, la card usa el recuadro verde. */
+  cover?: GuideImage;
+  /** Foto de stock ya acreditada en lib/photos.ts. Queda como respaldo si no hay cover. */
   image?: string;
   imageCredit?: string;
   reviewer?: string;
@@ -165,6 +171,8 @@ export function loadPosts(): Post[] {
     throw new Error("content/blog no tiene posts");
   }
   const index = parseContent(postsIndexSchema, readJson("blog/posts.json"), "content/blog/posts.json");
+  if (index.hero_listado) assertPublicAsset(index.hero_listado.src, "hero del listado /blog");
+  blogHeroCache = index.hero_listado;
   const bySlug = new Map(index.posts.map((item) => [item.slug, item]));
   linkWarnings.length = 0;
   internalTextWarnings.length = 0;
@@ -209,6 +217,10 @@ export function loadPosts(): Post[] {
     const internalLinks = [...new Set([...fromIndex, ...markdownLinks(parsed.content)])];
     const headings = indexed.h2;
     if (frontmatter.image) photoByFile(frontmatter.image);
+    if (indexed.imagen) {
+      assertPublicAsset(indexed.imagen.src, `${slug} · portada`);
+      assertPublicAsset(indexed.imagen.og, `${slug} · open graph`);
+    }
     return {
       slug,
       title: frontmatter.title,
@@ -225,6 +237,7 @@ export function loadPosts(): Post[] {
       headings,
       toc: headings.map((label) => ({ id: headingId(label), label })),
       readingMinutes: indexed.minutos_lectura ?? frontmatter.readingMinutes,
+      cover: indexed.imagen,
       image: frontmatter.image,
       imageCredit: frontmatter.imageCredit,
       reviewer: frontmatter.reviewer,
@@ -258,6 +271,23 @@ export function getInternalTextWarnings(): string[] {
 /** Guías que se publican. Un MDX marcado para no publicar queda en disco y fuera del sitio. */
 export function getPublishedPosts(): Post[] {
   return loadPosts().filter((post) => post.ejemplo !== true);
+}
+
+/** Cabecera del índice /blog. No reemplaza el og:image genérico del listado. */
+export function getBlogHero(): GuideStill | undefined {
+  loadPosts();
+  return blogHeroCache;
+}
+
+function assertPublicAsset(src: string, label: string) {
+  const relative = src.replace(/^\/+/, "");
+  if (!relative || relative.split("/").some((part) => part === ".." || part === "")) {
+    throw new Error(`${label}: ruta de imagen inválida (${src})`);
+  }
+  const file = path.join(process.cwd(), "public", relative);
+  if (!fs.existsSync(file) || !fs.statSync(file).isFile() || fs.statSync(file).size === 0) {
+    throw new Error(`${label}: falta el archivo public/${relative}`);
+  }
 }
 
 function editorialAuthor(raw: string | undefined): string {

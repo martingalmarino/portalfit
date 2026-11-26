@@ -1,9 +1,24 @@
 {
   "actualizado": "2026-11-16",
   "nota": "Los posts reemplazan al contenido de ejemplo del blog. [NOMBRE PORTAL] y [dominio] solo aparecen en meta_title y canonical. No hay revisor profesional asignado: no se incluye ningún campo de revisor. Autor provisorio: 'Equipo editorial Portal FIT' debe renderizarse desde la variable del nombre del sitio (p. ej. `Equipo editorial ${getSiteName()}`), no como texto fijo.",
+  "hero_listado": {
+    "src": "/images/blog/blog-hero.webp",
+    "alt": "Mesada editorial con cuadernos, frascos y material de consulta, en un ambiente de laboratorio",
+    "width": 1600,
+    "height": 1000
+  },
   "posts": [
     {
       "slug": "creatina-para-que-sirve",
+      "imagen": {
+        "src": "/images/blog/creatina-para-que-sirve.webp",
+        "width": 1600,
+        "height": 1000,
+        "og": "/images/blog/creatina-para-que-sirve-og.webp",
+        "ogWidth": 1200,
+        "ogHeight": 630,
+        "alt": "Polvo de creatina monohidrato en un recipiente de laboratorio, sobre una mesada clara"
+      },
       "archivo": "blog/creatina-para-que-sirve.md",
       "tema_plan": 1,
       "title": "Creatina: para qué sirve y qué dice la evidencia",
@@ -102,6 +117,15 @@
     },
     {
       "slug": "rotulo-suplemento-rnpa-rne",
+      "imagen": {
+        "src": "/images/blog/rotulo-suplemento-rnpa-rne.webp",
+        "width": 1600,
+        "height": 1000,
+        "og": "/images/blog/rotulo-suplemento-rnpa-rne-og.webp",
+        "ogWidth": 1200,
+        "ogHeight": 630,
+        "alt": "Primer plano del rótulo de un suplemento, con los números de registro en un envase genérico"
+      },
       "archivo": "blog/rotulo-suplemento-rnpa-rne.md",
       "tema_plan": 5,
       "title": "Rótulo de un suplemento: cómo leer el RNPA y el RNE",
@@ -208,6 +232,15 @@
     },
     {
       "slug": "suplementos-sistema-abcd-ais",
+      "imagen": {
+        "src": "/images/blog/suplementos-sistema-abcd-ais.webp",
+        "width": 1600,
+        "height": 1000,
+        "og": "/images/blog/suplementos-sistema-abcd-ais-og.webp",
+        "ogWidth": 1200,
+        "ogHeight": 630,
+        "alt": "Composición editorial de frascos y fichas ordenados sobre una mesada de laboratorio"
+      },
       "archivo": "blog/suplementos-sistema-abcd-ais.md",
       "tema_plan": 7,
       "title": "Sistema ABCD del AIS: qué suplementos tienen evidencia",
@@ -324,6 +357,15 @@
     },
     {
       "slug": "marcas-suplementos-argentinas",
+      "imagen": {
+        "src": "/images/blog/marcas-suplementos-argentinas.webp",
+        "width": 1600,
+        "height": 1000,
+        "og": "/images/blog/marcas-suplementos-argentinas-og.webp",
+        "ogWidth": 1200,
+        "ogHeight": 630,
+        "alt": "Mesada de un laboratorio de suplementos, con frascos sin etiqueta y luz editorial"
+      },
       "archivo": "blog/marcas-suplementos-argentinas.md",
       "tema_plan": 22,
       "title": "Marcas de suplementos argentinas: historia y fabricación",

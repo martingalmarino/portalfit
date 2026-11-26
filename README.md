@@ -22,6 +22,7 @@ lib/content/          schemas Zod y loaders
 lib/affiliates/       interfaz única y proveedor mock
 lib/seo.ts            metadata, canónicos y JSON-LD
 public/img            fotos de Pexels
+public/images/blog    stills de las guías (16:10 y Open Graph 1200×630)
 public/logos          logos para fondo claro
 ```
 
@@ -37,9 +38,9 @@ El copy de marcas, categorías, etapas y home no se reescribe en los componentes
 
 1. Marcas, taxonomía y home: `content/marcas.json`, `content/taxonomia.json`, `content/home.json`.
 2. Ficha de marca: el mismo slug en `content/fichas.json` y `content/fichas/<slug>.md`. La intro del Markdown tiene que coincidir con la intro del JSON (y con el resumen de la home). El build falla si divergen.
-3. Guías: un `.md` (o `.mdx`) en `content/blog`, más su entrada en `content/blog/posts.json`. El frontmatter pide título, descripción, slug, fecha (`AAAA-MM-DD`), autor y fuentes (`titulo` + `url`). La categoría puede ser un slug, una lista o no estar. El H1, la bajada, el meta title, la keyword, los H2, los enlaces internos y la FAQ salen de `posts.json`. El canonical de ese archivo no se usa: lo arma `NEXT_PUBLIC_SITE_URL`. Sin imagen, la guía abre con cabecera tipográfica. Si `ejemplo` es `true`, queda fuera del índice, del sitemap y de las páginas.
+3. Guías: un `.md` (o `.mdx`) en `content/blog`, más su entrada en `content/blog/posts.json`. El frontmatter pide título, descripción, slug, fecha (`AAAA-MM-DD`), autor y fuentes (`titulo` + `url`). La categoría puede ser un slug, una lista o no estar. El H1, la bajada, el meta title, la keyword, los H2, los enlaces internos y la FAQ salen de `posts.json`. El canonical de ese archivo no se usa: lo arma `NEXT_PUBLIC_SITE_URL`. La portada, el hero y el `og:image` salen de `imagen` en esa entrada (`src`, `alt`, `width`, `height`, `og`, `ogWidth`, `ogHeight`), con archivos en `public/images/blog`. Sin `imagen`, la card sigue con el recuadro verde y la cabecera queda solo tipográfica. El hero de `/blog` es `hero_listado` en el mismo JSON; el `og:image` del listado sigue siendo el genérico del sitio. Si `ejemplo` es `true`, queda fuera del índice, del sitemap y de las páginas.
 4. Placeholders: `[NOMBRE PORTAL]` se reemplaza al render. `[dominio]` solo se muestra si existe `NEXT_PUBLIC_DOMAIN_LABEL`.
-5. Fotos nuevas: sumar el archivo a `public/img`, el crédito en `content/creditos.md` y la ficha en `lib/photos.ts`. Sin crédito, el build no la acepta.
+5. Fotos de stock: sumar el archivo a `public/img`, el crédito en `content/creditos.md` y la ficha en `lib/photos.ts`. Sin crédito, el build no la acepta. Los stills de las guías no usan ese catálogo: van en `public/images/blog` y se declaran en `posts.json`.
 6. Productos: `content/productos.json`. No lleva precios. Campos:
    - `id`, `titulo`, `marca` (slug), `categoria` (slug), `subcategoria` (slug, si aplica)
    - `url`: URL limpia de la publicación en Mercado Libre. Obligatoria.
