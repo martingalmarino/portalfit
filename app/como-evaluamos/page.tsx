@@ -56,6 +56,7 @@ export default function ComoEvaluamosPage() {
         </div>
         <h2>Marco regulatorio argentino</h2>
         <p><Editorial text={tax.marco_regulatorio_argentino.resumen} /></p>
+        <h3>A qué nos comprometemos</h3>
         <ul>
           {tax.marco_regulatorio_argentino.implicancias_editoriales.map((item) => {
             const visible = publicCopy(item);
@@ -96,10 +97,10 @@ export default function ComoEvaluamosPage() {
         </div>
         <h2 id="politica">Política editorial</h2>
         <p>
-          El sitio es informativo. No diagnostica, no indica tratamientos y no reemplaza la consulta con un profesional de la salud. Si un dato no está, la ficha no lo muestra.
+          El sitio es informativo. No diagnostica, no indica tratamientos y no reemplaza la consulta con un profesional de la salud. Si no pudimos verificar un dato, preferimos no publicarlo.
         </p>
         <p>
-          Las guías llevan autor, fecha, fuentes y grado de evidencia. Si el revisor no está designado, esa línea no se muestra.
+          Cada guía indica quién la escribió, cuándo se actualizó, en qué estudios se apoya y qué tan firme es la evidencia.
         </p>
         <p>
           El orden de los enlaces de Mercado Libre es editorial. No depende de la comisión. El detalle está en{" "}

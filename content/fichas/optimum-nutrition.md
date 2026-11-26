@@ -41,7 +41,7 @@ _Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el contr
 - Distribuidor: https://trustdistributions.com.ar/
 
 ## Redes
-instagram: https://www.instagram.com/optimumnutrition/ · facebook: https://www.facebook.com/optimumnutrition · youtube: https://www.youtube.com/optimumnutrition · Nota: No se encontró una cuenta argentina oficial (búsqueda del 16/11/2026); se listan las cuentas globales de la marca. El distribuidor Trust Distributions no publica redes propias de ON
+instagram: https://www.instagram.com/optimumnutrition/ · facebook: https://www.facebook.com/optimumnutrition · youtube: https://www.youtube.com/optimumnutrition · Nota: No encontramos una cuenta de Optimum Nutrition para Argentina, así que te dejamos las cuentas globales de la marca. Trust Distributions, que la distribuye en el país, tampoco tiene redes dedicadas a la marca. Última revisión: 16/11/2026.
 
 ## Preguntas frecuentes
 

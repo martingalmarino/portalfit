@@ -39,7 +39,7 @@ _Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el contr
 
 ## Dónde comprar
 - Sitio oficial: https://xtrenght-nutrition.com/
-- Mercado Libre: Sin tienda oficial de la marca confirmada: /tienda/xtrenght y sus variantes no existen. Hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y también reventa, p. ej. la tienda oficial del revendedor RTN Suplementos.
+- Mercado Libre: No encontramos una tienda oficial de Xtrenght en Mercado Libre. Hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y otras de revendedores, como RTN Suplementos: antes de comprar, fijate quién figura como vendedor.
 - Tienda online oficial: https://xtrenght-nutrition.com/index.php/shop
 
 ## Redes
@@ -54,7 +54,7 @@ En Bernal, provincia de Buenos Aires.
 No tenemos un año de fundación confirmado: hay registros de la marca en el mercado por lo menos desde 2007.
 
 ### ¿Se puede comprar Xtrenght Nutrition directo a la marca en Mercado Libre?
-No pudimos confirmar una tienda propia: la dirección /tienda/xtrenght y sus variantes no existen. Sí hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y otras de revendedores, como la tienda oficial de RTN Suplementos.
+No encontramos una tienda oficial de la marca en Mercado Libre. Lo que sí hay son publicaciones con la etiqueta 'XTRENGHT NUTRITION' y otras de revendedores, como RTN Suplementos. Antes de comprar, fijate quién figura como vendedor.
 
 ### ¿Qué registros o certificaciones tiene Xtrenght Nutrition?
 Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02042640, Bernal Oeste (Bs. As.): Vigente (mismo domicilio que publica la marca; vínculo marca–sociedad inferido). Registro consultado en la base oficial SIFeGA el 16/11/2026: Xience Group S.A., RNE 02034521, Wilde (Bs. As.): Vigente. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). No se declaran certificaciones en el sitio oficial. Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.

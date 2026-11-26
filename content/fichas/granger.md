@@ -30,7 +30,7 @@ Su primer producto fue proteína de huevo hidrolizada, que sus tres fundadores, 
 [Proteínas](/categorias/proteinas), [Barras y snacks proteicos](/categorias/barras-snacks), [Colágeno](/categorias/colageno)
 
 ## Registros y certificaciones
-- No se declaran certificaciones en el sitio oficial revisado
+- La marca no publica certificaciones en su sitio oficial.
 - RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)
 
 _Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de los suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes (RNE del establecimiento y RNPA del producto) siguen vigentes sin necesidad de reinscripción, y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los establecimientos se consultaron el 16/11/2026 en la base oficial SIFeGA, que sigue en línea en su dirección habitual. Su selector de jurisdicciones no incluye la Ciudad de Buenos Aires ni Córdoba, por lo que Gentech, Ultra Tech, Pulver y Gold Nutrition no pudieron verificarse por esa vía; para el resto de las marcas la consulta no arrojó resultados con los nombres de sus empresas, así que su registro no figura como consultado. Sí se verificaron Nutriciencia S.A. (Star Nutrition), Mervick Lab S.A., el RNE 02035075 (Body Advance) y Xience Group S.A. (domicilio coincidente con Xtrenght). El RNPA de cada producto figura en el rótulo y se puede buscar en el buscador público de productos alimenticios autorizados de SIFeGA._
@@ -55,7 +55,7 @@ Arrancó en 2020.
 Sí. Granger Nutrición vende con su propia tienda oficial (https://www.mercadolibre.com.ar/tienda/granger). Fuera de esa tienda también hay revendedores, así que antes de comprar mirá quién figura como vendedor en la publicación.
 
 ### ¿Qué registros o certificaciones tiene Granger Nutrición?
-No se declaran certificaciones en el sitio oficial revisado. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
+La marca no publica certificaciones en su sitio oficial. RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA). Antes de comprar, revisá en el rótulo que figuren el RNPA del producto y el RNE del elaborador.
 
 ## Fuentes
 - Granger Nutrición – sitio oficial: https://www.grangernutricion.com/

@@ -22,7 +22,7 @@ const STANDARDS: Array<{ n: string; title: string; text: string; href?: string }
   { n: "03", title: "Verificado ≠ declarado", text: "Distinguimos lo consultado en registros oficiales de lo que declara cada marca." },
   {
     n: "04",
-    title: "Regulación y sin claims médicos",
+    title: "Regulación argentina, sin promesas de salud",
     text: "Son alimentos regulados por el Código Alimentario Argentino; desde agosto de 2026 los registra y controla el SENASA. Contenido informativo: no reemplaza la consulta profesional.",
     href: "/blog/rotulo-suplemento-rnpa-rne",
   },
@@ -118,7 +118,7 @@ export function HomeView() {
                 AIS · Grupos A–D
               </a>
               <a className="srcchip" href="https://www.sportsnutritionsociety.org/" target="_blank" rel="noreferrer">
-                ISSN · Position stands
+                ISSN · Posturas oficiales
               </a>
               <a className="srcchip" href="https://www.boletinoficial.gob.ar/detalleAviso/primera/345309/20260803" target="_blank" rel="noreferrer">
                 SENASA · CAA
@@ -396,7 +396,7 @@ export function HomeView() {
             <div className="lead-col">
               <div className="kicker"><span className="num">Nº 07</span> Guías</div>
               <h2 className="h2">
-                Lecturas con <em>byline y fuentes</em>
+                Guías para leer <em>antes de comprar</em>
               </h2>
             </div>
             <Link className="link" href="/blog">

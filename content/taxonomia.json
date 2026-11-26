@@ -4,10 +4,10 @@
     "alto": "Evidencia sólida y consistente para usos concretos (p. ej. AIS Grupo A / posición favorable ISSN).",
     "moderado": "Evidencia emergente o mixta; útil en situaciones o poblaciones específicas (p. ej. AIS Grupo B).",
     "bajo": "Evidencia insuficiente o no favorable en personas que entrenan (p. ej. AIS Grupo C).",
-    "precaucion": "Alto riesgo de ingredientes prohibidos/contaminación o claims no sustentados (p. ej. AIS Grupo D); se presenta con advertencias.",
+    "precaucion": "Riesgo alto de sustancias prohibidas, contaminación o promesas sin respaldo (p. ej. AIS Grupo D). Cuando una categoría está en este nivel, la mostramos con advertencias.",
     "variable": "Depende del ingrediente concreto; se evalúa por subcategoría."
   },
-  "nota_evidencia": "Nivel general orientativo por categoría basado en AIS Sports Supplement Framework (grupos A–D) y position stands ISSN; no es una recomendación individual.",
+  "nota_evidencia": "Nivel general de evidencia de cada categoría, según el Instituto Australiano del Deporte (AIS, grupos A a D) y las posturas oficiales de la ISSN. Es una referencia general, no una recomendación para tu caso.",
   "categorias": [
     {
       "slug": "proteinas",
@@ -152,7 +152,7 @@
         }
       ],
       "nivel_evidencia": "variable",
-      "nota_evidencia": "Cafeína, beta-alanina y nitratos están en AIS Grupo A y tienen position stands ISSN favorables para usos específicos. Las fórmulas multi-ingrediente requieren revisar cada componente y dosis; algunos estimulantes figuran en AIS Grupo D.",
+      "nota_evidencia": "Cafeína, beta-alanina y nitratos están en AIS Grupo A y cuentan con posturas oficiales favorables de la ISSN para usos específicos. Las fórmulas multi-ingrediente requieren revisar cada componente y dosis; algunos estimulantes figuran en AIS Grupo D.",
       "fuentes": [
         "https://doi.org/10.1186/s12970-020-00383-4",
         "https://doi.org/10.1186/s12970-015-0090-y",
@@ -610,7 +610,7 @@
         }
       ],
       "nivel_evidencia": "alto",
-      "nota_evidencia": "AIS Grupo A ('Sports Gel', 'Sports Confectionery') para aportar carbohidratos durante el ejercicio prolongado. La ISSN revisa el timing de carbohidratos.",
+      "nota_evidencia": "AIS Grupo A ('Sports Gel', 'Sports Confectionery') para aportar carbohidratos durante el ejercicio prolongado. La ISSN tiene una postura oficial sobre en qué momento conviene tomar carbohidratos.",
       "fuentes": [
         "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
         "https://doi.org/10.1186/s12970-017-0189-4"
@@ -632,9 +632,9 @@
       "url": "/etapas/30-39",
       "descripcion": "Etapa de consolidación: armar hábitos sostenibles, ganar o sostener masa muscular y rendimiento, y compatibilizar el entrenamiento con el trabajo y la familia.",
       "enfoque_editorial": [
-        "Cubrir proteína diaria con comida y, si hace falta, suplementos",
-        "Creatina como opción con buena evidencia para fuerza",
-        "Hidratación y carbohidratos según deporte"
+        "Cubrí la proteína del día con comida; el suplemento, solo si no llegás.",
+        "La creatina es de los suplementos con mejor evidencia para ganar fuerza.",
+        "Cuánta hidratación y cuántos carbohidratos necesitás depende del deporte que hagas."
       ],
       "categorias_relacionadas": [
         "proteinas",
@@ -697,7 +697,7 @@
           "titulo": "Proteína suficiente y repartida",
           "texto": "Para la mayoría de quienes entrenan, la ISSN ubica la ingesta diaria entre 1,4 y 2,0 g de proteína por kilo corporal, repartida en tomas de 20 a 40 g cada 3 a 4 horas. Primero con comida; el suplemento, si hace falta.",
           "nivel_evidencia": "alto",
-          "respaldo": "Position stand ISSN 2017; AIS Grupo A (proteína aislada)",
+          "respaldo": "Postura oficial de la ISSN 2017; AIS Grupo A (proteína aislada)",
           "fuentes": [
             3,
             7
@@ -1084,9 +1084,9 @@
       "url": "/etapas/40-49",
       "descripcion": "Etapa de mantenimiento: conservar masa muscular y fuerza, cuidar la recuperación y prestar atención a los micronutrientes.",
       "enfoque_editorial": [
-        "Entrenamiento de fuerza como base",
-        "Distribuir la proteína en varias comidas",
-        "Revisar vitamina D/hierro con profesional antes de suplementar"
+        "El entrenamiento de fuerza pasa a ser la base de todo lo demás.",
+        "Repartí la proteína en varias comidas en lugar de concentrarla en una.",
+        "Vitamina D y hierro: medilos con un profesional antes de tomar un suplemento."
       ],
       "categorias_relacionadas": [
         "proteinas",
@@ -1149,7 +1149,7 @@
           "titulo": "Proteína repartida en varias comidas",
           "texto": "La ISSN sugiere tomas de 20 a 40 g de proteína cada 3 a 4 horas, dentro de un total de 1,4 a 2,0 g por kilo por día para quienes entrenan. Más que una gran cena proteica, conviene repartirla.",
           "nivel_evidencia": "alto",
-          "respaldo": "Position stand ISSN 2017",
+          "respaldo": "Postura oficial de la ISSN 2017",
           "fuentes": [
             3,
             4
@@ -1160,7 +1160,7 @@
           "titulo": "Creatina junto con el entrenamiento",
           "texto": "La creatina monohidrato tiene evidencia para fuerza y masa magra cuando acompaña el entrenamiento de fuerza, también en adultos de mediana edad.",
           "nivel_evidencia": "alto",
-          "respaldo": "Position stand ISSN 2017; AIS Grupo A",
+          "respaldo": "Postura oficial de la ISSN 2017; AIS Grupo A",
           "fuentes": [
             5,
             7
@@ -1542,9 +1542,9 @@
       "url": "/etapas/50-60",
       "descripcion": "Etapa en la que conservar la fuerza y la masa muscular pasa a ser prioridad para sostener la autonomía.",
       "enfoque_editorial": [
-        "Proteína suficiente (PROT-AGE sugiere 1,0–1,2 g/kg/día en mayores de 65 sanos; más con ejercicio)",
-        "Creatina + entrenamiento de fuerza (evidencia en adultos mayores revisada por ISSN)",
-        "Vitamina D y calcio según evaluación médica"
+        "Proteína suficiente: según el grupo PROT-AGE, con los años se necesita más que de joven, y más aún si entrenás. La cantidad, definila con un profesional.",
+        "Creatina junto con entrenamiento de fuerza: la ISSN revisó estudios en adultos mayores con resultados favorables.",
+        "Vitamina D y calcio: lo que indique tu médico después de evaluarte."
       ],
       "categorias_relacionadas": [
         "proteinas",
@@ -1599,7 +1599,7 @@
           "titulo": "Equilibrio y movilidad",
           "texto": "La OMS recomienda a los mayores de 65 actividad multicomponente con equilibrio y fuerza tres o más días por semana. Incorporarlo antes ayuda a llegar con el hábito armado.",
           "nivel_evidencia": "alto",
-          "respaldo": "OMS 2020 (recomendación para 65+); la anticipación es criterio editorial",
+          "respaldo": "OMS 2020, recomendación para mayores de 65; la anticipación a los 50 es criterio editorial, para empezar con tiempo",
           "fuentes": [
             1,
             2
@@ -1608,9 +1608,9 @@
         {
           "tipo": "nutricion",
           "titulo": "Proteína suficiente en cada comida",
-          "texto": "PROT-AGE plantea al menos 1,0 a 1,2 g por kilo por día en mayores de 65 sanos, y 1,2 g o más en quienes hacen ejercicio. Para esta franja es una referencia útil: no quedarse corto y repartirla.",
+          "texto": "El grupo PROT-AGE plantea que, con la edad, se necesita más proteína que de joven, y más todavía si hacés ejercicio. En esta franja la idea es no quedarse corto y repartirla en las comidas; la cantidad concreta conviene definirla con un profesional.",
           "nivel_evidencia": "alto",
-          "respaldo": "Position paper PROT-AGE 2013; ISSN 2017",
+          "respaldo": "Consenso PROT-AGE 2013; postura oficial de la ISSN 2017",
           "fuentes": [
             4,
             5
@@ -1818,7 +1818,7 @@
       "faq": [
         {
           "pregunta": "¿Cuánta proteína se recomienda después de los 50?",
-          "respuesta": "No hay una cifra única para esta franja. Como referencia, el grupo PROT-AGE planteó al menos 1,0 a 1,2 g por kilo por día en mayores de 65 sanos y 1,2 g o más si hacen ejercicio. Tu médico o nutricionista puede ajustarlo, especialmente si tenés alguna enfermedad renal."
+          "respuesta": "No hay una cifra única para esta franja. El grupo PROT-AGE plantea que las personas mayores necesitan más proteína que las jóvenes, y más todavía si hacen ejercicio. La cantidad para tu caso la define tu médico o nutricionista según tu peso, tu actividad y tu salud, sobre todo si tenés alguna enfermedad renal."
         },
         {
           "pregunta": "¿La creatina es segura a los 50 o 60?",
@@ -2005,9 +2005,9 @@
       "url": "/etapas/mujer",
       "descripcion": "Temas propios de la mujer que entrena: ciclo menstrual, hierro, calcio, vitamina D y disponibilidad energética.",
       "enfoque_editorial": [
-        "Disponibilidad energética suficiente",
-        "Hierro y vitamina D: medir antes de suplementar",
-        "La creatina y la proteína también aplican a mujeres"
+        "Comé lo suficiente para cubrir lo que gastás entrenando: es el primer paso.",
+        "Hierro y vitamina D: medilos antes de tomar un suplemento.",
+        "La creatina y la proteína también tienen evidencia en mujeres."
       ],
       "categorias_relacionadas": [
         "proteinas",
@@ -2046,7 +2046,7 @@
           "titulo": "Comer lo suficiente",
           "texto": "Para la ISSN, la consideración nutricional principal es cubrir la energía que demanda el entrenamiento. Restringir mucho mientras se entrena fuerte afecta la salud y el rendimiento, según el consenso del COI.",
           "nivel_evidencia": "alto",
-          "respaldo": "Position stand ISSN 2023; consenso COI 2023",
+          "respaldo": "Postura oficial de la ISSN 2023; consenso COI 2023",
           "fuentes": [
             1,
             2
@@ -2057,7 +2057,7 @@
           "titulo": "Proteína en el rango medio-alto",
           "texto": "La ISSN plantea entre 1,4 y 2,2 g por kilo por día para mujeres en todas las etapas, repartida cada 3 a 4 horas.",
           "nivel_evidencia": "alto",
-          "respaldo": "Position stand ISSN 2023",
+          "respaldo": "Postura oficial de la ISSN 2023",
           "fuentes": [
             1
           ]
@@ -2078,7 +2078,7 @@
           "titulo": "Conocer tu propio patrón",
           "texto": "Los efectos del ciclo sobre el rendimiento son muy individuales. Registrar energía, sueño y rendimiento a lo largo del mes ayuda a ajustar cargas y alimentación.",
           "nivel_evidencia": "moderado",
-          "respaldo": "Position stand ISSN 2023 (investigación todavía limitada)",
+          "respaldo": "Postura oficial de la ISSN 2023 (investigación todavía limitada)",
           "fuentes": [
             1
           ]
@@ -2435,10 +2435,10 @@
       "url": "/etapas/menopausia",
       "descripcion": "Cambios hormonales que influyen en la composición corporal y en la masa ósea y muscular. Lo abordamos desde el entrenamiento de fuerza, la proteína y los micronutrientes, siempre con acompañamiento médico.",
       "enfoque_editorial": [
-        "Entrenamiento de fuerza e impacto",
-        "Proteína suficiente",
-        "Calcio y vitamina D según indicación profesional",
-        "Sin promesas sobre síntomas: los suplementos no tratan la menopausia"
+        "Entrenamiento de fuerza y ejercicios de impacto, adaptados a tu punto de partida.",
+        "Proteína suficiente, repartida en las comidas del día.",
+        "Calcio y vitamina D: lo que indique tu médico.",
+        "Los suplementos no son un tratamiento para la menopausia: esta página habla de hábitos y de evidencia."
       ],
       "categorias_relacionadas": [
         "proteinas",
@@ -2502,7 +2502,7 @@
           "titulo": "Proteína en la parte alta del rango",
           "texto": "Para mujeres que entrenan, la ISSN plantea entre 1,4 y 2,2 g por kilo por día, y sugiere que en la peri y la posmenopausia se apunte al extremo superior, con la proteína repartida en el día.",
           "nivel_evidencia": "moderado",
-          "respaldo": "Position stand ISSN 2023 (investigación específica todavía limitada)",
+          "respaldo": "Postura oficial de la ISSN 2023 (investigación específica todavía limitada)",
           "fuentes": [
             2
           ]
@@ -2512,7 +2512,7 @@
           "titulo": "Registrar tu respuesta",
           "texto": "La ISSN sugiere que cada mujer siga cómo responde al entrenamiento y la recuperación para encontrar su propio patrón. Anotar sueño, energía y rendimiento ayuda también en la consulta médica.",
           "nivel_evidencia": "moderado",
-          "respaldo": "Position stand ISSN 2023",
+          "respaldo": "Postura oficial de la ISSN 2023",
           "fuentes": [
             2
           ]
@@ -2886,8 +2886,8 @@
       "url": "/etapas/hombre",
       "descripcion": "Rendimiento, composición corporal y hábitos de largo plazo, con cautela frente a los llamados 'boosters' de testosterona.",
       "enfoque_editorial": [
-        "Proteína y creatina como base con evidencia",
-        "Evitar 'testo boosters': AIS los lista en Grupo D por riesgo de contaminación"
+        "Proteína y creatina: la base con mejor evidencia.",
+        "Cuidado con los 'testo boosters': el AIS los ubica en el Grupo D por riesgo de contaminación."
       ],
       "categorias_relacionadas": [
         "proteinas",
@@ -2952,7 +2952,7 @@
           "titulo": "Creatina con entrenamiento",
           "texto": "La ISSN la considera el suplemento nutricional más eficaz para mejorar la capacidad en esfuerzos intensos y la masa magra durante el entrenamiento.",
           "nivel_evidencia": "alto",
-          "respaldo": "Position stand ISSN 2017; AIS Grupo A",
+          "respaldo": "Postura oficial de la ISSN 2017; AIS Grupo A",
           "fuentes": [
             5,
             9
@@ -3352,9 +3352,9 @@
       "url": "/etapas/sarcopenia",
       "descripcion": "La sarcopenia es una enfermedad muscular progresiva (consenso EWGSOP2) y su diagnóstico es médico. Acá explicamos el concepto y los hábitos asociados a conservar la masa muscular; no ofrecemos diagnóstico ni tratamiento.",
       "enfoque_editorial": [
-        "Explicar el concepto y derivar a profesionales",
-        "Fuerza + proteína como pilares",
-        "Creatina: evidencia en combinación con entrenamiento"
+        "Qué es la sarcopenia y por qué el diagnóstico lo hace un médico.",
+        "Fuerza y proteína, los dos pilares para conservar músculo.",
+        "Creatina: tiene evidencia cuando se combina con entrenamiento."
       ],
       "categorias_relacionadas": [
         "proteinas",
@@ -3419,7 +3419,7 @@
           "titulo": "Proteína suficiente y repartida",
           "texto": "El grupo PROT-AGE plantea que las personas mayores necesitan más proteína que las jóvenes, y más aún si hacen ejercicio. La cantidad concreta conviene definirla con un profesional.",
           "nivel_evidencia": "alto",
-          "respaldo": "Position paper PROT-AGE 2013",
+          "respaldo": "Consenso PROT-AGE 2013",
           "fuentes": [
             5
           ]
@@ -3803,10 +3803,10 @@
   "marco_regulatorio_argentino": {
     "resumen": "En Argentina los suplementos dietarios son alimentos, no medicamentos. Están definidos en el artículo 1381 del Código Alimentario Argentino (Capítulo XVII, Alimentos de régimen o dietéticos), cuyo texto vigente fue actualizado por la Resolución Conjunta 33/2025: productos destinados a incrementar la ingesta dietaria habitual de personas sanas con necesidades no satisfechas o mayores a las habituales, de administración oral, elaborados bajo buenas prácticas de manufactura; la autorización de comercialización dura 5 años. Para venderse deben contar con RNPA (Registro Nacional de Producto Alimenticio) y el elaborador/importador con RNE; el rótulo debe decir 'suplemento dietario' e incluir leyendas obligatorias ('Consulte a su médico y/o nutricionista', no utilizar en embarazo, lactancia ni niños salvo productos específicos, etc.). Ni el rótulo, ni la marca, ni la publicidad pueden atribuirles indicaciones terapéuticas; solo se admiten las declaraciones de propiedades saludables autorizadas por la autoridad sanitaria nacional. Desde el Decreto 697/2026 (Boletín Oficial, 03/08/2026), el registro, el control y la fiscalización de alimentos y suplementos dietarios están a cargo del SENASA, con la rectoría en el Ministerio de Salud; la ANMAT dejó de intervenir en estos productos y el INAL quedó fuera del Sistema Nacional de Control de Alimentos. Los registros existentes siguen vigentes sin reinscripción y los rótulos aprobados antes del decreto tienen dos años para adecuarse. Los productos autorizados (RNPA) y los establecimientos (RNE) se pueden consultar en los buscadores públicos de SIFeGA.",
     "implicancias_editoriales": [
-      "No usar verbos como curar, tratar, prevenir, aliviar o mitigar enfermedades",
-      "No presentar suplementos como reemplazo de comidas",
-      "Mostrar RNPA/RNE solo cuando esté verificado; si no, omitir el campo",
-      "Incluir siempre la recomendación de consultar a un profesional"
+      "No le atribuimos a ningún suplemento la capacidad de curar, tratar o prevenir enfermedades: son alimentos, no medicamentos.",
+      "Nunca presentamos un suplemento como reemplazo de una comida.",
+      "Publicamos el RNPA o el RNE solo cuando lo pudimos confirmar en un registro oficial; si no, no lo mostramos.",
+      "Antes de sumar un suplemento, te sugerimos hablarlo con tu médico o nutricionista."
     ],
     "fuentes": [
       "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-09_0.pdf",

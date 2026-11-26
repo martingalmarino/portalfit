@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 const INDEX = [
-  { id: "enfoque", label: "Enfoque editorial" },
+  { id: "enfoque", label: "Lo esencial" },
   { id: "prioridades", label: "Prioridades" },
   { id: "nutrientes", label: "Nutrientes a vigilar" },
   { id: "suplementos", label: "Suplementos" },
@@ -179,7 +179,7 @@ export default async function EtapaPage({ params }: { params: Promise<{ slug: st
             </div>
           </div>
           <div id="enfoque" style={{ marginTop: 56 }}>
-            <div className="kicker">Enfoque editorial</div>
+            <div className="kicker">Lo esencial</div>
             <ol className="cindex" style={{ marginTop: 16 }}>
               {etapa.enfoque_editorial.map((item, index) => (
                 <li key={item} style={{ padding: "16px 0", display: "grid", gridTemplateColumns: "34px minmax(0, 1fr)", gap: 12 }}>

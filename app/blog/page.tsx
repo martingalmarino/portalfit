@@ -28,9 +28,9 @@ export default function BlogPage() {
         />
         <div className="page-hero">
           <div className="kicker">Guías</div>
-          <h1 className="h1">Lecturas con byline y fuentes</h1>
+          <h1 className="h1">Guías claras, con las fuentes a la vista</h1>
           <p className="lede" style={{ marginTop: 16, maxWidth: 680 }}>
-            Cada guía lleva autor, fecha y fuentes.
+            Explicamos cada tema con datos concretos, te decimos qué tan firme es la evidencia y dejamos los estudios a mano para que los revises.
           </p>
           {hero ? (
             <GuideCover

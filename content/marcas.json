@@ -1,6 +1,6 @@
 {
   "actualizado": "2026-11-16",
-  "criterio_ranking": "Ranking cualitativo de relevancia para el portal (no es participación de mercado). Se ponderó, en este orden: (1) evidencia pública de liderazgo o escala (cuota de mercado, puntos de venta, empleados, cobertura de prensa económica); (2) trayectoria verificable; (3) presencia comercial oficial (sitio propio + tienda oficial dentro de Mercado Libre); (4) amplitud de catálogo y cobertura de categorías del portal; (5) transparencia de calidad verificable (BPM/RNE/RNPA publicados). El único dato de participación de mercado encontrado es el de ENA (>30%, Forbes Argentina, 2020); el resto del orden es editorial y lo revisamos cuando aparecen datos públicos nuevos.",
+  "criterio_ranking": "Este orden no mide calidad ni ventas, y no depende de quién paga. Para armarlo miramos cinco cosas, de mayor a menor peso: el tamaño de cada marca según datos públicos (participación de mercado, puntos de venta, cantidad de empleados, notas en medios económicos); los años de trayectoria que se pueden comprobar; si vende por canales oficiales, como su propio sitio o su tienda oficial de Mercado Libre; la amplitud de su catálogo, y si publica registros y certificaciones que se puedan chequear (BPM, RNE, RNPA). El único dato público de participación de mercado que encontramos es el de ENA Sport: más del 30 %, según Forbes Argentina (2020). Cuando aparecen datos nuevos, revisamos el orden.",
   "convencion_rotulos_certificaciones": {
     "Registro consultado en la base oficial SIFeGA el 16/11/2026": "consultado en la consulta pública de establecimientos (RNE) de SIFeGA",
     "Documento oficial publicado por la marca": "documento emitido por la autoridad sanitaria (INAL/ANMAT antes del Decreto 697/2026) disponible en el sitio de la marca",
@@ -705,7 +705,7 @@
           "instagram": "https://www.instagram.com/optimumnutrition/",
           "facebook": "https://www.facebook.com/optimumnutrition",
           "youtube": "https://www.youtube.com/optimumnutrition",
-          "Nota": "No se encontró una cuenta argentina oficial (búsqueda del 16/11/2026); se listan las cuentas globales de la marca. El distribuidor Trust Distributions no publica redes propias de ON"
+          "Nota": "No encontramos una cuenta de Optimum Nutrition para Argentina, así que te dejamos las cuentas globales de la marca. Trust Distributions, que la distribuye en el país, tampoco tiene redes dedicadas a la marca. Última revisión: 16/11/2026."
         },
         "fuentes": [
           "https://www.instagram.com/optimumnutrition/",
@@ -1382,7 +1382,7 @@
         ]
       },
       "mercado_libre": {
-        "valor": "Sin tienda oficial de la marca confirmada: /tienda/xtrenght y sus variantes no existen. Hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y también reventa, p. ej. la tienda oficial del revendedor RTN Suplementos. Origen del vendedor de las publicaciones con etiqueta de marca: PENDIENTE (Mercado Libre bloqueó la verificación automatizada)",
+        "valor": "No encontramos una tienda oficial de Xtrenght en Mercado Libre. Hay publicaciones con la etiqueta de marca 'XTRENGHT NUTRITION' y otras de revendedores, como RTN Suplementos: antes de comprar, fijate quién figura como vendedor. Origen del vendedor de las publicaciones con etiqueta de marca: PENDIENTE (Mercado Libre bloqueó la verificación automatizada)",
         "fuentes": [
           "https://listado.mercadolibre.com.ar/proteina-xtrenght-protein-x-mayor",
           "https://www.mercadolibre.com.ar/tienda/rtn-suplementos"
@@ -1918,7 +1918,7 @@
       "certificaciones": {
         "valor": [
           "RNE/RNPA: PENDIENTE (la consulta en la base oficial SIFeGA por 'Granger' no devolvió resultados; jurisdicción Santa Fe/ASSAL)",
-          "No se declaran certificaciones en el sitio oficial revisado",
+          "La marca no publica certificaciones en su sitio oficial.",
           "RNPA por producto: figura en el rótulo y se puede buscar en el buscador público de productos autorizados (SIFeGA)"
         ],
         "fuentes": [
@@ -1965,7 +1965,7 @@
         {
           "estado": "sin_dato",
           "etiqueta": "Sin dato verificable",
-          "texto": "No se declaran certificaciones en el sitio oficial revisado"
+          "texto": "La marca no publica certificaciones en su sitio oficial."
         },
         {
           "estado": "rotulo",
