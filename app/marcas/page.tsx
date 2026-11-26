@@ -28,7 +28,7 @@ export default function MarcasPage() {
           )}
         />
         <div className="page-hero">
-          <div className="kicker">Nº 03 · Orden editorial</div>
+          <div className="kicker">Orden editorial</div>
           <h1 className="h1">Las {marcas.length} marcas, con la misma vara</h1>
           <p className="lede" style={{ marginTop: 16, maxWidth: 680 }}>
             El número es el lugar en el criterio editorial (trayectoria, escala, presencia oficial e información verificable). No es un ranking de calidad ni depende de quién paga.

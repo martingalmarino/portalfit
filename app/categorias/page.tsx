@@ -26,7 +26,7 @@ export default function CategoriasPage() {
           )}
         />
         <div className="page-hero">
-          <div className="kicker">Nº 04 · Evidencia por categoría</div>
+          <div className="kicker">Evidencia por categoría</div>
           <h1 className="h1">{categorias.length} categorías, cada una con su nivel</h1>
           <p className="lede" style={{ marginTop: 16, maxWidth: 720 }}>
             El grado es general y orientativo. No es una recomendación individual ni un permiso para usar un producto.

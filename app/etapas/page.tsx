@@ -10,7 +10,7 @@ import { itemListJsonLd, pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
   title: "Etapas de vida y suplementos según la edad",
-  description: "Cómo cambia la suplementación según la edad, con el enfoque editorial de cada etapa.",
+  description: "Qué priorizar en entrenamiento, alimentación y suplementos según tu etapa: de los 30 a los 60, mujer, hombre, menopausia y masa muscular.",
   path: "/etapas",
 });
 
@@ -31,7 +31,7 @@ export default function EtapasPage() {
           <div className="kicker">Etapas de vida</div>
           <h1 className="h1">Suplementación según la edad</h1>
           <p className="lede" style={{ marginTop: 16, maxWidth: 680 }}>
-            Cada etapa reúne el enfoque editorial y las categorías que más se cruzan con esa edad.
+            Qué conviene priorizar en cada etapa: entrenamiento, alimentación y los suplementos que tienen evidencia para esa edad.
           </p>
         </div>
         <div className="egrid">

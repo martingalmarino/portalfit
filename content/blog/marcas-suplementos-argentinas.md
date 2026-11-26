@@ -70,9 +70,9 @@ fuentes:
 
 Las marcas de suplementos con más presencia en Argentina son, en su mayoría, de fabricación nacional: ENA Sport, Gentech, Ultra Tech, Star Nutrition, Mervick Lab, Gold Nutrition, HTN, Body Advance, Xtrenght, One Fit Nutrition, Pulver, Nutremax y Granger, a las que se suma Optimum Nutrition como referente importada. Varias nacieron hace más de 25 años y fabrican en plantas propias; otras son proyectos más recientes o marcas de fabricantes que también producen para terceros.
 
-Repasamos de dónde viene cada una, en qué se enfoca y cómo se fabrica un suplemento en el país. Las marcas siguen un orden que eligió la redacción: no mide calidad ni ventas, y no reemplaza la lectura del rótulo de cada producto.
+Repasamos de dónde viene cada una, en qué se enfoca y cómo se fabrica un suplemento en el país. El orden en que aparecen no mide calidad ni ventas (explicamos cómo lo armamos en [Cómo evaluamos](/como-evaluamos#orden)) y no reemplaza la lectura del rótulo de cada producto.
 
-## Cómo armamos esta guía
+## Antes de empezar
 
 - **Solo datos públicos y verificables.** Cada dato sale del sitio oficial de la marca, de un registro público o de una nota de prensa, y está en las fuentes. Cuando un dato no lo pudimos confirmar, no lo publicamos.
 - **Distinguimos lo verificado de lo declarado.** Cuando algo lo afirma la propia marca y no pudimos comprobarlo por otra vía, lo decimos con esas palabras: "según la marca", "declara".

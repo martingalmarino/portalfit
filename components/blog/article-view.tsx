@@ -200,10 +200,10 @@ export function ArticleView({ post }: { post: Post }) {
             <div className="author" style={{ marginTop: 28, display: "flex", gap: 16 }}>
               <span className="av" style={{ width: 64, height: 64, fontSize: 20 }}>{initials(post.author)}</span>
               <div>
-                <span className="xs">Sobre quien escribe</span>
+                <span className="xs">Sobre quién escribe</span>
                 <b className="h4" style={{ display: "block", marginTop: 4 }}>{post.author}</b>
                 <p className="small" style={{ marginTop: 6 }}>
-                  Cada guía lleva firma, fecha y fuentes.
+                  Somos el equipo que investiga y escribe Portal FIT. Leemos estudios, rótulos y registros públicos, y en cada guía te dejamos las fuentes para que puedas chequearlas.
                 </p>
               </div>
             </div>

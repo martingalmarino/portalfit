@@ -199,7 +199,7 @@ export function BrandView({ slug }: { slug: string }) {
         <div className="wrap">
           <nav className="sn" aria-label="Secciones de la ficha">
             {[
-              ["01", "Productos en ML", "#productos"],
+              ["01", "En Mercado Libre", "#productos"],
               ["02", "Resumen", "#resumen"],
               ["03", "Líneas", "#lineas"],
               ["04", "Canales oficiales", "#canales"],
@@ -355,7 +355,7 @@ export function BrandView({ slug }: { slug: string }) {
                 <tr>
                   <th>Registro o certificación</th>
                   <th>Estado</th>
-                  <th>Rótulo editorial</th>
+                  <th>Fuente del dato</th>
                 </tr>
               </thead>
               <tbody>

@@ -21,7 +21,7 @@ export function Tldr({ children }: { children: ReactNode }) {
 
 export function Study({
   kicker = "Módulo de estudio",
-  badge = "Position stand",
+  badge = "Postura oficial",
   title,
   meta,
   href,

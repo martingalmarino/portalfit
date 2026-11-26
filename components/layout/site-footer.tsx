@@ -134,8 +134,7 @@ export function SiteFooter({ nav }: { nav: NavData }) {
         </div>
         <div className="bottom">
           <span>
-            © {year} {name} · <Link href="/terminos">Términos</Link> · <Link href="/privacidad">Privacidad</Link> ·{" "}
-            <Link href="/sitemap.xml">Mapa del sitio</Link>
+            © {year} {name} · <Link href="/terminos">Términos</Link> · <Link href="/privacidad">Privacidad</Link>
             <span className="sep">·</span>
             <ContactEmail user={contactEmailUser()} domain={contactEmailDomain()} />
           </span>
