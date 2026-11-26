@@ -1,15 +1,19 @@
 import Link from "next/link";
 import { ContactEmail } from "@/components/ui/contact-email";
 import { Crumbs } from "@/components/ui/crumbs";
+import { LinkedCopy } from "@/components/ui/linked-copy";
 import { contactEmailDomain, contactEmailUser } from "@/lib/site";
 import { formatContentDate } from "@/lib/format";
 import type { TextDoc } from "@/lib/content/pages";
 
-function Rich({ text }: { text: string }) {
+function Rich({ text, links }: { text: string; links: Array<{ text: string; url: string }> }) {
+  const phrases = links
+    .filter((link) => link.text && text.includes(link.text))
+    .map((link) => ({ phrase: link.text, href: link.url }));
   const user = contactEmailUser();
   const domain = contactEmailDomain();
   const parts = text.split("{CONTACT_EMAIL}");
-  if (parts.length === 1) return <>{text}</>;
+  if (parts.length === 1) return <LinkedCopy text={text} links={phrases} />;
   return (
     <>
       {parts.map((part, index) => (
@@ -38,18 +42,19 @@ export function TextPage({
           <h1 className="h1">{page.h1}</h1>
           {page.bajada ? (
             <p className="lede" style={{ marginTop: 16 }}>
-              <Rich text={page.bajada} />
+              <Rich text={page.bajada} links={page.links} />
             </p>
           ) : null}
         </div>
+        {page.cardsHeading ? <h2 className="h2">{page.cardsHeading}</h2> : null}
         {page.cards.length > 0 ? (
           <div style={{ display: "grid", gap: 16 }}>
             {page.cards.map((card) => {
               const body = (
                 <>
                   {card.state ? <span className="soon">{card.state}</span> : null}
-                  <h2 className="h3" style={{ marginTop: 10 }}>{card.title}</h2>
-                  <p className="small"><Rich text={card.text} /></p>
+                  <h3 className="h3" style={{ marginTop: 10 }}>{card.title}</h3>
+                  <p className="small"><Rich text={card.text} links={page.links} /></p>
                 </>
               );
               return card.url ? (
@@ -64,10 +69,10 @@ export function TextPage({
         ) : null}
         {page.sections.map((section) => (
           <section key={section.h2 || section.paragraphs[0]}>
-            {section.h2 ? <h2>{section.h2}</h2> : null}
+            {section.h2 ? <h2 className={page.cardsHeading ? "h2" : undefined}>{section.h2}</h2> : null}
             {section.paragraphs.map((paragraph) => (
               <p key={paragraph}>
-                <Rich text={paragraph} />
+                <Rich text={paragraph} links={page.links} />
               </p>
             ))}
             {section.table ? (

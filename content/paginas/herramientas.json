@@ -3,17 +3,17 @@
   "ruta": "/herramientas",
   "hallazgo": "QA-A13",
   "meta": {
-    "title": "Herramientas y calculadoras",
-    "description": "Calculadoras simples para orientarte con números de referencia y su fuente. Próximamente."
+    "title": "Herramientas de nutrición deportiva",
+    "description": "Herramientas de Portal FIT para orientarte sobre nutrición deportiva con datos y fuentes. Mientras las preparamos, empezá por las guías de proteínas y creatina."
   },
-  "kicker": "Próximamente",
-  "h1": "Herramientas",
-  "bajada": "Estamos preparando calculadoras simples que te den números de referencia, siempre con su fuente. Todavía no están disponibles.",
+  "kicker": "En preparación",
+  "h1": "Herramientas de nutrición deportiva",
+  "bajada": "Estamos armando herramientas simples para que puedas orientarte con datos sobre tu alimentación y tu entrenamiento, siempre con la fuente a la vista. La primera va a ser una calculadora de proteína diaria. Hasta que esté lista, en las páginas de Proteínas y Creatina vas a encontrar qué dice la evidencia, qué variantes hay y qué conviene mirar en el rótulo; y en Suplementos según la edad, qué priorizar en cada etapa. Si tenés una condición de salud, cualquier número que veas acá lo tiene que validar un profesional.",
   "tarjetas": [
     {
       "titulo": "Calculadora de proteína diaria",
       "texto": "Un rango orientativo de proteína por día según tu peso y tu nivel de entrenamiento.",
-      "estado": "Próximamente",
+      "estado": "En preparación",
       "url": "/herramientas/proteina-diaria"
     }
   ],
@@ -33,7 +33,12 @@
     {
       "texto": "Creatina",
       "url": "/categorias/creatina"
+    },
+    {
+      "texto": "Suplementos según la edad",
+      "url": "/etapas"
     }
   ],
-  "actualizado": "2026-11-16"
+  "actualizado": "2026-11-16",
+  "tarjetas_h2": "Lo que estamos preparando"
 }

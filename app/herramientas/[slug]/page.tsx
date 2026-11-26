@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: page.description,
     path: `/herramientas/${slug}`,
     absoluteTitle: page.absoluteTitle,
+    noindex: true,
   });
 }
 

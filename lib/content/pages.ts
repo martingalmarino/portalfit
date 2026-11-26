@@ -21,6 +21,7 @@ export type TextDoc = {
   bajada?: string;
   sections: TextSection[];
   cards: TextCard[];
+  cardsHeading?: string;
   links: Array<{ text: string; url: string }>;
   updated?: string;
 };
@@ -67,6 +68,7 @@ export function loadTextPage(file: string): TextDoc {
         table: columns.length > 0 ? { columns, rows } : undefined,
       };
     }),
+    cardsHeading: asString(data.tarjetas_h2),
     cards: Array.isArray(data.tarjetas)
       ? data.tarjetas.map((card) => {
           const item = card as Record<string, unknown>;

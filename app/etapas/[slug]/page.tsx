@@ -10,7 +10,7 @@ import { Photo } from "@/components/ui/photo";
 import { getCategoria, getEtapa, getEtapas, getPublishedPosts } from "@/lib/content/load";
 import { EVIDENCE, pad2, publicCopy, type EvidenceLevel } from "@/lib/format";
 import { STAGE_PHOTOS } from "@/lib/photos";
-import { faqJsonLd, itemListJsonLd, pageMetadata, webPageJsonLd } from "@/lib/seo";
+import { faqJsonLd, itemListJsonLd, pageMetadata, webPageJsonLd, withSiteTitle } from "@/lib/seo";
 
 export function generateStaticParams() {
   return getEtapas().map((item) => ({ slug: item.slug }));
@@ -22,10 +22,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const etapa = getEtapa(slug);
   if (!etapa) return {};
+  const withSuffix = withSiteTitle(etapa.meta_title);
   return pageMetadata({
     title: etapa.meta_title,
     description: etapa.meta_description,
     path: `/etapas/${slug}`,
+    omitSiteSuffix: withSuffix.length > 60,
   });
 }
 
@@ -144,6 +146,11 @@ export default async function EtapaPage({ params }: { params: Promise<{ slug: st
                 <div className="kicker">Etapa de vida</div>
                 <h1 className="h1" style={{ marginTop: 12 }}>{etapa.nombre}</h1>
                 <p className="lede" style={{ marginTop: 16 }}>{etapa.descripcion}</p>
+                {etapa.linea_enfoque ? (
+                  <p className="small" style={{ marginTop: 14, maxWidth: "62ch" }}>
+                    <Editorial text={etapa.linea_enfoque} />
+                  </p>
+                ) : null}
               </div>
               <div className="etapa-rest">
                 <div className="etapa-intro">

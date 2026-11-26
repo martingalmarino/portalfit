@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import type { ZodType, ZodTypeDef } from "zod";
 import { hasPendingToken } from "@/lib/format";
 import { photoByFile } from "@/lib/photos";
+import { hubInternalPaths, loadHubs } from "@/lib/content/hubs";
 import { PLANNED_TOOLS } from "@/lib/tools";
 import { getSiteName } from "@/lib/site";
 import {
@@ -453,6 +454,11 @@ export function assertContentGraph(): void {
         const warning = `${post.slug} enlaza a ${href}, que no existe`;
         if (!linkWarnings.includes(warning)) linkWarnings.push(warning);
       }
+    }
+  }
+  for (const href of hubInternalPaths(loadHubs())) {
+    if (!routeExists(href, knownRoutes)) {
+      throw new Error(`content/hubs.json enlaza a ${href}, que no existe`);
     }
   }
   if (linkWarnings.length > 0) {

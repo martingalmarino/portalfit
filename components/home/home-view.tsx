@@ -47,6 +47,7 @@ export function HomeView() {
   const posts = getPublishedPosts();
   const featured = getAffiliateProvider().getFeatured(4);
   const title = applyPlaceholders(home.h1);
+  const lede = home.intro ?? home.bajada;
   const { lead, emphasis } = splitTitle(title);
   const bySlug = new Map(categorias.map((item) => [item.slug, item]));
   const fichaBySlug = new Map(fichas.map((item) => [item.slug, item]));
@@ -83,7 +84,7 @@ export function HomeView() {
             </div>
           </div>
           <p className="lede" style={{ marginTop: 12, fontSize: 15.5 }}>
-            <Editorial text={home.bajada} />
+            <Editorial text={lede} />
           </p>
         </div>
       </section>
@@ -100,7 +101,7 @@ export function HomeView() {
               {emphasis ? <em>{emphasis}</em> : null}
             </p>
             <p className="lede" style={{ marginTop: 20, maxWidth: 540 }}>
-              <Editorial text={home.bajada} />
+              <Editorial text={lede} />
             </p>
             <div style={{ display: "flex", gap: 14, marginTop: 28, alignItems: "center", flexWrap: "wrap" }}>
               <Link className="btn btn-primary" href="/categorias">
@@ -235,7 +236,7 @@ export function HomeView() {
               </p>
             </div>
             <Link className="link" href="/marcas">
-              Ver las {marcas.length} marcas <IconArrow />
+              Marcas de suplementos deportivos en Argentina <IconArrow />
             </Link>
           </div>
           <div className="bgrid">
@@ -280,7 +281,9 @@ export function HomeView() {
             <div className="lead-col">
               <div className="kicker"><span className="num">Nº 04</span> Categorías</div>
               <h2 className="h2">
-                {categorias.length} categorías, <em>cada una con su nivel de evidencia</em>
+                <Link className="h-anchor" href="/categorias">Tipos de suplementos</Link>
+                {" y su "}
+                <em>nivel de evidencia</em>
               </h2>
             </div>
             <Link className="link" href="/como-evaluamos">
@@ -342,7 +345,15 @@ export function HomeView() {
             <div className="lead-col">
               <div className="kicker"><span className="num">Nº 05</span> Etapas de vida</div>
               <h2 className="h2">
-                Suplementación <em>según tu etapa de vida</em>
+                {home.bloque_etapas.titulo.startsWith("Suplementos según tu edad") ? (
+                  <>
+                    <Link className="h-anchor" href="/etapas">Suplementos según tu edad</Link>
+                    {" "}
+                    <em>{home.bloque_etapas.titulo.slice("Suplementos según tu edad".length).trim()}</em>
+                  </>
+                ) : (
+                  home.bloque_etapas.titulo
+                )}
               </h2>
               <p className="lede" style={{ marginTop: 16, fontSize: 18 }}>
                 <Editorial text={home.bloque_etapas.texto} />
@@ -441,7 +452,7 @@ export function HomeView() {
           <div>
             <div className="kicker"><span className="num">Nº 08</span> Preguntas frecuentes</div>
             <h2 className="h2" style={{ marginTop: 18 }}>
-              Lo que más <em>nos preguntan</em>
+              Preguntas frecuentes <em>sobre suplementos</em>
             </h2>
             <p className="small" style={{ marginTop: 16, maxWidth: 320 }}>
               Respuestas cortas, con su fuente enlazada. Para tu caso puntual, consultá a un profesional.
