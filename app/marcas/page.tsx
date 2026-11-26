@@ -68,7 +68,7 @@ export default function MarcasPage() {
                 <BrandLogo slug={marca.slug} name={marca.nombre} variant="card" />
                 <span className="bn">{pad2(marca.ranking_relevancia)}</span>
               </div>
-              <h3 className="h4" style={{ display: "block", marginTop: 10, fontSize: 16 }}>{marca.nombre}</h3>
+              <b className="h4" style={{ display: "block", marginTop: 10, fontSize: 16 }}>{marca.nombre}</b>
               <span className="xs">{shortOrigin(String(marca.origen.valor))}</span>
             </Link>
           ))}
@@ -85,7 +85,7 @@ export default function MarcasPage() {
                 <Link href={`/marcas/${marca.slug}`}>
                   <h3 className="h3" style={{ fontSize: 22, margin: 0 }}>{marca.nombre}</h3>
                 </Link>
-                <div>
+                <div className="erow-facts">
                   {resumen ? <p className="small" style={{ margin: 0 }}><Editorial text={resumen} /></p> : null}
                   <p className="xs" style={{ margin: "6px 0 0" }}>{brandFacts(marca)}</p>
                 </div>

@@ -650,8 +650,17 @@ blockquote.pullq cite { display: block; margin-top: 10px; font: 600 12px/1 var(-
   .gins { grid-column: span 2; }
   .mgrid { grid-template-columns: repeat(3, 1fr); }
   .etb { grid-template-columns: 1fr; padding: 22px; }
-  .erow { grid-template-columns: 28px 1fr 16px; }
+  .erow {
+    grid-template-columns: 28px minmax(0, 1fr) 16px;
+    grid-template-areas: "num name arrow" "facts facts facts";
+    min-width: 0;
+  }
+  .erow > .num { grid-area: num; }
+  .erow > a:nth-child(2) { grid-area: name; min-width: 0; }
+  .erow > .erow-facts { grid-area: facts; min-width: 0; }
+  .erow > a:last-child { grid-area: arrow; justify-self: end; }
   .erow .small { display: none; }
+  .erow-facts { overflow-wrap: normal; word-break: normal; }
   .evbox { grid-template-columns: 1fr; }
   .evb-l { border-right: 0; padding-right: 0; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
   .afig { aspect-ratio: 4 / 3; border-radius: 16px; }
