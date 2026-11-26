@@ -50,6 +50,7 @@ export default function BlogPage() {
   const posts = getPublishedPosts();
   const hero = getBlogHero();
   const destacada = posts.find((post) => post.slug === hub.destacada_slug);
+  const resto = posts.filter((post) => post.slug !== hub.destacada_slug);
   return (
     <section className="sec" style={{ paddingTop: 28 }}>
       <div className="wrap">
@@ -91,7 +92,7 @@ export default function BlogPage() {
 
         <HubH2>{hub.lista_h2}</HubH2>
         <div className="pgrid">
-          {posts.map((post) => (
+          {resto.map((post) => (
             <GuideCard key={post.slug} post={post} />
           ))}
         </div>
