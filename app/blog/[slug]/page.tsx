@@ -34,6 +34,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       path: `/blog/${slug}`,
       absoluteTitle: true,
       ogType: "article",
+      image: post.cover
+        ? {
+            path: post.cover.og,
+            width: post.cover.ogWidth,
+            height: post.cover.ogHeight,
+            alt: post.cover.alt,
+          }
+        : undefined,
     }),
     keywords: post.keyword,
   };
@@ -55,7 +63,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     author: { "@type": "Organization", name: post.author },
     publisher: { "@type": "Organization", name: getSiteName(), url: absoluteUrl("/") },
   };
-  if (post.image) article.image = absoluteUrl(photoByFile(post.image).src);
+  if (post.cover) {
+    article.image = {
+      "@type": "ImageObject",
+      url: absoluteUrl(post.cover.src),
+      width: post.cover.width,
+      height: post.cover.height,
+      caption: post.cover.alt,
+    };
+  } else if (post.image) {
+    article.image = absoluteUrl(photoByFile(post.image).src);
+  }
   const faq = faqJsonLd(post.faq);
   return (
     <>

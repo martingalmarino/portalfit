@@ -8,6 +8,8 @@ type MetaInput = {
   path: string;
   absoluteTitle?: boolean;
   ogType?: "website" | "article";
+  /** Si no viene, queda el aviso genérico /opengraph-image. */
+  image?: { path: string; width: number; height: number; alt: string };
 };
 
 const FALLBACK_DESCRIPTION =
@@ -63,11 +65,19 @@ export function brandTitle(name: string, metaTitle: string): string {
   ]);
 }
 
-export function pageMetadata({ title, description, path, ogType = "website" }: MetaInput): Metadata {
+export function pageMetadata({ title, description, path, ogType = "website", image: customImage }: MetaInput): Metadata {
   const canonical = absoluteUrl(path);
   const safeTitle = withSiteTitle(publicCopy(title) ?? getSiteName());
   const safeDescription = publicCopy(description) ?? FALLBACK_DESCRIPTION;
-  const image = { url: absoluteUrl("/opengraph-image"), width: 1200, height: 630, alt: getSiteName() };
+  const image = customImage
+    ? {
+        url: absoluteUrl(customImage.path),
+        width: customImage.width,
+        height: customImage.height,
+        alt: customImage.alt,
+        type: "image/webp",
+      }
+    : { url: absoluteUrl("/opengraph-image"), width: 1200, height: 630, alt: getSiteName() };
   return {
     title: { absolute: safeTitle },
     description: safeDescription,

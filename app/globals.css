@@ -303,6 +303,11 @@ a { color: inherit; }
 .ecard .ph { position: absolute; inset: 0; }
 .feat-ph { aspect-ratio: 3 / 4.2; border-radius: var(--r); }
 .guide-ph { border-radius: var(--r); aspect-ratio: 16 / 10; }
+.guide-photo { position: relative; overflow: hidden; background: var(--forest); border-radius: var(--r); aspect-ratio: 16 / 10; }
+.guide-photo img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; }
+.page-hero-photo { margin-top: 32px; border-radius: 22px; }
+.guide-hero { margin: 36px 0 0; }
+.guide-hero .guide-photo { border-radius: 22px; }
 .eov { position: absolute; inset: auto 0 0 0; z-index: 2; padding: 26px; background: linear-gradient(to top, rgb(10 26 20 / 0.92), rgb(10 26 20 / 0.55) 62%, transparent); color: #e7e1d4; }
 .h-et { font: 350 italic 36px/1.05 var(--serif); color: #fff; margin: 8px 0 0; letter-spacing: -0.015em; }
 .etiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 22px; }
@@ -450,6 +455,7 @@ a { color: inherit; }
 .etb { display: grid; grid-template-columns: 0.8fr 1.6fr; gap: 48px; padding: 36px 40px; background: var(--paper-2); border: 1px solid var(--line); border-radius: 20px; }
 .erow { display: grid; grid-template-columns: 36px 180px 1fr 18px; gap: 12px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line-2); text-decoration: none; }
 .ahead { padding: 12px 0 28px; }
+.ahead:has(.guide-hero) { padding-bottom: 0; }
 .ah-in { max-width: 740px; margin: 0 auto; text-align: center; }
 .ah-t { margin-top: 18px; font-size: 58px; }
 .ribbon { display: flex; justify-content: center; align-items: center; margin-top: 28px; border-top: 1px solid var(--brass); border-bottom: 1px solid var(--line); padding: 16px 0; text-align: left; flex-wrap: wrap; }
@@ -643,6 +649,8 @@ blockquote.pullq cite { display: block; margin-top: 10px; font: 600 12px/1 var(-
   .evbox { grid-template-columns: 1fr; }
   .evb-l { border-right: 0; padding-right: 0; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
   .afig { aspect-ratio: 4 / 3; border-radius: 16px; }
+  .guide-hero { margin-top: 24px; }
+  .guide-hero .guide-photo, .page-hero-photo { border-radius: 16px; }
   .ah-in { text-align: left; }
   .ah-t { font-size: 34px; }
   .ribbon { display: grid; grid-template-columns: 1fr 1fr; align-items: start; }

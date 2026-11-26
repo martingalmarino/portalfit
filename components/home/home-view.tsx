@@ -7,6 +7,7 @@ import { Editorial } from "@/components/ui/editorial";
 import { FaqList } from "@/components/ui/faq-list";
 import { IconArrow } from "@/components/ui/icons";
 import { MlGrid } from "@/components/ui/ml-card";
+import { GuideCardMedia } from "@/components/blog/guide-media";
 import { Photo } from "@/components/ui/photo";
 import { getAffiliateProvider } from "@/lib/affiliates";
 import { getCategorias, getEtapas, getFichas, getMarcas, getPublishedPosts, loadHome, loadTaxonomia } from "@/lib/content/load";
@@ -405,13 +406,10 @@ export function HomeView() {
           <div className="pgrid">
             {posts.map((post, index) => (
               <Link className="pcard" href={`/blog/${post.slug}`} key={post.slug}>
-                {post.image ? (
-                  <Photo file={post.image} className="guide-ph" sizes={index === 0 ? "(max-width: 600px) 100vw, 50vw" : "30vw"} />
-                ) : (
-                  <div className="guide-fallback" aria-hidden>
-                    <span className="kicker">Guía</span>
-                  </div>
-                )}
+                <GuideCardMedia
+                  post={post}
+                  sizes={index === 0 ? "(max-width: 900px) 100vw, 640px" : "(max-width: 900px) 100vw, 400px"}
+                />
                 <div style={{ paddingTop: 16 }}>
                   <div style={{ display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
                     <span className="xs">{post.readingMinutes ? `${post.readingMinutes} min de lectura` : formatContentDate(post.date)}</span>
